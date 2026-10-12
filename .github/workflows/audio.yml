@@ -1,0 +1,26 @@
+name: fetch-audio
+on:
+  push:
+    paths: ["audio/wanted.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: pip install -U yt-dlp && sudo apt-get install -y ffmpeg >/dev/null
+      - name: Download audio
+        run: |
+          while read -r id; do
+            [ -z "$id" ] && continue
+            f="audio/$id.m4a"; [ -s "$f" ] && continue
+            yt-dlp -f "bestaudio[ext=m4a]/bestaudio" -x --audio-format m4a --audio-quality 96K -o "audio/$id.%(ext)s" "https://www.youtube.com/watch?v=$id" 2>&1 | tail -5 > "audio/$id.log" || true
+          done < audio/wanted.txt
+      - name: Commit
+        run: |
+          git config user.name "audio-bot"; git config user.email "actions@users.noreply.github.com"
+          git add audio/ 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Add audio" && git push)
