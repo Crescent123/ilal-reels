@@ -52,3 +52,8 @@ voice and post it to Instagram @_ilal_ as a MANUAL Trial Reel with NO caption.
 - Image changes only in pauses (build.py snaps to the quietest point). Slow gentle zoom only, plain cuts.
 - No text inside images. Captions never over faces (build.py places them below the image).
 - Music well under the voice (build.py: −24 dB + ducking).
+
+## Instagram safe zone (all text overlays)
+All text (title, captions, CTA, end card) must stay inside the box x 90–930, y 270–1480 of the 1080x1920 frame:
+nothing in the top ~270px, the bottom ~440px (caption/username UI) or the right ~150px (like/comment buttons).
+build.py enforces this; when checking frames, reject a reel if any text touches those edges. Keep captions short (≤ 2 lines).
