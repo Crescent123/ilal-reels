@@ -36,8 +36,9 @@ sc=S['scenes']; bounds=[0]+[m(snap(s['at'])) for s in sc[1:]]+[VD]; TOTAL=VD+END
 def b64(p,mt): return f'data:{mt};base64,'+base64.b64encode(open(p,'rb').read()).decode()
 CSS=f"""@font-face{{font-family:Cairo;src:url('file://{A}Cairo.ttf');font-weight:200 1000}}@font-face{{font-family:Anton;src:url('file://{A}Anton.ttf')}}
 *{{margin:0;padding:0;box-sizing:border-box}}html,body{{width:{W}px;height:{H}px;background:transparent;overflow:hidden;position:relative}}
-.t{{position:absolute;top:285px;left:120px;right:150px;text-align:center;direction:rtl;font-family:Cairo;font-weight:900;font-size:54px;color:#FFC426;text-shadow:0 3px 10px rgba(0,0,0,.8)}}
-.c{{position:absolute;top:1315px;left:120px;right:150px;line-height:1.25;text-align:center;direction:rtl;font-family:Cairo;font-weight:900;font-size:66px;color:#fff;text-shadow:0 4px 14px rgba(0,0,0,.9),0 0 3px #000}}"""
+.t{{position:absolute;top:255px;left:120px;right:150px;text-align:center;direction:rtl;font-family:Cairo;font-weight:900;font-size:58px;color:#FFC426;text-shadow:0 3px 12px rgba(0,0,0,.95),0 0 4px #000}}
+.c{{position:absolute;bottom:300px;left:120px;right:150px;line-height:1.25;text-align:center;direction:rtl;font-family:Cairo;font-weight:900;font-size:70px;color:#fff;text-shadow:0 4px 14px rgba(0,0,0,.95),0 0 4px #000}}
+.gt{{position:absolute;top:0;left:0;right:0;height:520px;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,0))}}.gb{{position:absolute;bottom:0;left:0;right:0;height:760px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.7) 55%)}}"""
 OR,MA,RD,BK='#FFAF32','#890219','#C00000','#0F0F0F'
 CTA=f"""<html><head><meta charset=utf-8><style>{CSS}
 body{{background:{OR}}}.txt{{position:absolute;top:280px;left:120px;right:150px;direction:rtl;text-align:center;font-family:Cairo;font-weight:900;color:{BK}}}
@@ -54,16 +55,16 @@ FIT="document.fonts.ready.then(()=>{document.querySelectorAll('.t,.l').forEach(e
 with sync_playwright() as p:
     b=p.chromium.launch(); pg=b.new_page(viewport={'width':W,'height':H})
     for i,s in enumerate(sc):
-        open(wd+'/o.html','w').write(f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body><div class=t>{S['title']}</div><div class=c>{s['caption']}</div></body></html>")
+        open(wd+'/o.html','w').write(f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body><div class=gt></div><div class=gb></div><div class=t>{S['title']}</div><div class=c>{s['caption']}</div></body></html>")
         pg.goto('file://'+wd+'/o.html'); pg.wait_for_timeout(200); pg.evaluate(FIT); pg.wait_for_timeout(150); pg.screenshot(path=f'{wd}/ov{i}.png',omit_background=True)
     open(wd+'/cta.html','w').write(CTA); pg.goto('file://'+wd+'/cta.html'); pg.wait_for_timeout(300); pg.screenshot(path=wd+'/cta.png'); b.close()
 segs=[]
 for i,s in enumerate(sc):
-    im=Image.open(s['image']).convert('RGB').resize((1024,1024))
+    im=Image.open(s['image']).convert('RGB'); sc_=max(W/im.width,H/im.height); im=im.resize((round(im.width*sc_),round(im.height*sc_)),Image.LANCZOS); im=im.crop(((im.width-W)//2,(im.height-H)//2,(im.width-W)//2+W,(im.height-H)//2+H))
     bg=im.resize((H,H)).crop(((H-W)//2,0,(H-W)//2+W,H)).filter(ImageFilter.GaussianBlur(40)); ImageEnhance.Brightness(bg).enhance(0.45).save(f'{wd}/bg{i}.png')
-    im.resize((1800,1800),Image.LANCZOS).save(f'{wd}/im{i}.png')
+    im.resize((2*W,2*H),Image.LANCZOS).save(f'{wd}/im{i}.png')
     n=max(1,round((bounds[i+1]-bounds[i])*FPS)); z=f"'1+0.045*on/{n}'" if i%2==0 else f"'1.045-0.045*on/{n}'"
-    fc=f"[1:v]zoompan=z={z}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=900x900:fps={FPS}[z];[0:v][z]overlay=90:390[a];[a][2:v]overlay=0:0,format=yuv420p[v]"
+    fc=f"[1:v]zoompan=z={z}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W}x{H}:fps={FPS}[z];[0:v][z]overlay=0:0[a];[a][2:v]overlay=0:0,format=yuv420p[v]"
     subprocess.run(['ffmpeg','-loglevel','error','-y','-loop','1','-i',f'{wd}/bg{i}.png','-i',f'{wd}/im{i}.png','-loop','1','-i',f'{wd}/ov{i}.png','-filter_complex',fc,'-map','[v]','-frames:v',str(n),'-r',str(FPS),'-c:v','libx264','-preset','veryfast','-crf','17',f'{wd}/s{i}.mp4'],check=True); segs.append(f'{wd}/s{i}.mp4')
 subprocess.run(['ffmpeg','-loglevel','error','-y','-loop','1','-i',wd+'/cta.png','-vf','format=yuv420p','-frames:v',str(round(END*FPS)),'-r',str(FPS),'-c:v','libx264','-preset','veryfast','-crf','17',wd+'/sE.mp4'],check=True); segs.append(wd+'/sE.mp4')
 open(wd+'/v.txt','w').write(''.join(f"file '{s}'\n" for s in segs))
