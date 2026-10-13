@@ -20,7 +20,9 @@ jobs:
           while read -r mode id tag s e; do
             [ -z "$mode" ] && continue
             U="https://drive.usercontent.google.com/download?id=$id&export=download&confirm=t"
-            if [ "$mode" = audio ]; then
+            if [ "$mode" = probe ]; then
+              curl -sL -r 0-1500 "$U" -D "/tmp/out/${tag}_headers.txt" -o "/tmp/out/${tag}_head.bin"; true
+            elif [ "$mode" = audio ]; then
               ffmpeg -nostdin -loglevel error -y -i "$U" -vn -ac 1 -c:a aac -b:a 64k "/tmp/out/$tag.m4a" || echo "fail audio $id" >> /tmp/out/errors.txt
               ffprobe -v error -show_entries format=duration:stream=width,height,r_frame_rate -of default=nw=1 "$U" > "/tmp/out/${tag}_info.txt" 2>&1 || true
             elif [ "$mode" = cut ]; then
