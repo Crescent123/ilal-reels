@@ -1,0 +1,35 @@
+name: vlog-media
+on:
+  push:
+    paths: ["vlog/job.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  work:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process big Drive vlog without storing it
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null
+          mkdir /tmp/out
+          # job.txt lines:  audio <driveId> <tag>      -> <tag>.m4a (mono 64k) + <tag>_info.txt
+          #                 cut <driveId> <tag> <start> <end>  -> <tag>.mp4 (1920x1080, crf 18, audio copy-ish)
+          while read -r mode id tag s e; do
+            [ -z "$mode" ] && continue
+            U="https://drive.usercontent.google.com/download?id=$id&export=download&confirm=t"
+            if [ "$mode" = audio ]; then
+              ffmpeg -nostdin -loglevel error -y -i "$U" -vn -ac 1 -c:a aac -b:a 64k "/tmp/out/$tag.m4a" || echo "fail audio $id" >> /tmp/out/errors.txt
+              ffprobe -v error -show_entries format=duration:stream=width,height,r_frame_rate -of default=nw=1 "$U" > "/tmp/out/${tag}_info.txt" 2>&1 || true
+            elif [ "$mode" = cut ]; then
+              d=$(python3 -c "print($e-$s)")
+              ffmpeg -nostdin -loglevel error -y -ss "$s" -i "$U" -t "$d" -vf "scale=1920:-2" -c:v libx264 -preset medium -crf 18 -c:a aac -b:a 256k "/tmp/out/$tag.mp4" || echo "fail cut $id" >> /tmp/out/errors.txt
+            fi
+          done < vlog/job.txt
+          ls -la /tmp/out
+          cd /tmp/out && git init -q && git checkout -q --orphan vlog-cache
+          git config user.name "vlog-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A && git commit -qm "vlog cache $(date +%s)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" vlog-cache
