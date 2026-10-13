@@ -22,6 +22,8 @@ jobs:
             U="https://drive.usercontent.google.com/download?id=$id&export=download&confirm=t"
             if [ "$mode" = probe ]; then
               curl -sL -r 0-1500 "$U" -D "/tmp/out/${tag}_headers.txt" -o "/tmp/out/${tag}_head.bin"; true
+            elif [ "$mode" = sheet ]; then
+              ffmpeg -nostdin -loglevel error -y -skip_frame nokey -i "$U" -an -vf "fps=1/10,scale=192:-2,drawtext=text='%{pts\\:hms}':x=4:y=4:fontsize=16:fontcolor=yellow:box=1:boxcolor=black@0.6,tile=10x16" -vsync vfr "/tmp/out/${tag}_sheet_%02d.jpg" || echo "fail sheet $id" >> /tmp/out/errors.txt
             elif [ "$mode" = audio ]; then
               ffmpeg -nostdin -loglevel error -y -i "$U" -vn -ac 1 -c:a aac -b:a 64k "/tmp/out/$tag.m4a" || echo "fail audio $id" >> /tmp/out/errors.txt
               ffprobe -v error -show_entries format=duration:stream=width,height,r_frame_rate -of default=nw=1 "$U" > "/tmp/out/${tag}_info.txt" 2>&1 || true
