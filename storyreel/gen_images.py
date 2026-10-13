@@ -6,8 +6,8 @@ STY=("2D cartoon illustration in a clean webcomic style: thick black outlines, f
      "All people are simple stick-style characters with a big round plain BALD WHITE head (no hair, no ears), two black dot eyes, a simple line mouth, a thin white neck, round white mitten hands, normal clothes on a slim body. ")
 D=json.load(open(sys.argv[1])); CH=D['chars']
 def gen(j):
-    p=STY+" ".join(CH[c] for c in j['chars'])+" SCENE: "+j['scene']+" Square framing, the action clearly visible, characters in the middle of the frame, keep the bottom fifth calm (floor/ground). Draw only these characters. No text, letters, numbers, logos or UI anywhere."
-    body=json.dumps({"model":"gpt-image-2","prompt":p,"size":"1024x1024","quality":"medium","n":1}).encode()
+    p=STY+" ".join(CH[c] for c in j['chars'])+" SCENE: "+j['scene']+" Tall vertical portrait composition (phone screen). Put the characters and the action in the CENTRAL area of the picture: roughly the middle 60% of the height and the middle 75% of the width, fully visible, nothing important cut off. The top 15% is only calm background (wall, ceiling or sky), the bottom 25% is only calm floor/ground, and the far left and far right edges are only background scenery. Draw only these characters. No text, letters, numbers, logos or UI anywhere."
+    body=json.dumps({"model":"gpt-image-2","prompt":p,"size":"1024x1536","quality":"medium","n":1}).encode()
     for attempt in range(2):
         try:
             req=urllib.request.Request("https://api.openai.com/v1/images/generations",data=body,headers={"Authorization":"Bearer "+KEY,"Content-Type":"application/json"})
