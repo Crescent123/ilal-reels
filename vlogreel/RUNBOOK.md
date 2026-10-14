@@ -1,9 +1,11 @@
 # Vlog reel runbook (ilal Vlogs → Instagram Trial Reels)
 
-Goal per run: cut up to 3 NEW moments from the public ilal Vlogs videos into ~35–55 s vertical reels with Hilal's real
+Goal per run: cut EVERY remaining good moment (no limit) from the public ilal Vlogs videos into ~35–55 s vertical reels with Hilal's real
 footage and voice, and add them to the shared trial queue (branch "trial-queue"). The poster task publishes everything
 in that queue as MANUAL Trial Reels at a human pace — this task never publishes by itself.
-Before starting: if `bash tools/queue_list.sh | wc -l` is 15 or more, stop (the poster is behind; don't pile up).
+No caps: Hilal wants every good moment clipped until the vlogs are finished. Keep going vlog after vlog until no
+ingested vlog has good moments left (Drive quota permitting for new ingests). Queue each reel as soon as it is done
+(don't wait until the end) and push used.json after each one, so nothing is lost if the run is cut short.
 Hilal's verdict on the first one (Budapest, "بودابست ولا مدريد؟"): "perfect". Copy that recipe exactly:
 vlogreel/example_budapest_spec.json.
 
@@ -36,7 +38,7 @@ ingested vlog, and try the ingest again on a later run (the quota resets within 
    that are already ingested and still have moments left; among those pick the one with the FEWEST entries in
    used.json. A vlog is finished when it has no more good, non-overlapping moments: then add {"done": true} as the
    last element of its list in used.json. If every public vlog is finished, stop (nothing left).
-   Make up to 3 moments per run (cut them in ONE job with several `cut` lines).
+   List ALL remaining good moments of the vlog first, then cut them in batches of ~5 `cut` lines per job.
 3. If the chosen vlog has no release "src-<id>" yet: run `ingest <id> <tag>` (only once per run), transcribe with
    `bash storyreel/transcribe.sh work/<tag>.m4a work/tr.json`, copy tr.json, tr_segments.txt and the sheets into
    vlogreel/cache/<id>/ and commit. If the cache already exists, just use it.
