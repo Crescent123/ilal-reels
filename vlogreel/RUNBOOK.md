@@ -59,9 +59,12 @@ ingested vlog, and try the ingest again on a later run (the quota resets within 
      choose topY/botY so faces sit in the upper-middle of each crop (not under the bottom captions).
    - Otherwise "full_cx" keyframes [t, faceX] (piecewise-linear; for camera whips add two close keyframes to jump).
 7. Spec (see example_budapest_spec.json) and `python3 vlogreel/build_vlog.py work/spec.json`:
-   - title: short Darija hook ≤ 5 words, ideally the question of the clip (e.g. "بودابست ولا مدريد؟").
+   - place + flag: the city in Latin letters and its country flag emoji, e.g. "place": "Budapest", "flag": "🇭🇺"
+     (Sofia → "🇧🇬", Madrid → "🇪🇸"). It shows as a badge "🇭🇺 BUDAPEST" above the title (Hilal's request).
+   - title: short Darija hook ≤ 5 words, ideally the question of the clip (e.g. "Budapest ولا Madrid؟").
+     City and country names are ALWAYS written in Latin letters, in the title, captions and end card.
    - captions: 5–8 short Darija lines (2–6 words, Arabic script) that follow what is said, timed to the speech, gaps OK.
-   - cta: line1 "الڤلوگ كامل كتسناك", line2 "فقناة ilal Vlogs", pill "قلب عليها فيوتيوب", vtitle "ڤلوگ <city>",
+   - cta: line1 "الڤلوگ كامل كتسناك", line2 "فقناة ilal Vlogs", pill "قلب عليها فيوتيوب", vtitle "ڤلوگ <City> <flag>",
      handle "@ilalvlogs", thumb_t = a time (relative to start) with a nice wide frame of the place/people.
    - music: rotate music/suspense_1..4.mp3 (only plays under the end card). Original vlog audio is never processed.
 8. Check frames at ~6 moments + end card: faces visible and not under text, no empty-sky frames, text inside the

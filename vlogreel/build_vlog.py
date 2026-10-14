@@ -2,6 +2,7 @@
 spec: {"src": clip.mp4, "start": s, "end": e,               # seconds inside src
        "full_cx": [[t, cx], ...],                            # face centre x (0-1920) keyframes for single shots (t relative to start)
        "split": [[t0, t1, topX, topY, botX, botY], ...],     # two-shot windows: 960x600 crops (top-left corners) stacked
+       "place": "Budapest", "flag": "🇭🇺",                     # city badge above the title (Latin name + flag)
        "title": str, "captions": [[t0, t1, text], ...],
        "cta": {"line1":..., "line2":..., "pill":..., "thumb_t": t, "vtitle":..., "handle":...},
        "music": mp3 (end card only), "out": out.mp4}
@@ -32,20 +33,22 @@ fc=fc.rstrip(';')
 # simpler: build split canvas once per window
 fc=(f"[0:v]split={2+2*len(S.get('split',[]))}" + "".join(f"[s{k}]" for k in range(2+2*len(S.get('split',[])))) + ";"
     f"[s0]crop=864:1080:'max(0,min(1920-864,{cx}-432))':0,scale=1080:1350:flags=lanczos[f0];"
-    f"[s1]scale=-2:{H},crop={W}:{H},gblur=sigma=40,eq=brightness=-0.3[bg];[bg]split=2[bg][bgf];[bgf][f0]overlay=0:360[v0];")
+    f"[s1]scale=-2:{H},crop={W}:{H},gblur=sigma=40,eq=brightness=-0.3[bg];[bg]split=2[bg][bgf];[bgf][f0]overlay=0:410[v0];")
 cur="v0"; k=2
 for i,(t0,t1,tx,ty,bx,by) in enumerate(S.get('split',[])):
     fc+=(f"[s{k}]crop=960:600:{tx}:{ty},scale=1080:675:flags=lanczos[top{i}];[s{k+1}]crop=960:600:{bx}:{by},scale=1080:675:flags=lanczos[bot{i}];"
-         f"[bg]split=2[bg][bgi{i}];[bgi{i}][top{i}]overlay=0:360[m{i}];[m{i}][bot{i}]overlay=0:1045[sp{i}];"
+         f"[bg]split=2[bg][bgi{i}];[bgi{i}][top{i}]overlay=0:410[m{i}];[m{i}][bot{i}]overlay=0:1095[sp{i}];"
          f"[{cur}][sp{i}]overlay=0:0:enable='between(t,{t0},{t1})'[o{i}];")
     cur=f"o{i}"; k+=2
 fc+=f"[bg]nullsink;[{cur}]null[vid]"
 # text overlays
-CSS=f"""@font-face{{font-family:Cairo;src:url('file://{A}Cairo.ttf');font-weight:200 1000}}@font-face{{font-family:Anton;src:url('file://{A}Anton.ttf')}}
+CSS=f"""@font-face{{font-family:Cairo;src:url('file://{A}Cairo.ttf');font-weight:200 1000}}@font-face{{font-family:Anton;src:url('file://{A}Anton.ttf')}}@font-face{{font-family:Emo;src:url('file://{A}NotoColorEmoji.ttf')}}
 *{{margin:0;padding:0;box-sizing:border-box}}html,body{{width:{W}px;height:{H}px;background:transparent;overflow:hidden;position:relative}}
-.t{{position:absolute;top:255px;left:120px;right:150px;text-align:center;direction:rtl;font-family:Cairo;font-weight:900;font-size:62px;color:#FFC426;text-shadow:0 3px 12px rgba(0,0,0,.95),0 0 4px #000}}
-.c{{position:absolute;bottom:300px;left:120px;right:150px;line-height:1.25;text-align:center;direction:rtl;font-family:Cairo;font-weight:900;font-size:70px;color:#fff;text-shadow:0 4px 14px rgba(0,0,0,.95),0 0 4px #000}}
+.pl{{position:absolute;top:228px;left:120px;right:150px;display:flex;justify-content:center}}.pl span{{display:inline-flex;align-items:center;gap:14px;background:rgba(15,15,15,.72);color:#fff;font-family:Anton,Emo;font-size:46px;letter-spacing:2px;padding:6px 26px 8px;border-radius:40px;line-height:1.1}}.pl i{{font-style:normal;font-family:Emo;font-size:44px}}
+.t{{position:absolute;top:305px;left:120px;right:150px;text-align:center;direction:rtl;font-family:Cairo,Emo;font-weight:900;font-size:60px;color:#FFC426;text-shadow:0 3px 12px rgba(0,0,0,.95),0 0 4px #000}}
+.c{{position:absolute;bottom:300px;left:120px;right:150px;line-height:1.25;text-align:center;direction:rtl;font-family:Cairo,Emo;font-weight:900;font-size:70px;color:#fff;text-shadow:0 4px 14px rgba(0,0,0,.95),0 0 4px #000}}
 .gt{{position:absolute;top:0;left:0;right:0;height:480px;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,0))}}.gb{{position:absolute;bottom:0;left:0;right:0;height:700px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.65) 55%)}}"""
+BADGE=(f"<div class=pl><span><i>{S['flag']}</i>{S['place'].upper()}</span></div>" if S.get('place') else '')
 FIT="document.fonts.ready.then(()=>{document.querySelectorAll('.t').forEach(e=>{let f=parseFloat(getComputedStyle(e).fontSize);e.style.whiteSpace='nowrap';e.style.width='max-content';e.style.margin='0 auto';while(e.getBoundingClientRect().width>800&&f>30){f-=2;e.style.fontSize=f+'px'}});document.querySelectorAll('.c').forEach(e=>{let f=parseFloat(getComputedStyle(e).fontSize);while(e.getBoundingClientRect().height>170&&f>40){f-=2;e.style.fontSize=f+'px'}})})"
 run(['ffmpeg','-loglevel','error','-y','-ss',str(S['start']+S['cta']['thumb_t']),'-i',S['src'],'-frames:v','1',wd+'/thumb.jpg'])
 c=S['cta']; OR,MA,BK='#FFAF32','#890219','#0F0F0F'
@@ -54,16 +57,16 @@ CTA=f"""<html><head><meta charset=utf-8><style>{CSS}
 body{{background:{OR}}}.txt{{position:absolute;top:280px;left:120px;right:150px;direction:rtl;text-align:center;font-family:Cairo;font-weight:900;color:{BK}}}
 .l{{font-size:68px;line-height:1.3}}.a{{font-size:66px;line-height:1.25;width:max-content;margin:16px auto 0;color:#fff;background:{MA};padding:6px 36px 16px;border-radius:20px;transform:rotate(-1.5deg)}}
 .th{{position:absolute;top:720px;left:110px;width:820px;height:461px;border:14px solid {BK};border-radius:30px;overflow:hidden;box-shadow:16px 16px 0 {MA};background:{BK}}}.th img{{width:100%;height:100%;object-fit:cover}}
-.ti{{position:absolute;top:1225px;left:120px;right:150px;direction:rtl;text-align:center;font-family:Cairo;font-weight:900;font-size:46px;color:{BK}}}
+.ti{{position:absolute;top:1225px;left:120px;right:150px;direction:rtl;text-align:center;font-family:Cairo,Emo;font-weight:900;font-size:46px;color:{BK}}}
 .hd{{position:absolute;top:1340px;left:120px;right:150px;display:flex;justify-content:center}}.hd span{{background:{BK};color:{OR};font-family:Anton;font-size:56px;padding:8px 38px 12px;border-radius:60px;line-height:1}}
 </style></head><body><div class=txt><div class=l>{c['line1']}</div><div class=l>{c['line2']}</div><div class=a>{c['pill']}</div></div>
 <div class=th><img src="{b64(wd+'/thumb.jpg','image/jpeg')}"></div><div class=ti>{c['vtitle']}</div><div class=hd><span>{c['handle']}</span></div></body></html>"""
 with sync_playwright() as p:
     b=p.chromium.launch(); pg=b.new_page(viewport={'width':W,'height':H})
     for i,(t0,t1,txt) in enumerate(S['captions']):
-        open(wd+'/o.html','w').write(f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body><div class=gt></div><div class=gb></div><div class=t>{S['title']}</div><div class=c>{txt}</div></body></html>")
+        open(wd+'/o.html','w').write(f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body><div class=gt></div><div class=gb></div>{BADGE}<div class=t>{S['title']}</div><div class=c>{txt}</div></body></html>")
         pg.goto('file://'+wd+'/o.html'); pg.wait_for_timeout(200); pg.evaluate(FIT); pg.wait_for_timeout(150); pg.screenshot(path=f'{wd}/ov{i}.png',omit_background=True)
-    open(wd+'/o.html','w').write(f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body><div class=gt></div><div class=gb></div><div class=t>{S['title']}</div></body></html>")
+    open(wd+'/o.html','w').write(f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body><div class=gt></div><div class=gb></div>{BADGE}<div class=t>{S['title']}</div></body></html>")
     pg.goto('file://'+wd+'/o.html'); pg.wait_for_timeout(200); pg.evaluate(FIT); pg.wait_for_timeout(150); pg.screenshot(path=f'{wd}/ovT.png',omit_background=True)
     open(wd+'/cta.html','w').write(CTA); pg.goto('file://'+wd+'/cta.html'); pg.wait_for_timeout(300); pg.screenshot(path=wd+'/cta.png'); b.close()
 ins=['-i',wd+'/src.mov','-loop','1','-i',wd+'/ovT.png']
