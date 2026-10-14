@@ -22,14 +22,16 @@ vlogreel/example_budapest_spec.json.
 The vlogs are 4–13 GB 4K files. This workspace cannot reach Drive, so GitHub Actions (.github/workflows/vlog.yml) streams
 them straight from Drive with ffmpeg and pushes small results to the orphan branch vlog-cache.
 `OUT=work bash vlogreel/vlog_job.sh "<line>" ["<line>"...]` writes vlog/job.txt, pushes, waits and downloads results.
-Lines: `audio <id> <tag>` (mono m4a + info), `sheet <id> <tag>` (contact sheets, a frame every 10 s with timecodes),
+Lines: `prep <id> <tag>` (mono m4a + contact sheets with a frame every 10 s and timecodes, in ONE pass over the file),
 `cut <id> <tag> <start> <end>` (1920x1080 mp4 of that range). ALWAYS make tags unique per run (append $(date +%s)).
-Takes ~3–10 min per job; a cut of 70 s takes ~5 min.
+Takes ~3–15 min per job (a 13 GB file ~15 min); a cut of 70 s takes ~5 min. The workflow retries by itself; if
+errors.txt appears, read its message. A Drive refusal usually clears within an hour — then stop this run and leave
+the moments for the next run instead of hammering Drive.
 
 ## Steps
 1. List "Vlogs Public" (page through). Candidates = "public" files. Pick the vlog with the FEWEST entries in used.json
    (oldest first on ties). If every public vlog already has 8 used moments, stop (nothing left).
-3. If vlogreel/cache/<id>/ is missing: run one job with both `audio <id> <tag>` and `sheet <id> <tag>`, transcribe with
+3. If vlogreel/cache/<id>/ is missing: run one job `prep <id> <tag>` (never stream the same big file twice in a row — Google throttles it), transcribe with
    `bash storyreel/transcribe.sh work/<tag>.m4a work/tr.json`, copy tr.json, tr_segments.txt and the sheets into the
    cache folder and commit.
 4. CHOOSE THE MOMENT (most important). Read tr_segments.txt (Whisper often turns Darija into MSA; read for meaning)
