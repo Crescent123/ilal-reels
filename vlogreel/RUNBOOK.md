@@ -13,27 +13,33 @@ vlogreel/example_budapest_spec.json.
 - Instagram platformAccountId (vidIQ): 28479362468423214.
 - Pause marker shared with the other posting tasks: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1.
 - Log of used moments: vlogreel/used.json  {driveFileId: [{title, clip:[start,end], date, permalink}]}.
-- Per-vlog cache in the repo: vlogreel/cache/<driveFileId>/ (tr.json, tr_segments.txt, *_sheet_*.jpg). Create it the
-  first time a vlog is used and commit it, so later runs skip the audio/sheet step.
+- Per-vlog cache in the repo: vlogreel/cache/<driveFileId>/ (tr.json, tr_segments.txt, *_sheet_*.jpg), made once at ingest.
+- Per-vlog 1080p master: GitHub release "src-<driveFileId>" (made once at ingest; clips are cut from it).
 - OpenAI key (only for Whisper): private Drive file 1Wdl0gkAK6qjvUhuhIGQwOblE67YAlbTR (download_file_content, base64-
   decode, export OPENAI_API_KEY). Never print it, never write it into the repo.
 
-## How the big files are reached
-The vlogs are 4–13 GB 4K files. This workspace cannot reach Drive, so GitHub Actions (.github/workflows/vlog.yml) streams
-them straight from Drive with ffmpeg and pushes small results to the orphan branch vlog-cache.
-`OUT=work bash vlogreel/vlog_job.sh "<line>" ["<line>"...]` writes vlog/job.txt, pushes, waits and downloads results.
-Lines: `prep <id> <tag>` (mono m4a + contact sheets with a frame every 10 s and timecodes, in ONE pass over the file),
-`cut <id> <tag> <start> <end>` (1920x1080 mp4 of that range). ALWAYS make tags unique per run (append $(date +%s)).
-Takes ~3–15 min per job (a 13 GB file ~15 min); a cut of 70 s takes ~5 min. The workflow retries by itself; if
-errors.txt appears, read its message. A Drive refusal usually clears within an hour — then stop this run and leave
-the moments for the next run instead of hammering Drive.
+## How the big files are reached (IMPORTANT — Google Drive has a download quota per file)
+The vlogs are 4–13 GB 4K files and this workspace cannot reach Drive, so GitHub Actions (.github/workflows/vlog.yml)
+does the heavy work. Streaming a big file from Drive more than about once a day trips Google's "Download quota exceeded"
+(it happened on 14 Oct and blocked both vlogs for up to 24 h). So each vlog is read from Drive ONLY ONCE:
+- `ingest <id> <tag> [<copyId>]` reads the Drive file once and makes: a 1080p master stored as GitHub release
+  "src-<id>" (10-minute parts), <tag>.m4a (mono audio) and <tag>_sheet_NN.jpg contact sheets (a frame every 10 s).
+  Takes ~20–60 min. `gh release view src-<id>` tells you whether a vlog is already ingested.
+- `cut <id> <tag> <start> <end>` then cuts from that master (never touches Drive), ~2–4 min.
+`OUT=work bash vlogreel/vlog_job.sh "<line>" ["<line>"...]` writes vlog/job.txt, pushes, waits for the job's own
+done marker and downloads the results; it prints "JOB ERRORS: …" if anything failed. Make tags unique (append $(date +%s)).
+If an ingest fails with "Quota exceeded" / "Invalid data", Drive is throttling that file: leave it, work on another
+ingested vlog, and try the ingest again on a later run (the quota resets within 24 h). Never retry more than once per run.
 
 ## Steps
-1. List "Vlogs Public" (page through). Candidates = "public" files. Pick the vlog with the FEWEST entries in used.json
-   (oldest first on ties). If every public vlog already has 8 used moments, stop (nothing left).
-3. If vlogreel/cache/<id>/ is missing: run one job `prep <id> <tag>` (never stream the same big file twice in a row — Google throttles it), transcribe with
-   `bash storyreel/transcribe.sh work/<tag>.m4a work/tr.json`, copy tr.json, tr_segments.txt and the sheets into the
-   cache folder and commit.
+1. List "Vlogs Public" (page through). Candidates = "public" files (ignore "members" and "TEMP" files). Prefer vlogs
+   that are already ingested and still have moments left; among those pick the one with the FEWEST entries in
+   used.json. A vlog is finished when it has no more good, non-overlapping moments: then add {"done": true} as the
+   last element of its list in used.json. If every public vlog is finished, stop (nothing left).
+   Make up to 3 moments per run (cut them in ONE job with several `cut` lines).
+3. If the chosen vlog has no release "src-<id>" yet: run `ingest <id> <tag>` (only once per run), transcribe with
+   `bash storyreel/transcribe.sh work/<tag>.m4a work/tr.json`, copy tr.json, tr_segments.txt and the sheets into
+   vlogreel/cache/<id>/ and commit. If the cache already exists, just use it.
 4. CHOOSE THE MOMENT (most important). Read tr_segments.txt (Whisper often turns Darija into MSA; read for meaning)
    and look at the contact sheets. Good moments: an opinion / hot take / comparison, a reaction, a funny exchange,
    a surprising price or fact, a strong view with talking. Hilal or a friend should be on camera talking.
@@ -42,7 +48,7 @@ the moments for the next run instead of hammering Drive.
    - No overlap with moments already in used.json for this vlog. Skip intros/outros, "subscribe", sponsor talk,
      long silent b-roll, and anything private (documents, addresses, kids' faces up close).
    - Use word timestamps in tr.json for exact start/end.
-5. `cut <id> <tag> <start-6> <end+6>` (a margin on each side). In the downloaded clip the moment starts at 6.0 s
+5. `cut <id> <tag> <start-6> <end+6>` (a margin on each side; cut from the release master). In the downloaded clip the moment starts at 6.0 s
    (adjust if the margin was clipped at 0). Re-transcribe [start,end] of the clip to confirm first/last words.
 6. Face positions: make strips of the moment, 1 frame/s with a grid (ffmpeg fps=1,scale=384:-2,drawgrid=w=96 …,
    tile=5x3). Each grid column = 480 source px. Write down for every second where the speaking face(s) are.
