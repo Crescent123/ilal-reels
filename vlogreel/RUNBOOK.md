@@ -1,7 +1,9 @@
 # Vlog reel runbook (ilal Vlogs → Instagram Trial Reels)
 
-Goal per run: cut ONE new moment from a public ilal Vlogs video into a ~35–55 s vertical reel with Hilal's real
-footage and voice, and post it to Instagram @_ilal_ as a MANUAL Trial Reel with NO caption.
+Goal per run: cut up to 3 NEW moments from the public ilal Vlogs videos into ~35–55 s vertical reels with Hilal's real
+footage and voice, and add them to the shared trial queue (branch "trial-queue"). The poster task publishes everything
+in that queue as MANUAL Trial Reels at a human pace — this task never publishes by itself.
+Before starting: if `bash tools/queue_list.sh | wc -l` is 15 or more, stop (the poster is behind; don't pile up).
 Hilal's verdict on the first one (Budapest, "بودابست ولا مدريد؟"): "perfect". Copy that recipe exactly:
 vlogreel/example_budapest_spec.json.
 
@@ -25,8 +27,7 @@ Lines: `audio <id> <tag>` (mono m4a + info), `sheet <id> <tag>` (contact sheets,
 Takes ~3–10 min per job; a cut of 70 s takes ~5 min.
 
 ## Steps
-1. If the pause marker says paused and that time is still in the future, stop.
-2. List "Vlogs Public" (page through). Candidates = "public" files. Pick the vlog with the FEWEST entries in used.json
+1. List "Vlogs Public" (page through). Candidates = "public" files. Pick the vlog with the FEWEST entries in used.json
    (oldest first on ties). If every public vlog already has 8 used moments, stop (nothing left).
 3. If vlogreel/cache/<id>/ is missing: run one job with both `audio <id> <tag>` and `sheet <id> <tag>`, transcribe with
    `bash storyreel/transcribe.sh work/<tag>.m4a work/tr.json`, copy tr.json, tr_segments.txt and the sheets into the
@@ -55,10 +56,7 @@ Takes ~3–10 min per job; a cut of 70 s takes ~5 min.
    - music: rotate music/suspense_1..4.mp3 (only plays under the end card). Original vlog audio is never processed.
 8. Check frames at ~6 moments + end card: faces visible and not under text, no empty-sky frames, text inside the
    safe box x 90–930 / y 215–1630. Fix keyframes and rebuild if needed (max 2 rebuilds).
-9. Post: `URL=$(bash storyreel/host.sh work/reel.mp4 queue3)` → vidiq_video_upload(url=URL) →
-   vidiq_instagram_publish_reel(platformAccountId, videoUrl, NO caption, trialParams {"graduationStrategy":"MANUAL"}).
-   Poll with containerId every ~20 s until PUBLISHED.
-10. Append to vlogreel/used.json (title, clip in ORIGINAL vlog seconds, date, permalink), commit, push
+9. Queue it: `bash tools/queue_add.sh work/reel.mp4 vlog_<city>_<start>` (keep the file under ~45 MB; if bigger,
+   rebuild with a higher crf). Do NOT publish.
+10. Append to vlogreel/used.json (title, clip in ORIGINAL vlog seconds, date, "queued": <file name>), commit, push
     (git pull --rebase first; other tasks push to this repo too).
-11. On a limit/quota/rate error when publishing: set the pause marker title to
-    "reels-trial-state: paused until <now+3h ISO>", don't log the moment, stop.
