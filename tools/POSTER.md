@@ -31,3 +31,8 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 5. If the run published at least one reel and the marker said paused (time passed), rename it back to
    "reels-trial-state: active".
 6. End with one line: how many posted from Drive, how many from the vlog queue, how many still waiting.
+
+## Post log (all posting tasks)
+After every PUBLISHED trial reel, and whenever Instagram returns a limit error, append ONE line to tools/post_log.jsonl
+and push (git pull --rebase first):
+{"t": "<UTC ISO time>", "src": "drive" | "vlog" | "story", "event": "posted" | "limit", "permalink": "<url or empty>"}

@@ -60,3 +60,8 @@ voice and post it to Instagram @_ilal_ as a MANUAL Trial Reel with NO caption.
   edge; only the main subjects/action must sit in the central area. Edges = calm background. Never let a subject look cut.
 - Captions may overlap legs/floor but never faces; build.py adds dark gradients top and bottom for readability.
 - When checking frames, reject a reel if text leaves that box or a face is under a caption.
+
+## Post log (all posting tasks)
+After every PUBLISHED trial reel, and whenever Instagram returns a limit error, append ONE line to tools/post_log.jsonl
+and push (git pull --rebase first):
+{"t": "<UTC ISO time>", "src": "drive" | "vlog" | "story", "event": "posted" | "limit", "permalink": "<url or empty>"}
