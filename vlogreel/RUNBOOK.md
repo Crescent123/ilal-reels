@@ -24,7 +24,7 @@ does the heavy work. Streaming a big file from Drive more than about once a day 
 (it happened on 14 Oct and blocked both vlogs for up to 24 h). So each vlog is read from Drive ONLY ONCE:
 - `ingest <id> <tag> [<copyId>]` reads the Drive file once and makes: a 1080p master stored as GitHub release
   "src-<id>" (10-minute parts), <tag>.m4a (mono audio) and <tag>_sheet_NN.jpg contact sheets (a frame every 10 s).
-  Takes ~20–60 min. `gh release view src-<id>` tells you whether a vlog is already ingested.
+  Takes ~20–60 min. `gh api repos/Crescent123/ilal-reels/releases/tags/src-<id>` (REST; succeeds once a vlog is ingested — `gh release view` is blocked in these sessions).
 - `cut <id> <tag> <start> <end>` then cuts from that master (never touches Drive), ~2–4 min.
 `OUT=work bash vlogreel/vlog_job.sh "<line>" ["<line>"...]` writes vlog/job.txt, pushes, waits for the job's own
 done marker and downloads the results; it prints "JOB ERRORS: …" if anything failed. Make tags unique (append $(date +%s)).
