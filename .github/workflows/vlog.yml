@@ -8,10 +8,13 @@ permissions:
 jobs:
   work:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    concurrency: vlog-media
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
-      - name: Process big Drive vlog without storing it
+      - name: Process vlogs (Drive is read once per vlog; clips come from the 1080p master)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null
           mkdir /tmp/out
@@ -32,9 +35,28 @@ jobs:
                 -map 0:v:0 -an -vf "fps=1/10,scale=192:-2,drawtext=text='%{pts\\:hms}':x=4:y=4:fontsize=16:fontcolor=yellow:box=1:boxcolor=black@0.6,tile=10x16" -fps_mode vfr "/tmp/out/${tag}_sheet_%02d.jpg" \
                 || { echo "fail prep $id: $(tail -c 400 /tmp/err.txt)" >> /tmp/out/errors.txt; continue; }
               ffprobe -v error -show_entries format=duration:stream=width,height -of default=nw=1 "/tmp/out/$tag.m4a" > "/tmp/out/${tag}_info.txt" 2>&1 || true
+            elif [ "$mode" = ingest ]; then
+              # ONE download from Drive: 1080p master in 10-min parts (stored as release "src-<id>") + audio + contact sheets.
+              # $s may name a different Drive file id to read from (e.g. a fresh copy when the original hit its quota).
+              SRC="$U"; [ -n "$s" ] && SRC="https://drive.usercontent.google.com/download?id=$s&export=download&confirm=t"
+              mkdir -p /tmp/m && rm -f /tmp/m/*
+              try ffmpeg -nostdin -loglevel error -y -i "$SRC" \
+                -map 0:v:0 -map 0:a:0 -vf "scale=1920:-2,fps=30" -c:v libx264 -preset veryfast -crf 19 -g 60 -c:a aac -b:a 192k \
+                  -f segment -segment_time 600 -reset_timestamps 1 "/tmp/m/part_%03d.mp4" \
+                -map 0:a:0 -vn -ac 1 -c:a aac -b:a 64k "/tmp/out/$tag.m4a" \
+                -map 0:v:0 -an -vf "fps=1/10,scale=192:-2,drawtext=text='%{pts\\:hms}':x=4:y=4:fontsize=16:fontcolor=yellow:box=1:boxcolor=black@0.6,tile=10x16" -fps_mode vfr "/tmp/out/${tag}_sheet_%02d.jpg" \
+                || { echo "fail ingest $id: $(tail -c 400 /tmp/err.txt)" >> /tmp/out/errors.txt; continue; }
+              gh release delete "src-$id" -y --cleanup-tag >/dev/null 2>&1 || true
+              gh release create "src-$id" /tmp/m/part_*.mp4 --title "vlog source $id" --notes "1080p master, 600 s parts" \
+                || echo "fail release $id" >> /tmp/out/errors.txt
+              ls /tmp/m > "/tmp/out/${tag}_parts.txt"
             elif [ "$mode" = cut ]; then
-              d=$(python3 -c "print($e-$s)")
-              try ffmpeg -nostdin -loglevel error -y -ss "$s" -i "$U" -t "$d" -vf "scale=1920:-2" -c:v libx264 -preset medium -crf 18 -c:a aac -b:a 256k "/tmp/out/$tag.mp4" \
+              # cut from the 1080p master in the release (never from Drive)
+              d=$(python3 -c "print($e-$s)"); a=$(python3 -c "print(int($s//600))"); b=$(python3 -c "print(int($e//600))")
+              rm -rf /tmp/c && mkdir /tmp/c && : > /tmp/c/list.txt
+              for k in $(seq $a $b); do f=$(printf "part_%03d.mp4" $k); gh release download "src-$id" -p "$f" -D /tmp/c && echo "file '/tmp/c/$f'" >> /tmp/c/list.txt; done
+              off=$(python3 -c "print($s-$a*600)")
+              ffmpeg -nostdin -loglevel error -y -f concat -safe 0 -i /tmp/c/list.txt -ss "$off" -t "$d" -c:v libx264 -preset medium -crf 18 -c:a aac -b:a 256k "/tmp/out/$tag.mp4" 2>/tmp/err.txt \
                 || echo "fail cut $tag: $(tail -c 400 /tmp/err.txt)" >> /tmp/out/errors.txt
             fi
           done < vlog/job.txt
