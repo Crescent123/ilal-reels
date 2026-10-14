@@ -24,6 +24,7 @@ jobs:
             U="https://drive.usercontent.google.com/download?id=$id&export=download&confirm=t"
             if [ "$mode" = probe ]; then
               curl -sL -r 0-1500 "$U" -D "/tmp/out/${tag}_headers.txt" -o "/tmp/out/${tag}_head.bin"; true
+              (curl -sL --max-time 8 "$U" -D "/tmp/out/${tag}_fullheaders.txt" | head -c 3000 > "/tmp/out/${tag}_fullhead.bin") || true
             elif [ "$mode" = prep ] || [ "$mode" = audio ] || [ "$mode" = sheet ]; then
               # ONE pass over the big file: mono audio + contact sheets (a frame every 10 s with timecode)
               try ffmpeg -nostdin -loglevel error -y -i "$U" \
