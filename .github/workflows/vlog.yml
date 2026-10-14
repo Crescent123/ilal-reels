@@ -37,6 +37,8 @@ jobs:
                 || echo "fail cut $tag: $(tail -c 400 /tmp/err.txt)" >> /tmp/out/errors.txt
             fi
           done < vlog/job.txt
+          STAMP=$(grep -o '^# [0-9]*' vlog/job.txt | tail -1 | cut -c3-); touch /tmp/out/errors.txt
+          cp /tmp/out/errors.txt "/tmp/out/done_${STAMP:-x}.txt"; [ -s /tmp/out/errors.txt ] || rm /tmp/out/errors.txt
           ls -la /tmp/out
           cd /tmp/out && git init -q && git checkout -q --orphan vlog-cache
           git config user.name "vlog-bot"; git config user.email "actions@users.noreply.github.com"
