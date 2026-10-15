@@ -1,17 +1,20 @@
 # 2D story reel runbook (ilal Stories → Instagram Trial Reels)
 
 Goal per run: turn ONE new story from the Drive folder "Stories audio" into a 30–50 s vertical 2D reel in Hilal's own
-voice and post it to Instagram @_ilal_ as a MANUAL Trial Reel with NO caption.
+voice and ADD IT TO THE SHARED TRIAL QUEUE (branch "trial-queue"). Several story makers run in parallel; the poster task
+publishes the queue as MANUAL Trial Reels with NO caption, as many as Instagram allows. Story makers never publish.
+Stock target: if `bash tools/queue_list.sh | wc -l` is 30 or more (more than a full day of posts already waiting), stop
+— there is no point paying for reels that would wait for days. Otherwise always make one.
 
 ## IDs
 - Drive "Stories audio" folder: 1hPvjdeaN20sSWffO9aWRsN53lnWtJGCt (shared by link). Files are named "<YouTubeID> - <title>.m4a".
 - OpenAI key: private Drive file 1Wdl0gkAK6qjvUhuhIGQwOblE67YAlbTR (read with Google Drive download_file_content, base64-decode, export as OPENAI_API_KEY). Never print it, never write it to the repo.
 - Instagram platformAccountId (vidIQ): 28479362468423214.
 - Pause marker shared with the other posting task: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1 (title "reels-trial-state: active" or "… paused until <ISO>").
-- Used-story log: storyreel/used.json in this repo (video_id → {date, permalink}). Push it after every post.
+- Used-story log: storyreel/used.json in this repo (video_id → {date, queued|permalink}). Push it after every reel.
 
 ## Steps
-1. If the pause marker says paused and that time is still in the future, stop.
+1. (Instagram pauses don't stop story makers: keep filling the queue up to the stock target.)
 2. List the "Stories audio" folder (page through everything). Ignore .webm/.part and non-audio files. Pick the
    NEWEST-uploaded story whose YouTube ID is not in used.json. Skip anything that is not a storytime (titles with
    podcast, Bad advice, vlog, حلويات, tests of food, Q&A).
@@ -45,12 +48,8 @@ voice and post it to Instagram @_ilal_ as a MANUAL Trial Reel with NO caption.
     "title":<short hook, ≤6 words, Darija>,"pieces":[[start,end]],"scenes":[...],"music":"music/suspense_<1-4>.mp3"
     (rotate),"out":"work/reel.mp4"}
 10. Check: grab frames at several times and look at them (text not clipped, no text over faces, end slide fine).
-11. Post: `URL=$(bash storyreel/host.sh work/reel.mp4 <host branch from your task prompt, default queue2>)` → vidiq_video_upload(url=URL) → vidiq_instagram_publish_reel
-    with platformAccountId, the returned videoUrl, NO caption, trialParams {"graduationStrategy":"MANUAL"}.
-    Poll with containerId (~15 s waits) until PUBLISHED.
-12. Replace your reservation in storyreel/used.json with {date, permalink}, commit and push.
-13. If publishing fails with a limit/quota/rate error: set the pause marker title to
-    "reels-trial-state: paused until <now+3h ISO>", do NOT mark the story used, stop.
+11. Queue it: `bash tools/queue_add.sh work/reel.mp4 story_<youtube_id>` (keep the file under ~45 MB). Do NOT publish.
+12. Replace your reservation in storyreel/used.json with {"date": ..., "queued": "<queued file name>"}, commit and push.
 
 ## Style rules (from Hilal)
 - Voice: never EQ/denoise/compress/speed-change. Only cut. build.py already does this.

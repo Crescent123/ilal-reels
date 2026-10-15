@@ -2,7 +2,7 @@
 
 Posts Instagram Trial Reels to @_ilal_ from TWO queues, oldest first, as many as Instagram allows:
 - A) Google Drive folder "Reels trial" 1rGW63KerCj3EQRGRk-mDWn1dVkU1onyK (videos Hilal drops in).
-- B) GitHub branch "trial-queue" of this repo (reels made by the vlog-reel task). `bash tools/queue_list.sh` prints
+- B) GitHub branch "trial-queue" of this repo (reels made by the story makers "story_*" and the vlog task "vlog_*"). `bash tools/queue_list.sh` prints
   "<file> <raw url>" per waiting reel; file names start with a unix time (= when queued).
 Every post: Trial Reel with trialParams {"graduationStrategy":"MANUAL"} (never shared to followers), NO caption.
 Instagram platformAccountId (vidIQ): 28479362468423214.
@@ -35,4 +35,4 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 ## Post log (all posting tasks)
 After every PUBLISHED trial reel, and whenever Instagram returns a limit error, append ONE line to tools/post_log.jsonl
 and push (git pull --rebase first):
-{"t": "<UTC ISO time>", "src": "drive" | "vlog" | "story", "event": "posted" | "limit", "permalink": "<url or empty>"}
+{"t": "<UTC ISO time>", "src": "drive" | "vlog" | "story" (queue files: story_* = story, vlog_* = vlog), "event": "posted" | "limit", "permalink": "<url or empty>"}
