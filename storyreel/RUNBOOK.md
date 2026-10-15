@@ -3,8 +3,8 @@
 Goal per run: turn ONE new story from the Drive folder "Stories audio" into a 30–50 s vertical 2D reel in Hilal's own
 voice and ADD IT TO THE SHARED TRIAL QUEUE (branch "trial-queue"). Several story makers run in parallel; the poster task
 publishes the queue as MANUAL Trial Reels with NO caption, as many as Instagram allows. Story makers never publish.
-Stock target: if `bash tools/queue_list.sh | wc -l` is 30 or more (more than a full day of posts already waiting), stop
-— there is no point paying for reels that would wait for days. Otherwise always make one.
+No limit on making: always make one reel per run, however many are already waiting (Hilal's instruction). Only the
+poster is limited, by Instagram.
 
 ## IDs
 - Drive "Stories audio" folder: 1hPvjdeaN20sSWffO9aWRsN53lnWtJGCt (shared by link). Files are named "<YouTubeID> - <title>.m4a".
@@ -14,7 +14,7 @@ Stock target: if `bash tools/queue_list.sh | wc -l` is 30 or more (more than a f
 - Used-story log: storyreel/used.json in this repo (video_id → {date, queued|permalink}). Push it after every reel.
 
 ## Steps
-1. (Instagram pauses don't stop story makers: keep filling the queue up to the stock target.)
+1. (Instagram pauses never stop story makers: always keep filling the queue.)
 2. List the "Stories audio" folder (page through everything). Ignore .webm/.part and non-audio files. Pick the
    NEWEST-uploaded story whose YouTube ID is not in used.json. Skip anything that is not a storytime (titles with
    podcast, Bad advice, vlog, حلويات, tests of food, Q&A).
