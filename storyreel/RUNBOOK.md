@@ -15,6 +15,11 @@ voice and post it to Instagram @_ilal_ as a MANUAL Trial Reel with NO caption.
 2. List the "Stories audio" folder (page through everything). Ignore .webm/.part and non-audio files. Pick the
    NEWEST-uploaded story whose YouTube ID is not in used.json. Skip anything that is not a storytime (titles with
    podcast, Bad advice, vlog, حلويات, tests of food, Q&A).
+2b. CLAIM THE STORY FIRST (two story makers run in parallel). Immediately add
+   "<youtube_id>": {"date": "<today>", "status": "reserved", "at": "<UTC ISO time>"} to storyreel/used.json, commit and
+   push (git pull --rebase first). If the push is rejected or someone else already has that id, pick another story.
+   Treat a "reserved" entry older than 3 hours as abandoned (a failed run) and free to take.
+   Never claim more than one story per run.
 3. `bash storyreel/fetch.sh <drive_file_id> <youtube_id> work` → work/story.m4a and work/thumb.jpg.
 4. `bash storyreel/transcribe.sh work/story.m4a work/tr.json` → read work/tr_segments.txt.
 5. CHOOSE THE CLIP (most important):
@@ -40,10 +45,10 @@ voice and post it to Instagram @_ilal_ as a MANUAL Trial Reel with NO caption.
     "title":<short hook, ≤6 words, Darija>,"pieces":[[start,end]],"scenes":[...],"music":"music/suspense_<1-4>.mp3"
     (rotate),"out":"work/reel.mp4"}
 10. Check: grab frames at several times and look at them (text not clipped, no text over faces, end slide fine).
-11. Post: `URL=$(bash storyreel/host.sh work/reel.mp4)` → vidiq_video_upload(url=URL) → vidiq_instagram_publish_reel
+11. Post: `URL=$(bash storyreel/host.sh work/reel.mp4 <host branch from your task prompt, default queue2>)` → vidiq_video_upload(url=URL) → vidiq_instagram_publish_reel
     with platformAccountId, the returned videoUrl, NO caption, trialParams {"graduationStrategy":"MANUAL"}.
     Poll with containerId (~15 s waits) until PUBLISHED.
-12. Add the story to storyreel/used.json with date + permalink, commit and push.
+12. Replace your reservation in storyreel/used.json with {date, permalink}, commit and push.
 13. If publishing fails with a limit/quota/rate error: set the pause marker title to
     "reels-trial-state: paused until <now+3h ISO>", do NOT mark the story used, stop.
 
