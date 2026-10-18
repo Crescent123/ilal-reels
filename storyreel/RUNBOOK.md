@@ -10,7 +10,14 @@ Instagram.
 
 ## IDs
 - Drive "Stories audio" folder: 1hPvjdeaN20sSWffO9aWRsN53lnWtJGCt (shared by link). Files are named "<YouTubeID> - <title>.m4a".
-- OpenAI key: private Drive file 1Wdl0gkAK6qjvUhuhIGQwOblE67YAlbTR (read with Google Drive download_file_content, base64-decode, export as OPENAI_API_KEY). Never print it, never write it to the repo.
+- OpenAI key: FIRST check `[ -n "$OPENAI_API_KEY" ] && echo set`. If it is already set in the environment, use it and do
+  NOT download the Drive file. Only if it is not set: private Drive file 1Wdl0gkAK6qjvUhuhIGQwOblE67YAlbTR (read with
+  Google Drive download_file_content, base64-decode, export as OPENAI_API_KEY). Never print it, never write it to the
+  repo or any file, never echo it into a shell command except as the inline OPENAI_API_KEY=… prefix of the one command
+  that needs it. Do the key download only AFTER the daily-target check and the claim (step 2b), so a run that stops
+  early never loads it.
+- If the session's safety check blocks commands after the key is loaded, stop: release your reservation in used.json
+  (if the push still works) and report "run blocked by safety check" — do not retry around it.
 - Instagram platformAccountId (vidIQ): 28479362468423214.
 - Pause marker shared with the other posting task: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1 (title "reels-trial-state: active" or "… paused until <ISO>").
 - Used-story log: storyreel/used.json in this repo (video_id → {date, queued|permalink}). Push it after every reel.
