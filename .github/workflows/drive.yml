@@ -15,7 +15,7 @@ jobs:
         run: |
           # keep the files of other runs (parallel story makers): start from the current drive-cache, keep the newest 12
           git clone -q --depth 1 --branch drive-cache "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" /tmp/out 2>/dev/null || mkdir -p /tmp/out
-          cd /tmp/out && rm -rf .git && ls -t | tail -n +13 | xargs -r rm -f; cd -
+          cd /tmp/out && rm -rf .git && ls -t | tail -n +13 | xargs -r -d "\n" rm -f --; cd -
           while read -r id name; do
             [ -z "$id" ] && continue
             curl -sfL -o "/tmp/out/$name" "https://drive.usercontent.google.com/download?id=$id&export=download&confirm=t" || echo "fail $id"
