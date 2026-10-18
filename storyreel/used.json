@@ -362,8 +362,12 @@
   "queued": "1792341268_story_SXSfjlpG6Yg.mp4"
  },
  "PZfu6oO2bu8": {
+  "date": "skip",
+  "skipped": "audio 382 MB compilation, too big for drive-cache (GitHub 100 MB limit)"
+ },
+ "FPAYlcC7Hgc": {
   "date": "2026-10-18",
   "status": "reserved",
-  "at": "2026-10-18T16:42:38Z"
+  "at": "2026-10-18T16:49:05Z"
  }
 }
