@@ -27,7 +27,9 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
      c. Only after PUBLISHED: `bash tools/queue_rm.sh <file>`.
 4. If publishing fails with a limit / quota / rate / "too many" error: rename the marker to
    "reels-trial-state: paused until <now + 3 h, ISO>" and stop (leave the item where it is).
-   Any other error on an item: skip that item this run (leave it), continue with the next.
+   Any other error on an item: skip that item this run (leave it), continue with the next — and log it (see Post log,
+   event "error" with the first ~150 characters of the message in "note"). If 2 items in a row fail the same way, stop the
+   run (Instagram is refusing posts) instead of trying the rest.
 5. If the run published at least one reel and the marker said paused (time passed), rename it back to
    "reels-trial-state: active".
 6. End with one line: how many posted from Drive, how many from the vlog queue, how many still waiting.
@@ -35,4 +37,4 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 ## Post log (all posting tasks)
 After every PUBLISHED trial reel, and whenever Instagram returns a limit error, append ONE line to tools/post_log.jsonl
 and push (git pull --rebase first):
-{"t": "<UTC ISO time>", "src": "drive" | "vlog" | "story" (queue files: story_* = story, vlog_* = vlog), "event": "posted" | "limit", "permalink": "<url or empty>"}
+{"t": "<UTC ISO time>", "src": "drive" | "vlog" | "story" (queue files: story_* = story, vlog_* = vlog), "event": "posted" | "limit" | "error", "permalink": "<url or empty>", "note": "<error text, only for error>"}
