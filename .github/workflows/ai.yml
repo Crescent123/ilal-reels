@@ -1,0 +1,49 @@
+name: ai
+# AI steps (Whisper transcription, gpt-image-2 images) run here so that the scheduled sessions never handle the OpenAI key.
+# A job is a JSON file pushed to ai/jobs/<stamp>.json (see tools/ai.sh). Results go to branch ai-out under <stamp>/,
+# finished by <stamp>/done.txt (empty = ok, otherwise the error text).
+on:
+  push:
+    branches: [main]
+    paths: ["ai/jobs/**"]
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 30 }
+      - name: Run new jobs
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          which ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }
+          git cat-file -e "$BEFORE" 2>/dev/null || BEFORE=HEAD~1
+          git diff --name-only --diff-filter=A "$BEFORE" HEAD -- ai/jobs/ | grep '\.json$' > /tmp/jobs.txt || true
+          cat /tmp/jobs.txt
+          mkdir -p /tmp/res
+          while read -r j; do
+            s=$(basename "$j" .json); mkdir -p "/tmp/res/$s"
+            if [ -z "$OPENAI_API_KEY" ]; then echo "OPENAI_API_KEY secret is not set in the repo" > "/tmp/res/$s/done.txt"; continue; fi
+            python3 tools/ai_runner.py "$j" "/tmp/res/$s" > "/tmp/res/$s/log.txt" 2>&1 || true
+            [ -f "/tmp/res/$s/done.txt" ] || { tail -c 600 "/tmp/res/$s/log.txt" > "/tmp/res/$s/done.txt"; }
+          done < /tmp/jobs.txt
+      - name: Publish results to ai-out (keep the last 24 h)
+        run: |
+          [ -n "$(ls /tmp/res)" ] || exit 0
+          URL="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          for try in 1 2 3 4 5 6 7 8 9 10; do
+            rm -rf /tmp/o; mkdir /tmp/o; cd /tmp/o; git init -q; git config user.name ai-bot; git config user.email actions@users.noreply.github.com
+            OLD=none
+            if git fetch -q --depth 1 "$URL" ai-out 2>/dev/null; then OLD=$(git rev-parse FETCH_HEAD); git checkout -q FETCH_HEAD -- . ; fi
+            now=$(date +%s); for d in */; do d=${d%/}; t=${d%%_*}; [ -n "$t" ] && [ "$t" -lt $((now-86400)) ] 2>/dev/null && rm -rf "$d"; done
+            cp -r /tmp/res/* .
+            git checkout -q --orphan tmp; git add -A; git commit -qm "ai results"
+            if [ "$OLD" = none ]; then git push -q "$URL" tmp:ai-out && exit 0
+            else git push -q --force-with-lease=ai-out:$OLD "$URL" tmp:ai-out && exit 0; fi
+            cd /; sleep $((5 + RANDOM % 20))
+          done
+          exit 1
