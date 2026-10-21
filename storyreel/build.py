@@ -6,7 +6,8 @@ spec = {
  "title": "short yellow top title (Darija)",
  "pieces": [[start,end], ...],          # ORIGINAL-audio seconds, usually ONE continuous piece
  "scenes": [{"at": orig_seconds, "image": "work/n1.png", "caption": "short Darija"} ...],  # first 'at' = pieces[0][0]
- "music": "music/suspense_1.mp3", "out": "work/reel.mp4"}
+ "music": "music/suspense_1.mp3", "out": "work/reel.mp4",
+ "badge": "PART 3"}                     # optional: yellow badge above the title (series parts)
 Voice is only cut (10 ms fades), never processed. Scene changes snap to the quietest point within 0.12 s."""
 import json, subprocess, numpy as np, base64, os, sys, tempfile
 from PIL import Image, ImageFilter, ImageEnhance
@@ -38,6 +39,7 @@ CSS=f"""@font-face{{font-family:Cairo;src:url('file://{A}Cairo.ttf');font-weight
 *{{margin:0;padding:0;box-sizing:border-box}}html,body{{width:{W}px;height:{H}px;background:transparent;overflow:hidden;position:relative}}
 .t{{position:absolute;top:255px;left:120px;right:150px;text-align:center;direction:rtl;font-family:Cairo;font-weight:900;font-size:58px;color:#FFC426;text-shadow:0 3px 12px rgba(0,0,0,.95),0 0 4px #000}}
 .c{{position:absolute;bottom:300px;left:120px;right:150px;line-height:1.25;text-align:center;direction:rtl;font-family:Cairo;font-weight:900;font-size:70px;color:#fff;text-shadow:0 4px 14px rgba(0,0,0,.95),0 0 4px #000}}
+.pl{{position:absolute;top:226px;left:120px;right:150px;display:flex;justify-content:center}}.pl span{{background:#FFC426;color:#0F0F0F;font-family:Anton;font-size:50px;letter-spacing:3px;padding:4px 30px 8px;border-radius:14px;line-height:1.1;box-shadow:0 4px 14px rgba(0,0,0,.6)}}.bd .t{{top:312px}}
 .gt{{position:absolute;top:0;left:0;right:0;height:520px;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,0))}}.gb{{position:absolute;bottom:0;left:0;right:0;height:760px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.7) 55%)}}"""
 OR,MA,RD,BK='#FFAF32','#890219','#C00000','#0F0F0F'
 CTA=f"""<html><head><meta charset=utf-8><style>{CSS}
@@ -55,7 +57,7 @@ FIT="document.fonts.ready.then(()=>{document.querySelectorAll('.t,.l').forEach(e
 with sync_playwright() as p:
     b=p.chromium.launch(); pg=b.new_page(viewport={'width':W,'height':H})
     for i,s in enumerate(sc):
-        open(wd+'/o.html','w').write(f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body><div class=gt></div><div class=gb></div><div class=t>{S['title']}</div><div class=c>{s['caption']}</div></body></html>")
+        open(wd+'/o.html','w').write(f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body class={'bd' if S.get('badge') else 'n'}><div class=gt></div><div class=gb></div>{('<div class=pl><span>'+S['badge']+'</span></div>') if S.get('badge') else ''}<div class=t>{S['title']}</div><div class=c>{s['caption']}</div></body></html>")
         pg.goto('file://'+wd+'/o.html'); pg.wait_for_timeout(200); pg.evaluate(FIT); pg.wait_for_timeout(150); pg.screenshot(path=f'{wd}/ov{i}.png',omit_background=True)
     open(wd+'/cta.html','w').write(CTA); pg.goto('file://'+wd+'/cta.html'); pg.wait_for_timeout(300); pg.screenshot(path=wd+'/cta.png'); b.close()
 segs=[]
