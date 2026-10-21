@@ -21,5 +21,15 @@ elif J['type']=='images':
     r=subprocess.run(['python3',R+'/storyreel/gen_images.py',f],capture_output=True,text=True)
     errs+=[l for l in r.stdout.splitlines() if ' ERR ' in l]
     if r.returncode: errs.append(r.stderr[-400:])
+elif J['type']=='raw_image':
+    # one image from a full prompt, no reel style added (e.g. YouTube thumbnails)
+    import base64
+    K=os.environ['OPENAI_API_KEY'].strip()
+    b=json.dumps({"model":J.get('model','gpt-image-2'),"prompt":J['prompt'],"size":J.get('size','1536x1024'),"quality":J.get('quality','high'),"n":1}).encode()
+    try:
+        q=urllib.request.Request("https://api.openai.com/v1/images/generations",data=b,headers={"Authorization":"Bearer "+K,"Content-Type":"application/json"})
+        r=json.load(urllib.request.urlopen(q,timeout=400)); open(O+'/'+J.get('name','image.png'),'wb').write(base64.b64decode(r['data'][0]['b64_json']))
+    except urllib.error.HTTPError as e: errs.append('ERR '+e.read().decode()[:300].replace(K,'[key]'))
+    except Exception as e: errs.append('ERR '+str(e).replace(K,'[key]'))
 else: errs.append('unknown job type')
 open(O+'/done.txt','w').write('\n'.join(errs))
