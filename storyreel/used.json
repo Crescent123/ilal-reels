@@ -391,9 +391,8 @@
  },
  "krbbC4lEag8": {
   "date": "2026-10-20",
-  "status": "series",
-  "at": "2026-10-20T06:12:46.368967Z",
-  "note": "whole-story Part 1..N test (manual)"
+  "queued": "series part01-part12 (1792563328..39)",
+  "note": "whole-story series test"
  },
  "aJayi1RC7fU": {
   "date": "2026-10-20",
