@@ -20,6 +20,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           BEFORE: ${{ github.event.before }}
         run: |
+          export OPENAI_API_KEY="$(printf '%s' "$OPENAI_API_KEY" | tr -d '\r\n\t ')"
           which ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }
           git cat-file -e "$BEFORE" 2>/dev/null || BEFORE=HEAD~1
           git diff --name-only --diff-filter=A "$BEFORE" HEAD -- ai/jobs/ | grep '\.json$' > /tmp/jobs.txt || true
@@ -30,6 +31,8 @@ jobs:
             if [ -z "$OPENAI_API_KEY" ]; then echo "OPENAI_API_KEY secret is not set in the repo" > "/tmp/res/$s/done.txt"; continue; fi
             python3 tools/ai_runner.py "$j" "/tmp/res/$s" > "/tmp/res/$s/log.txt" 2>&1 || true
             [ -f "/tmp/res/$s/done.txt" ] || { tail -c 600 "/tmp/res/$s/log.txt" > "/tmp/res/$s/done.txt"; }
+            # scrub: never let the key (or any sk- token / Bearer header) reach the public branch
+            for f in "/tmp/res/$s"/*.txt; do sed -i -E 's/sk-[A-Za-z0-9_-]{8,}/[key]/g; s/Bearer [^ '"'"'"]+/Bearer [key]/g' "$f"; done
           done < /tmp/jobs.txt
       - name: Publish results to ai-out (keep the last 24 h)
         run: |

@@ -1,7 +1,7 @@
 """python3 storyreel/gen_images.py scenes.json   (needs OPENAI_API_KEY)
 scenes.json = {"chars": {"M": "...outfit description...", ...}, "scenes": [{"out":"work/n1.png","chars":["M"],"scene":"..."}]}"""
 import json, base64, sys, os, urllib.request, concurrent.futures as cf
-KEY=os.environ['OPENAI_API_KEY']
+KEY=os.environ['OPENAI_API_KEY'].strip()
 STY=("2D cartoon illustration in a clean webcomic style: thick black outlines, flat colors with soft shading, a detailed painted muted realistic background. "
      "All people are simple stick-style characters with a big round plain BALD WHITE head (no hair, no ears), two black dot eyes, a simple line mouth, a thin white neck, round white mitten hands, normal clothes on a slim body. ")
 D=json.load(open(sys.argv[1])); CH=D['chars']
@@ -14,6 +14,6 @@ def gen(j):
             r=json.load(urllib.request.urlopen(req,timeout=400)); open(j['out'],'wb').write(base64.b64decode(r['data'][0]['b64_json'])); return j['out'],'ok'
         except urllib.error.HTTPError as e: err=e.read().decode()[:300]
         except Exception as e: err=str(e)
-    return j['out'],'ERR '+err
+    return j['out'],'ERR '+err.replace(KEY,'[key]')
 with cf.ThreadPoolExecutor(10) as ex:
     for res in ex.map(gen,D['scenes']): print(*res)
