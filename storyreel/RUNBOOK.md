@@ -3,10 +3,11 @@
 Goal per run: turn ONE new story from the Drive folder "Stories audio" into a 30–50 s vertical 2D reel in Hilal's own
 voice and ADD IT TO THE SHARED TRIAL QUEUE (branch "trial-queue"). Several story makers run in parallel; the poster task
 publishes the queue as MANUAL Trial Reels with NO caption, as many as Instagram allows. Story makers never publish.
-Daily target (Hilal): about 40–50 reels made per day in total. Before starting, count the entries in storyreel/used.json
-whose "date" is today (America/Toronto date) — reserved ones included. If that is 45 or more, stop: today's target is
-reached. Otherwise always make one, however many reels are already waiting in the queue. Only the poster is limited by
-Instagram.
+Daily target (Hilal, 21 Oct): about 15 reels made per day in total (Instagram only lets ~10–15 trial reels a day through).
+While Instagram posting is paused (pause marker title "paused until <time>" with that time in the future), the target is
+10 per day. Before starting, read the pause marker (Google Drive get_file_metadata) and count the entries in
+storyreel/used.json whose "date" is today (America/Toronto date) — reserved ones included. If the count is at or above
+today's target (15, or 10 while paused), stop: today's target is reached. Otherwise make one.
 
 ## IDs
 - Drive "Stories audio" folder: 1hPvjdeaN20sSWffO9aWRsN53lnWtJGCt (shared by link). Files are named "<YouTubeID> - <title>.m4a".
@@ -20,7 +21,7 @@ Instagram.
 - Used-story log: storyreel/used.json in this repo (video_id → {date, queued|permalink}). Push it after every reel.
 
 ## Steps
-1. (Instagram pauses never stop story makers: always keep filling the queue.)
+1. (An Instagram pause does not stop story makers; it only lowers today's target to 10.)
 2. List the "Stories audio" folder (page through everything). Ignore .webm/.part and non-audio files. Pick the
    NEWEST-uploaded story whose YouTube ID is not in used.json. Skip anything that is not a storytime (titles with
    podcast, Bad advice, vlog, حلويات, tests of food, Q&A).
