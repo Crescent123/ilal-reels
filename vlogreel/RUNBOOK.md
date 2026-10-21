@@ -17,8 +17,8 @@ vlogreel/example_budapest_spec.json.
 - Log of used moments: vlogreel/used.json  {driveFileId: [{title, clip:[start,end], date, permalink}]}.
 - Per-vlog cache in the repo: vlogreel/cache/<driveFileId>/ (tr.json, tr_segments.txt, *_sheet_*.jpg), made once at ingest.
 - Per-vlog 1080p master: GitHub release "src-<driveFileId>" (made once at ingest; clips are cut from it).
-- OpenAI key (only for Whisper): private Drive file 1Wdl0gkAK6qjvUhuhIGQwOblE67YAlbTR (download_file_content, base64-
-  decode, export OPENAI_API_KEY). Never print it, never write it into the repo.
+- Whisper runs in GitHub Actions through `tools/ai.sh` (the OpenAI key is a GitHub repo secret). NEVER download, read,
+  print or export the OpenAI key in this session.
 
 ## How the big files are reached (IMPORTANT — Google Drive has a download quota per file)
 The vlogs are 4–13 GB 4K files and this workspace cannot reach Drive, so GitHub Actions (.github/workflows/vlog.yml)
@@ -40,7 +40,7 @@ ingested vlog, and try the ingest again on a later run (the quota resets within 
    last element of its list in used.json. If every public vlog is finished, stop (nothing left).
    List ALL remaining good moments of the vlog first, then cut them in batches of ~5 `cut` lines per job.
 3. If the chosen vlog has no release "src-<id>" yet: run `ingest <id> <tag>` (only once per run), transcribe with
-   `bash storyreel/transcribe.sh work/<tag>.m4a work/tr.json`, copy tr.json, tr_segments.txt and the sheets into
+   `bash tools/ai.sh transcribe https://raw.githubusercontent.com/Crescent123/ilal-reels/vlog-cache/<tag>.m4a work`, copy tr.json, tr_segments.txt and the sheets into
    vlogreel/cache/<id>/ and commit. If the cache already exists, just use it.
 4. CHOOSE THE MOMENT (most important). Read tr_segments.txt (Whisper often turns Darija into MSA; read for meaning)
    and look at the contact sheets. Good moments: an opinion / hot take / comparison, a reaction, a funny exchange,
@@ -51,7 +51,7 @@ ingested vlog, and try the ingest again on a later run (the quota resets within 
      long silent b-roll, and anything private (documents, addresses, kids' faces up close).
    - Use word timestamps in tr.json for exact start/end.
 5. `cut <id> <tag> <start-6> <end+6>` (a margin on each side; cut from the release master). In the downloaded clip the moment starts at 6.0 s
-   (adjust if the margin was clipped at 0). Re-transcribe [start,end] of the clip to confirm first/last words.
+   (adjust if the margin was clipped at 0). Use the word timestamps in tr.json to confirm the first/last words.
 6. Face positions: make strips of the moment, 1 frame/s with a grid (ffmpeg fps=1,scale=384:-2,drawgrid=w=96 …,
    tile=5x3). Each grid column = 480 source px. Write down for every second where the speaking face(s) are.
    - Two people side by side (faces > ~700 px apart) for several seconds → a "split" window
