@@ -59,6 +59,20 @@ today's target (15, or 10 while paused), stop: today's target is reached. Otherw
 11. Queue it: `bash tools/queue_add.sh work/reel.mp4 story_<youtube_id>` (keep the file under ~45 MB). Do NOT publish.
 12. Replace your reservation in storyreel/used.json with {"date": ..., "queued": "<queued file name>"}, commit and push.
 
+## What goes viral (from 65 story reels, 16–21 Oct; views track watch % (r=0.66) and skip rate (r=-0.65), not length)
+Winners (40K–433K views, 50–67 % watched, skip ≤30 %): "شنو كان كيدير الفقيه؟", "هاكا فيسبوك ديال جارتو",
+"بيكالا غيرات ليا حياتي", "خطة المدير ضد البرهوش", "ليفرور البيتزا طاح فالحب", "الميكانيكي وبنت المعلم", "ماما كتخبي عليا شي حاجة".
+Losers (1–2K views, 20–30 % watched, skip 45–54 %): "ليلة فطنجة", "ليلة سودا فالبرازيل", "تعرف على بنت فالقسم", "ماماه مرضات",
+"جمعات الباليزة ورجعات للدار", "عرضة غريبة فدار الوكيل", stories set abroad (Brazil, Bahamas, America).
+So, BEFORE claiming a story, judge whether it can carry a winning hook; skip stories that can't (just pick the next one):
+- The title names a SPECIFIC familiar Moroccan role (الفقيه، الجارة، المدير، الميكانيكي، ليفرور، مول الحانوت، الأستاذ، ماما/بابا، البوليسي)
+  plus a forbidden / secret / scandal / "what was he doing?" angle. A question is best. Never a vague "a night in X".
+- Moroccan settings beat stories abroad.
+- The FIRST image (first 2 s) shows two characters in open tension or a shocking situation, not one person on a phone or a
+  bed. The first caption states the conflict ("الفقيه جا عند مو"), not background.
+- Start the clip at the most intriguing sentence, not at the setup; length 40–50 s; end on the cliffhanger.
+- Series test (12 parts of 60–83 s, 22 Oct): 16–30 % watched — don't make long multi-part series.
+
 ## Style rules (from Hilal)
 - Voice: never EQ/denoise/compress/speed-change. Only cut. build.py already does this.
 - Image changes only in pauses (build.py snaps to the quietest point). Slow gentle zoom only, plain cuts.
