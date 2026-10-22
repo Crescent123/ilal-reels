@@ -118,3 +118,4 @@
 {"t": "2026-10-21T13:07:45Z", "src": "story", "event": "error", "permalink": "", "note": "manual health check: publish inconclusive Meta code 2 (transient) on 1792343090_story_YP5_FP3l7jA"}
 {"t": "2026-10-21T13:30:40Z", "src": "story", "event": "error", "permalink": "", "note": "publish inconclusive Meta code 2 (transient) on 1792343090_story_YP5_FP3l7jA; not on profile; skipped"}
 {"t": "2026-10-21T13:32:29Z", "src": "story", "event": "error", "permalink": "", "note": "publish inconclusive Meta code 2 (transient) on 1792344007_story_3KirXpEoG2s; not on profile; 2nd same failure in a row, run stopped"}
+{"t": "2026-10-22T14:34:20Z", "src": "story", "event": "posted", "permalink": "https://www.instagram.com/reel/DezNPb5gOvK/"}
