@@ -13,7 +13,9 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 1. Read the marker title (Google Drive get_file_metadata). If paused and that time is in the future, stop.
 2. Build the list: Drive folder video files (search parentId = folder, not trashed; ignore non-video files) with their
    createdTime, plus queue B items with time = the unix prefix. Sort oldest first. Nothing → stop.
-3. Post at most 6 items this run. Between two posts wait a random 4–9 minutes (sleep in chunks ≤ 9 min).
+3. PACING (Instagram blocks the account when too many go out at once: 21 Oct after a burst, 22 Oct after 12 posts in
+   2 h). Count "posted" lines in tools/post_log.jsonl from the last 24 h: if 12 or more, stop (daily cap). Otherwise post
+   at most 1 item this run (the poster runs every hour, so posts spread over the day).
    For a Drive item:
      a. vidiq_video_upload(url="https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t").
      b. Cover fix (prevents black covers): `URL=$(bash tools/fix_and_host.sh "<videoUrl from a>" "<short name>")`,
@@ -29,7 +31,8 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    "reels-trial-state: paused until <now + 3 h, ISO>" and stop (leave the item where it is).
    Any other error on an item: skip that item this run (leave it), continue with the next — and log it (see Post log,
    event "error" with the first ~150 characters of the message in "note"). If 2 items in a row fail the same way, stop the
-   run (Instagram is refusing posts) instead of trying the rest.
+   run (Instagram is refusing posts) instead of trying the rest, AND treat it as a block: rename the marker to
+   "reels-trial-state: paused until <now + 20 h, ISO>".
 5. If the run published at least one reel and the marker said paused (time passed), rename it back to
    "reels-trial-state: active".
 6. End with one line: how many posted from Drive, how many from the vlog queue, how many still waiting.
