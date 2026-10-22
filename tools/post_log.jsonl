@@ -133,3 +133,4 @@
 {"t": "2026-10-22T16:41:19Z", "src": "story", "event": "error", "permalink": "", "note": "1792563334_story_krbbC4lEag8_part07: publish inconclusive (Meta code 2, transient), container 18638688475055538 never PUBLISHED"}
 {"t": "2026-10-22T16:52:04Z", "src": "story", "event": "error", "permalink": "", "note": "1792563335_story_krbbC4lEag8_part08: publish inconclusive (Meta code 2, transient), container 18638691847055538 never PUBLISHED; 2nd in a row, run stopped"}
 {"t": "2026-10-22T17:29:30Z", "src": "story", "event": "error", "permalink": "", "note": "1792563334_story_krbbC4lEag8_part07: publish inconclusive (Meta code 2, transient), container 18638700817055538 never PUBLISHED (3rd attempt across runs)"}
+{"t": "2026-10-22T17:37:19Z", "src": "story", "event": "error", "permalink": "", "note": "1792563335_story_krbbC4lEag8_part08: publish inconclusive (Meta code 2, transient), container 18638703631055538 never PUBLISHED; 2nd in a row, run stopped"}
