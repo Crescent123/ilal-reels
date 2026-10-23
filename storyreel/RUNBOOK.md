@@ -41,6 +41,9 @@ today's target (15, or 10 while paused), stop: today's target is reached. Otherw
    - End on a cliffhanger right before a reveal. Never reveal the ending/twist.
    - Prefer the middle-to-late build-up (the discovery, the trap, the betrayal setting up), not the channel intro.
    - Use the word timestamps in work/tr.json to set start/end just before the first word and just after the last word.
+5b. VIRALITY GATE (Hilal: only make what has viral potential, otherwise skip). Before spending anything on images,
+   write the planned title + first caption + first scene and score them 1–10 with the rubric in step 10b. If it can't
+   reach 7, skip the story now: mark it in used.json as {"date": ..., "skip": "weak hook"}, push, and stop (no images).
 6. Check the cut with the word timestamps in work/tr.json: start just before the first word and end just after the
    last word of a complete sentence (build.py snaps to the quietest point within 0.12 s). No re-transcription needed.
 7. Plan 7–9 scenes, one per phrase, each ≥2.5 s. For each: "at" = original-audio time where the scene starts
