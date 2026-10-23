@@ -621,7 +621,6 @@
  },
  "9SqtcPOMWFQ": {
   "date": "2026-10-23",
-  "status": "reserved",
-  "at": "2026-10-23T13:26:14Z"
+  "skip": "weak hook"
  }
 }
