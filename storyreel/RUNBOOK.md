@@ -56,7 +56,13 @@ today's target (15, or 10 while paused), stop: today's target is reached. Otherw
     "title":<short hook, ≤6 words, Darija>,"pieces":[[start,end]],"scenes":[...],"music":"music/suspense_<1-4>.mp3"
     (rotate),"out":"work/reel.mp4"}
 10. Check: grab frames at several times and look at them (text not clipped, no text over faces, end slide fine).
-11. Queue it: `bash tools/queue_add.sh work/reel.mp4 story_<youtube_id>` (keep the file under ~45 MB). Do NOT publish.
+10b. SCORE THE HOOK honestly 1–10 with the "What goes viral" rules: 9–10 = familiar Moroccan role + forbidden/secret
+   question + two people in open tension in the first frame (e.g. "المدير شدني مع بنتو؟"); 7–8 = strong question or scandal
+   with a clear conflict (e.g. "شنو لقا فتليفون مراتو؟", "صاحبي بغا يقتلني فالليل"); 4–6 = intriguing but vague, or one
+   person alone in the first frame; 1–3 = vague ("الليلة اللي قلبات حياتي"), routine, or set abroad. If below 7, improve
+   the title / first scene (one rebuild max); if the story itself can't reach 7, don't queue it: mark it in used.json as
+   {"date": ..., "skip": "weak hook"} and stop (the poster only posts 7+).
+11. Queue it: `bash tools/queue_add.sh work/reel.mp4 story_s<score>_<youtube_id>` (e.g. story_s8_abc123) (keep the file under ~45 MB). Do NOT publish.
 12. Replace your reservation in storyreel/used.json with {"date": ..., "queued": "<queued file name>"}, commit and push.
 
 ## What goes viral (from 65 story reels, 16–21 Oct; views track watch % (r=0.66) and skip rate (r=-0.65), not length)

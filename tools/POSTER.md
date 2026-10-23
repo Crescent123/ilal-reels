@@ -11,8 +11,13 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 
 ## Steps
 1. Read the marker title (Google Drive get_file_metadata). If paused and that time is in the future, stop.
-2. Build the list: Drive folder video files (search parentId = folder, not trashed; ignore non-video files) with their
-   createdTime, plus queue B items with time = the unix prefix. Sort oldest first. Nothing → stop.
+2. QUALITY FIRST (Hilal, 23 Oct: post only the reels most likely to go viral; Instagram allows ~12/day).
+   Each queue B item has a hook score 1–10: from tools/queue_scores.json ("scores"[file]) or from its file name
+   ("..._s8_..." = 8); no score = 5. Drive folder items (Hilal's own videos, e.g. "As2ila b3qlha" Q&A) are always
+   score 10. Only items scoring 7+ may be posted; lower ones stay in the queue as reserve (never delete them).
+   Pick the HIGHEST score first; ties → oldest first. If nothing scores 7+, post nothing this run.
+   Build the list: Drive folder video files (search parentId = folder, not trashed; ignore non-video files) with their
+   createdTime, plus queue B items with time = the unix prefix. Order by score (above), then age. Nothing eligible → stop.
 3. PACING (Instagram blocks the account when too many go out at once: 21 Oct after a burst, 22 Oct after 12 posts in
    2 h). Count "posted" lines in tools/post_log.jsonl from the last 24 h: if 12 or more, stop (daily cap). Otherwise post
    at most 1 item this run (the poster runs every hour, so posts spread over the day).
