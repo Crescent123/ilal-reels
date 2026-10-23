@@ -6,7 +6,7 @@ publishes the queue as MANUAL Trial Reels with NO caption, as many as Instagram 
 Daily target (Hilal, 21 Oct): about 15 reels made per day in total (Instagram only lets ~10–15 trial reels a day through).
 While Instagram posting is paused (pause marker title "paused until <time>" with that time in the future), the target is
 10 per day. Before starting, read the pause marker (Google Drive get_file_metadata) and count the entries in
-storyreel/used.json whose "date" is today (America/Toronto date) — reserved ones included. If the count is at or above
+storyreel/used.json whose "date" is today (America/Toronto date) — reserved ones included, "skip" ones NOT counted. If the count is at or above
 today's target (15, or 10 while paused), stop: today's target is reached. Otherwise make one.
 
 ## IDs
