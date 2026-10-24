@@ -4,7 +4,7 @@
 set -e; F="$1"; NAME=$(echo "${2:-reel}" | tr -cd 'A-Za-z0-9_-' | cut -c1-40); REPO=$(cd "$(dirname "$0")/.." && pwd)
 ORIGIN=$(git -C "$REPO" remote get-url origin); N="$(date +%s)_${NAME}.mp4"
 for try in 1 2 3 4 5 6 7 8; do
-  W=$(mktemp -d); cd "$W"
+  W=$(mktemp -d); TMPS="$TMPS $W"; trap 'cd /; rm -rf $TMPS' EXIT; cd "$W"
   if git clone -q --depth 1 --branch trial-queue "$ORIGIN" q 2>/dev/null; then cd q; else mkdir q; cd q; git init -q; git remote add origin "$ORIGIN"; fi
   OLD=$(git rev-parse --verify -q HEAD 2>/dev/null || echo none)
   cp "$F" "$N"; git checkout -q --orphan tmp; git add -A
