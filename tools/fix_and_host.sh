@@ -3,7 +3,7 @@
 # downloads the video, prepends a bright mid-video frame as the cover, force-pushes it to the orphan
 # branch "queue" and prints the public raw URL.
 set -e
-URL="$1"; NAME="${2:-reel}"; W=$(mktemp -d); REPO=$(cd "$(dirname "$0")/.." && pwd)
+URL="$1"; NAME="${2:-reel}"; W=$(mktemp -d); trap 'rm -rf "$W"' EXIT; REPO=$(cd "$(dirname "$0")/.." && pwd)
 curl -sfL -o "$W/in.mp4" "$URL"
 bash "$REPO/tools/cover_fix.sh" "$W/in.mp4" "$W/out.mp4" >&2
 mkdir "$W/q"; cd "$W/q"; git init -q; git checkout -q --orphan queue

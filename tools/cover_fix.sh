@@ -1,7 +1,7 @@
 #!/bin/bash
 # usage: cover_fix.sh in.mp4 out.mp4  -> prepends the best mid-video frame (1 frame) so Instagram's default cover isn't black
 set -e
-IN="$1"; OUT="$2"; W=$(mktemp -d)
+IN="$1"; OUT="$2"; W=$(mktemp -d); trap 'rm -rf "$W"' EXIT
 D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$IN")
 FPS=$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "$IN")
 best=""; bestv=-1
