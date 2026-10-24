@@ -652,7 +652,6 @@
  },
  "BnfQCSRPRMI": {
   "date": "2026-10-24",
-  "status": "reserved",
-  "at": "2026-10-24T05:01:27Z"
+  "skip": "weak hook"
  }
 }
