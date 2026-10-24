@@ -19,7 +19,7 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    Build the list: Drive folder video files (search parentId = folder, not trashed; ignore non-video files) with their
    createdTime, plus queue B items with time = the unix prefix. Order by score (above), then age. Nothing eligible → stop.
 3. PACING (Instagram blocks the account when too many go out at once: 21 Oct after a burst, 22 Oct after 12 posts in
-   2 h). Count "posted" lines in tools/post_log.jsonl from the last 24 h: if 12 or more, stop (daily cap). Otherwise post
+   2 h). Count "posted" lines in tools/post_log.jsonl from the last 24 h: if 8 or more, stop (daily cap; lowered 24 Oct after a block at ~11 posts in 24 h). Otherwise post
    at most 1 item this run (the poster runs every hour, so posts spread over the day).
    For a Drive item:
      a. vidiq_video_upload(url="https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t").
