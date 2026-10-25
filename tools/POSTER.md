@@ -10,6 +10,13 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 "reels-trial-state: paused until <ISO time>".
 
 ## Steps
+0. HUMAN TIMING (Hilal, 24 Oct: "post like I would in my waking hours, randomly"). Get the Toronto time
+   (TZ=America/Toronto date). Post only between 10:00 and 00:59 Toronto; outside that window stop right away (no post,
+   nothing logged). Inside it, decide randomly whether this run posts: roll a number 1–100 (`echo $((RANDOM%100+1))`)
+   and post only if it is ≤ 70 (≈10 posts spread over the 15 waking hours, never on a fixed rhythm) — exception: if
+   fewer posts than (hours since 10:00 Toronto ÷ 1.6) have gone out today, post anyway so the day still reaches ~10.
+   When posting, first wait a random 0–30 minutes (`sleep` in chunks ≤ 9 min) so posts don't land at the same
+   minute every hour.
 1. Read the marker title (Google Drive get_file_metadata). If paused and that time is in the future, stop.
 2. QUALITY FIRST (Hilal, 23 Oct: post only the reels most likely to go viral; Instagram allows ~12/day).
    Each queue B item has a hook score 1–10: from tools/queue_scores.json ("scores"[file]) or from its file name
