@@ -153,3 +153,4 @@
 {"t": "2026-10-24T20:29:11Z", "src": "drive", "event": "posted", "permalink": "https://www.instagram.com/reel/De4_c2MEQ5d/"}
 {"t": "2026-10-24T21:32:58Z", "src": "drive", "event": "error", "permalink": "", "note": "E44CE1FC.mov container 18639444883055538: Instagram publish response inconclusive (Meta code 2, transient=true); not on profile after ~3 min, file kept"}
 {"t": "2026-10-24T22:31:39Z", "src": "drive", "event": "error", "permalink": "", "note": "81F181B9.mov container 18639458155055538: Instagram publish response inconclusive (Meta code 2, transient=true); 2nd in a row, paused 20h, file kept"}
+{"t": "2026-10-25T18:33:42Z", "src": "drive", "event": "posted", "permalink": "https://www.instagram.com/reel/De7XB1fFFbh/"}
