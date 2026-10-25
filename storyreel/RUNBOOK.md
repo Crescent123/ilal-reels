@@ -3,11 +3,11 @@
 Goal per run: turn ONE new story from the Drive folder "Stories audio" into a 30–50 s vertical 2D reel in Hilal's own
 voice and ADD IT TO THE SHARED TRIAL QUEUE (branch "trial-queue"). Several story makers run in parallel; the poster task
 publishes the queue as MANUAL Trial Reels with NO caption, as many as Instagram allows. Story makers never publish.
-Daily target (Hilal, 21 Oct): about 15 reels made per day in total (Instagram only lets ~10–15 trial reels a day through).
+Daily target (Hilal, 24 Oct): about 10 reels made per day in total (Instagram lets ~10 trial reels a day through).
 While Instagram posting is paused (pause marker title "paused until <time>" with that time in the future), the target is
-10 per day. Before starting, read the pause marker (Google Drive get_file_metadata) and count the entries in
+6 per day. Before starting, read the pause marker (Google Drive get_file_metadata) and count the entries in
 storyreel/used.json whose "date" is today (America/Toronto date) — reserved ones included, "skip" ones NOT counted. If the count is at or above
-today's target (15, or 10 while paused), stop: today's target is reached. Otherwise make one.
+today's target (10, or 6 while paused), stop: today's target is reached. Otherwise make one.
 
 ## IDs
 - Drive "Stories audio" folder: 1hPvjdeaN20sSWffO9aWRsN53lnWtJGCt (shared by link). Files are named "<YouTubeID> - <title>.m4a".
