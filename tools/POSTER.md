@@ -14,7 +14,7 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    (TZ=America/Toronto date). Post only between 10:00 and 00:59 Toronto; outside that window stop right away (no post,
    nothing logged). Inside it, decide randomly whether this run posts: roll a number 1–100 (`echo $((RANDOM%100+1))`)
    and post only if it is ≤ 50 (≈7 posts spread over the 15 waking hours, never on a fixed rhythm) — exception: if
-   fewer posts than (hours since 10:00 Toronto ÷ 2.2) have gone out today, post anyway so the day still reaches ~10.
+   fewer posts than (hours since 10:00 Toronto ÷ 2.2) have gone out today, post anyway so the day still reaches ~7.
    When posting, first wait a random 0–30 minutes (`sleep` in chunks ≤ 9 min) so posts don't land at the same
    minute every hour.
 1. Read the marker title (Google Drive get_file_metadata). If paused and that time is in the future, stop.
