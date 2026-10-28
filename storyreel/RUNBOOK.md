@@ -80,6 +80,11 @@ So, BEFORE claiming a story, judge whether it can carry a winning hook; skip sto
 - The FIRST image (first 2 s) shows two characters in open tension or a shocking situation, not one person on a phone or a
   bed. The first caption states the conflict ("الفقيه جا عند مو"), not background.
 - Start the clip at the most intriguing sentence, not at the setup; length 40–50 s; end on the cliffhanger.
+- Update 28 Oct (18 filtered reels): the hits are FUNNY / awkward taboo situations ("دار راسو مثلي وسط البنات" 158K,
+  "المدير شدني مع بنتو؟" 27K, "شنو وقع مع صاحب خوها؟" 24K). Dark hooks about violence, crime or death flopped every time
+  ("يوتوبر لقا صاحبتو مقتولة", "صاحبي بغا يقتلني فالليل", "خطيبتي ضربتني بالركبة", "صاحب الجارة دق عليها فالليل": 1.4–2K).
+  So score violence / murder / crime / beating hooks at most 6 (skip them); prefer embarrassing, cheeky or romantic-scandal
+  situations with a comic first image.
 - Series test (12 parts of 60–83 s, 22 Oct): 16–30 % watched — don't make long multi-part series.
 
 ## Style rules (from Hilal)
