@@ -18,10 +18,16 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    current cap lives in tools/post_cap.json ("cap"). On the FIRST run of each Toronto day (no "history" entry for
    yesterday yet): count yesterday's (Toronto date) "posted" and "error" lines in post_log.jsonl and append
    {"day": yesterday, "cap": cap, "posted": n, "block": true|false} to "history". Then:
-   - if yesterday had a block (2 failures in a row / 20 h pause): cap = max(4, cap - 1) and "hold_until" = today + 2 days
+   - if yesterday had a block (2 failures in a row / block pause): cap = max(4, cap - 1) and "hold_until" = today + 2 days
      (no probing while holding);
    - else if yesterday reached the cap (posted >= cap), had no errors, and today is past "hold_until": cap = cap + 1;
    - otherwise keep the cap.
+   BLOCK PAUSE LENGTH ("pause_hours" in post_cap.json, start 20; Hilal 30 Oct: shrink it by 2 h each time it works):
+   - if the most recent block before yesterday was followed by a clean day (yesterday: no block, posted >= cap) and
+     "pause_tested" is not already true for that block: pause_hours = max(2, pause_hours - 2), set "pause_tested": true;
+   - if a block happens within 3 posts after a pause ended (the pause was too short): pause_hours = pause_hours + 2
+     and keep it there ("pause_floor" = that value; never shrink below it again).
+   A new block resets "pause_tested" to false.
    Commit/push tools/post_cap.json. Use this cap everywhere below instead of a fixed number.
 1. Read the marker title (Google Drive get_file_metadata). If paused and that time is in the future, stop.
 2. QUALITY FIRST (Hilal, 23 Oct: post only the reels most likely to go viral; Instagram allows ~12/day).
@@ -52,7 +58,7 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    Any other error on an item: skip that item this run (leave it), continue with the next — and log it (see Post log,
    event "error" with the first ~150 characters of the message in "note"). If 2 items in a row fail the same way, stop the
    run (Instagram is refusing posts) instead of trying the rest, AND treat it as a block: rename the marker to
-   "reels-trial-state: paused until <now + 20 h, ISO>".
+   "reels-trial-state: paused until <now + pause_hours (tools/post_cap.json, default 20) h, ISO>".
 5. If the run published at least one reel and the marker said paused (time passed), rename it back to
    "reels-trial-state: active".
 6. End with one line: how many posted from Drive, how many from the vlog queue, how many still waiting.
