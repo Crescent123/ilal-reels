@@ -13,10 +13,19 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 0. HUMAN TIMING (Hilal, 24 Oct: "post like I would in my waking hours, randomly"). Get the Toronto time
    (TZ=America/Toronto date). Post only between 10:00 and 00:59 Toronto; outside that window stop right away (no post,
    nothing logged). Inside it, decide randomly whether this run posts: roll a number 1–100 (`echo $((RANDOM%100+1))`)
-   and post only if it is ≤ 50 (≈7 posts spread over the 15 waking hours, never on a fixed rhythm) — exception: if
-   fewer posts than (hours since 10:00 Toronto ÷ 2.2) have gone out today, post anyway so the day still reaches ~7.
+   and post only if it is ≤ (cap × 7), max 100 (≈cap posts spread over the 15 waking hours, never on a fixed rhythm) — exception: if
+   fewer posts than (hours since 10:00 Toronto × cap ÷ 15) have gone out today, post anyway so the day still reaches the cap.
    When posting, first wait a random 0–30 minutes (`sleep` in chunks ≤ 9 min) so posts don't land at the same
    minute every hour.
+0a. DAILY CAP RAMP (Hilal, 30 Oct: "6 posts with no problem → next day try 7, keep going until stopped, then go back"). The
+   current cap lives in tools/post_cap.json ("cap"). On the FIRST run of each Toronto day (no "history" entry for
+   yesterday yet): count yesterday's (Toronto date) "posted" and "error" lines in post_log.jsonl and append
+   {"day": yesterday, "cap": cap, "posted": n, "block": true|false} to "history". Then:
+   - if yesterday had a block (2 failures in a row / 20 h pause): cap = max(4, cap - 1) and "hold_until" = today + 2 days
+     (no probing while holding);
+   - else if yesterday reached the cap (posted >= cap), had no errors, and today is past "hold_until": cap = cap + 1;
+   - otherwise keep the cap.
+   Commit/push tools/post_cap.json. Use this cap everywhere below instead of a fixed number.
 1. Read the marker title (Google Drive get_file_metadata). If paused and that time is in the future, stop.
 2. QUALITY FIRST (Hilal, 23 Oct: post only the reels most likely to go viral; Instagram allows ~12/day).
    Each queue B item has a hook score 1–10: from tools/queue_scores.json ("scores"[file]) or from its file name
@@ -26,7 +35,7 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    Build the list: Drive folder video files (search parentId = folder, not trashed; ignore non-video files) with their
    createdTime, plus queue B items with time = the unix prefix. Order by score (above), then age. Nothing eligible → stop.
 3. PACING (Instagram blocks the account when too many go out at once: 21 Oct after a burst, 22 Oct after 12 posts in
-   2 h). Count "posted" lines in tools/post_log.jsonl from the last 24 h: if 7 or more, stop (daily cap; Instagram blocked at ~11/24 h on 24 Oct and at 9 posts in 8.5 h on 26 Oct). Also stop if the last post was less than 90 minutes ago. Otherwise post
+   2 h). Count "posted" lines in tools/post_log.jsonl from the last 24 h: if cap or more (tools/post_cap.json), stop (daily cap; Instagram blocked at ~11/24 h on 24 Oct and at 9 posts in 8.5 h on 26 Oct). Also stop if the last post was less than 90 minutes ago. Otherwise post
    at most 1 item this run (the poster runs every hour, so posts spread over the day).
    For a Drive item:
      a. vidiq_video_upload(url="https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t").
