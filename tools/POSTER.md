@@ -10,13 +10,10 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 "reels-trial-state: paused until <ISO time>".
 
 ## Steps
-0. HUMAN TIMING (Hilal, 24 Oct: "post like I would in my waking hours, randomly"). Get the Toronto time
-   (TZ=America/Toronto date). Post only between 10:00 and 00:59 Toronto; outside that window stop right away (no post,
-   nothing logged). Inside it, decide randomly whether this run posts: roll a number 1–100 (`echo $((RANDOM%100+1))`)
-   and post only if it is ≤ (cap × 7), max 100 (≈cap posts spread over the 15 waking hours, never on a fixed rhythm) — exception: if
-   fewer posts than (hours since 10:00 Toronto × cap ÷ 15) have gone out today, post anyway so the day still reaches the cap.
-   When posting, first wait a random 0–30 minutes (`sleep` in chunks ≤ 9 min) so posts don't land at the same
-   minute every hour.
+0. BURST TIMING (Hilal, 30 Oct: "post one after the other until the limit; maybe the limit is a number, not timing"
+   — and a block hit early in the day ends sooner). Get the Toronto time (TZ=America/Toronto date). Post only between
+   10:00 and 00:59 Toronto; outside that window stop right away (no post, nothing logged). No random skip, no random wait:
+   every run inside the window posts until today's cap is reached (step 3).
 0a. DAILY CAP RAMP (Hilal, 30 Oct: "6 posts with no problem → next day try 7, keep going until stopped, then go back"). The
    current cap lives in tools/post_cap.json ("cap"). On the FIRST run of each Toronto day (no "history" entry for
    yesterday yet): count yesterday's (Toronto date) "posted" and "error" lines in post_log.jsonl and append
@@ -35,8 +32,10 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    Build the list: Drive folder video files (search parentId = folder, not trashed; ignore non-video files) with their
    createdTime, plus queue B items with time = the unix prefix. Order by score (above), then age. Nothing eligible → stop.
 3. PACING (Instagram blocks the account when too many go out at once: 21 Oct after a burst, 22 Oct after 12 posts in
-   2 h). Count "posted" lines in tools/post_log.jsonl from the last 24 h: if cap or more (tools/post_cap.json), stop (daily cap; Instagram blocked at ~11/24 h on 24 Oct and at 9 posts in 8.5 h on 26 Oct). Also stop if the last post was less than 90 minutes ago. Otherwise post
-   at most 1 item this run (the poster runs every hour, so posts spread over the day).
+   2 h). Count "posted" lines in tools/post_log.jsonl from TODAY (Toronto date): if cap or more (tools/post_cap.json), stop.
+   Otherwise post items back to back in this same run (wait a random 3–6 minutes between posts) until today's count
+   reaches the cap, nothing eligible is left, or an error happens (then follow the error rules). Re-pick the best item
+   (step 2) before each post and commit/push the log after each post.
    For a Drive item:
      a. vidiq_video_upload(url="https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t").
      b. Cover fix (prevents black covers): `URL=$(bash tools/fix_and_host.sh "<videoUrl from a>" "<short name>")`,
