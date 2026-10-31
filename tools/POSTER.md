@@ -12,7 +12,7 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 ## Steps
 0. BURST TIMING (Hilal, 30 Oct: "post one after the other until the limit; maybe the limit is a number, not timing"
    — and a block hit early in the day ends sooner). Get the Toronto time (TZ=America/Toronto date). Post only between
-   10:00 and 00:59 Toronto; outside that window stop right away (no post, nothing logged). No random skip, no random wait:
+   10:00 and 23:59 Toronto (the 00:xx hour would start the next day's batch at midnight); outside that window stop right away (no post, nothing logged). No random skip, no random wait:
    every run inside the window posts until today's cap is reached (step 3).
 0a. DAILY CAP RAMP (Hilal, 30 Oct: "6 posts with no problem → next day try 7, keep going until stopped, then go back"). The
    current cap lives in tools/post_cap.json ("cap"). On the FIRST run of each Toronto day (no "history" entry for
