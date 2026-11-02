@@ -212,4 +212,4 @@
 {"t": "2026-11-01T16:17:46Z", "src": "drive", "event": "posted", "permalink": "https://www.instagram.com/reel/DfNJCJJiUtT/"}
 {"t": "2026-11-02T14:50:49Z", "src": "story", "event": "posted", "permalink": "https://www.instagram.com/reel/DfPj5iAiafT/", "note": "Upload-Post test"}
 {"t": "2026-11-02T16:37:39Z", "src": "drive", "event": "error", "permalink": "", "note": "Drive download blocked in this cloud run (drive.usercontent.google.com refused by egress proxy); 20 Drive videos skipped, not posted"}
-{"t": "2026-11-02T16:39:35Z", "src": "story", "event": "error", "permalink": "", "note": "     \"request_id_logs\": \"79949b080ba4487ea30d30d1226f518e\",     \"job_id\": \"70375014ace24033bf9e4d343ecf090a\",     \"request_total_platforms\": 1    }   ],   \"external_id\": null,   \"last_update\": {    \"$date\": \"2026-11-02T16:38:56.746Z\"   },   \"request_id\": \"79949b080ba4487ea30d30d1226f518e\"  } } ERR: "}
+{"t": "2026-11-02T16:39:35Z", "src": "story", "event": "posted", "permalink": "https://www.instagram.com/reel/DfPwQ4-Ac7y/"}
