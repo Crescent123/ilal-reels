@@ -1,5 +1,5 @@
 # Runs one Upload-Post job (called by .github/workflows/post.yml). Job JSON:
-# {"user":"ilal","platforms":["tiktok"],"video":"<public url>","title":"...","fields":{"privacy_level":"PUBLIC_TO_EVERYONE",...}}
+# {"user":"default","platforms":["tiktok"],"video":"<public url>","title":"...","fields":{"privacy_level":"PUBLIC_TO_EVERYONE",...}}
 # Writes <out>/result.json and <out>/done.txt (empty = ok). Never prints the API key.
 import json,sys,os,subprocess,time
 job=json.load(open(sys.argv[1])); out=sys.argv[2]; key=os.environ['UPLOADPOST_API_KEY'].strip()
