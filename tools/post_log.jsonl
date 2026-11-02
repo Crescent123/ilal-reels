@@ -211,3 +211,4 @@
 {"t": "2026-11-01T16:13:14Z", "src": "drive", "event": "posted", "permalink": "https://www.instagram.com/reel/DfNIh6DDUet/"}
 {"t": "2026-11-01T16:17:46Z", "src": "drive", "event": "posted", "permalink": "https://www.instagram.com/reel/DfNJCJJiUtT/"}
 {"t": "2026-11-02T14:50:49Z", "src": "story", "event": "posted", "permalink": "https://www.instagram.com/reel/DfPj5iAiafT/", "note": "Upload-Post test"}
+{"t": "2026-11-02T16:37:39Z", "src": "drive", "event": "error", "permalink": "", "note": "Drive download blocked in this cloud run (drive.usercontent.google.com refused by egress proxy); 20 Drive videos skipped, not posted"}
