@@ -74,4 +74,4 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 ## Post log (all posting tasks)
 After every PUBLISHED trial reel, and whenever Instagram returns a limit error, append ONE line to tools/post_log.jsonl
 and push (git pull --rebase first):
-{"t": "<UTC ISO time>", "src": "drive" | "vlog" | "story" (queue files: story_* = story, vlog_* = vlog), "event": "posted" | "limit" | "error", "permalink": "<url or empty>", "note": "<error text, only for error>"}
+{"t": "<UTC ISO time>", "src": "drive" | "vlog" | "story" (queue files: story_* = story, vlog_* = vlog), "event": "posted" | "limit" | "error", "permalink": "<url or empty>", "file": "<queue file name or Drive file title>", "platform": "instagram", "note": "<error text, only for error>"}
