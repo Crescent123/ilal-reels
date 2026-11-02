@@ -16,7 +16,7 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    every run inside the window posts until today's cap is reached (step 3).
 0a. DAILY CAP RAMP (Hilal, 30 Oct: "6 posts with no problem → next day try 7, keep going until stopped, then go back"). The
    current cap lives in tools/post_cap.json ("cap"). On the FIRST run of each Toronto day (no "history" entry for
-   yesterday yet): count yesterday's (Toronto date) "posted" and "error" lines in post_log.jsonl and append
+   yesterday yet): count yesterday's (Toronto date) Instagram "posted" and "error" lines in post_log.jsonl (platform "instagram" or missing) and append
    {"day": yesterday, "cap": cap, "posted": n, "block": true|false} to "history". Then:
    - if yesterday had a block (2 failures in a row / block pause): cap = max(4, cap - 1) and "hold_until" = today + 2 days
      (no probing while holding);
@@ -38,7 +38,7 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    Build the list: Drive folder video files (search parentId = folder, not trashed; ignore non-video files) with their
    createdTime, plus queue B items with time = the unix prefix. Order by score (above), then age. Nothing eligible → stop.
 3. PACING (Instagram blocks the account when too many go out at once: 21 Oct after a burst, 22 Oct after 12 posts in
-   2 h). Count "posted" lines in tools/post_log.jsonl from TODAY (Toronto date): if cap or more (tools/post_cap.json), stop.
+   2 h). Count "posted" lines in tools/post_log.jsonl from TODAY (Toronto date) whose "platform" is "instagram" or missing (Facebook / TikTok lines never count): if cap or more (tools/post_cap.json), stop.
    Otherwise post items back to back in this same run (wait a random 3–6 minutes between posts) until today's count
    reaches the cap, nothing eligible is left, or an error happens (then follow the error rules). Re-pick the best item
    (step 2) before each post and commit/push the log after each post.
