@@ -3,6 +3,14 @@
 # Writes <out>/result.json and <out>/done.txt (empty = ok). Never prints the API key.
 import json,sys,os,subprocess,time
 job=json.load(open(sys.argv[1])); out=sys.argv[2]; key=os.environ['UPLOADPOST_API_KEY'].strip()
+if job.get('action')=='list_users':
+    s=subprocess.run(['curl','-sS','-m','60','https://api.upload-post.com/api/uploadposts/users','-H','Authorization: Apikey '+key],capture_output=True,text=True).stdout
+    try:
+        d=json.loads(s); prof=d.get('profiles') or d.get('users') or []
+        slim=[{'username':x.get('username'),'platforms':sorted(k for k,v in (x.get('social_accounts') or {}).items() if v)} for x in prof]
+        res={'success':True,'profiles':slim,'keys':sorted(d.keys())}
+    except Exception as e: res={'success':False,'err':str(e)[:200]}
+    json.dump(res,open(os.path.join(out,'result.json'),'w'),indent=1); open(os.path.join(out,'done.txt'),'w').write(''); sys.exit(0)
 args=['curl','-sS','-m','900','-X','POST','https://api.upload-post.com/api/upload','-H','Authorization: Apikey '+key,
       '-F','user='+job['user'],'-F','video='+job['video']]
 for p in job['platforms']: args+=['-F','platform[]='+p]
