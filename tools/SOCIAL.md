@@ -1,6 +1,6 @@
 # Facebook + TikTok poster (public posts) — Hilal, 2 Nov 2026
 
-Runs 6× a day (12:41–22:41 Toronto, scheduled task "Facebook + TikTok reels"). Each run: at most ONE Facebook reel and ONE TikTok reel → 3–6 a day per platform (Hilal, 2 Nov: "3-6 on each, whatever you see fit"). Quality over count: skip the run on a platform when nothing good is left.
+Runs 6× a day (12:41–22:41 Toronto, scheduled task "Facebook + TikTok reels"). Each run: up to TWO TikTok reels (5–10 min apart) and at most ONE Facebook reel. Hilal, 2 Nov: "TikTok you can blast; Facebook start slow and keep analysing it". Quality over count: skip the run on a platform when nothing good is left.
 Hilal gave standing approval (2 Nov): pick and post without asking. Report only problems.
 Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/post_runner.py). Profile "default".
 
@@ -28,13 +28,14 @@ Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/
         "fields":{"facebook_media_type":"REELS","video_state":"PUBLISHED","facebook_description":"<caption>"}}
 - Caption: the clip's top question line in Darija (as shown in the video) + one emoji at most + 
   "القصة كاملة هنا: https://www.youtube.com/watch?v=<ID>" (ID = end of the file name). No hashtags.
-- If no eligible clip: post nothing (fine). Up to 6 a day.
+- START SLOW: at most 3 Facebook reels a day for now (skip the run once 3 went out today). Facebook reach gets reviewed before raising it.
+- If no eligible clip: post nothing (fine).
 
 ## TikTok (public)
 - Pick from trial-posted (best Instagram plays first, 10K+), then trial-queue score 8 (`_s8_`), then 7.
 - Job: {"user":"default","platforms":["tiktok"],"video":"<raw url>","title":"<question line> 😳 القصة كاملة فيوتيوب: ilal Stories",
         "fields":{"privacy_level":"PUBLIC_TO_EVERYONE"}}
-- Up to 6 a day. All 650 old TikToks are "Only me": never change that.
+- Up to 12 a day (2 per run). If TikTok returns a rate/limit/spam error, stop TikTok for the rest of the day and log it. All 650 old TikToks are "Only me": never change that.
 
 ## Log
 Append to tools/post_log.jsonl: {"t","src":"story","event":"posted"|"error","permalink","file","platform":"facebook"|"tiktok","note"}.
