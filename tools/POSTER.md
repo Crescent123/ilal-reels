@@ -50,8 +50,9 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    (or status_poll ... "success": true) with a post_url = the permalink. Anything else = error (error rules below;
    a message mentioning limit / quota / rate / "too many" = limit).
    For a Drive item:
-     a. Cover fix (prevents black covers):
-        `URL=$(bash tools/fix_and_host.sh "https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t" "<short name>")`.
+     a. Fetch it through vidIQ first (this container's network can't download from Drive):
+        vidiq_video_upload(url="https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t") → videoUrl.
+        Then cover fix (prevents black covers): `URL=$(bash tools/fix_and_host.sh "<videoUrl from vidIQ>" "<short name>")`.
      b. Post URL with the job above.
      c. Only after PUBLISHED: trash the Drive file (Google Drive trash_file). Never trash anything not published.
    For a queue B item (already has a good cover, no fix needed):
