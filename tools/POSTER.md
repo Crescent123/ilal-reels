@@ -4,7 +4,7 @@ Posts Instagram Trial Reels to @_ilal_ from TWO queues, oldest first, as many as
 - A) Google Drive folder "Reels trial" 1rGW63KerCj3EQRGRk-mDWn1dVkU1onyK (videos Hilal drops in).
 - B) GitHub branch "trial-queue" of this repo (reels made by the story makers "story_*" and the vlog task "vlog_*"). `bash tools/queue_list.sh` prints
   "<file> <raw url>" per waiting reel; file names start with a unix time (= when queued).
-Every post: Trial Reel with trialParams {"graduationStrategy":"MANUAL"} (never shared to followers), NO caption.
+Every post: Trial Reel never shared to followers, NO caption (posted with Upload-Post, see step 3).
 Instagram platformAccountId (vidIQ): 28479362468423214.
 Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-state: active" or
 "reels-trial-state: paused until <ISO time>".
@@ -42,17 +42,24 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    Otherwise post items back to back in this same run (wait a random 3–6 minutes between posts) until today's count
    reaches the cap, nothing eligible is left, or an error happens (then follow the error rules). Re-pick the best item
    (step 2) before each post and commit/push the log after each post.
+   POSTING TOOL (Hilal, 2 Nov): Instagram trial reels go through Upload-Post (tools/post.sh), no longer vidIQ.
+   Job file for one reel (profile is "default"; no caption; never shared to followers):
+     {"user":"default","platforms":["instagram"],"video":"<public url>","title":"",
+      "fields":{"share_mode":"TRIAL_REELS_DONT_SHARE_TO_FOLLOWERS"}}
+   Run `bash tools/post.sh job.json` (takes 1-3 min). It prints result.json: PUBLISHED = results.instagram.success true
+   (or status_poll ... "success": true) with a post_url = the permalink. Anything else = error (error rules below;
+   a message mentioning limit / quota / rate / "too many" = limit).
    For a Drive item:
-     a. vidiq_video_upload(url="https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t").
-     b. Cover fix (prevents black covers): `URL=$(bash tools/fix_and_host.sh "<videoUrl from a>" "<short name>")`,
-        then vidiq_video_upload(url=URL) to get the final videoUrl.
-     c. vidiq_instagram_publish_reel(platformAccountId, videoUrl, trialParams MANUAL, no caption); poll with containerId
-        every ~15–20 s until PUBLISHED.
-     d. Only after PUBLISHED: trash the Drive file (Google Drive trash_file). Never trash anything not published.
+     a. Cover fix (prevents black covers):
+        `URL=$(bash tools/fix_and_host.sh "https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t" "<short name>")`.
+     b. Post URL with the job above.
+     c. Only after PUBLISHED: trash the Drive file (Google Drive trash_file). Never trash anything not published.
    For a queue B item (already has a good cover, no fix needed):
-     a. vidiq_video_upload(url=<raw url>) → videoUrl.
-     b. Publish exactly as above and poll until PUBLISHED.
-     c. Only after PUBLISHED: `bash tools/queue_rm.sh <file>`.
+     a. Post the item's raw URL with the job above.
+     b. Only after PUBLISHED: `bash tools/queue_rm.sh <file>`.
+   FALLBACK: if tools/post.sh itself breaks (GitHub Actions down, job never finishes, auth error — not an Instagram
+   refusal), post that item the old way: vidiq_video_upload(url) → vidiq_instagram_publish_reel(platformAccountId,
+   videoUrl, trialParams {"graduationStrategy":"MANUAL"}, no caption), poll until PUBLISHED.
 4. If publishing fails with a limit / quota / rate / "too many" error: rename the marker to
    "reels-trial-state: paused until <now + 3 h, ISO>" and stop (leave the item where it is).
    Any other error on an item: skip that item this run (leave it), continue with the next — and log it (see Post log,
