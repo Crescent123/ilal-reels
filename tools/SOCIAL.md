@@ -1,6 +1,6 @@
 # Facebook + TikTok poster (public posts) — Hilal, 2 Nov 2026
 
-Runs 3× a day (scheduled task "Facebook + TikTok reels"). Each run: at most ONE Facebook reel and ONE TikTok reel.
+Runs 6× a day (12:41–22:41 Toronto, scheduled task "Facebook + TikTok reels"). Each run: at most ONE Facebook reel and ONE TikTok reel → 3–6 a day per platform (Hilal, 2 Nov: "3-6 on each, whatever you see fit"). Quality over count: skip the run on a platform when nothing good is left.
 Hilal gave standing approval (2 Nov): pick and post without asking. Report only problems.
 Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/post_runner.py). Profile "default".
 
@@ -28,13 +28,13 @@ Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/
         "fields":{"facebook_media_type":"REELS","video_state":"PUBLISHED","facebook_description":"<caption>"}}
 - Caption: the clip's top question line in Darija (as shown in the video) + one emoji at most + 
   "القصة كاملة هنا: https://www.youtube.com/watch?v=<ID>" (ID = end of the file name). No hashtags.
-- If no eligible clip: post nothing (fine). Target 2–3 a day.
+- If no eligible clip: post nothing (fine). Up to 6 a day.
 
 ## TikTok (public)
 - Pick from trial-posted (best Instagram plays first, 10K+), then trial-queue score 8 (`_s8_`), then 7.
 - Job: {"user":"default","platforms":["tiktok"],"video":"<raw url>","title":"<question line> 😳 القصة كاملة فيوتيوب: ilal Stories",
         "fields":{"privacy_level":"PUBLIC_TO_EVERYONE"}}
-- Target 3 a day. All 650 old TikToks are "Only me": never change that.
+- Up to 6 a day. All 650 old TikToks are "Only me": never change that.
 
 ## Log
 Append to tools/post_log.jsonl: {"t","src":"story","event":"posted"|"error","permalink","file","platform":"facebook"|"tiktok","note"}.
