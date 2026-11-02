@@ -1,0 +1,46 @@
+name: post
+# Social posting through Upload-Post. A job is a JSON file pushed to post/jobs/<stamp>.json (see tools/post.sh).
+# Results go to branch post-out under <stamp>/ (result.json + done.txt: empty = ok).
+on:
+  push:
+    branches: [main]
+    paths: ["post/jobs/**"]
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 30 }
+      - name: Run new jobs
+        env:
+          UPLOADPOST_API_KEY: ${{ secrets.UPLOADPOST_API_KEY }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          git cat-file -e "$BEFORE" 2>/dev/null || BEFORE=HEAD~1
+          git diff --name-only --diff-filter=A "$BEFORE" HEAD -- post/jobs/ | grep '\.json$' > /tmp/jobs.txt || true
+          mkdir -p /tmp/res
+          while read -r j; do
+            s=$(basename "$j" .json); mkdir -p "/tmp/res/$s"
+            if [ -z "$UPLOADPOST_API_KEY" ]; then echo "UPLOADPOST_API_KEY secret is not set in the repo" > "/tmp/res/$s/done.txt"; continue; fi
+            python3 tools/post_runner.py "$j" "/tmp/res/$s" > "/tmp/res/$s/log.txt" 2>&1 || true
+            [ -f "/tmp/res/$s/done.txt" ] || { tail -c 600 "/tmp/res/$s/log.txt" > "/tmp/res/$s/done.txt"; }
+            for f in "/tmp/res/$s"/*; do sed -i -E 's/Apikey [^ '"'"'"]+/Apikey [key]/g; s/eyJ[A-Za-z0-9_.-]{20,}/[key]/g' "$f"; done
+          done < /tmp/jobs.txt
+      - name: Publish results to post-out
+        run: |
+          [ -n "$(ls /tmp/res)" ] || exit 0
+          URL="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          for try in 1 2 3 4 5 6 7 8; do
+            rm -rf /tmp/o; mkdir /tmp/o; cd /tmp/o; git init -q; git config user.name post-bot; git config user.email actions@users.noreply.github.com
+            OLD=none
+            if git fetch -q --depth 1 "$URL" post-out 2>/dev/null; then OLD=$(git rev-parse FETCH_HEAD); git checkout -q FETCH_HEAD -- . ; fi
+            cp -r /tmp/res/* .
+            git checkout -q --orphan tmp; git add -A; git commit -qm "post results"
+            if [ "$OLD" = none ]; then git push -q "$URL" tmp:post-out && exit 0
+            else git push -q --force-with-lease=post-out:$OLD "$URL" tmp:post-out && exit 0; fi
+            cd /; sleep $((5 + RANDOM % 15))
+          done
+          exit 1
