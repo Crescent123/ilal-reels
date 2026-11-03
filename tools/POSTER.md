@@ -20,7 +20,7 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    {"day": yesterday, "cap": cap, "posted": n, "block": true|false} to "history". Then:
    - if yesterday had a block (2 failures in a row / block pause): cap = max(4, cap - 1) and "hold_until" = today + 2 days
      (no probing while holding);
-   - else if yesterday reached the cap (posted >= cap), had no errors, and today is past "hold_until": cap = cap + 1;
+   - else if yesterday reached the cap (posted >= cap), had no Instagram refusals (tooling errors like a failed download or GitHub hiccup don't count), and today is past "hold_until": cap = cap + 1;
    - otherwise keep the cap.
    BLOCK PAUSE LENGTH ("pause_hours" in post_cap.json, start 20; Hilal 30 Oct: shrink it by 2 h each time it works):
    - if the most recent block before yesterday was followed by a clean day (yesterday: no block, posted >= cap) and
