@@ -919,5 +919,11 @@
   "status": "reserved",
   "at": "2026-11-03T17:43:28Z",
   "maker": "A"
+ },
+ "9R3qdmdmRwc": {
+  "date": "2026-11-03",
+  "status": "reserved",
+  "at": "2026-11-03T18:12:02Z",
+  "maker": "B"
  }
 }
