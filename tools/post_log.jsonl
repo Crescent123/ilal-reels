@@ -242,3 +242,4 @@
 {"t": "2026-11-03T16:17:32Z", "src": "drive", "event": "posted", "permalink": "https://www.instagram.com/reel/DfSShDBCh6T/", "file": "14CEAD03-677D-4D66-ABFF-E997DD6E60D1.mov", "platform": "instagram"}
 {"t": "2026-11-03T16:23:47Z", "src": "drive", "event": "posted", "permalink": "https://www.instagram.com/reel/DfSTSQGisTG/", "file": "E9C2399E-DC1A-458A-8630-FD99E468BFD6.mov", "platform": "instagram"}
 {"t": "2026-11-03T16:32:54Z", "src": "drive", "event": "posted", "permalink": "https://www.instagram.com/reel/DfSUSCoAcXA/", "file": "C886F520-6FCB-4C5A-A374-BB25F8302760.mov", "platform": "instagram"}
+{"t": "2026-11-03T16:42:01Z", "src": "drive", "event": "posted", "permalink": "https://www.instagram.com/reel/DfSUJzdD556/", "file": "C886F520-6FCB-4C5A-A374-BB25F8302760.mov", "platform": "instagram", "note": "duplicate: post job 1793723396 (not from this run's flow) also published this file at 16:30Z"}
