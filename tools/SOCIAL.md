@@ -1,7 +1,7 @@
 # Facebook and TikTok posters (public posts) — Hilal, 2 Nov 2026
 
-TWO SEPARATE scheduled tasks (Hilal, 3 Nov: "each its own program"): "TikTok reels" (12:41–22:41 Toronto, every 2 h) and
-"Facebook reels" (13:53, 17:53, 21:53). Each posts ONLY its own platform and never stops because of the other
+TWO SEPARATE scheduled tasks (Hilal, 3 Nov: "each its own program"): "TikTok reels" (10:41–20:41 Toronto = 16:41–02:41 Morocco, every 2 h) and
+"Facebook reels" (12:53, 15:53, 17:53 Toronto = 18:53, 21:53, 23:53 Morocco; Moroccan evening is prime time). Each posts ONLY its own platform and never stops because of the other
 platforms' pauses or errors. Instagram (POSTER.md) is a third, separate program.
 
 Each run: up to TWO TikTok reels (5–10 min apart) and at most ONE Facebook reel. Hilal, 2 Nov: "TikTok you can blast; Facebook start slow and keep analysing it". Quality over count: skip the run on a platform when nothing good is left.
