@@ -29,6 +29,10 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
      and keep it there ("pause_floor" = that value; never shrink below it again).
    A new block resets "pause_tested" to false.
    Commit/push tools/post_cap.json. Use this cap everywhere below instead of a fixed number.
+0b. ONE RUN AT A TIME (3 Nov: a long burst overlapped with the next hourly run and the same clip got posted twice).
+   `git pull`; if tools/poster.lock exists and its time (one ISO line) is less than 50 minutes old, another run is still
+   posting → stop right away. Otherwise write the current UTC time to tools/poster.lock, commit and push it (if the push
+   is rejected, pull and re-check). Delete the lock (commit + push) when this run ends, whatever happened.
 1. Read the marker title (Google Drive get_file_metadata). If paused and that time is in the future, stop.
 2. QUALITY FIRST (Hilal, 23 Oct: post only the reels most likely to go viral; Instagram allows ~12/day).
    Each queue B item has a hook score 1–10: from tools/queue_scores.json ("scores"[file]) or from its file name
