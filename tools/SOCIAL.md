@@ -1,6 +1,10 @@
-# Facebook + TikTok poster (public posts) — Hilal, 2 Nov 2026
+# Facebook and TikTok posters (public posts) — Hilal, 2 Nov 2026
 
-Runs 6× a day (12:41–22:41 Toronto, scheduled task "Facebook + TikTok reels"). Each run: up to TWO TikTok reels (5–10 min apart) and at most ONE Facebook reel. Hilal, 2 Nov: "TikTok you can blast; Facebook start slow and keep analysing it". Quality over count: skip the run on a platform when nothing good is left.
+TWO SEPARATE scheduled tasks (Hilal, 3 Nov: "each its own program"): "TikTok reels" (12:41–22:41 Toronto, every 2 h) and
+"Facebook reels" (13:53, 17:53, 21:53). Each posts ONLY its own platform and never stops because of the other
+platforms' pauses or errors. Instagram (POSTER.md) is a third, separate program.
+
+Each run: up to TWO TikTok reels (5–10 min apart) and at most ONE Facebook reel. Hilal, 2 Nov: "TikTok you can blast; Facebook start slow and keep analysing it". Quality over count: skip the run on a platform when nothing good is left.
 Hilal gave standing approval (2 Nov): pick and post without asking. Report only problems.
 Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/post_runner.py). Profile "default".
 
