@@ -42,7 +42,7 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    Build the list: Drive folder video files (search parentId = folder, not trashed; ignore non-video files) with their
    createdTime, plus queue B items with time = the unix prefix. Order by score (above), then age. Nothing eligible → stop.
 3. PACING (Instagram blocks the account when too many go out at once: 21 Oct after a burst, 22 Oct after 12 posts in
-   2 h). Count "posted" lines in tools/post_log.jsonl from TODAY (Toronto date) whose "platform" is "instagram" or missing (Facebook / TikTok lines never count): if cap or more (tools/post_cap.json), stop.
+   2 h). ROLLING LIMIT (4 Nov: blocks came at ~10–11 Instagram posts in any 24 h, e.g. 5 on Nov 4 right after 11 on Nov 3): also count Instagram "posted" lines in the LAST 24 HOURS; if that is 9 or more, stop (post the rest later in the day once older posts drop out of the window). Count "posted" lines in tools/post_log.jsonl from TODAY (Toronto date) whose "platform" is "instagram" or missing (Facebook / TikTok lines never count): if cap or more (tools/post_cap.json), stop.
    Otherwise post items back to back in this same run (wait a random 3–6 minutes between posts) until today's count
    reaches the cap, nothing eligible is left, or an error happens (then follow the error rules). Re-pick the best item
    (step 2) before each post and commit/push the log after each post.
