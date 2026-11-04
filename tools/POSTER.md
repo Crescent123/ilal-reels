@@ -79,3 +79,11 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 After every PUBLISHED trial reel, and whenever Instagram returns a limit error, append ONE line to tools/post_log.jsonl
 and push (git pull --rebase first):
 {"t": "<UTC ISO time>", "src": "drive" | "vlog" | "story" (queue files: story_* = story, vlog_* = vlog), "event": "posted" | "limit" | "error", "permalink": "<url or empty>", "file": "<queue file name or Drive file title>", "platform": "instagram", "note": "<error text, only for error>"}
+
+## Waiting for results (IMPORTANT — 4 Nov: runs got killed while waiting and never logged their posts)
+`tools/post.sh` can wait up to 30 min (Upload-Post sometimes hands a post to its "background" worker). Never let a
+shell timeout kill it silently: run it as `bash tools/post.sh job.json` with the longest tool timeout (10 min). It
+prints "post job <stamp> submitted" first. If the call times out or ends without a result, run
+`bash tools/post_wait.sh <stamp>` (≤8 min each) again until it prints the result. A result with
+"handed off ... background" is final only once result.json has status_poll.status "completed": the permalink is
+status_poll.results[0].post_url. Log every post (even ones found late) BEFORE starting the next one.
