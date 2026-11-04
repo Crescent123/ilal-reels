@@ -53,3 +53,9 @@ prints "post job <stamp> submitted" first. If the call times out or ends without
 `bash tools/post_wait.sh <stamp>` (≤8 min each) again until it prints the result. A result with
 "handed off ... background" is final only once result.json has status_poll.status "completed": the permalink is
 status_poll.results[0].post_url. Log every post (even ones found late) BEFORE starting the next one.
+
+## Stats (read-only)
+`{"action":"analytics","request_ids":[...]}` through `bash tools/post.sh` returns Upload-Post per-post metrics
+(TikTok: views, likes, shares, avg watch time, new followers; Facebook: views/reactions). Request ids are in
+post-out/<stamp>/result.json of each post job. First read (4 Nov): on TikTok the Instagram-proven clips won by far
+(R81K… 8.7K views, KjEr… 4.8K) vs ~300–1,100 for unproven ones → TikTok picks proven clips FIRST, then 8s.
