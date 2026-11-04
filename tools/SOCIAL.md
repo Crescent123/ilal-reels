@@ -45,3 +45,11 @@ Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/
 Append to tools/post_log.jsonl: {"t","src":"story","event":"posted"|"error","permalink","file","platform":"facebook"|"tiktok","note"}.
 The permalink is results[0].post_url in result.json (or status_poll.results). Commit + push after each post.
 Any error: log it, don't retry the same item that run. 3 errors in a row on one platform → stop that platform and tell Hilal (SendUserMessage, one line).
+
+## Waiting for results (IMPORTANT — 4 Nov: runs got killed while waiting and never logged their posts)
+`tools/post.sh` can wait up to 30 min (Upload-Post sometimes hands a post to its "background" worker). Never let a
+shell timeout kill it silently: run it as `bash tools/post.sh job.json` with the longest tool timeout (10 min). It
+prints "post job <stamp> submitted" first. If the call times out or ends without a result, run
+`bash tools/post_wait.sh <stamp>` (≤8 min each) again until it prints the result. A result with
+"handed off ... background" is final only once result.json has status_poll.status "completed": the permalink is
+status_poll.results[0].post_url. Log every post (even ones found late) BEFORE starting the next one.
