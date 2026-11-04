@@ -31,5 +31,24 @@ elif J['type']=='raw_image':
         r=json.load(urllib.request.urlopen(q,timeout=400)); open(O+'/'+J.get('name','image.png'),'wb').write(base64.b64decode(r['data'][0]['b64_json']))
     except urllib.error.HTTPError as e: errs.append('ERR '+e.read().decode()[:300].replace(K,'[key]'))
     except Exception as e: errs.append('ERR '+str(e).replace(K,'[key]'))
+elif J['type']=='edit_image':
+    # one image from a prompt + reference photos (repo paths), via /v1/images/edits
+    # {"type":"edit_image","model":"...","prompt":"...","images":["ai/ref/x/a.jpg",...],"size":"2560x1440","quality":"high","name":"x.png","extra":{...}}
+    import base64, uuid, mimetypes
+    K=os.environ['OPENAI_API_KEY'].strip()
+    bd='----ilal'+uuid.uuid4().hex; parts=[]
+    def fld(n,v): parts.append(('--%s\r\nContent-Disposition: form-data; name="%s"\r\n\r\n%s\r\n'%(bd,n,v)).encode())
+    fld('model',J.get('model','gpt-image-2')); fld('prompt',J['prompt']); fld('size',J.get('size','1536x1024'))
+    fld('quality',J.get('quality','high')); fld('n','1')
+    for k,v in J.get('extra',{}).items(): fld(k,v)
+    for p in J['images']:
+        mt=mimetypes.guess_type(p)[0] or 'image/jpeg'
+        parts.append(('--%s\r\nContent-Disposition: form-data; name="image[]"; filename="%s"\r\nContent-Type: %s\r\n\r\n'%(bd,os.path.basename(p),mt)).encode()+open(R+'/'+p,'rb').read()+b'\r\n')
+    body=b''.join(parts)+('--%s--\r\n'%bd).encode()
+    try:
+        q=urllib.request.Request("https://api.openai.com/v1/images/edits",data=body,headers={"Authorization":"Bearer "+K,"Content-Type":"multipart/form-data; boundary="+bd})
+        r=json.load(urllib.request.urlopen(q,timeout=600)); open(O+'/'+J.get('name','image.png'),'wb').write(base64.b64decode(r['data'][0]['b64_json']))
+    except urllib.error.HTTPError as e: errs.append('ERR '+e.read().decode()[:300].replace(K,'[key]'))
+    except Exception as e: errs.append('ERR '+str(e).replace(K,'[key]'))
 else: errs.append('unknown job type')
 open(O+'/done.txt','w').write('\n'.join(errs))
