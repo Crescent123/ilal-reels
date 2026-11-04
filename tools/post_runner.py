@@ -3,6 +3,16 @@
 # Writes <out>/result.json and <out>/done.txt (empty = ok). Never prints the API key.
 import json,sys,os,subprocess,time
 job=json.load(open(sys.argv[1])); out=sys.argv[2]; key=os.environ['UPLOADPOST_API_KEY'].strip()
+if job.get('action')=='analytics':
+    # {"action":"analytics","request_ids":[...]} -> per-post metrics (read-only)
+    res={}
+    for rid in job.get('request_ids',[])[:40]:
+        s=subprocess.run(['curl','-sS','-m','60','https://api.upload-post.com/api/uploadposts/post-analytics/'+rid,'-H','Authorization: Apikey '+key],capture_output=True,text=True).stdout
+        try: res[rid]=json.loads(s)
+        except Exception: res[rid]={'raw':s[:300]}
+        time.sleep(1)
+    txt=json.dumps(res,indent=1).replace(key,'[key]')
+    open(os.path.join(out,'result.json'),'w').write(txt); open(os.path.join(out,'done.txt'),'w').write(''); sys.exit(0)
 if job.get('action')=='list_users':
     s=subprocess.run(['curl','-sS','-m','60','https://api.upload-post.com/api/uploadposts/users','-H','Authorization: Apikey '+key],capture_output=True,text=True).stdout
     try:
