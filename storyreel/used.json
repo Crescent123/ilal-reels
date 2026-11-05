@@ -964,8 +964,8 @@
  },
  "y1LmEtCRgNM": {
   "date": "2026-11-05",
-  "status": "reserved",
-  "at": "2026-11-05T15:13:27Z",
-  "maker": "B"
+  "skip": "weak hook",
+  "maker": "B",
+  "note": "hash-selling to tourists, crime hook max 6"
  }
 }
