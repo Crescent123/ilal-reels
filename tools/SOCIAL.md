@@ -17,6 +17,10 @@ Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/
   Write skipped files to tools/social_skip.json {"file": "reason"} so they're never reconsidered.
 - Never post the same file twice on the same platform (check post_log.jsonl "file" + "platform").
 
+## Speed (5 Nov: a TikTok run hung for 1 h+ and posted nothing)
+- Posting runs must NOT page through Instagram insights. For Instagram plays, read tools/ig_plays.json only
+  (the health check keeps it fresh). Keep each run short: pick, check one frame, post, log.
+
 ## Where clips come from
 - trial-posted branch: copies of every reel already posted as an Instagram trial (raw URL:
   https://raw.githubusercontent.com/Crescent123/ilal-reels/trial-posted/<file>). tools/queue_rm.sh adds them automatically.
