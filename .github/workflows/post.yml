@@ -44,3 +44,14 @@ jobs:
             cd /; sleep $((5 + RANDOM % 15))
           done
           exit 1
+      - name: Append post_log lines (jobs that carry "log")
+        run: |
+          ls /tmp/res/*/logline.json >/dev/null 2>&1 || exit 0
+          git config user.name post-bot; git config user.email actions@users.noreply.github.com
+          for try in 1 2 3 4 5 6 7 8; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            for f in /tmp/res/*/logline.json; do cat "$f" >> tools/post_log.jsonl; echo >> tools/post_log.jsonl; done
+            git add tools/post_log.jsonl; git commit -qm "log: posted (workflow)" && git push -q origin HEAD:main && exit 0
+            sleep $((5 + RANDOM % 15))
+          done
+          exit 1

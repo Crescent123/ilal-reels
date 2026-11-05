@@ -46,3 +46,18 @@ if rid and not res.get('results'):
 json.dump(res,open(os.path.join(out,'result.json'),'w'),ensure_ascii=False,indent=1)
 ok=isinstance(res,dict) and (res.get('success') is True or res.get('request_id'))
 open(os.path.join(out,'done.txt'),'w').write('' if ok else ('upload failed: '+json.dumps(res)[:800]))
+
+# Optional "log": {...} in the job -> the workflow appends one tools/post_log.jsonl line itself (5 Nov: runs kept dying
+# before logging). Fields given are kept; t/event/permalink are filled in here.
+if job.get('log'):
+    import datetime
+    def _url(r):
+        for src in (r, r.get('status_poll') or {}):
+            rr=src.get('results') if isinstance(src,dict) else None
+            for v in ((rr.values() if isinstance(rr,dict) else rr) or []):
+                if isinstance(v,dict) and v.get('post_url'): return v['post_url']
+        return ''
+    u=_url(res) if isinstance(res,dict) else ''
+    line=dict(job['log']); line.update({'t':datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),'event':'posted' if u else 'error','permalink':u})
+    if not u: line['note']=(line.get('note','')+' | no post_url: '+json.dumps(res)[:200]).strip(' |')
+    json.dump(line,open(os.path.join(out,'logline.json'),'w'),ensure_ascii=False)

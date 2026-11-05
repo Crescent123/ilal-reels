@@ -50,7 +50,11 @@ Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/
         "fields":{"privacy_level":"PUBLIC_TO_EVERYONE"}}
 - Up to 12 a day (2 per run). If TikTok returns a rate/limit/spam error, stop TikTok for the rest of the day and log it. All 650 old TikToks are "Only me": never change that.
 
-## Log
+## Log (5 Nov: the WORKFLOW logs now)
+Put `"log": {"src":"story","file":"<file>","platform":"<tiktok|facebook>","note":"..."}` inside every job JSON.
+The posting workflow appends the post_log line itself when the post finishes (even if your run dies), so you don't
+have to wait for the result. "Never the same file twice" = check BOTH post_log.jsonl and post/jobs/*.json (a job
+already pushed for that file + platform counts as posted). After pushing a job, wait ~1 min and move on.
 Append to tools/post_log.jsonl: {"t","src":"story","event":"posted"|"error","permalink","file","platform":"facebook"|"tiktok","note"}.
 The permalink is results[0].post_url in result.json (or status_poll.results). Commit + push after each post.
 Any error: log it, don't retry the same item that run. 3 errors in a row on one platform → stop that platform and tell Hilal (SendUserMessage, one line).
