@@ -26,6 +26,11 @@ Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/
   removes the file a few seconds BEFORE the log line is written.
 
 ## Facebook (published, NOT a trial — everyone sees it)
+- PROTECT THE PAGE (Hilal, 4 Nov: "I don't want to lose traction on Facebook; stop if it's not working, even with proven
+  clips — it's a big audience"). Facebook is on PROBATION until ~9 Nov. Before each post, read the stats of the earlier
+  Facebook reels (analytics action below). STOP posting on Facebook (post nothing, tell Hilal in one line) if, once
+  reels are 3+ days old, they average under ~1,000 views, or any reel draws clearly negative comments/reactions, or
+  Hilal's page reach drops. Never raise the Facebook count without his OK.
 - Only clips that were Instagram trials with 20,000+ plays AND pass the quality filter, highest plays first.
   Wait at least 48 h after the Instagram trial before judging its plays.
 - Job: {"user":"default","platforms":["facebook"],"video":"<raw url>","title":"<caption>",
