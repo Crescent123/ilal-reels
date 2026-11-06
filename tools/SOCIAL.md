@@ -9,7 +9,7 @@ Hilal gave standing approval (2 Nov): pick and post without asking. Report only 
 Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/post_runner.py). Profile "default".
 
 ## Hard rules (both platforms)
-- Only story clips (file names `*_story_*`). NEVER Hilal's face (Drive "Reels trial" videos, Q&A, vlogs).
+- Only story clips (file names `*_story_*`) — never `*_trend_*` (Hilal's face). NEVER Hilal's face (Drive "Reels trial" videos, Q&A, vlogs).
 - Never anything gambling-related on TikTok. Never delete anything. The Instagram pause marker (POSTER.md step 1) is for Instagram blocks only and does NOT stop Facebook/TikTok — unless its title mentions "Hilal" (a pause he asked for), then post nothing anywhere.
 - QUALITY FILTER (Hilal: "good clips overall, not only views"): look at a frame (ffmpeg at ~1.5 s, read the title text)
   and SKIP anything very weird, gross, sexual, involving minors in romance/marriage/abuse, extreme violence, or
