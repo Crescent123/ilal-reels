@@ -45,6 +45,9 @@ Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/
 - If no eligible clip: post nothing (fine).
 
 ## TikTok (public)
+- 6 Nov: TikTok runs just do `bash tools/tiktok_run.sh 2` (run it with a 10-min tool timeout). It picks by the rules
+  below, pushes the jobs with a "log" field, and the workflow logs each post. Don't hand-pick unless the script says
+  "nothing eligible". Caption is generic (the hook is already on screen).
 - Pick from trial-posted (best Instagram plays first, 10K+), then trial-queue score 8 (`_s8_`), then 7.
 - Job: {"user":"default","platforms":["tiktok"],"video":"<raw url>","title":"<question line> 😳 القصة كاملة فيوتيوب: ilal Stories",
         "fields":{"privacy_level":"PUBLIC_TO_EVERYONE"}}
