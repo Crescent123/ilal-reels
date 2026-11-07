@@ -12,6 +12,8 @@ if J['type']=='transcribe':
         try: urllib.request.urlretrieve(J['url'],a); break
         except Exception as e: err=str(e)
     else: errs.append('download failed: '+err)
+    if not errs and J.get('keep_audio'):
+        import shutil; shutil.copy(a,O+'/audio'+os.path.splitext(J['url'].split('?')[0])[1])
     if not errs:
         r=subprocess.run(['bash',R+'/storyreel/transcribe.sh',a,O+'/tr.json'],capture_output=True,text=True)
         if r.returncode or not os.path.exists(O+'/tr_segments.txt'): errs.append('transcribe failed: '+(r.stderr or r.stdout)[-400:])
