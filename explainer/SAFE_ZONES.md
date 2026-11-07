@@ -6,4 +6,4 @@ Keep it dynamic: something changes every 1.5–3 s (cut, zoom, icon pop, figure 
 Captions: 2–5 words per chunk, timed to the voice, white box, black text, no wrapping (auto-shrink).
 Voice: Hilal's PVC "ilal Stories" (VZa0K5GwwOGE09GqMDa9) on eleven_v4. ~800 credits per 55 s.
 Pipeline: script -> ElevenLabs v4 -> fetch audio + Whisper timings via GitHub Actions (ai job, keep_audio) -> anim.html scenes -> Playwright frames -> ffmpeg + soft synth bed.
-- Scientific terms (dopamine, limerence…) stay in English, in text AND voice (Hilal, 6 Nov): write them in Latin letters in the script so the clone says them the English way.
+- Terms (Hilal, 6 Nov, updated): say psych/science ideas in Darija/Arabic first (عقلية الضحية, تحمّل المسؤولية, الحدود, العبء الذهني, الدوبامين…). Keep English ONLY when there is no Arabic word or it sounds weird (e.g. Limerence) — and then write it in ARABIC letters in the voice script (ليمرانس) because Latin text makes ElevenLabs switch to an English-sounding voice. Captions may show the Latin spelling.
