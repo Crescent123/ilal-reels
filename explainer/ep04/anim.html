@@ -123,7 +123,7 @@ function render(t){
      g+=fig(540,FY+120,W,.85,{face:1,sad:t>A[14]});
      const items=[['🍲 شنو غادي ناكلو؟',A[15]],['💡 شكون يخلص الضو؟',A[16]],['📅 موعد الطبيب',A[16]+.6],['🧺 الصابون سالا',A[16]+1.0]];
      if(t<A[13]) g+=popT(t,A[12],540,640,180,'#fff','🧠');
-     if(t<A[14]&&t>=A[13]) g+=popT(t,A[13],540,560,110,'#fff','Mental load',1);
+     if(t<A[14]&&t>=A[13]) g+=popT(t,A[13],540,560,100,'#fff','العبء الذهني');
      else { g+=popT(t,A[14],540,470,54,GOLD,'الشغل اللي ما كيبانش 👻');
        items.forEach((it,i)=>{ if(t>it[1]) g+=thought(540+(i%2?60:-60),560+i*88,it[0],P(t,it[1],it[1]+.25),PB(t,it[1],it[1]+.4)); });
        const sq=1-.12*P(t,A[15],A[16]+1.5); g+=`<g transform="translate(540,${FY+40}) scale(1,${sq}) translate(-540,${-FY-40})"></g>`; }
