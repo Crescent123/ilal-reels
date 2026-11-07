@@ -1074,8 +1074,6 @@
  },
  "UCVAbTOAWUo": {
   "date": "2026-11-07",
-  "status": "reserved",
-  "at": "2026-11-07T17:12:00Z",
-  "by": "B"
+  "skip": "weak hook"
  }
 }
