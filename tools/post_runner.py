@@ -58,6 +58,7 @@ if job.get('log'):
                 if isinstance(v,dict) and v.get('post_url'): return v['post_url']
         return ''
     u=_url(res) if isinstance(res,dict) else ''
-    line=dict(job['log']); line.update({'t':datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),'event':'posted' if u else 'error','permalink':u})
-    if not u: line['note']=(line.get('note','')+' | no post_url: '+json.dumps(res)[:200]).strip(' |')
+    line=dict(job['log']); ok=bool(u) or (isinstance(res,dict) and res.get('success') is True)
+    line.update({'t':datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),'event':'posted' if ok else 'error','permalink':u})
+    if not u: line['note']=('url pending (background upload) | ' if ok else '')+(line.get('note','')+' | no post_url: '+json.dumps(res)[:200]).strip(' |')
     json.dump(line,open(os.path.join(out,'logline.json'),'w'),ensure_ascii=False)
