@@ -5,7 +5,7 @@ render.js (`node render.js test '[t1,t2]'` stills / `node render.js full` frames
 Fonts: copy storyreel/assets/Cairo.ttf next to anim.html.
 
 ## Pipeline per episode
-1. Script in Darija (~45–60 s, ~800 chars). Hook in the first line. Scientific terms in English (Latin letters).
+1. Script in Darija (~45–60 s, ~800 chars). Hook in the first line. Terms in Darija/Arabic first; English only if no Arabic word exists, and then spelled in Arabic letters for the voice (see SAFE_ZONES.md).
 2. Voice: ElevenLabs creative_generate_speech, voice_id VZa0K5GwwOGE09GqMDa9 ("ilal Stories", Hilal's PVC), model eleven_v4,
    1 generation (~800 credits).
 3. The container can't download from elevenlabsusercontent.com, so fetch via GitHub Actions: push
