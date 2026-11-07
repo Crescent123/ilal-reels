@@ -1,0 +1,136 @@
+<html><head><meta charset="utf-8"><style>
+@font-face{font-family:Cairo;src:url('../../storyreel/assets/Cairo.ttf');font-weight:200 1000}
+body{margin:0;width:1080px;height:1920px;background:#0b0b0b;overflow:hidden;font-family:Cairo,sans-serif}
+svg text{font-family:Cairo}
+#cap{position:absolute;top:1340px;left:80px;width:840px;height:120px;display:flex;align-items:center;justify-content:center;direction:rtl}
+#cap span{background:#fff;color:#000;font-weight:900;padding:4px 22px;border-radius:14px;white-space:nowrap;display:inline-block}
+</style></head><body>
+<svg id="g" width="1080" height="1920" style="position:absolute;top:0;left:0"></svg>
+<div id="cap"></div>
+<script>
+// Couples explainer ENGINE (spec-driven). Data = data.json built by engine/build.py from <ep>/ep.json.
+// D = {title, ph:[{a,b,v}], cap:[[a,b,txt]], dur}. v = beat (see explainer/engine/SPEC.md).
+let D={};
+const RED='#e63946', W='#fff', PINK='#ff7eb6', GOLD='#ffd166', GREY='#666', BLUE='#8fd3ff', GREEN='#5c5';
+const COL={w:W,r:RED,p:PINK,g:GOLD,b:BLUE,gr:GREEN,grey:'#999'};
+const col=c=>COL[c]||c||W;
+const cl=(x,a,b)=>Math.max(a,Math.min(b,x));
+const ease=x=>{x=cl(x,0,1);return 1-Math.pow(1-x,3)};
+const back=x=>{x=cl(x,0,1);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const P=(t,a,b)=>ease((t-a)/Math.max(.01,b-a));
+const PB=(t,a,b)=>back((t-a)/Math.max(.01,b-a));
+const lerp=(a,b,k)=>a+(b-a)*k;
+function fsz(str,s,maxw){const n=[...str].length;return Math.min(s,maxw/(n*0.7));}
+function T(x,y,s,c,o,str,w){return `<text x="${x}" y="${y}" fill="${c}" font-size="${s}" font-weight="${w||900}" text-anchor="middle" direction="rtl" opacity="${o==null?1:o}">${str}</text>`;}
+function popT(t,t0,x,y,s,c,str,maxw){if(t<t0)return '';s=fsz(str,s,maxw||820);const k=PB(t,t0,t0+.45);return `<g transform="translate(${x},${y}) scale(${k})">${T(0,0,s,c,cl((t-t0)*4,0,1),str)}</g>`;}
+// figure poses: down|up|reach|hug|point|cross|chest|lift|wave ; flags angry sad smile tear walk op face
+function fig(x,y,c,s,o){o=o||{};const f=o.face||1;const w=o.walk||0;const leg=Math.sin(w)*28, armw=Math.sin(w)*20;let arms;
+ const a=o.arm;
+ if(a==='up') arms=`<line x1="0" y1="72" x2="-55" y2="10"/><line x1="0" y1="72" x2="55" y2="10"/>`;
+ else if(a==='reach') arms=`<line x1="0" y1="72" x2="${-40*f}" y2="125"/><line x1="0" y1="72" x2="${70*f}" y2="80"/>`;
+ else if(a==='hug') arms=`<line x1="0" y1="72" x2="${60*f}" y2="70"/><line x1="0" y1="80" x2="${60*f}" y2="100"/>`;
+ else if(a==='point') arms=`<line x1="0" y1="72" x2="${-42*f}" y2="125"/><line x1="0" y1="72" x2="${88*f}" y2="${58+(o.jab||0)}"/>`;
+ else if(a==='cross') arms=`<line x1="0" y1="72" x2="32" y2="100"/><line x1="0" y1="72" x2="-32" y2="100"/><line x1="-34" y1="100" x2="34" y2="100"/>`;
+ else if(a==='chest') arms=`<line x1="0" y1="72" x2="${-42*f}" y2="125"/><path d="M 0 72 L ${30*f} 108 L ${8*f} 98"/>`;
+ else if(a==='lift') arms=`<line x1="0" y1="72" x2="${-42*f}" y2="125"/><line x1="0" y1="72" x2="${40*f}" y2="-2"/>`;
+ else if(a==='wave') arms=`<line x1="0" y1="72" x2="${-42*f}" y2="125"/><line x1="0" y1="72" x2="${(50+Math.sin(o.tt*10)*18)*f}" y2="0"/>`;
+ else if(a==='head') arms=`<path d="M 0 72 L -46 40 L -20 -20"/><path d="M 0 72 L 46 40 L 20 -20"/>`;
+ else arms=`<line x1="0" y1="72" x2="${-50+armw}" y2="122"/><line x1="0" y1="72" x2="${50-armw}" y2="122"/>`;
+ let face='';
+ if(o.angry) face+=`<g stroke-width="6"><line x1="-24" y1="-20" x2="-6" y2="-10"/><line x1="24" y1="-20" x2="6" y2="-10"/></g>`;
+ if(o.sad) face+=`<path d="M -12 18 Q 0 8 12 18" stroke-width="5" fill="none"/>`;
+ if(o.smile) face+=`<path d="M -13 10 Q 0 22 13 10" stroke-width="5" fill="none"/>`;
+ if(o.shock) face+=`<circle cx="0" cy="14" r="7" stroke-width="5"/>`;
+ if(o.tear) face+=`<path d="M ${-14*f} ${2+o.tear*20} q -6 10 0 14 q 6 -4 0 -14" fill="#7ec8ff" stroke="none"/>`;
+ return `<g transform="translate(${x},${y}) scale(${s})" stroke="${c}" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="${o.op==null?1:o.op}">
+ <circle cx="0" cy="0" r="34"/>${face}<line x1="0" y1="34" x2="0" y2="150"/>${arms}
+ <line x1="0" y1="150" x2="${-38+leg}" y2="235"/><line x1="0" y1="150" x2="${38-leg}" y2="235"/></g>`;}
+function heart(x,y,s,o,c){return `<path transform="translate(${x},${y}) scale(${s})" opacity="${o}" fill="${c||RED}" stroke="none" d="M0 30 C -40 -5,-30 -45,0 -20 C 30 -45,40 -5,0 30Z"/>`;}
+function bolt(x,y,s,o,r){return `<path transform="translate(${x},${y}) rotate(${r||0}) scale(${s})" opacity="${o}" fill="${GOLD}" d="M10 -40 L -20 5 L 0 5 L -10 40 L 22 -8 L 2 -8 Z"/>`;}
+function xmark(x,y,s,o,c){return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s})" stroke="${c||RED}" stroke-width="16" stroke-linecap="round"><line x1="-40" y1="-40" x2="40" y2="40"/><line x1="40" y1="-40" x2="-40" y2="40"/></g>`;}
+function check(x,y,s,o){return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s})" stroke="${GREEN}" stroke-width="16" stroke-linecap="round" fill="none"><path d="M -40 0 L -10 30 L 45 -35"/></g>`;}
+function sb(x,y,str,o,s,dark,fs){if(o<=0)return '';fs=fs||40;fs=Math.min(fs,1400/([...str].length+2));const w=Math.min(800,60+[...str].length*fs*.52);x=cl(x,100+w/2,980-w/2-20);
+ return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s||1})"><rect x="${-w/2}" y="${-fs*1.05}" width="${w}" height="${fs*1.9}" rx="${fs*.8}" fill="${dark?RED:'#fff'}"/><path d="M -16 ${fs*.84} L 0 ${fs*1.5} L 16 ${fs*.84} Z" fill="${dark?RED:'#fff'}"/>${T(0,fs*.33,fs,dark?'#fff':'#000',1,str)}</g>`;}
+function meter(x,y,lab,v,c,o){return `<g opacity="${o}" transform="translate(${x},${y})"><rect x="-200" y="-28" width="400" height="56" rx="28" fill="#222" stroke="#555" stroke-width="4"/><rect x="-196" y="-24" width="${392*cl(v,0,1)}" height="48" rx="24" fill="${c}"/>${T(0,-50,44,'#fff',1,lab)}</g>`;}
+function emoji(x,y,s,o,e,r){return `<text x="${x}" y="${y}" font-size="${s}" text-anchor="middle" opacity="${o}" transform="rotate(${r||0},${x},${y})">${e}</text>`;}
+// layouts -> figure slots {w:[x,y,s], r:[x,y,s]}
+const FY=820;
+const LAY={couple:{w:[330,FY,1],r:[750,FY,1]},apart:{w:[220,FY,.95],r:[860,FY,.95]},close:{w:[470,FY,1],r:[610,FY,1]},
+ solo_w:{w:[540,FY,1.1],r:[1300,FY,1]},solo_r:{w:[-300,FY,1],r:[540,FY,1.1]},split:{w:[300,FY+60,.8],r:[780,FY+60,.8]},
+ text:{w:[300,1020,.5],r:[780,1020,.5]},cta:{w:[400,1000,.6],r:[680,1000,.6]},list:{w:[180,FY+80,.75],r:[900,FY+80,.75]}};
+function parsePose(s){const o={};(s||'').split(/[ ,]+/).filter(Boolean).forEach(k=>{const [a,b]=k.split(':');if(a==='arm')o.arm=b;else if(['down','up','reach','hug','point','cross','chest','lift','wave','head'].includes(a))o.arm=a;else o[a]=b==null?1:b;});return o;}
+function state(k){ // persistent fields carried from previous phrases
+ const st={L:'couple',w:'',r:'',fx:'',list:[]};
+ for(let i=0;i<=k;i++){const v=D.ph[i].v||{};['L','w','r','fx'].forEach(f=>{if(v[f]!=null)st[f]=v[f];});
+   if(v.L&&v.L!=='list'&&i<k) st.list=[]; if(v.item) st.list.push([v.item,D.ph[i].a]);}
+ return st;}
+function layStart(k){let L=state(k).L,i=k;while(i>0&&state(i-1).L===L)i--;return D.ph[i].a;}
+function render(t){
+ const N=D.ph.length;let k=0;for(let i=0;i<N;i++) if(t>=D.ph[i].a) k=i;
+ const ph=D.ph[k], v=ph.v||{}, st=state(k), t0=ph.a;
+ const prev=k>0?state(k-1):st, ls=layStart(k);
+ const zoom=1+0.05*cl((t-ls)/8,0,1);
+ let g='';
+ // figure slots, eased from previous layout
+ const kL=k>0&&prev.L!==st.L?P(t,t0,t0+.55):1;
+ const A=LAY[st.L]||LAY.couple, B=LAY[prev.L]||A;
+ const pos=who=>[lerp(B[who][0],A[who][0],kL),lerp(B[who][1],A[who][1],kL),lerp(B[who][2],A[who][2],kL)];
+ const pw=pos('w'), pr=pos('r');
+ const ow=parsePose(st.w), or=parsePose(st.r);
+ ow.face=ow.away?-1:1; or.face=or.away?1:-1; ow.tt=t; or.tt=t;
+ if(ow.walk) ow.walk=t*12; if(or.walk) or.walk=t*12;
+ if(ow.angry&&ow.arm==='point') ow.jab=Math.sin(t*9)*14; if(or.angry&&or.arm==='point') or.jab=Math.cos(t*9)*14;
+ if(ow.tear) ow.tear=(t*1.3)%1; if(or.tear) or.tear=(t*1.3)%1;
+ const sh=(o)=>o.shake?Math.sin(t*40)*5:0, bob=(o)=>o.nod?Math.abs(Math.sin(t*7))*12:0;
+ if(ow.fade) ow.op=.4; if(or.fade) or.op=.4;
+ const sw=ow.small?.75:1, sr=or.small?.75:1;
+ if(ow.hide) ow.op=0; if(or.hide) or.op=0;
+ // title
+ if(k>0&&!['text','cta'].includes(st.L)) g+=T(540,300,fsz(D.title,56,700),'#fff',.9,D.title);
+ if(k===0) g+=popT(t,0,540,430,100,'#fff',D.title,820);
+ // background heart for text/cta
+ if(['text','cta'].includes(st.L)) g+=heart(540,860,4+0.3*Math.sin(t*3),.12,RED);
+ // split divider + labels
+ if(st.L==='split'){ g+=`<line x1="540" y1="440" x2="540" y2="1250" stroke="#333" stroke-width="4"/>`; }
+ // figures
+ g+=`<g transform="translate(${sh(ow)},${bob(ow)})">${fig(pw[0],pw[1],W,pw[2]*sw,ow)}</g>`;
+ g+=`<g transform="translate(${-sh(or)},${bob(or)})">${fig(pr[0],pr[1],RED,pr[2]*sr,or)}</g>`;
+ // continuous fx (persistent)
+ (st.fx||'').split(/[ ,]+/).filter(Boolean).forEach(fx=>{
+  if(fx==='hearts') for(let i=0;i<6;i++){const p=((t*.5+i/6)%1);g+=heart(330+i*85,1150-p*520,.55,(1-p)*.75,i%2?RED:PINK);}
+  if(fx==='bolts') for(let i=0;i<3;i++){const p=(t*2.2+i/3)%1;g+=bolt(540+(i-1)*55,FY+40-p*120,1.2,1-p,(i-1)*20);}
+  if(fx==='snow') for(let i=0;i<6;i++){const p=((t*.4+i/6)%1);g+=emoji(170+i*140,520+p*640,50,(1-p)*.8,'❄️');}
+  if(fx==='rain') for(let i=0;i<8;i++){const p=((t*1.2+i/8)%1);g+=`<line x1="${160+i*105}" y1="${460+p*700}" x2="${150+i*105}" y2="${500+p*700}" stroke="${BLUE}" stroke-width="5" opacity="${.6*(1-p)}"/>`;}
+  if(fx==='q') for(let i=0;i<3;i++){const p=((t*.6+i/3)%1);g+=T(380+i*160,700-p*200,80,GOLD,(1-p),'؟');}
+  if(fx==='zzz') for(let i=0;i<3;i++){const p=((t*.7+i/3)%1);g+=T(pw[0]+40+p*60,pw[1]-60-p*160,50+p*30,'#999',1-p,'z',700)+T(pr[0]-40-p*60,pr[1]-60-p*160,50+p*30,'#999',1-p,'z',700);}
+  if(fx==='coins') for(let i=0;i<5;i++){const p=((t*.6+i/5)%1);g+=emoji(200+i*170,480+p*600,56,(1-p),'🪙',p*200);}
+  if(fx==='confetti') for(let i=0;i<14;i++){const p=((t*.5+i/14)%1);g+=`<rect x="${120+i*60}" y="${440+p*700}" width="18" height="10" fill="${[RED,GOLD,W,PINK][i%4]}" transform="rotate(${p*720},${130+i*60},${445+p*700})" opacity="${1-p}"/>`;}
+  if(fx==='sparks') for(let i=0;i<8;i++){const a=i/8*6.283+t;g+=emoji(540+Math.cos(a)*300,760+Math.sin(a)*170,40,.7,'✨');}
+  if(fx==='glow'){const gl=.5+.5*Math.sin(t*4);g+=`<circle cx="${pw[0]}" cy="${pw[1]+90}" r="${230+10*gl}" fill="none" stroke="${GOLD}" stroke-width="5" opacity="${.25+.2*gl}"/>`;}
+  if(fx==='wall') g+=`<g opacity="${P(t,ls,ls+.5)}"><rect x="525" y="${FY-60}" width="30" height="330" fill="#888"/>${[0,1,2,3,4].map(i=>`<line x1="525" y1="${FY-60+i*66}" x2="555" y2="${FY-60+i*66}" stroke="#555" stroke-width="4"/>`).join('')}</g>`;
+  if(fx==='rope') g+=`<path d="M ${pw[0]+40} ${pw[1]+90} Q 540 ${pw[1]+130+Math.sin(t*6)*20} ${pr[0]-40} ${pr[1]+90}" stroke="${GOLD}" stroke-width="8" fill="none"/>`;
+ });
+ // list layout: accumulated items (emoji/text lines) in the middle column
+ if(st.L==='list'){ st.list.forEach((it,i)=>{ g+=popT(t,it[1],540,500+i*110,56,i%2?GOLD:'#fff',it[0],560); }); }
+ // transient beat elements of THIS phrase
+ const d=(x)=>t0+(x||0);
+ if(v.top){const [s,c]=Array.isArray(v.top)?v.top:[v.top,'g']; g+=popT(t,d(.05),540,480,64,col(c),s);}
+ if(v.mid){const e=Array.isArray(v.mid)?v.mid:[v.mid]; const sc=PB(t,d(.05),d(.45)); const wob=Math.sin(t*3)*6;
+   g+=`<g transform="translate(540,600) scale(${sc}) rotate(${wob})">${emoji(0,50,e[2]||150,cl((t-t0)*4,0,1),e[0])}</g>`; if(e[1]) g+=popT(t,d(.35),540,730,48,'#fff',e[1]);}
+ if(v.x) g+=xmark(540,620,1.6,P(t,d(.3),d(.5)));
+ if(v.ck) g+=check(540,620,1.6,P(t,d(.3),d(.5)));
+ if(v.bw) g+=sb(pw[0]+60,600,v.bw,P(t,d(.05),d(.25)),PB(t,d(.05),d(.4)),0);
+ if(v.br) g+=sb(pr[0]-60,v.bw?720:600,v.br,P(t,d(.05),d(.25)),PB(t,d(.05),d(.4)),1);
+ if(v.sl) g+=popT(t,d(.05),300,520,52,col(v.sl[1]),v.sl[0],400);
+ if(v.sr) g+=popT(t,d(.35),780,520,52,col(v.sr[1]),v.sr[0],400);
+ if(v.m){const [lab,a,b,c]=v.m; g+=meter(540,1185,lab,lerp(a,b,P(t,d(.2),d(1.6))),col(c),P(t,d(0),d(.3)));}
+ if(v.burst) for(let i=0;i<10;i++){const kk=cl((t-t0)/1.2,0,1),a=i/10*6.283; if(t>t0&&t<t0+1.2) g+=heart(540+Math.cos(a)*kk*260,700+Math.sin(a)*kk*200,.6*(1-kk*.5),1-kk,v.burst==='w'?W:RED);}
+ if(v.broken){const kk=P(t,d(.2),d(.8));g+=`<g transform="translate(540,650)"><g transform="translate(${-kk*40},${kk*30}) rotate(${-kk*20})"><path d="M0 30 C -40 -5,-30 -45,0 -20 L -8 0 L 6 12 Z" transform="scale(2.4)" fill="${RED}"/></g><g transform="translate(${kk*40},${kk*30}) rotate(${kk*20})"><path d="M0 30 C 40 -5,30 -45,0 -20 L -8 0 L 6 12 Z" transform="scale(2.4)" fill="${RED}"/></g></g>`;}
+ if(v.big){ v.big.forEach((ln,i)=>{const [s,c,z,dl]=ln; g+=popT(t,d(dl==null?i*.45:dl),540,(v.by||600)+i*(v.gap||150),z||84,col(c),s);}); }
+ if(v.cta) g+=popT(t,d(.9),540,1260,46,'#ccc',v.cta);
+ document.getElementById('g').innerHTML=`<g opacity="${k===0?1:1}" transform="translate(540,860) scale(${zoom}) translate(-540,-860)">${g}</g>`;
+ let c='';for(const q of D.cap){if(t>=q[0]&&t<q[1]){c=q[2];break;}}
+ const el=document.getElementById('cap'); if(['text','cta'].includes(st.L)||!c){el.innerHTML='';return;}
+ let fs=62; el.innerHTML=`<span style="font-size:${fs}px">${c}</span>`; const sp=el.firstChild; while(sp.offsetWidth>840&&fs>34){fs-=2;sp.style.fontSize=fs+'px';}
+}
+</script></body></html>
