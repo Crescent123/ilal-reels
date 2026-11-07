@@ -55,6 +55,11 @@ posted by the poster chat; never post yourself.
 ## 7. Log — right after EACH episode is queued (not at the end of the run)
 - backlog.json: set "status":"queued", "date_queued":"YYYY-MM-DD".
 - episodes.json: append {"ep","slug","topic" (title + one-line angle),"source_reel","made","status":"queued","date_queued"}.
-- Commit explainer/epNN/{ep.json,data.json} + backlog.json + episodes.json (NOT frames/work/out.mp4), push NOW,
+- Run `python3 explainer/mark_used.py` (marks the source reel as used in source_list.json).
+- Commit explainer/epNN/{ep.json,data.json} + backlog.json + episodes.json + source_list.json (NOT frames/work/out.mp4), push NOW,
   before starting the next episode. Delete the lock only after the last push.
 - Report one line per episode: ep, title, seconds, credits. If ElevenLabs refuses (credits/quota), stop and report.
+
+## New topics later (Hilal, 7 Nov)
+Never re-adapt a source reel that has "used_in_ep" in explainer/source_list.json (it lists every @thejakeabdo reel
+already used or planned). Pick new ones from the unused reels, top views first, and add them to backlog.json.

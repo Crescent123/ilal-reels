@@ -8,7 +8,8 @@
    "topic = reel caption; null = caption not fetched (Instagram rate-limited after 472) or caption was empty/promo",
    "Captions fetched for the top 300 overall + the most-viewed reels from the series period, so every series reel above ~28k views is labelled",
    "Most non-series reels are face-cam rants with anti-women framing; we only adapt series reels marked pick=use/reframe"
-  ]
+  ],
+  "used_note": "used_in_ep = already adapted (or planned) as a couples explainer — do NOT reuse these topics; re-run explainer/mark_used.py after each new episode"
  },
  "reels": [
   {
@@ -86,7 +87,9 @@
    "link": "https://www.instagram.com/reel/DcMU5ZQvNtT/",
    "views": 1100000,
    "topic": "Men’s dating advice vs women’s dating advice",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 26,
+   "used_slug": "nasa2ih_rjal_w_3yalat"
   },
   {
    "rank": 12,
@@ -268,7 +271,9 @@
    "link": "https://www.instagram.com/reel/DXDEy9-gdQ0/",
    "views": 438000,
    "topic": "15 Brutal Truths about breakups",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 27,
+   "used_slug": "l7a9a2i9_dyal_lfra9"
   },
   {
    "rank": 38,
@@ -326,7 +331,9 @@
    "topic": "Day 81 - Holding Her Accountable",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Accountability in a couple — both sides own their mistakes (merge Day 69.5)"
+   "couples_angle": "Accountability in a couple — both sides own their mistakes (merge Day 69.5)",
+   "used_in_ep": 2,
+   "used_slug": "shkoun_lghalet"
   },
   {
    "rank": 46,
@@ -454,7 +461,9 @@
    "link": "https://www.instagram.com/reel/DfRYkc7CdkW/",
    "views": 301000,
    "topic": "Women Will Never Be Happy",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 44,
+   "used_slug": "7ta_wa7d_ma_kaychba3 (planned)"
   },
   {
    "rank": 64,
@@ -517,14 +526,18 @@
    "link": "https://www.instagram.com/reel/Dd8__1CArOh/",
    "views": 270000,
    "topic": "Why Women Give Bad Dating Advice",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 45,
+   "used_slug": "nsa2i7_s7abk (planned)"
   },
   {
    "rank": 73,
    "link": "https://www.instagram.com/reel/Dd-5lnzjkEk/",
    "views": 260000,
    "topic": "What She Means When She Says My Ex Was A Narcissist",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 28,
+   "used_slug": "kolchi_narjisi"
   },
   {
    "rank": 74,
@@ -582,7 +595,9 @@
    "topic": "Day 37 - Warm Dominance",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Firm + warm: calm, steady partner, not cold and not a pushover"
+   "couples_angle": "Firm + warm: calm, steady partner, not cold and not a pushover",
+   "used_in_ep": 3,
+   "used_slug": "la_qase7_la_meskin"
   },
   {
    "rank": 82,
@@ -817,7 +832,9 @@
    "topic": "Day 87 - Leading the Relationship",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Who leads the relationship? Direction and decisions as a couple"
+   "couples_angle": "Who leads the relationship? Direction and decisions as a couple",
+   "used_in_ep": 5,
+   "used_slug": "shkoun_kiqoud"
   },
   {
    "rank": 115,
@@ -903,7 +920,9 @@
    "topic": "Feminism erased the trade that men and women used to make (1 of 2) - Stick Figure",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "The old deal between men and women vs today (balanced debate, no blame)"
+   "couples_angle": "The old deal between men and women vs today (balanced debate, no blame)",
+   "used_in_ep": 4,
+   "used_slug": "l3aqd_lqdim"
   },
   {
    "rank": 127,
@@ -931,7 +950,9 @@
    "link": "https://www.instagram.com/reel/Dd-5WhZjJdh/",
    "views": 164000,
    "topic": "Nine Tells She Is Cheating",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 29,
+   "used_slug": "3alamat_lb3ad"
   },
   {
    "rank": 131,
@@ -1193,7 +1214,9 @@
    "topic": "Day 45.5 - Two kinds of withdrawal- one creates a gap to close, one gives nothing",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Two kinds of distance: space that invites back vs silent treatment"
+   "couples_angle": "Two kinds of distance: space that invites back vs silent treatment",
+   "used_in_ep": 6,
+   "used_slug": "juj_no3_dyal_lb3ad"
   },
   {
    "rank": 167,
@@ -1230,7 +1253,9 @@
    "topic": "Day 78 - The Willingness to Lose Her",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Fear of losing them makes you lose them (neediness, both sexes)"
+   "couples_angle": "Fear of losing them makes you lose them (neediness, both sexes)",
+   "used_in_ep": 7,
+   "used_slug": "lkhof_mn_lkhsara"
   },
   {
    "rank": 172,
@@ -1288,7 +1313,9 @@
    "topic": "Day 72 - Invest Less Than She Does",
    "series_90days": true,
    "pick": "reframe",
-   "couples_angle": "Invest less -> balance of investment; the one who gives everything"
+   "couples_angle": "Invest less -> balance of investment; the one who gives everything",
+   "used_in_ep": 8,
+   "used_slug": "lmizan"
   },
   {
    "rank": 180,
@@ -1427,7 +1454,9 @@
    "topic": "Day 25.5 - Women compete with women",
    "series_90days": true,
    "pick": "skip",
-   "why": "pickup/sex tactic or anti-women framing; no couples angle"
+   "why": "pickup/sex tactic or anti-women framing; no couples angle",
+   "used_in_ep": 48,
+   "used_slug": "lwjh_lowl (planned)"
   },
   {
    "rank": 199,
@@ -1539,7 +1568,9 @@
    "link": "https://www.instagram.com/reel/DfVyMZKj-uY/",
    "views": 114000,
    "topic": "Female Behavior Driven by Boredom",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 46,
+   "used_slug": "lmalal (planned)"
   },
   {
    "rank": 215,
@@ -1553,7 +1584,9 @@
    "link": "https://www.instagram.com/reel/Dd-5cA4jHv-/",
    "views": 114000,
    "topic": "Women Who Do Not Chase Will Not Find Love",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 47,
+   "used_slug": "shkoun_ybada (planned)"
   },
   {
    "rank": 217,
@@ -1757,7 +1790,9 @@
    "topic": "Day 56.5 - She offloads emotional regulation onto the man",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Who calms whom? emotional regulation in a couple (merge Day 55.5)"
+   "couples_angle": "Who calms whom? emotional regulation in a couple (merge Day 55.5)",
+   "used_in_ep": 9,
+   "used_slug": "shkoun_kihdden"
   },
   {
    "rank": 245,
@@ -1792,7 +1827,9 @@
    "link": "https://www.instagram.com/reel/DXIssTUDGZs/",
    "views": 101000,
    "topic": "Three brutal truths about long-distance relationships",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 30,
+   "used_slug": "l3ala9a_mn_b3id"
   },
   {
    "rank": 250,
@@ -1813,7 +1850,9 @@
    "link": "https://www.instagram.com/reel/Dbz1sFyFS0D/",
    "views": 98500,
    "topic": "The art of never explaining",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 31,
+   "used_slug": "ma_tbqach_tbrrer"
   },
   {
    "rank": 253,
@@ -1827,7 +1866,9 @@
    "link": "https://www.instagram.com/reel/DaNxeumCQx9/",
    "views": 98100,
    "topic": "The Discomfort of Uncertainty",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 32,
+   "used_slug": "chnou_7na"
   },
   {
    "rank": 255,
@@ -1878,7 +1919,9 @@
    "link": "https://www.instagram.com/reel/Dd9AA00E_yk/",
    "views": 95300,
    "topic": "Attraction Is Respect",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 33,
+   "used_slug": "l7tiram_9bal_lhob"
   },
   {
    "rank": 262,
@@ -1934,7 +1977,9 @@
    "link": "https://www.instagram.com/reel/DZCFUsZCQ-f/",
    "views": 93400,
    "topic": "Instead of addressing the plan they shoot the messenger",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 34,
+   "used_slug": "tqtel_lmrsoul"
   },
   {
    "rank": 270,
@@ -2173,7 +2218,9 @@
    "topic": "Day 15.5 - Leaders carry the fear and project steadiness; they don't dump it on followers",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Under pressure: carry the stress, do not dump it on your partner"
+   "couples_angle": "Under pressure: carry the stress, do not dump it on your partner",
+   "used_in_ep": 10,
+   "used_slug": "tahet_dghet"
   },
   {
    "rank": 303,
@@ -2203,7 +2250,9 @@
    "topic": "Day 42.5 - Show desire without being consumed by it",
    "series_90days": true,
    "pick": "skip",
-   "why": "pickup/sex tactic or anti-women framing; no couples angle"
+   "why": "pickup/sex tactic or anti-women framing; no couples angle",
+   "used_in_ep": 51,
+   "used_slug": "bghih_bla_matdob (planned)"
   },
   {
    "rank": 307,
@@ -2254,14 +2303,18 @@
    "link": "https://www.instagram.com/reel/DeKrqOqDMiU/",
    "views": 82000,
    "topic": "Five Reasons You Never Take Her Back",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 35,
+   "used_slug": "trj3_l_lex"
   },
   {
    "rank": 314,
    "link": "https://www.instagram.com/reel/DfY5M_4gXVg/",
    "views": 81800,
    "topic": "Preselection",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 36,
+   "used_slug": "lghira"
   },
   {
    "rank": 315,
@@ -2368,7 +2421,9 @@
    "topic": "Day 60.5 - She wants a man who can correct her and let her go",
    "series_90days": true,
    "pick": "reframe",
-   "couples_angle": "Partner who can say no to you and still lets you be free"
+   "couples_angle": "Partner who can say no to you and still lets you be free",
+   "used_in_ep": 20,
+   "used_slug": "9oul_la_w_khalli"
   },
   {
    "rank": 330,
@@ -2477,7 +2532,9 @@
    "topic": "Day 53 - Agree and Amplify",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Agree and amplify: humour to defuse small fights"
+   "couples_angle": "Agree and amplify: humour to defuse small fights",
+   "used_in_ep": 16,
+   "used_slug": "dhak_f_lkhsoma"
   },
   {
    "rank": 345,
@@ -2833,7 +2890,9 @@
    "topic": "Day 35 - Aliveness and the Hunger for Life",
    "series_90days": true,
    "pick": "maybe",
-   "couples_angle": "Aliveness / passion for life is attractive"
+   "couples_angle": "Aliveness / passion for life is attractive",
+   "used_in_ep": 22,
+   "used_slug": "lhayat_f_3inik"
   },
   {
    "rank": 395,
@@ -3159,7 +3218,9 @@
    "link": "https://www.instagram.com/reel/DeFTTH6iFc5/",
    "views": 59300,
    "topic": "“I don’t wanna play games”",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 37,
+   "used_slug": "l3ab_f_l3ala9a"
   },
   {
    "rank": 441,
@@ -3240,7 +3301,9 @@
    "topic": "The Era of Infinite Convenience has made you SOFT (1 of 2) - Stick Figure",
    "series_90days": true,
    "pick": "maybe",
-   "couples_angle": "Convenience made us soft"
+   "couples_angle": "Convenience made us soft",
+   "used_in_ep": 24,
+   "used_slug": "kolchi_sahl"
   },
   {
    "rank": 452,
@@ -3384,7 +3447,9 @@
    "topic": "Day 30 - Intermittent Reinforcement",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Intermittent reinforcement: why hot-cold partners hook you (warning)"
+   "couples_angle": "Intermittent reinforcement: why hot-cold partners hook you (warning)",
+   "used_in_ep": 13,
+   "used_slug": "skhoun_bared"
   },
   {
    "rank": 472,
@@ -3433,7 +3498,9 @@
    "link": "https://www.instagram.com/reel/DfSBsoHgeTj/",
    "views": 54200,
    "topic": "She Loves Through Investment",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 38,
+   "used_slug": "knbghiw_li_t3bna_3lih"
   },
   {
    "rank": 479,
@@ -3570,7 +3637,9 @@
    "topic": "Day 77.5 - She ultimately wants freedom; never try to cage her",
    "series_90days": true,
    "pick": "reframe",
-   "couples_angle": "Love without a cage: freedom inside the relationship"
+   "couples_angle": "Love without a cage: freedom inside the relationship",
+   "used_in_ep": 21,
+   "used_slug": "lhob_bla_9fas"
   },
   {
    "rank": 498,
@@ -3924,7 +3993,9 @@
    "link": "https://www.instagram.com/reel/DenAqBZj9qg/",
    "views": 47000,
    "topic": "The Most Common Reason for a Man Losing a Woman",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 39,
+   "used_slug": "lsbab_lowl"
   },
   {
    "rank": 548,
@@ -4554,7 +4625,9 @@
    "link": "https://www.instagram.com/reel/DfVkj9ECH4u/",
    "views": 41000,
    "topic": "Women Process Emotion Through Attention",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 40,
+   "used_slug": "lughat_lhob"
   },
   {
    "rank": 636,
@@ -4628,7 +4701,9 @@
    "topic": "Day 26 - Comfort and Attraction",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Comfort vs attraction: why couples get too comfortable"
+   "couples_angle": "Comfort vs attraction: why couples get too comfortable",
+   "used_in_ep": 11,
+   "used_slug": "rraha_qtlat_lhob"
   },
   {
    "rank": 646,
@@ -4723,7 +4798,9 @@
    "topic": "Day 56 - The Unreactive Frame",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Staying calm in a fight (unreactive frame)"
+   "couples_angle": "Staying calm in a fight (unreactive frame)",
+   "used_in_ep": 17,
+   "used_slug": "lbrouda_f_lkhsoma"
   },
   {
    "rank": 659,
@@ -4907,7 +4984,9 @@
    "link": "https://www.instagram.com/reel/DfZoxcGkvja/",
    "views": 38100,
    "topic": "Emotional availability",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 41,
+   "used_slug": "kayn_wla_la (planned)"
   },
   {
    "rank": 685,
@@ -5105,7 +5184,9 @@
    "link": "https://www.instagram.com/reel/DfSIf-PCDwJ/",
    "views": 36800,
    "topic": "Women Test To Filter Men",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 42,
+   "used_slug": "likhtibarat (planned)"
   },
   {
    "rank": 713,
@@ -5374,7 +5455,9 @@
    "topic": "Day 41.5 - Lead conversation by entering her world",
    "series_90days": true,
    "pick": "skip",
-   "why": "pickup/sex tactic or anti-women framing; no couples angle"
+   "why": "pickup/sex tactic or anti-women framing; no couples angle",
+   "used_in_ep": 49,
+   "used_slug": "dkhol_l_3almo (planned)"
   },
   {
    "rank": 750,
@@ -5383,7 +5466,9 @@
    "topic": "Day 26.5 - Tension and conflict are the fuel of attraction",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Is a little tension good for love? (debate)"
+   "couples_angle": "Is a little tension good for love? (debate)",
+   "used_in_ep": 12,
+   "used_slug": "shwiya_dyal_ttawattur"
   },
   {
    "rank": 751,
@@ -5766,7 +5851,9 @@
    "topic": "The Nice Guy Is The Problem - Stick Figure",
    "series_90days": true,
    "pick": "reframe",
-   "couples_angle": "The \"nice guy\" problem -> being kind vs having no limits"
+   "couples_angle": "The \"nice guy\" problem -> being kind vs having no limits",
+   "used_in_ep": 18,
+   "used_slug": "lmzyan_bzaf"
   },
   {
    "rank": 804,
@@ -6062,7 +6149,9 @@
    "link": "https://www.instagram.com/reel/DfRtZ_oGWU6/",
    "views": 30800,
    "topic": "Correcting Your Woman",
-   "series_90days": false
+   "series_90days": false,
+   "used_in_ep": 43,
+   "used_slug": "kifach_tntaqed (planned)"
   },
   {
    "rank": 846,
@@ -6171,7 +6260,9 @@
    "topic": "Day 44 - The Cost Of Over-Texting",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Over-texting / constant checking in a couple"
+   "couples_angle": "Over-texting / constant checking in a couple",
+   "used_in_ep": 14,
+   "used_slug": "bzaf_dyal_lmessages"
   },
   {
    "rank": 861,
@@ -6334,7 +6425,9 @@
    "topic": "Day 38.5 - Self-consciousness is the root of unattractiveness; freedom from it is magnetic",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Self-consciousness kills attraction; ease is attractive"
+   "couples_angle": "Self-consciousness kills attraction; ease is attractive",
+   "used_in_ep": 19,
+   "used_slug": "lhchma_katqtel"
   },
   {
    "rank": 884,
@@ -6413,7 +6506,9 @@
    "topic": "Day 44.5 - Your attention is a resource; never spend it cheaply",
    "series_90days": true,
    "pick": "maybe",
-   "couples_angle": "Attention is a resource"
+   "couples_angle": "Attention is a resource",
+   "used_in_ep": 23,
+   "used_slug": "lihtimam_3omla"
   },
   {
    "rank": 895,
@@ -6506,7 +6601,9 @@
    "topic": "Day 87.5 - She wants relationships where she's in control, and control is the opposite of love",
    "series_90days": true,
    "pick": "use",
-   "couples_angle": "Control is the opposite of love (both sides)"
+   "couples_angle": "Control is the opposite of love (both sides)",
+   "used_in_ep": 15,
+   "used_slug": "ttahakkum_machi_hob"
   },
   {
    "rank": 908,
@@ -6529,7 +6626,9 @@
    "topic": "Day 90.5 - Owning your dark side makes you whole; denying it makes you exploitable",
    "series_90days": true,
    "pick": "maybe",
-   "couples_angle": "Owning your dark side (shadow)"
+   "couples_angle": "Owning your dark side (shadow)",
+   "used_in_ep": 25,
+   "used_slug": "jiha_lmdlma"
   },
   {
    "rank": 911,
@@ -6589,7 +6688,9 @@
    "topic": "Day 42 - Banter Over Interview",
    "series_90days": true,
    "pick": "skip",
-   "why": "pickup/sex tactic or anti-women framing; no couples angle"
+   "why": "pickup/sex tactic or anti-women framing; no couples angle",
+   "used_in_ep": 50,
+   "used_slug": "lhdra_wlat_interview (planned)"
   },
   {
    "rank": 919,
