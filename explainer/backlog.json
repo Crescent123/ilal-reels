@@ -502,9 +502,9 @@
   "source_topic": "Day 42.5 - Show desire without being consumed by it (84k)",
   "source_views": 84400,
   "angle": "Show your partner you want them (compliments, time) without losing yourself: no own life, friends, goals = you melt into them and they stop seeing you. Both sexes.",
-  "status": "making",
+  "status": "queued",
   "voice_flow_id": "Yk69uBMwzLPxLDfhIiXB",
   "voice_node_id": "SWavR9rFRn3qGt6rAZ76",
-  "note": "7 Nov run: script in ep51/ep.json, ONE voice take generated (675 credits) but the ElevenLabs get-result tool was missing in that session, so audio not fetched. Do NOT regenerate: fetch this take from the flow, then continue at step 4."
+  "date_queued": "2026-11-07"
  }
 ]
