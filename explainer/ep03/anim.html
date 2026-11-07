@@ -112,9 +112,9 @@ function render(t){
    g+=`<circle cx="540" cy="${FY+90}" r="${230+10*glow}" fill="none" stroke="${GOLD}" stroke-width="5" opacity="${.25+.2*glow}"/>`;
    g+=fig(540,FY,W,1.05,{arm:t>A[17]?'reach':'down',face:-1,smile:1});
    if(t<A[14]) g+=popT(t,S[2]+.1,540,470,76,GOLD,'❸ النوع الثالث ⭐');
-   if(t>A[14]&&t<A[15]) g+=popT(t,A[14],540,480,104,'#fff','Warm but firm',1);
+   if(t>A[14]&&t<A[15]) g+=popT(t,A[14],540,480,92,'#fff','حنين ولكن حازم');
    if(t>A[15]){ g+=meter(330,520,'حنين 🔥',P(t,A[15],A[15]+.8)*.9,RED,1); }
-   if(t>A[16]){ g+=meter(750,520,'Boundaries 🧱',P(t,A[16],A[16]+.8)*.9,'#fff',1);
+   if(t>A[16]){ g+=meter(750,520,'الحدود 🧱',P(t,A[16],A[16]+.8)*.9,'#fff',1);
      const k=P(t,A[16],A[16]+1);
      g+=`<circle cx="540" cy="${FY+90}" r="270" fill="none" stroke="#fff" stroke-width="7" stroke-dasharray="${30*k} 18" opacity="${k}"/>`; }
    if(t>A[17]&&t<A[18]) g+=sb(730,700,'«لا.» 🙂',P(t,A[17],A[17]+.2),PB(t,A[17],A[17]+.35),0,50);

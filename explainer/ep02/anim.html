@@ -86,7 +86,7 @@ function render(t){
      g+=fig(300,FY+30*k,W,1.0,{arm:'chest',face:1,sad:1,tear:tr});
      g+=fig(780,FY+30*k,RED,1.0,{arm:'chest',face:-1,sad:1,tear:tr});
      g+=popT(t,C.victim+.3,540,520,64,PINK,'«أنا المظلوم» 🎭');
-     if(t>C.vm) g+=popT(t,C.vm,540,1180,96,'#fff','Victim mentality',1);
+     if(t>C.vm) g+=popT(t,C.vm,540,1180,96,'#fff','عقلية الضحية');
    }
  }
  if(sc===2){ // the mistake nobody picks up -> repeats every week
@@ -99,7 +99,7 @@ function render(t){
      g+=fig(750+60*k,FY,RED,1.0,{arm:turn?'cross':'down',face:turn?1:-1});
      if(t<C.hold) g+=popT(t,t0+.3,540,520,60,GOLD,'الغلطة عادية…');
      else if(t<C.noacc) g+=popT(t,C.hold,540,520,60,RED,'ولكن حتى واحد ما شدها');
-     if(t>C.acc){ g+=popT(t,C.acc,540,560,92,'#fff','Accountability',1); g+=xmark(540,535,1.6,P(t,C.acc+.4,C.acc+.6)); }
+     if(t>C.acc){ g+=popT(t,C.acc,540,560,84,'#fff','تحمّل المسؤولية'); g+=xmark(540,535,1.6,P(t,C.acc+.4,C.acc+.6)); }
    } else { // week loop
      const days=['الإثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت','الحد'];
      const di=Math.floor((t-C.again)*5)%7;
