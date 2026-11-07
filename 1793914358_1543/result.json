@@ -1,0 +1,60 @@
+{
+ "success": true,
+ "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=8ea5998f01ed4ed2bec32ec998e9b0ea. Docs: https://docs.upload-post.com/api/upload-status",
+ "request_id": "8ea5998f01ed4ed2bec32ec998e9b0ea",
+ "total_platforms": 1,
+ "job_id": "e2d6b0410f7a40e4a01ab10f6f98b649",
+ "status_poll": {
+  "status": "completed",
+  "completed": 1,
+  "total": 1,
+  "results": [
+   {
+    "user_email": "hilalmillali@gmail.com",
+    "profile_username": "default",
+    "platform": "tiktok",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-11-05T21:34:09.982Z"
+    },
+    "success": true,
+    "platform_post_id": "7704803577319017735",
+    "post_url": "https://www.tiktok.com/@_ilal_/video/7704803577319017735",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 19388850,
+    "post_title": "كرا دار صاحبتو بلا ما تعرف؟ 😳 القصة كاملة فيوتيوب: ilal Stories",
+    "post_caption": "",
+    "is_async": true,
+    "dashboard": false,
+    "source": "api",
+    "client": "curl",
+    "client_version": "8.18.0",
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 47.134,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "original_publish_id": "v_pub_url~v2.7704803397036312583",
+    "request_id": "8ea5998f01ed4ed2bec32ec998e9b0ea",
+    "request_id_logs": "8ea5998f01ed4ed2bec32ec998e9b0ea",
+    "job_id": "e2d6b0410f7a40e4a01ab10f6f98b649",
+    "request_total_platforms": 1
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-11-05T21:34:09.982Z"
+  },
+  "request_id": "8ea5998f01ed4ed2bec32ec998e9b0ea"
+ }
+}

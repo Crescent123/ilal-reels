@@ -1,0 +1,60 @@
+{
+ "success": true,
+ "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=8fac5616695f44098c734addc6f40920. Docs: https://docs.upload-post.com/api/upload-status",
+ "request_id": "8fac5616695f44098c734addc6f40920",
+ "total_platforms": 1,
+ "job_id": "6050636944724e9b9ff5222abf60f9f0",
+ "status_poll": {
+  "status": "completed",
+  "completed": 1,
+  "total": 1,
+  "results": [
+   {
+    "user_email": "hilalmillali@gmail.com",
+    "profile_username": "default",
+    "platform": "facebook",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-11-04T22:47:26.099Z"
+    },
+    "success": true,
+    "platform_post_id": "971312698926206",
+    "post_url": "https://www.facebook.com/reel/971312698926206",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 21595527,
+    "post_title": "مرت خويا شنو بغات مني؟ القصة كاملة هنا: https://www.youtube.com/watch?v=s-gDstpbBGM",
+    "post_caption": "مرت خويا شنو بغات مني؟ القصة كاملة هنا: https://www.youtube.com/watch?v=s-gDstpbBGM",
+    "is_async": true,
+    "dashboard": false,
+    "source": "api",
+    "client": "curl",
+    "client_version": "8.18.0",
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 48.7,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "facebook_page_id": "174332599078147",
+    "request_id": "8fac5616695f44098c734addc6f40920",
+    "request_id_logs": "8fac5616695f44098c734addc6f40920",
+    "job_id": "6050636944724e9b9ff5222abf60f9f0",
+    "request_total_platforms": 1
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-11-04T22:47:26.099Z"
+  },
+  "request_id": "8fac5616695f44098c734addc6f40920"
+ }
+}

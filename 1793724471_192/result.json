@@ -1,0 +1,59 @@
+{
+ "success": true,
+ "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=8acd9b39dff64683a93a8aaab1c47e50. Docs: https://docs.upload-post.com/api/upload-status",
+ "request_id": "8acd9b39dff64683a93a8aaab1c47e50",
+ "total_platforms": 1,
+ "job_id": "7336fb968d6e4eae99890804feff74ba",
+ "status_poll": {
+  "status": "completed",
+  "completed": 1,
+  "total": 1,
+  "results": [
+   {
+    "user_email": "hilalmillali@gmail.com",
+    "profile_username": "default",
+    "platform": "instagram",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-11-03T16:59:19.062Z"
+    },
+    "success": false,
+    "platform_post_id": null,
+    "post_url": null,
+    "error_message": "Instagram had a temporary issue. We retried 5 times but it still failed. Please try again later. Last error: Instagram returned a transient error. We will retry automatically. Please wait and try again later.. Learn more: https://docs.upload-post.com/resources/common-errors#rate-limits.",
+    "error_signature": "73407ef74dc51d35",
+    "error_code": "platform_unavailable",
+    "failure_stage": "platform_api",
+    "media_size_bytes": 6161130,
+    "post_title": "",
+    "post_caption": "",
+    "is_async": true,
+    "dashboard": false,
+    "source": "api",
+    "client": "curl",
+    "client_version": "8.18.0",
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 720,
+     "height": 1280,
+     "fps": 30.0,
+     "duration": 24.842,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "request_id": "8acd9b39dff64683a93a8aaab1c47e50",
+    "request_id_logs": "8acd9b39dff64683a93a8aaab1c47e50",
+    "job_id": "7336fb968d6e4eae99890804feff74ba",
+    "request_total_platforms": 1
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-11-03T16:59:19.062Z"
+  },
+  "request_id": "8acd9b39dff64683a93a8aaab1c47e50"
+ }
+}

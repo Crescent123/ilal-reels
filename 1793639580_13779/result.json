@@ -1,0 +1,60 @@
+{
+ "success": true,
+ "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=22f8ef3c698e477db4abd060d3bc8421. Docs: https://docs.upload-post.com/api/upload-status",
+ "request_id": "22f8ef3c698e477db4abd060d3bc8421",
+ "total_platforms": 1,
+ "job_id": "595f5f0a17b54463839ad5999c205417",
+ "status_poll": {
+  "status": "completed",
+  "completed": 1,
+  "total": 1,
+  "results": [
+   {
+    "user_email": "hilalmillali@gmail.com",
+    "profile_username": "default",
+    "platform": "facebook",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-11-02T17:13:36.572Z"
+    },
+    "success": true,
+    "platform_post_id": "1845711436789269",
+    "post_url": "https://www.facebook.com/reel/1845711436789269",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 20028663,
+    "post_title": "مراتي كتهضر مع شكون فالليل؟ 👀 القصة كاملة هنا: https://www.youtube.com/watch?v=R81K3EPbTZ4",
+    "post_caption": "مراتي كتهضر مع شكون فالليل؟ 👀 القصة كاملة هنا: https://www.youtube.com/watch?v=R81K3EPbTZ4",
+    "is_async": true,
+    "dashboard": false,
+    "source": "api",
+    "client": "curl",
+    "client_version": "8.18.0",
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 53.25,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "facebook_page_id": "174332599078147",
+    "request_id": "22f8ef3c698e477db4abd060d3bc8421",
+    "request_id_logs": "22f8ef3c698e477db4abd060d3bc8421",
+    "job_id": "595f5f0a17b54463839ad5999c205417",
+    "request_total_platforms": 1
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-11-02T17:13:36.572Z"
+  },
+  "request_id": "22f8ef3c698e477db4abd060d3bc8421"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "success": true,
+ "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=72d4ed1963424b7d99e947f5170cbb18. Docs: https://docs.upload-post.com/api/upload-status",
+ "request_id": "72d4ed1963424b7d99e947f5170cbb18",
+ "total_platforms": 1,
+ "job_id": "a13e727379ac4b479746135f6e245a05",
+ "status_poll": {
+  "status": "completed",
+  "completed": 1,
+  "total": 1,
+  "results": [
+   {
+    "user_email": "hilalmillali@gmail.com",
+    "profile_username": "default",
+    "platform": "instagram",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-11-03T16:16:37.044Z"
+    },
+    "success": true,
+    "platform_post_id": "18000335438823183",
+    "post_url": "https://www.instagram.com/reel/DfSShDBCh6T/",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 5154499,
+    "post_title": "",
+    "post_caption": "",
+    "is_async": true,
+    "dashboard": false,
+    "source": "api",
+    "client": "curl",
+    "client_version": "8.18.0",
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 720,
+     "height": 1280,
+     "fps": 30.0,
+     "duration": 20.383,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "request_id": "72d4ed1963424b7d99e947f5170cbb18",
+    "request_id_logs": "72d4ed1963424b7d99e947f5170cbb18",
+    "job_id": "a13e727379ac4b479746135f6e245a05",
+    "request_total_platforms": 1
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-11-03T16:16:37.044Z"
+  },
+  "request_id": "72d4ed1963424b7d99e947f5170cbb18"
+ }
+}
