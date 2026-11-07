@@ -1,6 +1,47 @@
 [
- {"ep":1,"slug":"qaida_18_shhar","topic":"قاعدة 18 شهر — the honeymoon curve (limerence vs attachment)","source_reel":null,"made":"2026-11-06","status":"approved reference","date_queued":null},
- {"ep":2,"slug":"shkoun_lghalet","topic":"«شكون الغالط؟» — accountability in a couple, both sides own their part (90/10 rule)","source_reel":"https://www.instagram.com/reel/DfKL8WFF7Ug/","made":"2026-11-06","status":"awaiting Hilal approval","date_queued":null},
- {"ep":3,"slug":"la_qase7_la_meskin","topic":"«لا قاصح، لا مسكين» — warm but firm: kindness + boundaries","source_reel":"https://www.instagram.com/reel/DfBgJ1YCV6s/","made":"2026-11-06","status":"awaiting Hilal approval","date_queued":null},
- {"ep":4,"slug":"l3aqd_lqdim","topic":"«العقد القديم» — old roles vs today, mental load, write a new deal together","source_reel":"https://www.instagram.com/reel/DfLEy4wkgrn/","made":"2026-11-06","status":"awaiting Hilal approval","date_queued":null}
+ {
+  "ep": 1,
+  "slug": "qaida_18_shhar",
+  "topic": "قاعدة 18 شهر — the honeymoon curve (limerence vs attachment)",
+  "source_reel": null,
+  "made": "2026-11-06",
+  "status": "approved reference",
+  "date_queued": null
+ },
+ {
+  "ep": 2,
+  "slug": "shkoun_lghalet",
+  "topic": "«شكون الغالط؟» — accountability in a couple, both sides own their part (90/10 rule)",
+  "source_reel": "https://www.instagram.com/reel/DfKL8WFF7Ug/",
+  "made": "2026-11-06",
+  "status": "queued (v2, Darija terms)",
+  "date_queued": "2026-11-06"
+ },
+ {
+  "ep": 3,
+  "slug": "la_qase7_la_meskin",
+  "topic": "«لا قاصح، لا مسكين» — warm but firm: kindness + boundaries",
+  "source_reel": "https://www.instagram.com/reel/DfBgJ1YCV6s/",
+  "made": "2026-11-06",
+  "status": "queued (v2, Darija terms)",
+  "date_queued": "2026-11-06"
+ },
+ {
+  "ep": 4,
+  "slug": "l3aqd_lqdim",
+  "topic": "«العقد القديم» — old roles vs today, mental load, write a new deal together",
+  "source_reel": "https://www.instagram.com/reel/DfLEy4wkgrn/",
+  "made": "2026-11-06",
+  "status": "queued (v2, Darija terms)",
+  "date_queued": "2026-11-06"
+ },
+ {
+  "ep": 5,
+  "slug": "shkoun_kiqoud",
+  "topic": "«شكون كيقود العلاقة؟» — leadership = initiative + listening, not control; whoever is better at something leads it",
+  "source_reel": "https://www.instagram.com/reel/DfLRp8vjbaX/",
+  "made": "2026-11-07",
+  "status": "queued",
+  "date_queued": "2026-11-07"
+ }
 ]
