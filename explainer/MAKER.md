@@ -11,6 +11,9 @@ explainer/ep05/ep.json (approved engine example). Episodes 2–4 are hand-made r
 to explainer/maker.lock, commit + push. Delete it (commit + push) when the run ends, whatever happened.
 
 ## 1. Pick
+(7 Nov fix: two runs lost their logs and the next run re-made ep11–15 → duplicates. So: mark each topic "making"
+AND push BEFORE generating its voice; skip topics already "making"/"queued"; check `bash tools/queue_list.sh` — if a
+queue file explainer_s9_<slug> already exists, just log it as queued, never make it again.)
 Take the first 5 entries of explainer/backlog.json with "status":"todo" (lowest "ep" first). If none → delete the
 lock, report "backlog done", stop. For each: mkdir explainer/epNN (NN = two digits).
 
@@ -49,8 +52,9 @@ Re-run check after edits (max 2 rounds).
 `bash tools/queue_add.sh $PWD/explainer/epNN/out.mp4 explainer_s9_<slug>` (ABSOLUTE path). Instagram trial only,
 posted by the poster chat; never post yourself.
 
-## 7. Log
+## 7. Log — right after EACH episode is queued (not at the end of the run)
 - backlog.json: set "status":"queued", "date_queued":"YYYY-MM-DD".
 - episodes.json: append {"ep","slug","topic" (title + one-line angle),"source_reel","made","status":"queued","date_queued"}.
-- Commit explainer/epNN/{ep.json,data.json} + backlog.json + episodes.json (NOT frames/work/out.mp4), push.
+- Commit explainer/epNN/{ep.json,data.json} + backlog.json + episodes.json (NOT frames/work/out.mp4), push NOW,
+  before starting the next episode. Delete the lock only after the last push.
 - Report one line per episode: ep, title, seconds, credits. If ElevenLabs refuses (credits/quota), stop and report.
