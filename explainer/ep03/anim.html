@@ -1,0 +1,158 @@
+<html><head><meta charset="utf-8"><style>
+@font-face{font-family:Cairo;src:url('Cairo.ttf');font-weight:200 1000}
+body{margin:0;width:1080px;height:1920px;background:#0b0b0b;overflow:hidden;font-family:Cairo,sans-serif}
+svg text{font-family:Cairo}
+#cap{position:absolute;top:1340px;left:80px;width:840px;height:120px;display:flex;align-items:center;justify-content:center;direction:rtl}
+#cap span{background:#fff;color:#000;font-weight:900;padding:4px 22px;border-radius:14px;white-space:nowrap;display:inline-block}
+</style></head><body>
+<svg id="g" width="1080" height="1920" style="position:absolute;top:0;left:0"></svg>
+<div id="cap"></div>
+<script>
+// Ep03 «لا قاصح، لا مسكين» — helpers from ep02, scenes rewritten.
+let D={};
+const RED='#e63946', W='#fff', PINK='#ff7eb6', GOLD='#ffd166', GREY='#666';
+const cl=(x,a,b)=>Math.max(a,Math.min(b,x));
+const ease=x=>{x=cl(x,0,1);return 1-Math.pow(1-x,3)};
+const back=x=>{x=cl(x,0,1);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const P=(t,a,b)=>ease((t-a)/Math.max(.01,b-a));
+const PB=(t,a,b)=>back((t-a)/Math.max(.01,b-a));
+function T(x,y,s,c,o,str,w){return `<text x="${x}" y="${y}" fill="${c}" font-size="${s}" font-weight="${w||900}" text-anchor="middle" direction="rtl" opacity="${o==null?1:o}">${str}</text>`;}
+function TL(x,y,s,c,o,str,w){return `<text x="${x}" y="${y}" fill="${c}" font-size="${s}" font-weight="${w||900}" text-anchor="middle" opacity="${o==null?1:o}">${str}</text>`;}
+function popT(t,t0,x,y,s,c,str,latin){const k=PB(t,t0,t0+.45);if(t<t0)return '';return `<g transform="translate(${x},${y}) scale(${k})">${(latin?TL:T)(0,0,s,c,cl((t-t0)*4,0,1),str)}</g>`;}
+// stick figure. arm: down|up|reach|hug|point|cross|chest|lift ; angry, sad, tear, op, walk, face
+function fig(x,y,col,s,o){o=o||{};const f=o.face||1;const w=o.walk||0;const leg=Math.sin(w)*28, armw=Math.sin(w)*20;
+ let arms;
+ if(o.arm==='up') arms=`<line x1="0" y1="72" x2="-55" y2="10"/><line x1="0" y1="72" x2="55" y2="10"/>`;
+ else if(o.arm==='reach') arms=`<line x1="0" y1="72" x2="${-40*f}" y2="125"/><line x1="0" y1="72" x2="${70*f}" y2="80"/>`;
+ else if(o.arm==='hug') arms=`<line x1="0" y1="72" x2="${60*f}" y2="70"/><line x1="0" y1="80" x2="${60*f}" y2="100"/>`;
+ else if(o.arm==='point') arms=`<line x1="0" y1="72" x2="${-42*f}" y2="125"/><line x1="0" y1="72" x2="${88*f}" y2="${58+(o.jab||0)}"/>`;
+ else if(o.arm==='cross') arms=`<line x1="0" y1="72" x2="${32}" y2="100"/><line x1="0" y1="72" x2="${-32}" y2="100"/><line x1="-34" y1="100" x2="34" y2="100"/>`;
+ else if(o.arm==='chest') arms=`<line x1="0" y1="72" x2="${-42*f}" y2="125"/><path d="M 0 72 L ${30*f} 108 L ${8*f} 98"/>`;
+ else if(o.arm==='lift') arms=`<line x1="0" y1="72" x2="${-42*f}" y2="125"/><line x1="0" y1="72" x2="${40*f}" y2="-2"/>`;
+ else arms=`<line x1="0" y1="72" x2="${-50+armw}" y2="122"/><line x1="0" y1="72" x2="${50-armw}" y2="122"/>`;
+ let face='';
+ if(o.angry) face+=`<g stroke-width="6"><line x1="-24" y1="-20" x2="-6" y2="-10"/><line x1="24" y1="-20" x2="6" y2="-10"/></g>`;
+ if(o.sad) face+=`<path d="M -12 18 Q 0 8 12 18" stroke="${col}" stroke-width="5" fill="none"/>`;
+ if(o.smile) face+=`<path d="M -13 10 Q 0 22 13 10" stroke="${col}" stroke-width="5" fill="none"/>`;
+ if(o.tear) face+=`<path d="M ${-14*f} ${2+o.tear*20} q -6 10 0 14 q 6 -4 0 -14" fill="#7ec8ff" stroke="none"/>`;
+ return `<g transform="translate(${x},${y}) scale(${s})" stroke="${col}" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="${o.op==null?1:o.op}">
+ <circle cx="0" cy="0" r="34"/>${face}<line x1="0" y1="34" x2="0" y2="150"/>${arms}
+ <line x1="0" y1="150" x2="${-38+leg}" y2="235"/><line x1="0" y1="150" x2="${38-leg}" y2="235"/></g>`;}
+function heart(x,y,s,o,col){return `<path transform="translate(${x},${y}) scale(${s})" opacity="${o}" fill="${col||RED}" stroke="none" d="M0 30 C -40 -5,-30 -45,0 -20 C 30 -45,40 -5,0 30Z"/>`;}
+function bolt(x,y,s,o,r){return `<path transform="translate(${x},${y}) rotate(${r||0}) scale(${s})" opacity="${o}" fill="${GOLD}" d="M10 -40 L -20 5 L 0 5 L -10 40 L 22 -8 L 2 -8 Z"/>`;}
+function bubble(x,y,str,o,s,dark){if(o<=0)return '';return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s||1})"><rect x="-230" y="-55" width="460" height="95" rx="40" fill="${dark?RED:'#fff'}"/><path d="M -20 38 L 0 70 L 20 38 Z" fill="${dark?RED:'#fff'}"/>${T(0,14,40,dark?'#fff':'#000',1,str)}</g>`;}
+function xmark(x,y,s,o,col){return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s})" stroke="${col||RED}" stroke-width="16" stroke-linecap="round"><line x1="-40" y1="-40" x2="40" y2="40"/><line x1="40" y1="-40" x2="-40" y2="40"/></g>`;}
+function ball(x,y,s){return `<g transform="translate(${x},${y}) scale(${s})"><circle r="30" fill="${GOLD}"/>${T(0,14,40,'#000',1,'!')}</g>`;}
+function box(x,y,s,o,label,fs,bw){bw=bw||170;return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s})"><rect x="${-bw/2}" y="-70" width="${bw}" height="140" rx="18" fill="${RED}" stroke="#fff" stroke-width="6"/>${T(0,16,fs||44,'#fff',1,label||'غلطة')}</g>`;}
+function cal(x,y,s,label,o){return `<g opacity="${o==null?1:o}" transform="translate(${x},${y}) scale(${s})"><rect x="-110" y="-95" width="220" height="200" rx="20" fill="#fff"/><rect x="-110" y="-95" width="220" height="56" rx="20" fill="${RED}"/><rect x="-110" y="-60" width="220" height="21" fill="${RED}"/>${T(0,50,52,'#000',1,label)}</g>`;}
+function loopArrow(x,y,r,a,o){const p=[];for(let i=0;i<=40;i++){const u=a+i/40*5.2;p.push((i?'L':'M')+(x+Math.cos(u)*r).toFixed(1)+' '+(y+Math.sin(u)*r).toFixed(1));}const e=a+5.2;const ex=x+Math.cos(e)*r,ey=y+Math.sin(e)*r;
+ return `<g opacity="${o}"><path d="${p.join('')}" stroke="${GOLD}" stroke-width="12" fill="none" stroke-linecap="round"/><circle cx="${ex}" cy="${ey}" r="16" fill="${GOLD}"/></g>`;}
+function gavel(x,y,s,r){return `<g transform="translate(${x},${y}) rotate(${r}) scale(${s})"><rect x="-12" y="0" width="24" height="170" rx="10" fill="#c98a4b"/><rect x="-70" y="-45" width="140" height="70" rx="16" fill="#8b5a2b" stroke="#fff" stroke-width="5"/></g>`;}
+function shield(x,y,s,r,o){return `<g opacity="${o==null?1:o}" transform="translate(${x},${y}) rotate(${r}) scale(${s})"><path d="M0 -70 L 60 -45 L 52 30 Q 30 70 0 85 Q -30 70 -52 30 L -60 -45 Z" fill="#333" stroke="${RED}" stroke-width="8"/></g>`;}
+function clip(x,y,s,n){let r='';for(let i=0;i<4;i++){r+=`<line x1="-50" y1="${-40+i*38}" x2="40" y2="${-40+i*38}" stroke="#999" stroke-width="6"/>`;if(i<n)r+=`<g transform="translate(55,${-40+i*38})" stroke="${RED}" stroke-width="7"><line x1="-10" y1="-10" x2="10" y2="10"/><line x1="10" y1="-10" x2="-10" y2="10"/></g>`;}
+ return `<g transform="translate(${x},${y}) scale(${s})"><rect x="-80" y="-95" width="170" height="210" rx="14" fill="#fff"/><rect x="-25" y="-108" width="60" height="26" rx="8" fill="#555"/>${r}</g>`;}
+
+function snow(x,y,s,o,r){let p='';for(let i=0;i<3;i++)p+=`<line x1="0" y1="-40" x2="0" y2="40" transform="rotate(${i*60})"/>`;return `<g opacity="${o}" transform="translate(${x},${y}) rotate(${r||0}) scale(${s})" stroke="#8fd3ff" stroke-width="8" stroke-linecap="round">${p}</g>`;}
+function meter(x,y,lab,v,col,o){return `<g opacity="${o}" transform="translate(${x},${y})"><rect x="-150" y="-26" width="300" height="52" rx="26" fill="#222" stroke="#555" stroke-width="4"/><rect x="-146" y="-22" width="${292*cl(v,0,1)}" height="44" rx="22" fill="${col}"/>${T(0,-48,42,'#fff',1,lab)}</g>`;}
+function sb(x,y,str,o,s,dark,fs){if(o<=0)return '';fs=fs||40;const w=Math.min(800,60+str.length*fs*.52);return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s||1})"><rect x="${-w/2}" y="${-fs*1.05}" width="${w}" height="${fs*1.9}" rx="${fs*.8}" fill="${dark?RED:'#fff'}"/><path d="M -16 ${fs*.84} L 0 ${fs*1.5} L 16 ${fs*.84} Z" fill="${dark?RED:'#fff'}"/>${T(0,fs*.33,fs,dark?'#fff':'#000',1,str)}</g>`;}
+function pillar(x,y,h,lab,sub,col,r,o){return `<g opacity="${o}" transform="translate(${x},${y}) rotate(${r})"><rect x="-85" y="${-h}" width="170" height="${h}" rx="12" fill="${col}"/>${T(0,-h/2,38,'#000',1,lab)}${T(0,-h/2+46,28,'#000',1,sub,700)}</g>`;}
+function render(t){
+ const S=D.s, A=D.t; let g=''; let sc=0;
+ for(let i=0;i<S.length;i++) if(t>=S[i]) sc=i;
+ const ls=t-S[sc], le=(S[sc+1]||D.dur)-S[sc];
+ const zoom=1+0.05*cl(ls/le,0,1);
+ const fadeIn=sc===0?1:P(t,S[sc],S[sc]+.25);
+ if(sc>=1&&sc<5) g+=T(540,300,54,'#fff',.9,'لا قاصح، لا مسكين');
+ const FY=820;
+ if(sc===0){ // HOOK: he nods "واخا" to everything, she walks away
+   const nod=Math.abs(Math.sin(t*7))*14;
+   g+=`<g transform="translate(0,${nod})">${fig(380,FY,W,1.0,{arm:'down',face:1,smile:1})}</g>`;
+   for(let i=0;i<5;i++){const t0=i*.5; if(t>=t0) g+=sb(i%2?470:290,560+(i%3)*95,'واخا 👍',(t0===0?1:P(t,t0,t0+.15))*(1-P(t,t0+1.3,t0+1.6)),t0===0?1:PB(t,t0,t0+.3),0,42);}
+   const wk=P(t,A[1],A[1]+1.6);
+   g+=fig(700+110*wk,FY,RED,1.0,{face:wk>0?1:-1,walk:wk>0&&wk<1?t*12:0,op:1-.6*wk});
+   g+=popT(t,.0,540,420,80,'#fff','لا قاصح، لا مسكين');
+   if(t>A[1]) g+=popT(t,A[1]+.2,540,1180,58,RED,'…وكيتخلاو عليه 💔');
+ }
+ if(sc===1){ // two failing types
+   if(t<A[3]){ // intro: two figures labelled
+     g+=popT(t,S[1]+.1,540,500,64,GOLD,'جوج أنواع كيفشلو');
+     g+=fig(340,FY,W,.9,{arm:'cross',angry:1,op:P(t,S[1]+.4,S[1]+.8)})+fig(740,FY+30,W,.8,{arm:'down',sad:1,op:P(t,S[1]+1.0,S[1]+1.4)});
+     g+=popT(t,S[1]+.5,340,1180,70,'#8fd3ff','1')+popT(t,S[1]+1.1,740,1180,70,PINK,'2');
+   } else if(t<A[7]){ // type 1: cold
+     g+=popT(t,A[3],540,470,76,'#8fd3ff','❶ القاصح');
+     g+=fig(330,FY,W,1.05,{arm:t>A[5]?'point':'cross',face:1,angry:1,jab:Math.sin(t*10)*10});
+     g+=fig(760,FY+20,RED,.9,{face:-1,sad:t>A[5]});
+     if(t>A[4]) for(let i=0;i<5;i++){const ph=((t*.5+i/5)%1);g+=snow(170+i*70,580+ph*500,.6,P(t,A[4],A[4]+.4)*(1-ph),t*60);}
+     const ords=['دير!','سكت!','سير!'];
+     if(t>A[5]) for(let i=0;i<3;i++){const t0=A[5]+i*.38; g+=popT(t,t0,560+i*50,640+i*90,56,GOLD,ords[i]);}
+     if(t>A[6]){ g+=heart(760,640,1.1,P(t,A[6],A[6]+.3),'#444'); g+=xmark(760,640,.8,P(t,A[6]+.3,A[6]+.5)); }
+   } else if(t<A[10]){ // type 2: pushover
+     g+=popT(t,A[7],540,470,76,PINK,'❷ المسكين');
+     const bow=P(t,A[7],A[7]+.6);
+     g+=fig(330,FY+60*bow,W,1.0-.2*bow,{arm:'down',face:1,smile:1});
+     g+=fig(760,FY,RED,1.0,{arm:'point',face:-1});
+     const asks=['جيب هادي','دير هادي','بدل هادي'];
+     if(t>A[8]) for(let i=0;i<3;i++){const t0=A[8]+i*.55; g+=sb(i%2?640:500,560+i*105,asks[i],P(t,t0,t0+.2),PB(t,t0,t0+.35),1,40);}
+     if(t>A[8]+.3) g+=popT(t,A[8]+.3,420,1170,46,'#fff','واخا… واخا… واخا');
+     if(t>A[9]) g+=popT(t,A[9],540,1250,42,'#bbb','غير باش ما يزعف حتى واحد');
+   } else { // results: fear vs no respect
+     g+=`<line x1="540" y1="440" x2="540" y2="1250" stroke="#333" stroke-width="4"/>`;
+     const sh=Math.sin(t*40)*4;
+     g+=fig(300,FY-40,W,.8,{arm:'point',angry:1,face:1})+fig(430+sh,FY-10,RED,.7,{face:-1,sad:1});
+     g+=popT(t,A[10],310,520,56,'#8fd3ff','كيخوّف 😨');
+     if(t>A[11]){ const k=P(t,A[11],A[11]+.6);
+       g+=fig(660,FY+40,W,.7,{face:1,sad:1})+fig(820,FY-10,RED,.7,{face:k>.5?1:-1});
+       g+=popT(t,A[11],740,520,40,PINK,'ما كيتحترمش');
+       g+=`<g transform="translate(740,1170) scale(.75) translate(-740,-1170)">${meter(740,1170,'الاحترام',1-k,RED,1)}</g>`;
+     }
+   }
+ }
+ if(sc===2){ // third type: warm but firm
+   const glow=.5+.5*Math.sin(t*4);
+   g+=`<circle cx="540" cy="${FY+90}" r="${230+10*glow}" fill="none" stroke="${GOLD}" stroke-width="5" opacity="${.25+.2*glow}"/>`;
+   g+=fig(540,FY,W,1.05,{arm:t>A[17]?'reach':'down',face:-1,smile:1});
+   if(t<A[14]) g+=popT(t,S[2]+.1,540,470,76,GOLD,'❸ النوع الثالث ⭐');
+   if(t>A[14]&&t<A[15]) g+=popT(t,A[14],540,480,104,'#fff','Warm but firm',1);
+   if(t>A[15]){ g+=meter(330,520,'حنين 🔥',P(t,A[15],A[15]+.8)*.9,RED,1); }
+   if(t>A[16]){ g+=meter(750,520,'Boundaries 🧱',P(t,A[16],A[16]+.8)*.9,'#fff',1);
+     const k=P(t,A[16],A[16]+1);
+     g+=`<circle cx="540" cy="${FY+90}" r="270" fill="none" stroke="#fff" stroke-width="7" stroke-dasharray="${30*k} 18" opacity="${k}"/>`; }
+   if(t>A[17]&&t<A[18]) g+=sb(730,700,'«لا.» 🙂',P(t,A[17],A[17]+.2),PB(t,A[17],A[17]+.35),0,50);
+   if(t>A[18]){ g+=popT(t,A[18],540,1275,54,'#bbb','«سمح ليا» ×20'); g+=`<line x1="400" y1="1257" x2="680" y2="1257" stroke="${RED}" stroke-width="10" stroke-linecap="round" opacity="${P(t,A[18]+.4,A[18]+.6)}"/>`; }
+ }
+ if(sc===3){ // example sentence
+   g+=popT(t,S[3],540,470,66,GOLD,'مثلا:');
+   g+=fig(330,FY,W,1.0,{arm:t>A[20]?'chest':'down',face:1,smile:1});
+   const nod=t>A[21]+1.2?Math.abs(Math.sin(t*6))*8:0;
+   g+=`<g transform="translate(0,${nod})">${fig(760,FY,RED,1.0,{face:-1,angry:t<A[21]+1.2,smile:t>A[21]+1.2})}</g>`;
+   if(t>A[20]) g+=sb(430,600,'«كنبغيك ❤️،',P(t,A[20],A[20]+.2),PB(t,A[20],A[20]+.35),0,48);
+   if(t>A[21]) g+=sb(540,1180,'ولكن هاد الهضرة ما مقبولاش عندي»',P(t,A[21],A[21]+.2),PB(t,A[21],A[21]+.35),0,40);
+   if(t>A[21]+1.3) g+=heart(760,700,.7,P(t,A[21]+1.3,A[21]+1.6));
+ }
+ if(sc===4){ // two pillars hold the house
+   const fall=t>A[24]?P(t,A[24],A[24]+1.0):0, tilt=fall*14;
+   g+=pillar(360,1150,380,'الحنان','= الأمان',RED,0,P(t,A[22],A[22]+.4));
+   g+=pillar(700-fall*40,1150+fall*30,380*(1-.2*fall),'الحزم','= الاحترام','#fff',fall*12,P(t,A[23],A[23]+.4));
+   g+=`<g transform="rotate(${tilt},360,770)"><path d="M 230 770 L 540 560 L 850 770 Z" fill="none" stroke="${GOLD}" stroke-width="12" stroke-linejoin="round"/>${T(540,725,48,GOLD,1,'العلاقة')}</g>`;
+   if(t>A[25]) g+=popT(t,A[25],540,470,64,RED,'كتميل… ⚠');
+ }
+ if(sc===5){ // punchline + question
+   g+=heart(540,860,4+0.3*Math.sin(t*3),.12,RED);
+   if(t<A[28]){
+     g+=popT(t,S[5],540,560,58,'#bbb','ماشي خاصك تختار:');
+     g+=popT(t,S[5]+.6,760,720,70,RED,'حنين 🤍')+popT(t,S[5]+1.1,540,720,50,'#777','ولا')+popT(t,S[5]+1.5,320,720,70,'#fff','قوي 💪');
+     if(t>A[27]){ g+=popT(t,A[27],540,960,64,'#fff','خاصك تكون');g+=popT(t,A[27]+.35,540,1110,140,GOLD,'بجوج.'); }
+   } else {
+     g+=popT(t,A[28],540,600,110,'#fff','ونتوما؟');
+     g+=popT(t,A[29],540,780,64,RED,'شكون فيكم الحنين…');
+     g+=popT(t,A[30],540,900,64,'#fff','وشكون الحازم؟');
+     g+=fig(400,990,W,.6,{arm:'point',face:1,smile:1})+fig(680,990,RED,.6,{arm:'point',face:-1,smile:1});
+     if(t>A[30]+.7) g+=popT(t,A[30]+.7,540,1260,46,'#ccc','قولوها فالكومونطير 👇');
+   }
+ }
+ document.getElementById('g').innerHTML=`<g opacity="${fadeIn}" transform="translate(540,860) scale(${zoom}) translate(-540,-860)">${g}</g>`;
+ let c='';for(const k of D.cap){if(t>=k[0]&&t<k[1]){c=k[2];break;}}
+ const el=document.getElementById('cap'); if(sc===5||!c){el.innerHTML='';return;}
+ let fs=62; el.innerHTML=`<span style="font-size:${fs}px">${c}</span>`; const sp=el.firstChild; while(sp.offsetWidth>840&&fs>34){fs-=2;sp.style.fontSize=fs+'px';}
+}
+</script></body></html>
