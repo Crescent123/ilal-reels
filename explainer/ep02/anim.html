@@ -1,0 +1,180 @@
+<html><head><meta charset="utf-8"><style>
+@font-face{font-family:Cairo;src:url('Cairo.ttf');font-weight:200 1000}
+body{margin:0;width:1080px;height:1920px;background:#0b0b0b;overflow:hidden;font-family:Cairo,sans-serif}
+svg text{font-family:Cairo}
+#cap{position:absolute;top:1340px;left:80px;width:840px;height:120px;display:flex;align-items:center;justify-content:center;direction:rtl}
+#cap span{background:#fff;color:#000;font-weight:900;padding:4px 22px;border-radius:14px;white-space:nowrap;display:inline-block}
+</style></head><body>
+<svg id="g" width="1080" height="1920" style="position:absolute;top:0;left:0"></svg>
+<div id="cap"></div>
+<script>
+// Ep02 «شكون الغالط؟» — engine copied from ep01 (fig/heart/popT/bubble), scenes rewritten.
+let D={};
+const RED='#e63946', W='#fff', PINK='#ff7eb6', GOLD='#ffd166', GREY='#666';
+const cl=(x,a,b)=>Math.max(a,Math.min(b,x));
+const ease=x=>{x=cl(x,0,1);return 1-Math.pow(1-x,3)};
+const back=x=>{x=cl(x,0,1);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const P=(t,a,b)=>ease((t-a)/Math.max(.01,b-a));
+const PB=(t,a,b)=>back((t-a)/Math.max(.01,b-a));
+function T(x,y,s,c,o,str,w){return `<text x="${x}" y="${y}" fill="${c}" font-size="${s}" font-weight="${w||900}" text-anchor="middle" direction="rtl" opacity="${o==null?1:o}">${str}</text>`;}
+function TL(x,y,s,c,o,str,w){return `<text x="${x}" y="${y}" fill="${c}" font-size="${s}" font-weight="${w||900}" text-anchor="middle" opacity="${o==null?1:o}">${str}</text>`;}
+function popT(t,t0,x,y,s,c,str,latin){const k=PB(t,t0,t0+.45);if(t<t0)return '';return `<g transform="translate(${x},${y}) scale(${k})">${(latin?TL:T)(0,0,s,c,cl((t-t0)*4,0,1),str)}</g>`;}
+// stick figure. arm: down|up|reach|hug|point|cross|chest|lift ; angry, sad, tear, op, walk, face
+function fig(x,y,col,s,o){o=o||{};const f=o.face||1;const w=o.walk||0;const leg=Math.sin(w)*28, armw=Math.sin(w)*20;
+ let arms;
+ if(o.arm==='up') arms=`<line x1="0" y1="72" x2="-55" y2="10"/><line x1="0" y1="72" x2="55" y2="10"/>`;
+ else if(o.arm==='reach') arms=`<line x1="0" y1="72" x2="${-40*f}" y2="125"/><line x1="0" y1="72" x2="${70*f}" y2="80"/>`;
+ else if(o.arm==='hug') arms=`<line x1="0" y1="72" x2="${60*f}" y2="70"/><line x1="0" y1="80" x2="${60*f}" y2="100"/>`;
+ else if(o.arm==='point') arms=`<line x1="0" y1="72" x2="${-42*f}" y2="125"/><line x1="0" y1="72" x2="${88*f}" y2="${58+(o.jab||0)}"/>`;
+ else if(o.arm==='cross') arms=`<line x1="0" y1="72" x2="${32}" y2="100"/><line x1="0" y1="72" x2="${-32}" y2="100"/><line x1="-34" y1="100" x2="34" y2="100"/>`;
+ else if(o.arm==='chest') arms=`<line x1="0" y1="72" x2="${-42*f}" y2="125"/><path d="M 0 72 L ${30*f} 108 L ${8*f} 98"/>`;
+ else if(o.arm==='lift') arms=`<line x1="0" y1="72" x2="${-42*f}" y2="125"/><line x1="0" y1="72" x2="${40*f}" y2="-2"/>`;
+ else arms=`<line x1="0" y1="72" x2="${-50+armw}" y2="122"/><line x1="0" y1="72" x2="${50-armw}" y2="122"/>`;
+ let face='';
+ if(o.angry) face+=`<g stroke-width="6"><line x1="-24" y1="-20" x2="-6" y2="-10"/><line x1="24" y1="-20" x2="6" y2="-10"/></g>`;
+ if(o.sad) face+=`<path d="M -12 18 Q 0 8 12 18" stroke="${col}" stroke-width="5" fill="none"/>`;
+ if(o.smile) face+=`<path d="M -13 10 Q 0 22 13 10" stroke="${col}" stroke-width="5" fill="none"/>`;
+ if(o.tear) face+=`<path d="M ${-14*f} ${2+o.tear*20} q -6 10 0 14 q 6 -4 0 -14" fill="#7ec8ff" stroke="none"/>`;
+ return `<g transform="translate(${x},${y}) scale(${s})" stroke="${col}" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="${o.op==null?1:o.op}">
+ <circle cx="0" cy="0" r="34"/>${face}<line x1="0" y1="34" x2="0" y2="150"/>${arms}
+ <line x1="0" y1="150" x2="${-38+leg}" y2="235"/><line x1="0" y1="150" x2="${38-leg}" y2="235"/></g>`;}
+function heart(x,y,s,o,col){return `<path transform="translate(${x},${y}) scale(${s})" opacity="${o}" fill="${col||RED}" stroke="none" d="M0 30 C -40 -5,-30 -45,0 -20 C 30 -45,40 -5,0 30Z"/>`;}
+function bolt(x,y,s,o,r){return `<path transform="translate(${x},${y}) rotate(${r||0}) scale(${s})" opacity="${o}" fill="${GOLD}" d="M10 -40 L -20 5 L 0 5 L -10 40 L 22 -8 L 2 -8 Z"/>`;}
+function bubble(x,y,str,o,s,dark){if(o<=0)return '';return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s||1})"><rect x="-230" y="-55" width="460" height="95" rx="40" fill="${dark?RED:'#fff'}"/><path d="M -20 38 L 0 70 L 20 38 Z" fill="${dark?RED:'#fff'}"/>${T(0,14,40,dark?'#fff':'#000',1,str)}</g>`;}
+function xmark(x,y,s,o,col){return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s})" stroke="${col||RED}" stroke-width="16" stroke-linecap="round"><line x1="-40" y1="-40" x2="40" y2="40"/><line x1="40" y1="-40" x2="-40" y2="40"/></g>`;}
+function ball(x,y,s){return `<g transform="translate(${x},${y}) scale(${s})"><circle r="30" fill="${GOLD}"/>${T(0,14,40,'#000',1,'!')}</g>`;}
+function box(x,y,s,o,label,fs,bw){bw=bw||170;return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s})"><rect x="${-bw/2}" y="-70" width="${bw}" height="140" rx="18" fill="${RED}" stroke="#fff" stroke-width="6"/>${T(0,16,fs||44,'#fff',1,label||'غلطة')}</g>`;}
+function cal(x,y,s,label,o){return `<g opacity="${o==null?1:o}" transform="translate(${x},${y}) scale(${s})"><rect x="-110" y="-95" width="220" height="200" rx="20" fill="#fff"/><rect x="-110" y="-95" width="220" height="56" rx="20" fill="${RED}"/><rect x="-110" y="-60" width="220" height="21" fill="${RED}"/>${T(0,50,52,'#000',1,label)}</g>`;}
+function loopArrow(x,y,r,a,o){const p=[];for(let i=0;i<=40;i++){const u=a+i/40*5.2;p.push((i?'L':'M')+(x+Math.cos(u)*r).toFixed(1)+' '+(y+Math.sin(u)*r).toFixed(1));}const e=a+5.2;const ex=x+Math.cos(e)*r,ey=y+Math.sin(e)*r;
+ return `<g opacity="${o}"><path d="${p.join('')}" stroke="${GOLD}" stroke-width="12" fill="none" stroke-linecap="round"/><circle cx="${ex}" cy="${ey}" r="16" fill="${GOLD}"/></g>`;}
+function gavel(x,y,s,r){return `<g transform="translate(${x},${y}) rotate(${r}) scale(${s})"><rect x="-12" y="0" width="24" height="170" rx="10" fill="#c98a4b"/><rect x="-70" y="-45" width="140" height="70" rx="16" fill="#8b5a2b" stroke="#fff" stroke-width="5"/></g>`;}
+function shield(x,y,s,r,o){return `<g opacity="${o==null?1:o}" transform="translate(${x},${y}) rotate(${r}) scale(${s})"><path d="M0 -70 L 60 -45 L 52 30 Q 30 70 0 85 Q -30 70 -52 30 L -60 -45 Z" fill="#333" stroke="${RED}" stroke-width="8"/></g>`;}
+function clip(x,y,s,n){let r='';for(let i=0;i<4;i++){r+=`<line x1="-50" y1="${-40+i*38}" x2="40" y2="${-40+i*38}" stroke="#999" stroke-width="6"/>`;if(i<n)r+=`<g transform="translate(55,${-40+i*38})" stroke="${RED}" stroke-width="7"><line x1="-10" y1="-10" x2="10" y2="10"/><line x1="10" y1="-10" x2="-10" y2="10"/></g>`;}
+ return `<g transform="translate(${x},${y}) scale(${s})"><rect x="-80" y="-95" width="170" height="210" rx="14" fill="#fff"/><rect x="-25" y="-108" width="60" height="26" rx="8" fill="#555"/>${r}</g>`;}
+function render(t){
+ const S=D.s, C=D.c; let g=''; let sc=0;
+ for(let i=0;i<S.length;i++) if(t>=S[i]) sc=i;
+ const ls=t-S[sc], le=(S[sc+1]||D.dur)-S[sc];
+ const zoom=1+0.05*cl(ls/le,0,1);
+ const fadeIn=sc===0?1:P(t,S[sc],S[sc]+.25);
+ if(sc>=1&&sc<6) g+=T(540,300,58,'#fff',.9,'شكون الغالط؟');
+ const FY=820;
+ if(sc===0){ // HOOK: fight already going, both pointing + shaking, bolts between
+   const sh=Math.sin(t*38)*5;
+   g+=fig(330+sh,FY,W,1.0,{arm:'point',face:1,angry:1,jab:Math.sin(t*9)*14});
+   g+=fig(750-sh,FY,RED,1.0,{arm:'point',face:-1,angry:1,jab:Math.cos(t*9)*14});
+   for(let i=0;i<3;i++){const ph=(t*2.2+i/3)%1;g+=bolt(540+(i-1)*55,FY+40-ph*120,1.2,1-ph,(i-1)*20);}
+   g+=popT(t,.15,540,420,100,'#fff','شكون الغالط؟');
+   if(t>C.sorry){ g+=bubble(540,620,'«سمح ليا»… شكون؟',P(t,C.sorry,C.sorry+.25),PB(t,C.sorry,C.sorry+.4)); }
+   if(t>C.sorry2){ const q=PB(t,C.sorry2,C.sorry2+.4); g+=`<g transform="translate(540,1180) scale(${q})">${T(0,0,90,GOLD,1,'؟ ؟ ؟')}</g>`; }
+ }
+ if(sc===1){ // blame ping-pong -> victims
+   const t0=S[1];
+   if(t<C.victim){
+     const per=1.15, ph=((t-t0)/per)%2, dir=ph<1?1:-1, u=ph<1?ph:ph-1;
+     const bx=dir>0?380+u*320:700-u*320, by=FY+60-Math.sin(u*Math.PI)*260;
+     const wThrow=dir<0&&u>.85||dir>0&&u<.15, rThrow=dir>0&&u>.85||dir<0&&u<.15;
+     g+=fig(300,FY,W,1.0,{arm:wThrow?'point':'down',face:1,angry:1});
+     g+=fig(780,FY,RED,1.0,{arm:rThrow?'point':'down',face:-1,angry:1});
+     g+=ball(bx,by,1.3);
+     if(t<C.w) g+=popT(t,t0+.3,540,470,60,GOLD,'لعبة: «ماشي أنا!»');
+     g+=bubble(440,560,'«نتي اللي بديتي»',P(t,C.w,C.w+.25)*(t<C.r?1:.35),PB(t,C.w,C.w+.4));
+     g+=bubble(640,700,'«نتا اللي خليتيني»',P(t,C.r,C.r+.25),PB(t,C.r,C.r+.4),1);
+   } else { // both play the victim, spotlight on each
+     const k=P(t,C.victim,C.victim+.6), tr=((t*1.3)%1);
+     g+=`<path d="M 300 420 L 190 1080 L 410 1080 Z" fill="#fff" opacity="${.08*k}"/><path d="M 780 420 L 670 1080 L 890 1080 Z" fill="#fff" opacity="${.08*k}"/>`;
+     g+=fig(300,FY+30*k,W,1.0,{arm:'chest',face:1,sad:1,tear:tr});
+     g+=fig(780,FY+30*k,RED,1.0,{arm:'chest',face:-1,sad:1,tear:tr});
+     g+=popT(t,C.victim+.3,540,520,64,PINK,'«أنا المظلوم» 🎭');
+     if(t>C.vm) g+=popT(t,C.vm,540,1180,96,'#fff','Victim mentality',1);
+   }
+ }
+ if(sc===2){ // the mistake nobody picks up -> repeats every week
+   const t0=S[2];
+   if(t<C.again){
+     const drop=P(t,t0,t0+.5), turn=t>C.hold;
+     g+=box(540,1000-(1-drop)*500,1.1*PB(t,t0,t0+.5),1);
+     const k=P(t,C.hold,C.hold+.6);
+     g+=fig(330-60*k,FY,W,1.0,{arm:turn?'cross':'down',face:turn?-1:1});
+     g+=fig(750+60*k,FY,RED,1.0,{arm:turn?'cross':'down',face:turn?1:-1});
+     if(t<C.hold) g+=popT(t,t0+.3,540,520,60,GOLD,'الغلطة عادية…');
+     else if(t<C.noacc) g+=popT(t,C.hold,540,520,60,RED,'ولكن حتى واحد ما شدها');
+     if(t>C.acc){ g+=popT(t,C.acc,540,560,92,'#fff','Accountability',1); g+=xmark(540,535,1.6,P(t,C.acc+.4,C.acc+.6)); }
+   } else { // week loop
+     const days=['الإثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت','الحد'];
+     const di=Math.floor((t-C.again)*5)%7;
+     g+=loopArrow(540,760,230,t*2.4,1);
+     g+=cal(540,760,1.1,days[di]);
+     g+=box(540,1090,.8,1,'نفس الخصومة',40,300);
+     for(let i=0;i<2;i++) g+=bolt(380+i*320,1060,1,0.5+0.5*Math.sin(t*12+i*2));
+     if(t>C.week) g+=popT(t,C.week,540,480,72,GOLD,'كل سيمانة ↻');
+   }
+ }
+ if(sc===3){ // 90/10 rule: the small 10% piece flies into his hand
+   const t0=S[3];
+   g+=popT(t,t0+.1,540,450,74,GOLD,'القاعدة');
+   const bw=690, bx0=170, by=580, hx=660, hy=840;
+   if(t>C.bar){ const k=P(t,C.bar,C.bar+1.0);
+     g+=`<rect x="${bx0}" y="${by}" width="${bw*.9*k}" height="110" rx="16" fill="${GREY}"/>`;
+     g+=T(bx0+bw*.45,by+75,52,'#fff',P(t,C.bar+.6,C.bar+1),'90% ديالو');
+     const m=t>C.take?P(t,C.take,C.take+.7):0;
+     const px=bx0+bw*.9+4+(hx-40-(bx0+bw*.9+4))*m, py=by+(hy-60-by)*m;
+     g+=`<g opacity="${P(t,C.bar+.8,C.bar+1.1)}"><rect x="${px}" y="${py}" width="70" height="110" rx="14" fill="#fff"/>${TL(px+35,py+68,34,'#000',1,'10%')}</g>`;
+   }
+   const holding=t>C.take+.6;
+   g+=fig(620,920,W,1.0,{arm:holding?'lift':'down',face:1,smile:t>C.ana});
+   g+=fig(830,950,RED,.75,{face:-1,op:.5});
+   if(t>C.ana) g+=bubble(360,900,'«أنا غلطت فهادي»',P(t,C.ana,C.ana+.25),PB(t,C.ana,C.ana+.4));
+   if(t>C.bla){ g+=popT(t,C.bla,360,1120,78,'#fff','ولكن'); g+=`<line x1="280" y1="1098" x2="440" y2="1098" stroke="${RED}" stroke-width="12" stroke-linecap="round" opacity="${P(t,C.bla+.3,C.bla+.5)}"/>`; }
+ }
+ if(sc===4){ // other side drops the shield, then admits too
+   const t0=S[4];
+   const dk=t>C.drop?P(t,C.drop,C.drop+.6):0;
+   g+=fig(340,FY,W,1.0,{arm:t>C.adm?'chest':'down',face:1,smile:t>C.both});
+   g+=fig(740,FY,RED,1.0,{arm:t>C.both?'chest':'hug',face:-1,angry:t<C.drop,smile:t>C.both});
+   g+=shield(700+dk*60,FY+95+dk*170,1,dk*80,1-dk*.4);
+   if(t<C.adm) g+=popT(t,t0+.2,540,500,64,GOLD,'شوف شنو كيوقع 👀');
+   if(t>C.adm&&t<C.both) g+=bubble(420,600,'«سمح ليا، غلطت»',P(t,C.adm,C.adm+.25),PB(t,C.adm,C.adm+.4));
+   if(t>C.drop&&t<C.both) g+=popT(t,C.drop+.1,700,1200,52,'#fff','كيطيح السلاح');
+   if(t>C.both){ g+=bubble(660,600,'«وحتى أنا غلطت»',P(t,C.both,C.both+.25),PB(t,C.both,C.both+.4),1);
+     for(let i=0;i<5;i++){const ph=((t*.7+i/5)%1);g+=heart(470+i*35,FY-ph*260,.5,(1-ph)*P(t,C.both+.3,C.both+.8),i%2?RED:W);} }
+ }
+ if(sc===5){ // accountability != judging
+   const t0=S[5];
+   if(t<C.check) g+=`<g transform="translate(540,620) scale(${PB(t,t0,t0+.4)})"><path d="M0 -110 L 120 95 L -120 95 Z" fill="${GOLD}"/>${T(0,70,140,'#000',1,'!')}</g>`;
+   if(t>C.check){
+     const n=Math.min(4,Math.floor((t-C.check)/.55)+1);
+     const shrink=t>C.judge?1-.25*P(t,C.judge,C.judge+.8):1;
+     g+=fig(330,FY,W,1.05,{arm:'reach',face:1,angry:1});
+     g+=clip(455,FY+70,.8,n);
+     g+=fig(770,FY+235*(1-shrink),RED,shrink,{face:-1,sad:1});
+     if(t>C.judge){ const sw=Math.sin(cl((t-C.judge)*3,0,1)*Math.PI)*-55; g+=gavel(330,560,1,sw+20);
+       if(Math.abs(t-C.judge-.25)<.12) g+=bolt(420,640,1.4,1); }
+     if(t>C.qadi) g+=popT(t,C.qadi,330,480,72,GOLD,'قاضي ⚖️');
+     if(t>C.partner){ g+=popT(t,C.partner,680,480,62,'#999','شريك؟'); g+=xmark(680,462,1.0,P(t,C.partner+.25,C.partner+.45)); }
+   }
+ }
+ if(sc===6){ // punchline + question
+   const t0=S[6];
+   g+=heart(540,860,4+0.3*Math.sin(t*3),.12,RED);
+   if(t<C.q1){
+     g+=popT(t,t0,540,600,80,'#fff','العلاقة اللي كتعيش');
+     g+=popT(t,C.p1,540,740,58,'#bbb','ماشي اللي ما فيهاش الغلط…');
+     g+=popT(t,C.p2,540,900,56,RED,'هي اللي فيها جوج كيقولو:');
+     if(t>C.p3) g+=popT(t,C.p3,540,1110,130,'#fff','«أنا»');
+     const up=t>C.p3;
+     g+=fig(290,1000,W,.55,{arm:up?'lift':'down',face:1,smile:up,op:P(t,C.p2,C.p2+.4)})+fig(790,1000,RED,.55,{arm:up?'lift':'down',face:-1,smile:up,op:P(t,C.p2,C.p2+.4)});
+   } else {
+     g+=popT(t,C.q1,540,640,110,'#fff','ونتوما؟');
+     g+=popT(t,C.q2,540,820,62,GOLD,'شكون فيكم');
+     g+=popT(t,C.q2+.5,540,920,62,GOLD,'اللي كيعتذر الأول؟');
+     g+=fig(400,1000,W,.6,{arm:'point',face:1,smile:1})+fig(680,1000,RED,.6,{arm:'point',face:-1,smile:1});
+     if(t>C.q2+1.0) g+=popT(t,C.q2+1.0,540,1260,46,'#ccc','كتبوها فالكومونطير 👇');
+   }
+ }
+ document.getElementById('g').innerHTML=`<g opacity="${fadeIn}" transform="translate(540,860) scale(${zoom}) translate(-540,-860)">${g}</g>`;
+ let c='';for(const k of D.cap){if(t>=k[0]&&t<k[1]){c=k[2];break;}}
+ const el=document.getElementById('cap'); if(sc===6||!c){el.innerHTML='';return;}
+ let fs=62; el.innerHTML=`<span style="font-size:${fs}px">${c}</span>`; const sp=el.firstChild; while(sp.offsetWidth>840&&fs>34){fs-=2;sp.style.fontSize=fs+'px';}
+}
+</script></body></html>
