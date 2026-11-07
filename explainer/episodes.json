@@ -138,5 +138,14 @@
   "status": "queued",
   "date_queued": "2026-11-07",
   "note": "made by an earlier run (queued twice: 07:36 and 09:35 UTC); ep.json not preserved on main"
+ },
+ {
+  "ep": 16,
+  "slug": "dhak_f_lkhsoma",
+  "topic": "الضحك فالخصومة — Defuse small silly fights with humour (agree and exaggerate) instead of defending. Not for serious issues.",
+  "source_reel": "https://www.instagram.com/reel/DfEnXoakUIQ/",
+  "made": "2026-11-07",
+  "status": "queued",
+  "date_queued": "2026-11-07"
  }
 ]
