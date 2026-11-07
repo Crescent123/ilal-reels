@@ -1,0 +1,138 @@
+<html><head><meta charset="utf-8"><style>
+@font-face{font-family:Cairo;src:url('Cairo.ttf');font-weight:200 1000}
+body{margin:0;width:1080px;height:1920px;background:#0b0b0b;overflow:hidden;font-family:Cairo,sans-serif}
+svg text{font-family:Cairo}
+#cap{position:absolute;top:1340px;left:80px;width:840px;height:120px;display:flex;align-items:center;justify-content:center;direction:rtl}
+#cap span{background:#fff;color:#000;font-weight:900;padding:4px 22px;border-radius:14px;white-space:nowrap;display:inline-block}
+</style></head><body>
+<svg id="g" width="1080" height="1920" style="position:absolute;top:0;left:0"></svg>
+<div id="cap"></div>
+<script>
+let D={};
+const RED='#e63946', W='#fff';
+const cl=(x,a,b)=>Math.max(a,Math.min(b,x));
+const ease=x=>{x=cl(x,0,1);return 1-Math.pow(1-x,3)};
+const back=x=>{x=cl(x,0,1);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const P=(t,a,b)=>ease((t-a)/Math.max(.01,b-a));
+const PB=(t,a,b)=>back((t-a)/Math.max(.01,b-a));
+const txt=(x,y,s,c,w,o,extra)=>`<text x="${x}" y="${y}" fill="${c}" font-size="${s}" font-weight="${w||900}" text-anchor="middle" direction="rtl" opacity="${o==null?1:o}" ${extra||''}>${arguments[7]||''}</text>`;
+function T(x,y,s,c,o,str,w){return `<text x="${x}" y="${y}" fill="${c}" font-size="${s}" font-weight="${w||900}" text-anchor="middle" direction="rtl" opacity="${o==null?1:o}">${str}</text>`;}
+function popT(t,t0,x,y,s,c,str){const k=PB(t,t0,t0+.45);if(t<t0)return '';return `<g transform="translate(${x},${y}) scale(${k})">${T(0,0,s,c,cl((t-t0)*4,0,1),str)}</g>`;}
+// stick figure: pose {arm:'down'|'up'|'reach'|'hug', face:1|-1, glasses:'pink'|null, sad:bool, walk:phase}
+function fig(x,y,col,s,o){o=o||{};const f=o.face||1;const w=o.walk||0;const leg=Math.sin(w)*28, armw=Math.sin(w)*20;
+ let arms;
+ if(o.arm==='up') arms=`<line x1="0" y1="72" x2="-55" y2="10"/><line x1="0" y1="72" x2="55" y2="10"/>`;
+ else if(o.arm==='reach') arms=`<line x1="0" y1="72" x2="${-40*f}" y2="125"/><line x1="0" y1="72" x2="${70*f}" y2="80"/>`;
+ else if(o.arm==='hug') arms=`<line x1="0" y1="72" x2="${60*f}" y2="70"/><line x1="0" y1="80" x2="${60*f}" y2="100"/>`;
+ else arms=`<line x1="0" y1="72" x2="${-50+armw}" y2="122"/><line x1="0" y1="72" x2="${50-armw}" y2="122"/>`;
+ let face='';
+ if(o.glasses==='pink') face=`<g stroke="#ff7eb6" stroke-width="7" fill="rgba(255,126,182,.55)"><circle cx="${12*f-13}" cy="-4" r="12"/><circle cx="${12*f+15}" cy="-4" r="12"/></g>`;
+ if(o.sad) face+=`<path d="M -12 18 Q 0 8 12 18" stroke="${col}" stroke-width="5" fill="none"/>`;
+ if(o.heartEyes) face+=heart(-12,-6,.35,1)+heart(14,-6,.35,1);
+ return `<g transform="translate(${x},${y}) scale(${s})" stroke="${col}" stroke-width="9" fill="none" stroke-linecap="round" opacity="${o.op==null?1:o.op}">
+ <circle cx="0" cy="0" r="34"/>${face}<line x1="0" y1="34" x2="0" y2="150"/>${arms}
+ <line x1="0" y1="150" x2="${-38+leg}" y2="235"/><line x1="0" y1="150" x2="${38-leg}" y2="235"/></g>`;}
+function heart(x,y,s,o,col){return `<path transform="translate(${x},${y}) scale(${s})" opacity="${o}" fill="${col||RED}" stroke="none" d="M0 30 C -40 -5,-30 -45,0 -20 C 30 -45,40 -5,0 30Z"/>`;}
+function burst(x,y,t,t0,n,col){if(t<t0||t>t0+1.2)return '';const k=(t-t0)/1.2;let s='';for(let i=0;i<n;i++){const a=i/n*6.283;s+=heart(x+Math.cos(a)*k*230,y+Math.sin(a)*k*230,.6*(1-k*.5),1-k,col);}return s;}
+function pill(x,y,s,c1,c2,rot){return `<g transform="translate(${x},${y}) rotate(${rot||0}) scale(${s})"><rect x="-60" y="-26" width="120" height="52" rx="26" fill="${c1}"/><rect x="0" y="-26" width="60" height="52" rx="0" fill="${c2}"/><rect x="-60" y="-26" width="120" height="52" rx="26" fill="none" stroke="#fff" stroke-width="5"/></g>`;}
+function brain(x,y,s,glow){return `<g transform="translate(${x},${y}) scale(${s})" fill="none" stroke="#ff7eb6" stroke-width="8" stroke-linecap="round">
+<path d="M-10 -80 C -70 -95,-120 -40,-100 10 C -130 40,-100 95,-40 90 C -20 110,0 100,-10 80 Z"/><path d="M10 -80 C 70 -95,120 -40,100 10 C 130 40,100 95,40 90 C 20 110,0 100,10 80 Z"/>
+<path d="M-60 -30 C -40 -20,-50 10,-70 20"/><path d="M60 -30 C 40 -20,50 10,70 20"/><circle r="${130+20*glow}" stroke="#ff7eb6" stroke-width="4" opacity="${.3*glow}"/></g>`;}
+function cal(x,y,s,label,flip){const n=label.split(' ')[0], u=label.split(' ').slice(1).join(' ');return `<g transform="translate(${x},${y}) scale(${s}) scale(1,${flip==null?1:flip})"><rect x="-95" y="-85" width="190" height="185" rx="20" fill="#fff"/><rect x="-95" y="-85" width="190" height="50" rx="20" fill="${RED}"/><rect x="-95" y="-55" width="190" height="20" fill="${RED}"/>
+<text x="0" y="40" font-size="80" font-weight="900" fill="#000" text-anchor="middle">${n}</text><text x="0" y="85" font-size="34" font-weight="800" fill="#444" text-anchor="middle" direction="rtl">${u}</text></g>`;}
+function bolt(x,y,s,o){return `<path transform="translate(${x},${y}) scale(${s})" opacity="${o}" fill="#ffd166" d="M10 -40 L -20 5 L 0 5 L -10 40 L 22 -8 L 2 -8 Z"/>`;}
+function bubble(x,y,str,o,s){return `<g opacity="${o}" transform="translate(${x},${y}) scale(${s||1})"><rect x="-240" y="-55" width="480" height="95" rx="40" fill="#fff"/><path d="M -20 38 L 0 70 L 20 38 Z" fill="#fff"/>${T(0,14,42,'#000',1,str)}</g>`;}
+// graph
+const GX0=140,GX1=880,GY0=1000,GYT=560;
+function red(u){return Math.exp(-Math.pow((u-0.28)/0.14,2))+(u>0.28?0.16*(1-Math.exp(-(u-0.28)*4)):0);}
+function wht(u){return 0.06+0.84*Math.pow(u,1.6);}
+function path(f,u0,u1,yoff){let p='';for(let i=0;i<=160;i++){const u=u0+(u1-u0)*i/160;const x=GX0+u*(GX1-GX0);const y=GY0-f(u)*(GY0-GYT)+(yoff||0);p+=(i?'L':'M')+x.toFixed(1)+' '+y.toFixed(1);}return p;}
+function axes(o){return `<g opacity="${o}" stroke="#444" stroke-width="5"><line x1="${GX0}" y1="${GY0}" x2="${GX1}" y2="${GY0}"/><line x1="${GX0}" y1="${GY0}" x2="${GX0}" y2="${GYT-50}"/></g>`+T(GX1-30,GY0+52,34,'#777',o,'الوقت',700);}
+function render(t){
+ const S=D.s; let g=''; let zoom=1, sc=0;
+ for(let i=0;i<S.length;i++) if(t>=S[i]) sc=i;
+ const ls=t-S[sc], le=(S[sc+1]||D.dur)-S[sc];
+ zoom=1+0.05*cl(ls/le,0,1);                       // slow push-in per scene
+ const fadeIn=P(t,S[sc],S[sc]+.25);
+ // persistent title (small) after hook
+ if(sc>=1&&sc<6) g+=T(540,300,58,'#fff',.9,'قاعدة 18 شهر');
+ if(sc===0){ // HOOK: couple runs in, hugs, heart burst
+   const k=P(t,0,1.0); const xa=180+250*k, xb=900-250*k; const w=t<1?t*14:0;
+   const hug=t>1.0;
+   g+=fig(xa,820,W,1.0,{walk:w,arm:hug?'hug':'down',face:1,heartEyes:t>1.3});
+   g+=fig(xb,820,RED,1.0,{walk:w,arm:hug?'hug':'down',face:-1,heartEyes:t>1.3});
+   if(t>1.0) g+=heart(540,760,2.2*PB(t,1.0,1.5),1);
+   g+=burst(540,760,t,1.05,10);
+   for(let i=0;i<6;i++){const ph=((t*.5+i/6)%1); if(t>1.5) g+=heart(300+i*95,1150-ph*500,.5,(1-ph)*.7,i%2?RED:'#ff7eb6');}
+   g+=popT(t,.25,540,400,112,'#fff','قاعدة 18 شهر');
+   g+=popT(t,2.3,540,500,52,RED,'علاش البداية ديما زوينة؟');
+ }
+ if(sc===1){ // cocktail of hormones -> drug -> pink glasses
+   const c=D.cut; // sub-beat times
+   if(t<c[0]){ // brain + pills dropping
+     g+=brain(540,700,1.6*PB(t,S[1],S[1]+.5),0.5+0.5*Math.sin(t*6));
+     g+=popT(t,S[1]+1.0,540,960,50,'#ff7eb6','الدماغ كيطلق الهرمونات');
+     const p1=P(t,c[0]-2.6,c[0]-1.6), p2=P(t,c[0]-1.8,c[0]-.8);
+     g+=pill(380,450+300*p1,1,RED,'#fff',30*p1)+T(380,420+300*p1-60,44,RED,p1>0?1:0,'Dopamine');
+     g+=pill(700,450+300*p2,1,'#ff7eb6','#fff',-30*p2)+T(700,420+300*p2-60,44,'#ff7eb6',p2>0?1:0,'Adrenaline');
+   } else if(t<c[1]){ // "bhal chi dwa": giant pill spin
+     g+=pill(540,760,2.6*PB(t,c[0],c[0]+.4),RED,'#fff',(t-c[0])*90);
+     g+=popT(t,c[0]+.2,540,1000,80,'#fff','بحال شي دوا 💊');
+   } else { // pink glasses lover
+     g+=fig(380,640,W,1.2,{arm:'reach',face:1,glasses:'pink'});
+     g+=fig(700,640,RED,1.2,{face:-1});
+     for(let i=0;i<4;i++){const ph=((t*.6+i/4)%1);g+=heart(540,780-ph*260,.8,(1-ph))}
+     if(t>c[2]) g+=popT(t,c[2],540,1080,52,'#ff7eb6','كتشوف غير الزوين');
+     if(t>c[3]) g+=popT(t,c[3],540,520,56,RED,'العيوب؟ ما كتبانش 🙈');
+   }
+ }
+ if(sc>=2&&sc<=5){ // GRAPH scenes
+   const ga=sc===2?P(t,S[2],S[2]+.5):1;
+   let gs=axes(ga);
+   let um=0.30*P(t,S[2]+.2,S[2]+4.5); if(sc>=3) um=0.30+0.45*P(t,S[3],S[3]+5); if(sc>=5) um=0.75+0.25*P(t,S[5],S[5]+2.5);
+   if(sc!==4) gs+=`<path d="${path(red,0,Math.max(.001,um))}" stroke="${RED}" stroke-width="12" fill="none" stroke-linecap="round"/>`;
+   const px=GX0+0.28*(GX1-GX0);
+   if(sc>=2&&sc!==4&&t>S[2]+1.6){const o=P(t,S[2]+1.6,S[2]+2.1);gs+=T(px,GYT-30,56,RED,o,'Limerence')+`<line x1="${px}" y1="${GYT}" x2="${px}" y2="${GY0}" stroke="${RED}" stroke-width="3" stroke-dasharray="8 10" opacity="${o*.6}"/>`;}
+   if(sc===5){const w=P(t,S[5]+.4,S[5]+4.2);gs+=`<path d="${path(wht,0,Math.max(.001,w))}" stroke="#fff" stroke-width="10" fill="none" stroke-dasharray="22 14"/>`;
+      if(w>.7) gs+=T(GX1-130,GY0-wht(1)*(GY0-GYT)-30,50,'#fff',P(t,S[5]+3.2,S[5]+3.8),'التعلق والثقة');}
+   g+=`<g opacity="${sc===4?0.15:1}">${gs}</g>`;
+   // calendar
+   if(sc===2&&t>D.cut[4]) g+=cal(780,720,PB(t,D.cut[4],D.cut[4]+.4)*.8,'6 شهور');
+   if(sc===3){ const fl=Math.cos(cl((t-S[3])/.5,0,1)*Math.PI); g+=cal(780,720,.8,fl>0?'6 شهور':'18 شهر',Math.abs(fl)); }
+   // figures under graph
+   const fy=1060; let gap=0,fW=1,fR=-1,glasses=sc<=3&&t<D.cut[5]?'pink':null;
+   let xa=420,xb=660;
+   if(sc===3&&t>D.cut[5]){ const k=P(t,D.cut[5],D.cut[5]+.6); g+=`<g opacity="${1-k}" transform="translate(0,${200*k})">${''}</g>`; }
+   if(sc===4){const k=P(t,S[4],S[4]+.7); gap=110*k; fW=k>.5?-1:1; fR=k>.5?1:-1;}
+   if(sc===5){const k=P(t,S[5]+4,S[5]+5);gap=0;}
+   let wR={};
+   if(sc===4&&t>D.cut[7]){ // red walks to a new person
+     const k=P(t,D.cut[7],D.cut[7]+1.2); xb=660+gap; wR={walk:k<1?t*12:0};
+   }
+   g+=fig(xa-gap,fy,W,.7,{face:fW,glasses,sad:sc===4,arm:sc===5&&t>S[5]+5?'reach':'down'});
+   g+=fig(sc===4?xb:xb+gap,fy,RED,.7,Object.assign({face:fR,sad:sc===4},wR));
+   if(sc===4&&t>D.cut[7]) g+=fig(905,fy,'#ff7eb6',.7,{face:-1,op:P(t,D.cut[7]-.2,D.cut[7]+.3)});
+   if(sc===3&&t>D.cut[6]){ for(let i=0;i<3;i++) g+=bolt(540+(i-1)*40,fy+40+((i%2)*30),1.1,P(t,D.cut[6]+i*.25,D.cut[6]+i*.25+.2)); }
+   if(sc===4){ g+=`<g opacity="${P(t,S[4]+.4,S[4]+.8)}" stroke="${RED}" stroke-width="16" stroke-linecap="round"><line x1="505" y1="1110" x2="575" y2="1180"/><line x1="575" y1="1110" x2="505" y2="1180"/></g>`;
+     g+=bubble(380,640,'«ما بقاش كيبغيني»',P(t,D.cut[8],D.cut[8]+.3),PB(t,D.cut[8],D.cut[8]+.4));
+     g+=bubble(700,800,'«تبدلات»',P(t,D.cut[8]+.9,D.cut[8]+1.2),PB(t,D.cut[8]+.9,D.cut[8]+1.3));
+     if(t>D.cut[9]){ const k=P(t,D.cut[9],D.cut[9]+1.5); g+=popT(t,D.cut[9],540,975,58,'#ff7eb6','↻ نفس الدوا من الأول'); }
+   }
+   if(sc===5&&t>D.cut[10]){ const yrs=Math.round(1+19*P(t,D.cut[10],D.cut[10]+2.2)); g+=`<g transform="translate(270,660) scale(${PB(t,D.cut[10],D.cut[10]+.4)})"><rect x="-120" y="-70" width="240" height="120" rx="24" fill="#fff"/>${T(0,22,70,'#000',1,yrs+' عام')}</g>`; }
+   if(sc===5&&t>S[5]+5) g+=heart(540,fy+20,1.0,P(t,S[5]+5,S[5]+5.4),'#fff');
+ }
+ if(sc===6){ // punchline
+   const L=D.pl; g+=heart(540,860,4+0.3*Math.sin(t*3),.12,RED);
+   g+=popT(t,L[0],540,640,96,'#fff','الحب الحقيقي');
+   g+=popT(t,L[1],540,780,64,'#bbb','ماشي ملي كتطيح فيه…');
+   g+=popT(t,L[2],540,960,82,RED,'هو ملي الدوا كيسالي،');
+   g+=popT(t,L[3],540,1110,110,'#fff','وكتبقى.');
+   g+=fig(430,1180,W,.4,{arm:'reach',face:1,op:P(t,L[3],L[3]+.4)})+fig(650,1180,RED,.4,{arm:'reach',face:-1,op:P(t,L[3],L[3]+.4)});
+ }
+ document.getElementById('g').innerHTML=`<g opacity="${fadeIn}" transform="translate(540,860) scale(${zoom}) translate(-540,-860)">${g}</g>`;
+ // captions: one chunk, no wrap, auto-shrink
+ let c='';for(const k of D.cap){if(t>=k[0]&&t<k[1]){c=k[2];break;}}
+ const el=document.getElementById('cap'); if(sc===6||!c){el.innerHTML='';return;}
+ let fs=62; el.innerHTML=`<span style="font-size:${fs}px">${c}</span>`; const sp=el.firstChild; while(sp.offsetWidth>840&&fs>34){fs-=2;sp.style.fontSize=fs+'px';}
+}
+</script></body></html>
