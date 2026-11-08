@@ -1174,8 +1174,8 @@
  },
  "MuIX4s14ehA": {
   "date": "2026-11-08",
-  "status": "reserved",
-  "at": "2026-11-08T19:11:12Z",
-  "maker": "B"
+  "skip": "weak hook",
+  "maker": "B",
+  "note": "explainer-style video about a foreign lottery winner (Mavis, 300M dollars), mostly stats and advice, no Moroccan setting, conflict or taboo moment; hook max 4"
  }
 }
