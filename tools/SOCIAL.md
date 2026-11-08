@@ -30,6 +30,7 @@ Posting tool: Upload-Post, `bash tools/post.sh job.json` (see POSTER.md / tools/
   removes the file a few seconds BEFORE the log line is written.
 
 ## Facebook (published, NOT a trial — everyone sees it)
+- STOPPED 8 Nov after probation review: 4 reels (IG-proven 22–56K) got 154–226 views each on Facebook after 4–6 days, 0–1 likes. Task disabled. Same clips did 1–9K on TikTok. Do not restart without Hilal.
 - PROTECT THE PAGE (Hilal, 4 Nov: "I don't want to lose traction on Facebook; stop if it's not working, even with proven
   clips — it's a big audience"). Facebook is on PROBATION until ~9 Nov. Before each post, read the stats of the earlier
   Facebook reels (analytics action below). STOP posting on Facebook (post nothing, tell Hilal in one line) if, once
