@@ -1198,8 +1198,14 @@
  },
  "YTpEN_u2wME": {
   "date": "2026-11-08",
+  "skip": "too large",
+  "maker": "B",
+  "note": "best-of 2023 compilation, 360 MB audio: drive-cache push rejected (GitHub 100 MB limit)"
+ },
+ "REZDGMQeWGA": {
+  "date": "2026-11-08",
   "status": "reserved",
-  "at": "2026-11-08T21:11:01Z",
+  "at": "2026-11-08T21:17:30Z",
   "maker": "B"
  }
 }
