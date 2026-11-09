@@ -347,3 +347,4 @@
 {"t": "2026-11-09T18:04:19Z", "src": "story", "event": "posted", "permalink": "https://www.instagram.com/reel/Dfh7hK4FIOx/", "file": "1793982222_story_s8_LEAfEgyD95U.mp4", "platform": "instagram"}
 {"t": "2026-11-09T18:11:21Z", "src": "story", "event": "error", "permalink": "", "file": "1793985764_story_s8_K8KAnee9s6s.mp4", "platform": "instagram", "note": "tooling: Upload-Post workflow run 1794247877_6952 failed to start (0 jobs), not an Instagram refusal; posted via vidIQ fallback"}
 {"t": "2026-11-09T18:40:06Z", "src": "story", "event": "posted", "permalink": "https://www.instagram.com/reel/Dfh_niUDQmM/", "file": "1793985764_story_s8_K8KAnee9s6s.mp4", "platform": "instagram"}
+{"t": "2026-11-09T18:45:46Z", "src": "explainer", "event": "posted", "permalink": "https://www.instagram.com/reel/DfiAT9-AGhB/", "file": "1794058711_explainer_s9_lhob_bla_9fas.mp4", "platform": "instagram", "type": "explainer"}
