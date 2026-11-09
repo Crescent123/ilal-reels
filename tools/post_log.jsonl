@@ -346,3 +346,4 @@
 {"src": "story", "file": "1794236213_story_s8_N2AXlUfc1no.mp4", "platform": "tiktok", "note": "tiktok_run.sh", "t": "2026-11-09T17:52:48Z", "event": "posted", "permalink": "https://www.tiktok.com/@_ilal_/video/7706230799732903169"}
 {"t": "2026-11-09T18:04:19Z", "src": "story", "event": "posted", "permalink": "https://www.instagram.com/reel/Dfh7hK4FIOx/", "file": "1793982222_story_s8_LEAfEgyD95U.mp4", "platform": "instagram"}
 {"t": "2026-11-09T18:11:21Z", "src": "story", "event": "error", "permalink": "", "file": "1793985764_story_s8_K8KAnee9s6s.mp4", "platform": "instagram", "note": "tooling: Upload-Post workflow run 1794247877_6952 failed to start (0 jobs), not an Instagram refusal; posted via vidIQ fallback"}
+{"t": "2026-11-09T18:40:06Z", "src": "story", "event": "posted", "permalink": "https://www.instagram.com/reel/Dfh_niUDQmM/", "file": "1793985764_story_s8_K8KAnee9s6s.mp4", "platform": "instagram"}
