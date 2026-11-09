@@ -27,7 +27,7 @@ jobs:
             if [ -z "$UPLOADPOST_API_KEY" ]; then echo "UPLOADPOST_API_KEY secret is not set in the repo" > "/tmp/res/$s/done.txt"; continue; fi
             python3 tools/post_runner.py "$j" "/tmp/res/$s" > "/tmp/res/$s/log.txt" 2>&1 || true
             [ -f "/tmp/res/$s/done.txt" ] || { tail -c 600 "/tmp/res/$s/log.txt" > "/tmp/res/$s/done.txt"; }
-            for f in "/tmp/res/$s"/*; do sed -i -E 's/Apikey [^ '"'"'"]+/Apikey [key]/g; s/eyJ[A-Za-z0-9_.-]{20,}/[key]/g' "$f"; done
+            for f in "/tmp/res/$s"/*; do sed -i -E 's/Apikey [^ '"'"'"]+/Apikey [key]/g; s/eyJ[A-Za-z0-9_.-]{20,}/[key]/g; s/[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}/[email]/g' "$f"; done
           done < /tmp/jobs.txt
       - name: Publish results to post-out
         run: |
