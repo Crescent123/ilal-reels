@@ -1341,5 +1341,11 @@
   "status": "reserved",
   "at": "2026-11-11T14:11:58Z",
   "maker": "B"
+ },
+ "xmtHS7HDTis": {
+  "date": "2026-11-11",
+  "status": "reserved",
+  "at": "2026-11-11T14:41:17Z",
+  "maker": "A"
  }
 }
