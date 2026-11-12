@@ -1414,8 +1414,8 @@
  },
  "sXpsuH3BRiU": {
   "date": "2026-11-12",
-  "status": "reserved",
-  "at": "2026-11-12T15:11:47Z",
-  "maker": "B"
+  "skip": "weak hook",
+  "maker": "B",
+  "note": "core of story = son steals tens of millions from dad's hidden stash (theft hard cap <=5)"
  }
 }
