@@ -59,11 +59,16 @@ today's target (the cap, or 4 while paused), stop: today's target is reached. Ot
     "title":<short hook, ≤6 words, Darija>,"pieces":[[start,end]],"scenes":[...],"music":"music/suspense_<1-4>.mp3"
     (rotate),"out":"work/reel.mp4"}
 10. Check: grab frames at several times and look at them (text not clipped, no text over faces, end slide fine).
-10b. SCORE THE HOOK honestly 1–10 with the "What goes viral" rules: 9–10 = familiar Moroccan role + forbidden/secret
-   question + two people in open tension in the first frame (e.g. "المدير شدني مع بنتو؟"); 7–8 = strong question or scandal
-   with a clear conflict (e.g. "شنو لقا فتليفون مراتو؟", "صاحبي بغا يقتلني فالليل"); 4–6 = intriguing but vague, or one
-   person alone in the first frame; 1–3 = vague ("الليلة اللي قلبات حياتي"), routine, or set abroad. If below 7, improve
-   the title / first scene (one rebuild max); if the story itself can't reach 7, don't queue it: mark it in used.json as
+10b. SCORE THE HOOK honestly 1–10 with these rules (tested on ALL 149 story reels, 14 Oct–9 Nov, controlling for week):
+   START at 7 and adjust. +2 if the conflict is inside the FAMILY (ماما، بابا، خويا، ختي، مرت خويا، حماتي، عمي، خالي، ولد عمي...):
+   clean family stories had a median of 20K views and 50 % reached 20K+ (1.8x, significant). +1 for wife or neighbor stories.
+   −1 for girlfriend / fiancée / date stories (median 3K, 9 % hit 20K). Hard caps — any ONE of these = score at most 5 (skip):
+   a character NAME in the title or first caption (0 of 15 reached 20K), a story set abroad (0 of 16), "PART x" / series (0 of 6),
+   money / scam / theft as the core topic (1 of 17), violence / crime / death / kidnapping (median 2.3K). Together these
+   red flags cut views to 0.43x (the strongest result in the data). NOT proven: a question mark in the title and cheating
+   suspicion did not raise views once time is controlled — use them if natural, don't score for them. One person alone
+   in the first frame stays −1. If below 7, improve the title / first scene (one rebuild max: e.g. drop the name, lead with
+   the family member); if the story itself can't reach 7, don't queue it: mark it in used.json as
    {"date": ..., "skip": "weak hook"} and stop (the poster only posts 7+).
 11. Queue it: `bash tools/queue_add.sh work/reel.mp4 story_s<score>_<youtube_id>` (e.g. story_s8_abc123) (keep the file under ~45 MB). Do NOT publish.
 12. Replace your reservation in storyreel/used.json with {"date": ..., "queued": "<queued file name>"}, commit and push.
