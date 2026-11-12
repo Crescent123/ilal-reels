@@ -1420,8 +1420,8 @@
  },
  "sKrcJJcVwSA": {
   "date": "2026-11-12",
-  "status": "reserved",
-  "at": "2026-11-12T15:42:14Z",
-  "maker": "A"
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "core = domestic violence, conceived by rape, aunt's husband assaults mom, son beats stepfather/uncle with stick and axe (violence/crime hard cap <=5)"
  }
 }
