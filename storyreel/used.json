@@ -1795,5 +1795,11 @@
   "skip": "weak hook",
   "maker": "A",
   "note": "not a personal storytime: 16 May 2003 Casablanca suicide bombings (terrorism/death/violence hard cap <=5)"
+ },
+ "SSdC3x_Koyw": {
+  "date": "2026-11-12",
+  "status": "reserved",
+  "at": "2026-11-12T23:13:45Z",
+  "maker": "B"
  }
 }
