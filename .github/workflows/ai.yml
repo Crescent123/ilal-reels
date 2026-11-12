@@ -26,14 +26,18 @@ jobs:
           git diff --name-only --diff-filter=A "$BEFORE" HEAD -- ai/jobs/ | grep '\.json$' > /tmp/jobs.txt || true
           cat /tmp/jobs.txt
           mkdir -p /tmp/res
-          while read -r j; do
-            s=$(basename "$j" .json); mkdir -p "/tmp/res/$s"
-            if [ -z "$OPENAI_API_KEY" ]; then echo "OPENAI_API_KEY secret is not set in the repo" > "/tmp/res/$s/done.txt"; continue; fi
-            python3 tools/ai_runner.py "$j" "/tmp/res/$s" > "/tmp/res/$s/log.txt" 2>&1 || true
-            [ -f "/tmp/res/$s/done.txt" ] || { tail -c 600 "/tmp/res/$s/log.txt" > "/tmp/res/$s/done.txt"; }
-            # scrub: never let the key (or any sk- token / Bearer header) reach the public branch
-            for f in "/tmp/res/$s"/*.txt; do sed -i -E 's/sk-[A-Za-z0-9_-]{8,}/[key]/g; s/Bearer [^ '"'"'"]+/Bearer [key]/g' "$f"; done
-          done < /tmp/jobs.txt
+          # run up to 4 jobs at the same time (each image takes minutes; one after another was too slow)
+          cat > /tmp/one.sh <<'SH'
+          j="$1"; s=$(basename "$j" .json); mkdir -p "/tmp/res/$s"
+          if [ -z "$OPENAI_API_KEY" ]; then echo "OPENAI_API_KEY secret is not set in the repo" > "/tmp/res/$s/done.txt"; exit 0; fi
+          python3 tools/ai_runner.py "$j" "/tmp/res/$s" > "/tmp/res/$s/log.txt" 2>&1 || true
+          [ -f "/tmp/res/$s/done.txt" ] || { tail -c 600 "/tmp/res/$s/log.txt" > "/tmp/res/$s/done.txt"; }
+          # scrub: never let the key (or any sk- token / Bearer header) reach the public branch
+          for f in "/tmp/res/$s"/*.txt; do sed -i -E 's/sk-[A-Za-z0-9_-]{8,}/[key]/g; s/Bearer [^ '"'"'"]+/Bearer [key]/g' "$f"; done
+          SH
+          sed -i 's/^          //' /tmp/one.sh
+          export OPENAI_API_KEY
+          xargs -a /tmp/jobs.txt -r -n1 -P4 bash /tmp/one.sh
       - name: Publish results to ai-out (keep the last 24 h)
         run: |
           [ -n "$(ls /tmp/res)" ] || exit 0
