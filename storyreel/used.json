@@ -1438,8 +1438,8 @@
  },
  "jyRDACARyF0": {
   "date": "2026-11-12",
-  "status": "reserved",
-  "at": "2026-11-12T17:14:50Z",
-  "maker": "B"
+  "skip": "weak hook",
+  "maker": "B",
+  "note": "not a personal storytime: Kim Yo Jong / North Korea regime profile (abroad + executions/violence hard caps <=5)"
  }
 }
