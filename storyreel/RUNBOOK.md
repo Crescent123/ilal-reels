@@ -61,7 +61,7 @@ today's target (the cap, or 4 while paused), stop: today's target is reached. Ot
 10. Check: grab frames at several times and look at them (text not clipped, no text over faces, end slide fine).
 10b. SCORE THE HOOK honestly 1–10 with these rules (tested on ALL 149 story reels, 14 Oct–9 Nov, controlling for week):
    START at 7 and adjust. +2 if the conflict is inside the FAMILY (ماما، بابا، خويا، ختي، مرت خويا، حماتي، عمي، خالي، ولد عمي...):
-   clean family stories had a median of 20K views and 50 % reached 20K+ (1.8x, significant). +1 for wife or neighbor stories.
+   family stories with no red flags had a median of 20K views and 50 % reached 20K+ (1.8x, significant). +1 for neighbor stories. Wife / husband stories get NO bonus (no-red-flag wife stories: mean 14K, 10% 20K+).
    −1 for girlfriend / fiancée / date stories (median 3K, 9 % hit 20K). Hard caps — any ONE of these = score at most 5 (skip):
    a character NAME in the title or first caption (0 of 15 reached 20K), a story set abroad (0 of 16), "PART x" / series (0 of 6),
    money / scam / theft as the core topic (1 of 17), violence / crime / death / kidnapping (median 2.3K). Together these

@@ -8,7 +8,7 @@ set abroad, crime/violence, money/scam core, "PART x") = 0.43x. Question marks a
 Baseline: all story clips mean 22.6K / median 4.2K / 11% 50K+ / 19% 20K+. Clean family: mean 71K / median 20K / 50% 20K+.
 
 ## What changed
-- tools/queue_scores.json: 18 clean family/wife/neighbor clips = 9 (post first), 23 red-flag clips = 5 (held, never delete).
+- tools/queue_scores.json: 13 family/neighbor clips = 9 (post first; 5 wife clips first marked 9 were set back to 7 — wife stories show no edge), 23 red-flag clips = 5 (held, never delete).
 - storyreel/RUNBOOK.md 10b: new hook scoring (family +2, wife/neighbor +1, gf/fiancée −1, any red flag caps at 5).
 - Volume, platforms, formats: unchanged.
 
