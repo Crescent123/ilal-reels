@@ -1792,8 +1792,8 @@
  },
  "2B0EqbiUOrA": {
   "date": "2026-11-12",
-  "status": "reserved",
-  "at": "2026-11-12T22:42:32Z",
-  "maker": "A"
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "not a personal storytime: 16 May 2003 Casablanca suicide bombings (terrorism/death/violence hard cap <=5)"
  }
 }
