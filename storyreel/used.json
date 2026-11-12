@@ -1798,8 +1798,8 @@
  },
  "SSdC3x_Koyw": {
   "date": "2026-11-12",
-  "status": "reserved",
-  "at": "2026-11-12T23:13:45Z",
-  "maker": "B"
+  "skip": "weak hook",
+  "maker": "B",
+  "note": "Abdelmoula (rural), quits job after fight with tyrant boss's wife, finds a 200 DH note on the bus; it is counterfeit, police arrest him at the restaurant, house searched, sent to prison, prison abuse (money + crime/jail core, hard cap <=5)"
  }
 }
