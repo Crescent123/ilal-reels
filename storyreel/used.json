@@ -1672,8 +1672,8 @@
  },
  "NOaXi_7tNZI": {
   "date": "2026-11-12",
-  "status": "reserved",
-  "at": "2026-11-12T21:43:58Z",
-  "maker": "A"
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "Mouad (19, Oujda): the 'easy money, low risk' = delivering bags for the neighbourhood drug dealer 'Maps' at 1500 DH a run (drugs/crime core, hard cap <=5)"
  }
 }
