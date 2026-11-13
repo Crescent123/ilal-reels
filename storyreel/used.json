@@ -1810,8 +1810,68 @@
  },
  "j6m6STAjHQM": {
   "date": "2026-11-13",
-  "status": "reserved",
-  "at": "2026-11-13T14:42:01Z",
-  "maker": "A"
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "Redouane (27, small town), works for an old Hajj shopkeeper who hands him the shop; core of the story = he hits a man with his car, the man dies, 3 months jail and guilt (death/accident/jail hard cap <=5)"
+ },
+ "bG25uJijUQw": {
+  "date": "2026-11-13",
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "title: car theft with crypto, abroad (abroad + crime)"
+ },
+ "c-M9krfyC70": {
+  "date": "2026-11-13",
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "title: job from girlfriend nearly sent him to jail (gf + crime)"
+ },
+ "cLK_vTbIkYM": {
+  "date": "2026-11-13",
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "title: YouTuber scammed of 30 million (scam/money)"
+ },
+ "N7B_VTA0AsE": {
+  "date": "2026-11-13",
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "title: almost deported, police (abroad + police)"
+ },
+ "p2L6QHqkwig": {
+  "date": "2026-11-13",
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "title: from grill job to emigration (abroad)"
+ },
+ "Xs0_dVamx9E": {
+  "date": "2026-11-13",
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "title: almost jailed in Canada, escape (abroad + crime)"
+ },
+ "Y8zRgxouPWo": {
+  "date": "2026-11-13",
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "title: stole millions (theft/crime)"
+ },
+ "4UUMAkHMCzk": {
+  "date": "2026-11-13",
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "not a storytime: best-of compilation"
+ },
+ "9zwrbtV9dMY": {
+  "date": "2026-11-13",
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "title: beaten/skinned in public (violence)"
+ },
+ "rM8A2XW9DXc": {
+  "date": "2026-11-13",
+  "skip": "weak hook",
+  "maker": "A",
+  "note": "title: friend vanished, sister in ICU, threats (violence/crime)"
  }
 }
