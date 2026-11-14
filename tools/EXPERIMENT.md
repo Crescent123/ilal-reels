@@ -21,3 +21,10 @@ Baseline: all story clips mean 22.6K / median 4.2K / 11% 50K+ / 19% 20K+. Clean 
   winners (watch% / skip% first, then topic / first frame / first sentence), rewrite RUNBOOK 10b + rescore the queue,
   and tell Hilal plainly what failed and what changes.
 - Watch% and skip% move before views do: report them too (≥50% watched / ≤28% skip = the clips that get pushed).
+
+## Round 2 (14 Nov) — the opening rule
+Round 1 (topic only): day 1 = mean 63K / median 9.6K (pass); day 2 = mean ~6K (fail). Topic filters out losers but doesn't make winners.
+Frame-by-frame look at the first 8 s of 51 posted clips (5–13 Nov): forbidden moment in caption 1 + 2nd beat raises the danger
+→ median 56K, 73 % 20K+, 55 % 50K+ (n=11) vs median 4–6.5K for everything else (Mann-Whitney p=0.0001). Caveat: coded after
+seeing the views, so it must prove itself on clips scored BLIND: on 14 Nov all 77 queued story clips were scored from their
+frames at 1.5 s and 6 s without views (9 = both, 8, 7, 6, 5). Judge the 9s and 8s posted 14–16 Nov vs the same bar.

@@ -59,17 +59,24 @@ today's target (the cap, or 4 while paused), stop: today's target is reached. Ot
     "title":<short hook, ≤6 words, Darija>,"pieces":[[start,end]],"scenes":[...],"music":"music/suspense_<1-4>.mp3"
     (rotate),"out":"work/reel.mp4"}
 10. Check: grab frames at several times and look at them (text not clipped, no text over faces, end slide fine).
-10b. SCORE THE HOOK honestly 1–10 with these rules (tested on ALL 149 story reels, 14 Oct–9 Nov, controlling for week):
-   START at 7 and adjust. +2 if the conflict is inside the FAMILY (ماما، بابا، خويا، ختي، مرت خويا، حماتي، عمي، خالي، ولد عمي...):
-   family stories with no red flags had a median of 20K views and 50 % reached 20K+ (1.8x, significant). +1 for neighbor stories. Wife / husband stories get NO bonus (no-red-flag wife stories: mean 14K, 10% 20K+).
-   −1 for girlfriend / fiancée / date stories (median 3K, 9 % hit 20K; 29 of the 63 clips under 45 % watched were gf stories, half the shares/saves of family) — with the base of 7 this means they are skipped unless something else lifts them. Hard caps — any ONE of these = score at most 5 (skip):
-   a character NAME in the title or first caption (0 of 15 reached 20K), a story set abroad (0 of 16), "PART x" / series (0 of 6),
-   money / scam / theft as the core topic (1 of 17), violence / crime / death / kidnapping (median 2.3K). Together these
-   red flags cut views to 0.43x (the strongest result in the data). NOT proven: a question mark in the title and cheating
-   suspicion did not raise views once time is controlled — use them if natural, don't score for them. One person alone
-   in the first frame stays −1. If below 7, improve the title / first scene (one rebuild max: e.g. drop the name, lead with
-   the family member); if the story itself can't reach 7, don't queue it: mark it in used.json as
-   {"date": ..., "skip": "weak hook"} and stop (the poster only posts 7+).
+10a. WHERE TO CUT — THE OPENING RULE (Hilal, 14 Nov; tested on 51 posted clips with their real first 8 s):
+   Clips whose FIRST caption shows a forbidden / secret moment happening NOW (two people who shouldn't be close, a secret
+   being done or about to be exposed — inside a home, with someone nearby who could catch them) AND whose SECOND beat
+   (seconds 4–8) RAISES THE DANGER of being caught (a noise through the wall, "dad can come up any time", someone at the
+   door, "she was in the shower", the phone in my hand, "it's my ex!") had: median 56K views, 73 % past 20K, 55 % past
+   50K (n=11). Same forbidden opening but a second beat that EXPLAINS (backstory, "2 months after the wedding", "I grew
+   up", "she came back tired", a cut to the past): median 6.5K, 0 % past 50K (n=18). No forbidden moment: median 4K.
+   So: pick the clip START at the forbidden moment itself (skip the setup — the viewer doesn't need it), make caption 1
+   say that moment plainly ("خطيبتي وصاحبتها سدو الباب", "مرات خويا جات لبيتي", "بقينا بوحدنا فالدار"), and make
+   the next line raise the risk (who could walk in, what we hear, what's about to be found). Never open on illness, plans,
+   a job, a party being organised, "X is a big step", or any background. End before the reveal (as before).
+10b. SCORE THE HOOK honestly 1–10:
+   9 = forbidden moment in caption 1 AND caption 2 raises the danger (the rule above) — name the file _s9_.
+   8 = forbidden moment but caption 2 only explains, or a family secret (ماما/بابا/خويا/ختي/مرت خويا/حماتي) without a
+       forbidden moment. 7 = mild tension. 6 = no forbidden moment / girlfriend-fiancée chat. Below 7 → rework the cut
+       once (start later, at the forbidden moment); if it still can't reach 7, skip it.
+   Hard caps at 5 (skip): a character NAME in title or captions, set abroad, "PART x", money/scam core, crime/violence/
+   death/illness core. (From the 149-reel analysis: red flags = 0.43x views; family = 1.8x.)
 11. Queue it: `bash tools/queue_add.sh work/reel.mp4 story_s<score>_<youtube_id>` (e.g. story_s8_abc123) (keep the file under ~45 MB). Do NOT publish.
 12. Replace your reservation in storyreel/used.json with {"date": ..., "queued": "<queued file name>"}, commit and push.
 
