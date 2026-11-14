@@ -1,0 +1,20 @@
+{
+ "success": true,
+ "profiles": [
+  {
+   "username": "default",
+   "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ]
+  }
+ ],
+ "keys": [
+  "limit",
+  "plan",
+  "profiles",
+  "success"
+ ]
+}
