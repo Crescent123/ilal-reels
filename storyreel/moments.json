@@ -148,7 +148,6 @@
   ]
  },
  "s-gDstpbBGM": {
-  "reserved": "2026-11-16T15:13:00Z",
   "maker": "B",
   "mined": "2026-11-16",
   "moments": [
@@ -159,8 +158,10 @@
     "type": "conflict",
     "score": 8,
     "hook": "شنو دارت مرت خويا لماما؟",
-    "status": "todo",
-    "note": "family gathering: brother's foul-mouthed wife yells at mom and nearly hits her, brother bows his head and does nothing; ends before the frying pan/cleaver part"
+    "status": "queued",
+    "note": "family gathering: brother's foul-mouthed wife yells at mom and nearly hits her, brother bows his head and does nothing; ends before the frying pan/cleaver part | made: 264.8-313.8",
+    "date": "2026-11-16",
+    "file": "1794842727_story_s8_s-gDstpbBGM_m1.mp4"
    },
    {
     "k": 2,
