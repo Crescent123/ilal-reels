@@ -1,290 +1,290 @@
 {
-  "7dd81A4zfu4": {
-    "mined": "2026-11-16",
-    "moments": [
-      {
-        "k": 1,
-        "start": 408.34,
-        "end": 457.22,
-        "type": "secret",
-        "score": 9,
-        "hook": "شنو بغات مرات خويا فالليل؟",
-        "status": "queued",
-        "date": "2026-11-15",
-        "file": "1794797482_story_s9_7dd81A4zfu4_m1.mp4"
-      },
-      {
-        "k": 2,
-        "start": 558.12,
-        "end": 599.66,
-        "type": "secret",
-        "score": 8,
-        "hook": "مرات خويا بقات معايا بوحدنا؟",
-        "status": "queued",
-        "date": "2026-11-15",
-        "file": "1794798962_story_s8_7dd81A4zfu4_m2.mp4"
-      },
-      {
-        "k": 3,
-        "start": 689.85,
-        "end": 736.68,
-        "type": "twist",
-        "score": 8,
-        "hook": "شنو بغات مرات خويا فبيتي؟",
-        "status": "queued",
-        "date": "2026-11-15",
-        "file": "1794802804_story_s8_7dd81A4zfu4_m3.mp4"
-      },
-      {
-        "k": 4,
-        "start": 742.15,
-        "end": 783.47,
-        "type": "conflict",
-        "score": 8,
-        "hook": "علاش خويا كيصورني؟",
-        "status": "queued",
-        "date": "2026-11-15",
-        "file": "1794800866_story_s8_7dd81A4zfu4_m4.mp4"
-      },
-      {
-        "k": 5,
-        "start": 846.7,
-        "end": 886.4,
-        "type": "secret",
-        "score": 7,
-        "hook": "شكون خرج من بيت مرات خويا؟",
-        "status": "queued",
-        "date": "2026-11-15",
-        "file": "1794804565_story_s7_7dd81A4zfu4_m5.mp4"
-      },
-      {
-        "k": 6,
-        "start": 934.2,
-        "end": 976.0,
-        "type": "take",
-        "score": 6,
-        "hook": "الولد يبقى مع مو ولا باه؟",
-        "status": "skip"
-      }
-    ]
-  },
-  "JKNbzIL9GsE": {
-    "mined": "2026-11-16",
-    "moments": [
-      {
-        "k": 1,
-        "start": 373.9,
-        "end": 409.3,
-        "type": "secret",
-        "score": 7,
-        "hook": "علاش بغات تكري بوحدها؟",
-        "status": "queued",
-        "note": "new tenant lady visits the flat, he wonders why she wants to rent alone (ends before: divorced). Approx times; may overlap the first clip (unknown position) | made: 373.9-409.3, ends on \"she laughed and told me\" before the divorce reveal",
-        "date": "2026-11-16",
-        "file": "1794840487_story_s7_JKNbzIL9GsE_m1.mp4"
-      },
-      {
-        "k": 2,
-        "start": 944.75,
-        "end": 985.1,
-        "type": "twist",
-        "score": 7,
-        "hook": "شنو بغات توريني الجارة؟",
-        "status": "queued",
-        "note": "he goes up to thank the neighbour for the job; she opens in pajamas and a towel, 'come in, I'll show you something you need to know'",
-        "date": "2026-11-16",
-        "file": "1794839169_story_s7_JKNbzIL9GsE_m2.mp4"
-      },
-      {
-        "k": 3,
-        "start": 1042.2,
-        "end": 1078.3,
-        "type": "conflict",
-        "score": 6,
-        "hook": "ماما دقات على الجارة",
-        "status": "skip",
-        "note": "mom knocks while he is at the neighbour's; narrator-caught + sexual context"
-      },
-      {
-        "k": 4,
-        "start": 1305.0,
-        "end": 1356.0,
-        "type": "conflict",
-        "score": 6,
-        "hook": "علاش ولات كتجاهلني؟",
-        "status": "skip",
-        "note": "at work she ignores him, then says keep it professional (romance drama)"
-      },
-      {
-        "k": 5,
-        "start": 1177.0,
-        "end": 1255.0,
-        "type": "take",
-        "score": 6,
-        "hook": "واش الدريات كيسلمو بالوجه؟",
-        "status": "skip",
-        "note": "Hilal's take on cheek-kiss greetings at work, debate question; too generic"
-      },
-      {
-        "k": 6,
-        "start": 1508.0,
-        "end": 1560.0,
-        "type": "conflict",
-        "score": 6,
-        "hook": "ماما شافتني مع الجارة فالدروج",
-        "status": "skip",
-        "note": "mom sees them close on the stairs and questions him about her (narrator at risk)"
-      },
-      {
-        "k": 7,
-        "start": 1610.0,
-        "end": 1660.0,
-        "type": "take",
-        "score": 6,
-        "hook": "واش نرجع ليها؟",
-        "status": "skip",
-        "note": "can they get back together, debate question"
-      }
-    ]
-  },
-  "s-gDstpbBGM": {
-    "maker": "B",
-    "mined": "2026-11-16",
-    "moments": [
-      {
-        "k": 1,
-        "start": 264.86,
-        "end": 313.74,
-        "type": "conflict",
-        "score": 8,
-        "hook": "شنو دارت مرت خويا لماما؟",
-        "status": "queued",
-        "note": "family gathering: brother's foul-mouthed wife yells at mom and nearly hits her, brother bows his head and does nothing; ends before the frying pan/cleaver part | made: 264.8-313.8",
-        "date": "2026-11-16",
-        "file": "1794842727_story_s8_s-gDstpbBGM_m1.mp4"
-      },
-      {
-        "k": 2,
-        "start": 455.0,
-        "end": 502.0,
-        "type": "twist",
-        "score": 7,
-        "hook": "بابا خطب ليا بنت ما شفتهاش",
-        "status": "todo",
-        "note": "dad sends him to propose to Hajj Mohamed's daughter he never saw, 150 DH suits, she comes out polite; dad lectures her. Approx times"
-      },
-      {
-        "k": 3,
-        "start": 664.0,
-        "end": 705.3,
-        "type": "secret",
-        "score": 7,
-        "hook": "شنو بغات مني مرت خويا؟",
-        "status": "queued",
-        "note": "brother's wife cries on his shoulder then starts flirting; ends on 'what is wrong with her' before her confession. Approx times; may overlap the first clip (position unknown); avoid the hashish/alcohol line before 662 | made by A: 664.0-705.3 (crying -> hug -> flirting -> 'what's wrong with her'), no alcohol lines",
-        "date": "2026-11-16",
-        "file": "1794844253_story_s7_s-gDstpbBGM_m3.mp4"
-      },
-      {
-        "k": 4,
-        "start": 745.0,
-        "end": 776.0,
-        "type": "conflict",
-        "score": 5,
-        "hook": "مرت خويا شكات بيا",
-        "status": "skip",
-        "note": "false rape accusation, police, prison (crime cap)"
-      },
-      {
-        "k": 5,
-        "start": 906.5,
-        "end": 917.0,
-        "type": "advice",
-        "score": 5,
-        "hook": "اختار مزيان شكون تزوج",
-        "status": "skip",
-        "note": "too short / generic"
-      }
-    ]
-  },
-  "R81K3EPbTZ4": {
-    "maker": "B",
-    "mined": "2026-11-16",
-    "moments": [
-      {
-        "k": 1,
-        "start": 248.68,
-        "end": 279.74,
-        "type": "twist",
-        "score": 7,
-        "hook": "علاش بنت السيدة كتطلع ليا الماكلة؟",
-        "status": "todo",
-        "note": "the landlady starts sending her shy daughter down with his food, she can't take her eyes off him; he realises the lady is matchmaking. Ends before he leaves the town"
-      },
-      {
-        "k": 2,
-        "start": 377.72,
-        "end": 442.1,
-        "type": "twist",
-        "score": 8,
-        "hook": "شنو دارت ماما ملي شافت البنت؟",
-        "status": "queued",
-        "note": "pieces 377.72-389.52 + 408.30-442.10 (drops a garbled joke about her body): the lady and daughter visit, mom falls for the girl, asks her hand for her son; ends on 'I still don't even have her number' | made: 377.72-389.52 + 408.30-442.10, 46 s",
-        "date": "2026-11-16",
-        "file": "1794846300_story_s8_R81K3EPbTZ4_m2.mp4"
-      },
-      {
-        "k": 3,
-        "start": 457.2,
-        "end": 487.18,
-        "type": "take",
-        "score": 6,
-        "hook": "دار كاملة ولا أبارتمون؟",
-        "status": "skip",
-        "note": "Hilal's house-vs-flat debate question; generic"
-      },
-      {
-        "k": 4,
-        "start": 761.7,
-        "end": 834.5,
-        "type": "secret",
-        "score": 6,
-        "hook": "شنو كانت كدير مرتي فالليل؟",
-        "status": "skip",
-        "note": "back from the Sahara, his sister blurts out that the wife talks on the phone till 6am; partner trust (6)"
-      },
-      {
-        "k": 5,
-        "start": 533.8,
-        "end": 560.0,
-        "type": "twist",
-        "score": 5,
-        "hook": "ليلة الدخلة",
-        "status": "skip",
-        "note": "wedding night virginity confession (sexual)"
-      },
-      {
-        "k": 6,
-        "start": 967.7,
-        "end": 1016.0,
-        "type": "secret",
-        "score": 5,
-        "hook": "شنو لقيت فتيليفون مرتي؟",
-        "status": "skip",
-        "note": "sexual videos (hard skip)"
-      },
-      {
-        "k": 7,
-        "start": 1135.5,
-        "end": 1157.5,
-        "type": "conflict",
-        "score": 5,
-        "hook": "ختي باست ليا رجلي",
-        "status": "skip",
-        "note": "sister stops him from killing the wife (violence)"
-      }
-    ],
-    "reserved": "2026-11-16T16:40:47Z",
-    "reserved_by": "A"
-  }
+ "7dd81A4zfu4": {
+  "mined": "2026-11-16",
+  "moments": [
+   {
+    "k": 1,
+    "start": 408.34,
+    "end": 457.22,
+    "type": "secret",
+    "score": 9,
+    "hook": "شنو بغات مرات خويا فالليل؟",
+    "status": "queued",
+    "date": "2026-11-15",
+    "file": "1794797482_story_s9_7dd81A4zfu4_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 558.12,
+    "end": 599.66,
+    "type": "secret",
+    "score": 8,
+    "hook": "مرات خويا بقات معايا بوحدنا؟",
+    "status": "queued",
+    "date": "2026-11-15",
+    "file": "1794798962_story_s8_7dd81A4zfu4_m2.mp4"
+   },
+   {
+    "k": 3,
+    "start": 689.85,
+    "end": 736.68,
+    "type": "twist",
+    "score": 8,
+    "hook": "شنو بغات مرات خويا فبيتي؟",
+    "status": "queued",
+    "date": "2026-11-15",
+    "file": "1794802804_story_s8_7dd81A4zfu4_m3.mp4"
+   },
+   {
+    "k": 4,
+    "start": 742.15,
+    "end": 783.47,
+    "type": "conflict",
+    "score": 8,
+    "hook": "علاش خويا كيصورني؟",
+    "status": "queued",
+    "date": "2026-11-15",
+    "file": "1794800866_story_s8_7dd81A4zfu4_m4.mp4"
+   },
+   {
+    "k": 5,
+    "start": 846.7,
+    "end": 886.4,
+    "type": "secret",
+    "score": 7,
+    "hook": "شكون خرج من بيت مرات خويا؟",
+    "status": "queued",
+    "date": "2026-11-15",
+    "file": "1794804565_story_s7_7dd81A4zfu4_m5.mp4"
+   },
+   {
+    "k": 6,
+    "start": 934.2,
+    "end": 976.0,
+    "type": "take",
+    "score": 6,
+    "hook": "الولد يبقى مع مو ولا باه؟",
+    "status": "skip"
+   }
+  ]
+ },
+ "JKNbzIL9GsE": {
+  "mined": "2026-11-16",
+  "moments": [
+   {
+    "k": 1,
+    "start": 373.9,
+    "end": 409.3,
+    "type": "secret",
+    "score": 7,
+    "hook": "علاش بغات تكري بوحدها؟",
+    "status": "queued",
+    "note": "new tenant lady visits the flat, he wonders why she wants to rent alone (ends before: divorced). Approx times; may overlap the first clip (unknown position) | made: 373.9-409.3, ends on \"she laughed and told me\" before the divorce reveal",
+    "date": "2026-11-16",
+    "file": "1794840487_story_s7_JKNbzIL9GsE_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 944.75,
+    "end": 985.1,
+    "type": "twist",
+    "score": 7,
+    "hook": "شنو بغات توريني الجارة؟",
+    "status": "queued",
+    "note": "he goes up to thank the neighbour for the job; she opens in pajamas and a towel, 'come in, I'll show you something you need to know'",
+    "date": "2026-11-16",
+    "file": "1794839169_story_s7_JKNbzIL9GsE_m2.mp4"
+   },
+   {
+    "k": 3,
+    "start": 1042.2,
+    "end": 1078.3,
+    "type": "conflict",
+    "score": 6,
+    "hook": "ماما دقات على الجارة",
+    "status": "skip",
+    "note": "mom knocks while he is at the neighbour's; narrator-caught + sexual context"
+   },
+   {
+    "k": 4,
+    "start": 1305.0,
+    "end": 1356.0,
+    "type": "conflict",
+    "score": 6,
+    "hook": "علاش ولات كتجاهلني؟",
+    "status": "skip",
+    "note": "at work she ignores him, then says keep it professional (romance drama)"
+   },
+   {
+    "k": 5,
+    "start": 1177.0,
+    "end": 1255.0,
+    "type": "take",
+    "score": 6,
+    "hook": "واش الدريات كيسلمو بالوجه؟",
+    "status": "skip",
+    "note": "Hilal's take on cheek-kiss greetings at work, debate question; too generic"
+   },
+   {
+    "k": 6,
+    "start": 1508.0,
+    "end": 1560.0,
+    "type": "conflict",
+    "score": 6,
+    "hook": "ماما شافتني مع الجارة فالدروج",
+    "status": "skip",
+    "note": "mom sees them close on the stairs and questions him about her (narrator at risk)"
+   },
+   {
+    "k": 7,
+    "start": 1610.0,
+    "end": 1660.0,
+    "type": "take",
+    "score": 6,
+    "hook": "واش نرجع ليها؟",
+    "status": "skip",
+    "note": "can they get back together, debate question"
+   }
+  ]
+ },
+ "s-gDstpbBGM": {
+  "maker": "B",
+  "mined": "2026-11-16",
+  "moments": [
+   {
+    "k": 1,
+    "start": 264.86,
+    "end": 313.74,
+    "type": "conflict",
+    "score": 8,
+    "hook": "شنو دارت مرت خويا لماما؟",
+    "status": "queued",
+    "note": "family gathering: brother's foul-mouthed wife yells at mom and nearly hits her, brother bows his head and does nothing; ends before the frying pan/cleaver part | made: 264.8-313.8",
+    "date": "2026-11-16",
+    "file": "1794842727_story_s8_s-gDstpbBGM_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 455.0,
+    "end": 502.0,
+    "type": "twist",
+    "score": 7,
+    "hook": "بابا خطب ليا بنت ما شفتهاش",
+    "status": "todo",
+    "note": "dad sends him to propose to Hajj Mohamed's daughter he never saw, 150 DH suits, she comes out polite; dad lectures her. Approx times"
+   },
+   {
+    "k": 3,
+    "start": 664.0,
+    "end": 705.3,
+    "type": "secret",
+    "score": 7,
+    "hook": "شنو بغات مني مرت خويا؟",
+    "status": "queued",
+    "note": "brother's wife cries on his shoulder then starts flirting; ends on 'what is wrong with her' before her confession. Approx times; may overlap the first clip (position unknown); avoid the hashish/alcohol line before 662 | made by A: 664.0-705.3 (crying -> hug -> flirting -> 'what's wrong with her'), no alcohol lines",
+    "date": "2026-11-16",
+    "file": "1794844253_story_s7_s-gDstpbBGM_m3.mp4"
+   },
+   {
+    "k": 4,
+    "start": 745.0,
+    "end": 776.0,
+    "type": "conflict",
+    "score": 5,
+    "hook": "مرت خويا شكات بيا",
+    "status": "skip",
+    "note": "false rape accusation, police, prison (crime cap)"
+   },
+   {
+    "k": 5,
+    "start": 906.5,
+    "end": 917.0,
+    "type": "advice",
+    "score": 5,
+    "hook": "اختار مزيان شكون تزوج",
+    "status": "skip",
+    "note": "too short / generic"
+   }
+  ]
+ },
+ "R81K3EPbTZ4": {
+  "maker": "B",
+  "mined": "2026-11-16",
+  "moments": [
+   {
+    "k": 1,
+    "start": 248.68,
+    "end": 279.74,
+    "type": "twist",
+    "score": 7,
+    "hook": "علاش السيدة كتصيفط ليا بنتها؟",
+    "status": "queued",
+    "note": "the landlady starts sending her shy daughter down with his food, she can't take her eyes off him; he realises the lady is matchmaking. Ends before he leaves the town | made by A: 244.50-279.80, 35.6 s, title \"علاش السيدة كتصيفط ليا بنتها؟\"",
+    "date": "2026-11-16",
+    "file": "1794847622_story_s7_R81K3EPbTZ4_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 377.72,
+    "end": 442.1,
+    "type": "twist",
+    "score": 8,
+    "hook": "شنو دارت ماما ملي شافت البنت؟",
+    "status": "queued",
+    "note": "pieces 377.72-389.52 + 408.30-442.10 (drops a garbled joke about her body): the lady and daughter visit, mom falls for the girl, asks her hand for her son; ends on 'I still don't even have her number' | made: 377.72-389.52 + 408.30-442.10, 46 s",
+    "date": "2026-11-16",
+    "file": "1794846300_story_s8_R81K3EPbTZ4_m2.mp4"
+   },
+   {
+    "k": 3,
+    "start": 457.2,
+    "end": 487.18,
+    "type": "take",
+    "score": 6,
+    "hook": "دار كاملة ولا أبارتمون؟",
+    "status": "skip",
+    "note": "Hilal's house-vs-flat debate question; generic"
+   },
+   {
+    "k": 4,
+    "start": 761.7,
+    "end": 834.5,
+    "type": "secret",
+    "score": 6,
+    "hook": "شنو كانت كدير مرتي فالليل؟",
+    "status": "skip",
+    "note": "back from the Sahara, his sister blurts out that the wife talks on the phone till 6am; partner trust (6)"
+   },
+   {
+    "k": 5,
+    "start": 533.8,
+    "end": 560.0,
+    "type": "twist",
+    "score": 5,
+    "hook": "ليلة الدخلة",
+    "status": "skip",
+    "note": "wedding night virginity confession (sexual)"
+   },
+   {
+    "k": 6,
+    "start": 967.7,
+    "end": 1016.0,
+    "type": "secret",
+    "score": 5,
+    "hook": "شنو لقيت فتيليفون مرتي؟",
+    "status": "skip",
+    "note": "sexual videos (hard skip)"
+   },
+   {
+    "k": 7,
+    "start": 1135.5,
+    "end": 1157.5,
+    "type": "conflict",
+    "score": 5,
+    "hook": "ختي باست ليا رجلي",
+    "status": "skip",
+    "note": "sister stops him from killing the wife (violence)"
+   }
+  ]
+ }
 }
