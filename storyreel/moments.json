@@ -398,17 +398,20 @@
         "type": "secret",
         "score": 8,
         "hook": "شنو كانت كتكتب مراتي فالدفتر؟",
-        "status": "todo",
+        "status": "queued",
         "pieces": [
           [
-            715.6,
-            731.3
+            722.05,
+            731.25
           ],
           [
             763.35,
             784.5
           ]
-        ]
+        ],
+        "date": "2026-11-16",
+        "file": "1794872975_story_s8_YA-w9mM73fI_m5.mp4",
+        "note": "made by A: something odd about wife -> kind/helps mom -> (comment plug dropped) -> always writing in notebook \"secrets of my life\" -> friend: crazy -> one night took notebook; ends before what she wrote"
       },
       {
         "k": 6,
@@ -455,7 +458,6 @@
         "hook": "واش الزواج مكتوب؟",
         "status": "skip"
       }
-    ],
-    "reserved": "2026-11-16T23:41:14Z"
+    ]
   }
 }
