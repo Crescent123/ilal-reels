@@ -209,6 +209,79 @@
  },
  "R81K3EPbTZ4": {
   "reserved": "2026-11-16T16:11:06Z",
-  "maker": "B"
+  "maker": "B",
+  "mined": "2026-11-16",
+  "moments": [
+   {
+    "k": 1,
+    "start": 248.68,
+    "end": 279.74,
+    "type": "twist",
+    "score": 7,
+    "hook": "علاش بنت السيدة كتطلع ليا الماكلة؟",
+    "status": "todo",
+    "note": "the landlady starts sending her shy daughter down with his food, she can't take her eyes off him; he realises the lady is matchmaking. Ends before he leaves the town"
+   },
+   {
+    "k": 2,
+    "start": 377.72,
+    "end": 442.1,
+    "type": "twist",
+    "score": 8,
+    "hook": "شنو دارت ماما ملي شافت البنت؟",
+    "status": "todo",
+    "note": "pieces 377.72-389.52 + 408.30-442.10 (drops a garbled joke about her body): the lady and daughter visit, mom falls for the girl, asks her hand for her son; ends on 'I still don't even have her number'"
+   },
+   {
+    "k": 3,
+    "start": 457.2,
+    "end": 487.18,
+    "type": "take",
+    "score": 6,
+    "hook": "دار كاملة ولا أبارتمون؟",
+    "status": "skip",
+    "note": "Hilal's house-vs-flat debate question; generic"
+   },
+   {
+    "k": 4,
+    "start": 761.7,
+    "end": 834.5,
+    "type": "secret",
+    "score": 6,
+    "hook": "شنو كانت كدير مرتي فالليل؟",
+    "status": "skip",
+    "note": "back from the Sahara, his sister blurts out that the wife talks on the phone till 6am; partner trust (6)"
+   },
+   {
+    "k": 5,
+    "start": 533.8,
+    "end": 560.0,
+    "type": "twist",
+    "score": 5,
+    "hook": "ليلة الدخلة",
+    "status": "skip",
+    "note": "wedding night virginity confession (sexual)"
+   },
+   {
+    "k": 6,
+    "start": 967.7,
+    "end": 1016.0,
+    "type": "secret",
+    "score": 5,
+    "hook": "شنو لقيت فتيليفون مرتي؟",
+    "status": "skip",
+    "note": "sexual videos (hard skip)"
+   },
+   {
+    "k": 7,
+    "start": 1135.5,
+    "end": 1157.5,
+    "type": "conflict",
+    "score": 5,
+    "hook": "ختي باست ليا رجلي",
+    "status": "skip",
+    "note": "sister stops him from killing the wife (violence)"
+   }
+  ]
  }
 }
