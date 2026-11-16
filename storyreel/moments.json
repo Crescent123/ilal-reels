@@ -35,12 +35,14 @@
    },
    {
     "k": 4,
-    "start": 756.2,
-    "end": 787.9,
+    "start": 742.15,
+    "end": 783.47,
     "type": "conflict",
     "score": 8,
     "hook": "علاش خويا كيصورني؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-15",
+    "file": "1794800866_story_s8_7dd81A4zfu4_m4.mp4"
    },
    {
     "k": 5,
@@ -60,7 +62,6 @@
     "hook": "الولد يبقى مع مو ولا باه؟",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-16T03:40:21Z"
+  ]
  }
 }
