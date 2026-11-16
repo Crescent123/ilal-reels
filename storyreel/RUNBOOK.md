@@ -59,24 +59,31 @@ today's target (the cap, or 4 while paused), stop: today's target is reached. Ot
     "title":<short hook, ≤6 words, Darija>,"pieces":[[start,end]],"scenes":[...],"music":"music/suspense_<1-4>.mp3"
     (rotate),"out":"work/reel.mp4"}
 10. Check: grab frames at several times and look at them (text not clipped, no text over faces, end slide fine).
-10a. WHERE TO CUT — THE OPENING RULE (Hilal, 14 Nov; tested on 51 posted clips with their real first 8 s):
-   Clips whose FIRST caption shows a forbidden / secret moment happening NOW (two people who shouldn't be close, a secret
-   being done or about to be exposed — inside a home, with someone nearby who could catch them) AND whose SECOND beat
-   (seconds 4–8) RAISES THE DANGER of being caught (a noise through the wall, "dad can come up any time", someone at the
-   door, "she was in the shower", the phone in my hand, "it's my ex!") had: median 56K views, 73 % past 20K, 55 % past
-   50K (n=11). Same forbidden opening but a second beat that EXPLAINS (backstory, "2 months after the wedding", "I grew
-   up", "she came back tired", a cut to the past): median 6.5K, 0 % past 50K (n=18). No forbidden moment: median 4K.
-   So: pick the clip START at the forbidden moment itself (skip the setup — the viewer doesn't need it), make caption 1
-   say that moment plainly ("خطيبتي وصاحبتها سدو الباب", "مرات خويا جات لبيتي", "بقينا بوحدنا فالدار"), and make
-   the next line raise the risk (who could walk in, what we hear, what's about to be found). Never open on illness, plans,
-   a job, a party being organised, "X is a big step", or any background. End before the reveal (as before).
+10a. WHERE TO CUT — THE CURIOSITY RULE (Round 3, 16 Nov; replaces the 14 Nov "forbidden moment + danger" rule, which
+   FAILED blind: the 5 rule-9 clips posted 14 Nov got 1.3K, 1.7K, 1.8K, 1.9K, 15.7K). From the real first 8 s of the
+   35 story clips posted 12–15 Nov, the 8 clips past 15K vs the 8 under 2.1K:
+   WINNERS (429K, 84K, 29K, 28K, 27K, 22K, 17K, 16K): the title asks WHAT SOMEONE CLOSE IS SECRETLY DOING and the
+   narrator is the WITNESS — "شنو كانت كدير ختي وصاحبتها؟", "ماما لقات الحشيش فالدار؟", "شنو بغات ختو من مراتو؟",
+   "شنو كانت كدير الخدامة فداري؟", "ماما خلات البنت تبات عندهم" — or a light comic twist ("العروبي طاح معايا... وأنا
+   راجل!", "شكون شطح مع صاحبة الديجي؟"). Everyday Moroccan home, the other person on screen in frame 1, playful tone.
+   LOSERS: the narrator is the one doing wrong and might get caught (party while dad travels, came home drunk, texting
+   his girlfriend's friend, spying with a camera), partner betrayal ("مراتي كذبات عليا"), heavy topics (mom has cancer),
+   sensitive ones (a gay guest). Numbers: winners avg 51 % watched / 28 % skip / 8.6 shares per 1K views; losers 34 % /
+   37 % / 3.6. So: open on the OTHER person doing the odd/secret thing, caption 1 = what we see them do ("ختي وصاحبتها
+   سدو الباب", "بابا كيكمي فالبالكون"), caption 2 = what we hear/notice next ("كنسمعو الحركة من الحيط"). Keep it
+   curious and a bit funny, not scary. Never open on illness, plans, a job, a party being organised, or background.
+   End before the reveal (as before).
 10b. SCORE THE HOOK honestly 1–10:
-   9 = forbidden moment in caption 1 AND caption 2 raises the danger (the rule above) — name the file _s9_.
-   8 = forbidden moment but caption 2 only explains, or a family secret (ماما/بابا/خويا/ختي/مرت خويا/حماتي) without a
-       forbidden moment. 7 = mild tension. 6 = no forbidden moment / girlfriend-fiancée chat. Below 7 → rework the cut
-       once (start later, at the forbidden moment); if it still can't reach 7, skip it.
-   Hard caps at 5 (skip): a character NAME in title or captions, set abroad, "PART x", money/scam core, crime/violence/
-   death/illness core. (From the 149-reel analysis: red flags = 0.43x views; family = 1.8x.)
+   9 = title asks what a FAMILY/HOUSEHOLD member is secretly doing (ماما/بابا/ختي/خويا/الجد/مرت خويا/الخدامة/حماتي),
+       narrator is the witness, that person is on screen in frame 1 — name the file _s9_.
+   8 = family/home secret told another way, or a light comic twist where the narrator outsmarts someone.
+   7 = curiosity about someone else (friend, neighbour, stranger at a wedding) or a playful romance situation.
+   6 = narrator's own wrongdoing at risk of being caught, cheating / partner trust, girlfriend-fiancée drama.
+       Below 7 → rework the cut once (start on the other person's secret); if it still can't reach 7, skip it.
+   Hard caps at 5 (skip): a character NAME in title or captions, set abroad / foreign tourists, "PART x", money/scam/
+   gambling core, crime/prison/police/violence, death/illness, alcohol. (149-reel analysis: red flags = 0.43x views.)
+   Supply note: the queue has almost no 9s — when picking a story, prefer ones where a parent/sibling/grandparent/maid
+   hides something and the narrator finds out.
 11. Queue it: `bash tools/queue_add.sh work/reel.mp4 story_s<score>_<youtube_id>` (e.g. story_s8_abc123) (keep the file under ~45 MB). Do NOT publish.
 12. Replace your reservation in storyreel/used.json with {"date": ..., "queued": "<queued file name>"}, commit and push.
 
