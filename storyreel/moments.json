@@ -149,6 +149,59 @@
  },
  "s-gDstpbBGM": {
   "reserved": "2026-11-16T15:13:00Z",
-  "maker": "B"
+  "maker": "B",
+  "mined": "2026-11-16",
+  "moments": [
+   {
+    "k": 1,
+    "start": 264.86,
+    "end": 313.74,
+    "type": "conflict",
+    "score": 8,
+    "hook": "شنو دارت مرت خويا لماما؟",
+    "status": "todo",
+    "note": "family gathering: brother's foul-mouthed wife yells at mom and nearly hits her, brother bows his head and does nothing; ends before the frying pan/cleaver part"
+   },
+   {
+    "k": 2,
+    "start": 455.0,
+    "end": 502.0,
+    "type": "twist",
+    "score": 7,
+    "hook": "بابا خطب ليا بنت ما شفتهاش",
+    "status": "todo",
+    "note": "dad sends him to propose to Hajj Mohamed's daughter he never saw, 150 DH suits, she comes out polite; dad lectures her. Approx times"
+   },
+   {
+    "k": 3,
+    "start": 664.0,
+    "end": 705.3,
+    "type": "secret",
+    "score": 7,
+    "hook": "شنو بغات مني مرت خويا؟",
+    "status": "todo",
+    "note": "brother's wife cries on his shoulder then starts flirting; ends on 'what is wrong with her' before her confession. Approx times; may overlap the first clip (position unknown); avoid the hashish/alcohol line before 662"
+   },
+   {
+    "k": 4,
+    "start": 745.0,
+    "end": 776.0,
+    "type": "conflict",
+    "score": 5,
+    "hook": "مرت خويا شكات بيا",
+    "status": "skip",
+    "note": "false rape accusation, police, prison (crime cap)"
+   },
+   {
+    "k": 5,
+    "start": 906.5,
+    "end": 917.0,
+    "type": "advice",
+    "score": 5,
+    "hook": "اختار مزيان شكون تزوج",
+    "status": "skip",
+    "note": "too short / generic"
+   }
+  ]
  }
 }
