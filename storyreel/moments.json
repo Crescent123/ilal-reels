@@ -1,6 +1,5 @@
 {
  "7dd81A4zfu4": {
-  "reserved": "2026-11-16T02:40:35Z",
   "mined": "2026-11-16",
   "moments": [
    {
@@ -10,7 +9,9 @@
     "type": "secret",
     "score": 9,
     "hook": "شنو بغات مرات خويا فالليل؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-15",
+    "file": "1794797482_story_s9_7dd81A4zfu4_m1.mp4"
    },
    {
     "k": 2,
