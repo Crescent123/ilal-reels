@@ -5,8 +5,8 @@ voice and ADD IT TO THE SHARED TRIAL QUEUE (branch "trial-queue"). Several story
 publishes the queue as MANUAL Trial Reels with NO caption, as many as Instagram allows. Story makers never publish.
 Daily target: the posting cap in tools/post_cap.json ("cap", currently ramping from 7; Instagram's real limit is being probed).
 While Instagram posting is paused (pause marker title "paused until <time>" with that time in the future), the target is
-4 per day. Before starting, read the pause marker (Google Drive get_file_metadata) and count the entries in
-storyreel/used.json whose "date" is today (America/Toronto date) — reserved ones included, "skip" ones NOT counted. If the count is at or above
+4 per day. Before starting, read the pause marker (Google Drive get_file_metadata) and count today's clips (America/Toronto date):
+moments with "status": "queued" and "date" today in storyreel/moments.json, plus live reservations (younger than 3 h). If the count is at or above
 today's target (the cap, or 4 while paused), stop: today's target is reached. Otherwise make one.
 
 ## IDs
@@ -22,18 +22,30 @@ today's target (the cap, or 4 while paused), stop: today's target is reached. Ot
 
 ## Steps
 1. (An Instagram pause does not stop story makers; it only lowers today's target to 10.)
-2. List the "Stories audio" folder (page through everything). Ignore .webm/.part and non-audio files. Pick the
-   NEWEST-uploaded story whose YouTube ID is not in used.json. Skip anything that is not a storytime (titles with
-   podcast, Bad advice, vlog, حلويات, tests of food, Q&A).
-2b. CLAIM THE STORY FIRST (two story makers run in parallel). Immediately add
-   "<youtube_id>": {"date": "<today>", "status": "reserved", "at": "<UTC ISO time>"} to storyreel/used.json, commit and
-   push (git pull --rebase first). If the push is rejected or someone else already has that id, pick another story.
-   Treat a "reserved" entry older than 3 hours as abandoned (a failed run) and free to take.
-   Never claim more than one story per run.
+2. PICK A STORY — EVERY STORY HOLDS SEVERAL CLIPS (Hilal, 16 Nov: "a story could have lotta clips about lotta shit,
+   even personal takes"). One story is no longer "used" after one clip. Order of choice:
+   a) a story in "Stories audio" whose YouTube ID is in neither storyreel/used.json nor storyreel/moments.json (new upload);
+   b) a story in storyreel/moments.json that still has a "todo" moment scoring 7+ (make that moment — skip steps 3–5);
+   c) a story not yet in moments.json, best first: the ones whose earlier clip got 20K+ plays (tools/ig_plays.json,
+      match the YouTube ID in the file name), then the stories marked "skip" in used.json (their opening was weak, the
+      rest was never looked at), then the rest of used.json, newest first.
+   Skip anything that is not a storytime (titles with podcast, Bad advice, vlog, حلويات, tests of food, Q&A).
+2b. CLAIM THE STORY FIRST (story makers run in parallel). Add "<youtube_id>": {"reserved": "<UTC ISO time>"} to
+   storyreel/moments.json (keep any existing moments), commit and push (git pull --rebase first). If the push is rejected
+   or someone else holds a reservation younger than 3 hours, pick another story. Never claim more than one story per run.
+2c. MINE THE WHOLE STORY (case a or c, after steps 3–4): read ALL of work/tr_segments.txt and list every passage that
+   can stand alone as a 30–50 s clip, in story order, without overlapping each other or the earlier clip of this story
+   (if you can't tell where the earlier clip was, assume it covered the first 90 s). Types: "secret" (a family member /
+   someone close hides something and the narrator finds out — the best kind), "twist" (a funny or shocking turn),
+   "conflict" (a fight or confrontation in the family/home), "take" (Hilal's own opinion or comment about what happened —
+   end it on a debate question in Darija), "advice". Score each with 10b. Save them in moments.json as
+   "<youtube_id>": {"mined": "<date>", "moments": [{"k": 1, "start": s, "end": e, "type": "...", "score": n,
+   "hook": "<planned title>", "status": "todo"}, ...]}. A long story usually gives 3–8 moments. Then make the best
+   todo moment (score 7+) in this run; the others wait for later runs (case b).
 3. `bash storyreel/fetch.sh <drive_file_id> <youtube_id> work` → work/story.m4a and work/thumb.jpg.
 4. `bash tools/ai.sh transcribe https://raw.githubusercontent.com/Crescent123/ilal-reels/drive-cache/<youtube_id>.m4a work`
    → work/tr.json and work/tr_segments.txt (takes 1–3 min). Read work/tr_segments.txt.
-5. CHOOSE THE CLIP (most important):
+5. CHOOSE THE CLIP (most important; it is the moment you picked in 2c/2b):
    - ONE continuous passage of the narration, 30–50 s. Do not stitch the video's first sentence onto a later part
      (Hilal hated that). Extra cuts only to drop a digression such as the membership/Patreon/Discord plug, and only
      at sentence boundaries.
@@ -43,7 +55,7 @@ today's target (the cap, or 4 while paused), stop: today's target is reached. Ot
    - Use the word timestamps in work/tr.json to set start/end just before the first word and just after the last word.
 5b. VIRALITY GATE (Hilal: only make what has viral potential, otherwise skip). Before spending anything on images,
    write the planned title + first caption + first scene and score them 1–10 with the rubric in step 10b. If it can't
-   reach 7, skip the story now: mark it in used.json as {"date": ..., "skip": "weak hook"}, push, and stop (no images).
+   reach 7, mark that moment "skip" in moments.json and take the next todo moment of the same story (or stop if none).
 6. Check the cut with the word timestamps in work/tr.json: start just before the first word and end just after the
    last word of a complete sentence (build.py snaps to the quietest point within 0.12 s). No re-transcription needed.
 7. Plan 7–9 scenes, one per phrase, each ≥2.5 s. For each: "at" = original-audio time where the scene starts
@@ -84,8 +96,8 @@ today's target (the cap, or 4 while paused), stop: today's target is reached. Ot
    gambling core, crime/prison/police/violence, death/illness, alcohol. (149-reel analysis: red flags = 0.43x views.)
    Supply note: the queue has almost no 9s — when picking a story, prefer ones where a parent/sibling/grandparent/maid
    hides something and the narrator finds out.
-11. Queue it: `bash tools/queue_add.sh work/reel.mp4 story_s<score>_<youtube_id>` (e.g. story_s8_abc123) (keep the file under ~45 MB). Do NOT publish.
-12. Replace your reservation in storyreel/used.json with {"date": ..., "queued": "<queued file name>"}, commit and push.
+11. Queue it: `bash tools/queue_add.sh work/reel.mp4 story_s<score>_<youtube_id>_m<k>` (e.g. story_s8_abc123_m3) (keep the file under ~45 MB). Do NOT publish.
+12. In storyreel/moments.json set that moment to {"status": "queued", "date": "<today>", "file": "<queued file name>"}, drop the "reserved" key, commit and push. (used.json stays as the record of first clips; don't add to it.)
 
 ## What goes viral (from 65 story reels, 16–21 Oct; views track watch % (r=0.66) and skip rate (r=-0.65), not length)
 Winners (40K–433K views, 50–67 % watched, skip ≤30 %): "شنو كان كيدير الفقيه؟", "هاكا فيسبوك ديال جارتو",
