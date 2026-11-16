@@ -351,6 +351,108 @@
   ]
  },
  "YA-w9mM73fI": {
-  "reserved": "2026-11-16T18:13:05Z"
+  "mined": "2026-11-16",
+  "moments": [
+   {
+    "k": 1,
+    "start": 396.3,
+    "end": 450.5,
+    "type": "conflict",
+    "score": 7,
+    "hook": "شنو دارت ليها مرت باباها؟",
+    "status": "todo"
+   },
+   {
+    "k": 2,
+    "start": 489.9,
+    "end": 524.0,
+    "type": "twist",
+    "score": 7,
+    "hook": "ماما بغاتني نتزوج البنت اللي جبت",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 556.3,
+    "end": 612.7,
+    "type": "conflict",
+    "score": 6,
+    "hook": "صاحبتي القديمة جرات عليا فالتيليفون",
+    "status": "skip"
+   },
+   {
+    "k": 4,
+    "start": 657.5,
+    "end": 692.9,
+    "type": "secret",
+    "score": 5,
+    "hook": "(sensitive childhood abuse confession)",
+    "status": "skip"
+   },
+   {
+    "k": 5,
+    "start": 715.7,
+    "end": 784.4,
+    "type": "secret",
+    "score": 8,
+    "hook": "شنو كانت كتكتب مراتي فالدفتر؟",
+    "status": "todo",
+    "pieces": [
+     [
+      715.6,
+      731.3
+     ],
+     [
+      763.35,
+      784.5
+     ]
+    ]
+   },
+   {
+    "k": 6,
+    "start": 1081.2,
+    "end": 1112.7,
+    "type": "conflict",
+    "score": 6,
+    "hook": "مراتي تبدلات عليا",
+    "status": "skip"
+   },
+   {
+    "k": 7,
+    "start": 1268.9,
+    "end": 1315.5,
+    "type": "secret",
+    "score": 7,
+    "hook": "شنو كانت كدير ختها الصغيرة فدارنا؟",
+    "status": "todo"
+   },
+   {
+    "k": 8,
+    "start": 1338.8,
+    "end": 1400.0,
+    "type": "secret",
+    "score": 6,
+    "hook": "مراتي ما بقاتش كتمشي للخدمة",
+    "status": "skip"
+   },
+   {
+    "k": 9,
+    "start": 1474.5,
+    "end": 1505.4,
+    "type": "secret",
+    "score": 7,
+    "hook": "شكون هاد البنت اللي ساكنة معانا؟",
+    "status": "todo"
+   },
+   {
+    "k": 10,
+    "start": 1743.2,
+    "end": 1770.0,
+    "type": "take",
+    "score": 6,
+    "hook": "واش الزواج مكتوب؟",
+    "status": "skip"
+   }
+  ]
  }
 }
