@@ -314,12 +314,14 @@
    },
    {
     "k": 3,
-    "start": 1022.6,
-    "end": 1058.6,
+    "start": 1022.62,
+    "end": 1053.66,
     "type": "conflict",
     "score": 8,
     "hook": "علاش بابا خرجنا من الخطبة؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-16",
+    "file": "1794871450_story_s8_gKM0ONyDmV4_m3.mp4"
    },
    {
     "k": 4,
@@ -348,8 +350,7 @@
     "hook": "واش الوالدين كيعرفو كتر منا؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-16T23:10:37Z"
+  ]
  },
  "YA-w9mM73fI": {
   "mined": "2026-11-16",
