@@ -25,8 +25,8 @@ today's target (the cap, or 4 while paused), stop: today's target is reached. Ot
 2. PICK A STORY — EVERY STORY HOLDS SEVERAL CLIPS (Hilal, 16 Nov: "a story could have lotta clips about lotta shit,
    even personal takes"). One story is no longer "used" after one clip. Order of choice:
    a) a story in "Stories audio" whose YouTube ID is in neither storyreel/used.json nor storyreel/moments.json (new upload);
-   b) a story in storyreel/moments.json that still has a "todo" moment scoring 7+ AND fewer than 2 clips queued in the
-      last 24 h (spread the stories out — the feed shouldn't get 4 clips of one story in a day) (make that moment — skip steps 3–5);
+   b) a story in storyreel/moments.json that still has a "todo" moment scoring 7+ (make that moment — skip steps 3–5).
+      No limit per story: Hilal (16 Nov) — make as many as are good, each clip is seen on its own;
    c) a story not yet in moments.json, best first: the ones whose earlier clip got 20K+ plays (tools/ig_plays.json,
       match the YouTube ID in the file name), then the stories marked "skip" in used.json (their opening was weak, the
       rest was never looked at), then the rest of used.json, newest first.
