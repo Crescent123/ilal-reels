@@ -208,7 +208,6 @@
   ]
  },
  "R81K3EPbTZ4": {
-  "reserved": "2026-11-16T16:11:06Z",
   "maker": "B",
   "mined": "2026-11-16",
   "moments": [
@@ -229,8 +228,10 @@
     "type": "twist",
     "score": 8,
     "hook": "شنو دارت ماما ملي شافت البنت؟",
-    "status": "todo",
-    "note": "pieces 377.72-389.52 + 408.30-442.10 (drops a garbled joke about her body): the lady and daughter visit, mom falls for the girl, asks her hand for her son; ends on 'I still don't even have her number'"
+    "status": "queued",
+    "note": "pieces 377.72-389.52 + 408.30-442.10 (drops a garbled joke about her body): the lady and daughter visit, mom falls for the girl, asks her hand for her son; ends on 'I still don't even have her number' | made: 377.72-389.52 + 408.30-442.10, 46 s",
+    "date": "2026-11-16",
+    "file": "1794846300_story_s8_R81K3EPbTZ4_m2.mp4"
    },
    {
     "k": 3,
