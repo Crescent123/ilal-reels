@@ -73,13 +73,15 @@
   "moments": [
    {
     "k": 1,
-    "start": 376.0,
-    "end": 424.0,
+    "start": 373.9,
+    "end": 409.3,
     "type": "secret",
     "score": 7,
     "hook": "علاش بغات تكري بوحدها؟",
-    "status": "todo",
-    "note": "new tenant lady visits the flat, he wonders why she wants to rent alone (ends before: divorced). Approx times; may overlap the first clip (unknown position)"
+    "status": "queued",
+    "note": "new tenant lady visits the flat, he wonders why she wants to rent alone (ends before: divorced). Approx times; may overlap the first clip (unknown position) | made: 373.9-409.3, ends on \"she laughed and told me\" before the divorce reveal",
+    "date": "2026-11-16",
+    "file": "1794840487_story_s7_JKNbzIL9GsE_m1.mp4"
    },
    {
     "k": 2,
@@ -143,7 +145,6 @@
     "status": "skip",
     "note": "can they get back together, debate question"
    }
-  ],
-  "reserved": "2026-11-16T14:41:39Z"
+  ]
  }
 }
