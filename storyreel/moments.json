@@ -69,8 +69,6 @@
   ]
  },
  "JKNbzIL9GsE": {
-  "reserved": "2026-11-16T14:11:32Z",
-  "maker": "B",
   "mined": "2026-11-16",
   "moments": [
    {
@@ -90,8 +88,10 @@
     "type": "twist",
     "score": 7,
     "hook": "شنو بغات توريني الجارة؟",
-    "status": "todo",
-    "note": "he goes up to thank the neighbour for the job; she opens in pajamas and a towel, 'come in, I'll show you something you need to know'"
+    "status": "queued",
+    "note": "he goes up to thank the neighbour for the job; she opens in pajamas and a towel, 'come in, I'll show you something you need to know'",
+    "date": "2026-11-16",
+    "file": "1794839169_story_s7_JKNbzIL9GsE_m2.mp4"
    },
    {
     "k": 3,
