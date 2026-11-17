@@ -530,13 +530,15 @@
    },
    {
     "k": 6,
-    "start": 1221.0,
-    "end": 1270.0,
+    "start": 1225.7,
+    "end": 1266.1,
     "type": "twist",
     "score": 7,
-    "hook": "عمي عندو خطة ضد بنت خالتي",
-    "status": "todo",
-    "note": "uncle wakes him at 3am with the recording plan; avoid joint mention before 1221"
+    "hook": "شنو خطة عمي ضد بنت خالتي؟",
+    "status": "queued",
+    "note": "uncle wakes him at 3am with the recording plan; avoid joint mention before 1221",
+    "date": "2026-11-17",
+    "file": "1794938532_story_s7_lCzehIOldVQ_m6.mp4"
    },
    {
     "k": 7,
@@ -566,8 +568,7 @@
     "hook": "شنو كنتي غتدير بلاصتي؟",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-17T17:40:51Z"
+  ]
  },
  "fetOcS0fBSg": {
   "mined": "2026-11-17",
