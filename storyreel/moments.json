@@ -170,8 +170,10 @@
         "type": "twist",
         "score": 7,
         "hook": "بابا خطب ليا بنت ما شفتهاش",
-        "status": "todo",
-        "note": "dad sends him to propose to Hajj Mohamed's daughter he never saw, 150 DH suits, she comes out polite; dad lectures her. Approx times"
+        "status": "queued",
+        "note": "dad sends him to propose to Hajj Mohamed's daughter he never saw, 150 DH suits, she comes out polite; dad lectures her. Approx times | made by A: pieces [[421.2,463.52],[477.8,482.84]] (dad: you must marry -> son laughs -> dad sends him to propose to the Hajj's daughter he never saw -> cheap suits; dropped the Arubia suit banter 463.5-477.8) -> ends on \"he brought his daughter in front of us\" before her looks",
+        "date": "2026-11-17",
+        "file": "1794927049_story_s7_s-gDstpbBGM_m2.mp4"
       },
       {
         "k": 3,
@@ -205,9 +207,7 @@
         "status": "skip",
         "note": "too short / generic"
       }
-    ],
-    "reserved": "2026-11-17T14:40:59Z",
-    "maker_run": "A"
+    ]
   },
   "R81K3EPbTZ4": {
     "maker": "B",
