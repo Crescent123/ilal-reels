@@ -39,6 +39,9 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    ("..._s8_..." = 8); no score = 5. Drive folder items (Hilal's own videos, e.g. "As2ila b3qlha" Q&A) are always
    score 10. Only items scoring 7+ may be posted; lower ones stay in the queue as reserve (never delete them).
    Pick the HIGHEST score first; ties → oldest first. If nothing scores 7+, post nothing this run.
+   (17 Nov: two 7s were posted while two 8s that had already gone out on TikTok were waiting. A TikTok post does NOT
+   make a clip ineligible for Instagram — the platforms are separate. Before EVERY post, re-list the queue and confirm no
+   eligible file with a higher score is waiting.)
    Only *_story_* queue files are eligible (see INSTAGRAM MIX in step 3; Drive files whose name starts with "explainer" are skipped too). Build the list: Drive folder video files (search parentId = folder, not trashed; ignore non-video files) with their
    createdTime, plus queue B items with time = the unix prefix. Order by score (above), then age. Nothing eligible → stop.
 3. PACING (Instagram blocks the account when too many go out at once: 21 Oct after a burst, 22 Oct after 12 posts in
