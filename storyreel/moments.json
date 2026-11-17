@@ -205,7 +205,9 @@
         "status": "skip",
         "note": "too short / generic"
       }
-    ]
+    ],
+    "reserved": "2026-11-17T14:40:59Z",
+    "maker_run": "A"
   },
   "R81K3EPbTZ4": {
     "maker": "B",
