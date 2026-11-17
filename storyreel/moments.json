@@ -475,6 +475,96 @@
     ]
   },
   "lCzehIOldVQ": {
-    "reserved": "2026-11-17T16:41:17Z"
+    "reserved": "2026-11-17T16:41:17Z",
+    "mined": "2026-11-17",
+    "note": "earlier clip 343.95-393.85 (pajamas in kitchen)",
+    "moments": [
+      {
+        "k": 1,
+        "start": 207.0,
+        "end": 258.0,
+        "type": "conflict",
+        "score": 6,
+        "hook": "عطاو بيتي لبنت خالتي",
+        "status": "skip"
+      },
+      {
+        "k": 2,
+        "start": 292.08,
+        "end": 338.8,
+        "type": "secret",
+        "score": 8,
+        "hook": "شنو تبدل فبنت خالتي المحجبة؟",
+        "status": "todo"
+      },
+      {
+        "k": 3,
+        "start": 541.0,
+        "end": 644.0,
+        "type": "secret",
+        "score": 6,
+        "hook": "بقينا بوحدنا فالدار",
+        "status": "skip",
+        "note": "narrator's own wrongdoing"
+      },
+      {
+        "k": 4,
+        "start": 938.0,
+        "end": 1014.0,
+        "type": "conflict",
+        "score": 5,
+        "hook": "بنت خالتي تهمتني قدام ماما",
+        "status": "skip",
+        "note": "false assault accusation, sensitive"
+      },
+      {
+        "k": 5,
+        "start": 1040.0,
+        "end": 1092.0,
+        "type": "conflict",
+        "score": 5,
+        "hook": "بابا ما تيقش فيا",
+        "status": "skip",
+        "note": "father beats him, violence"
+      },
+      {
+        "k": 6,
+        "start": 1221.0,
+        "end": 1270.0,
+        "type": "twist",
+        "score": 7,
+        "hook": "عمي عندو خطة ضد بنت خالتي",
+        "status": "todo",
+        "note": "uncle wakes him at 3am with the recording plan; avoid joint mention before 1221"
+      },
+      {
+        "k": 7,
+        "start": 1298.0,
+        "end": 1352.0,
+        "type": "twist",
+        "score": 6,
+        "hook": "بنت خالتي اعترفات",
+        "status": "skip",
+        "note": "gives away the reveal"
+      },
+      {
+        "k": 8,
+        "start": 1352.0,
+        "end": 1403.0,
+        "type": "twist",
+        "score": 6,
+        "hook": "ماما طلبات مني السماح",
+        "status": "skip"
+      },
+      {
+        "k": 9,
+        "start": 1480.0,
+        "end": 1532.0,
+        "type": "take",
+        "score": 6,
+        "hook": "شنو كنتي غتدير بلاصتي؟",
+        "status": "skip"
+      }
+    ]
   }
 }
