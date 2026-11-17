@@ -569,6 +569,73 @@
     ]
   },
   "fetOcS0fBSg": {
-    "reserved": "2026-11-17T17:11:17Z"
+    "reserved": "2026-11-17T17:11:17Z",
+    "mined": "2026-11-17",
+    "note": "Whisper lost 1384-1634 (unknown audio); earlier clip location unknown",
+    "moments": [
+      {
+        "k": 1,
+        "start": 395.26,
+        "end": 452.52,
+        "type": "conflict",
+        "score": 6,
+        "hook": "الأستاذ ضحك عليا قدام القسم",
+        "status": "todo"
+      },
+      {
+        "k": 2,
+        "start": 1084.64,
+        "end": 1137.22,
+        "type": "twist",
+        "score": 6,
+        "hook": "دافعت على بنت فالزنقة",
+        "status": "todo"
+      },
+      {
+        "k": 3,
+        "start": 1270.06,
+        "end": 1311.7,
+        "type": "twist",
+        "score": 7,
+        "hook": "كنتمتم وبغيت نعرض عليها",
+        "status": "todo"
+      },
+      {
+        "k": 4,
+        "start": 1637.98,
+        "end": 1676.4,
+        "type": "secret",
+        "score": 8,
+        "hook": "شنو وقع بين ماما ومراتي؟",
+        "status": "todo"
+      },
+      {
+        "k": 5,
+        "start": 1677.14,
+        "end": 1734.38,
+        "type": "secret",
+        "score": 7,
+        "hook": "عائلة مراتي كيسميوهم دار السحارة؟",
+        "status": "todo"
+      },
+      {
+        "k": 6,
+        "start": 1845.66,
+        "end": 1880.56,
+        "type": "conflict",
+        "score": 6,
+        "hook": "واجهت مراتي بالحجابات",
+        "status": "todo"
+      },
+      {
+        "k": 7,
+        "start": 1910.82,
+        "end": 1960.42,
+        "type": "take",
+        "score": 6,
+        "hook": "واش خاصك تاخد وقتك قبل الزواج؟",
+        "status": "todo"
+      }
+    ]
   }
 }
