@@ -362,18 +362,22 @@
         "start": 396.3,
         "end": 450.5,
         "type": "conflict",
-        "score": 7,
+        "score": 5,
         "hook": "شنو دارت ليها مرت باباها؟",
-        "status": "todo"
+        "status": "skip",
+        "note": "stepmother frames her for stealing gold, dad beats her / nearly kills her (violence cap) — rescored by A"
       },
       {
         "k": 2,
-        "start": 489.9,
-        "end": 524.0,
+        "start": 468.05,
+        "end": 516.85,
         "type": "twist",
         "score": 7,
-        "hook": "ماما بغاتني نتزوج البنت اللي جبت",
-        "status": "todo"
+        "hook": "علاش ماما بغاتني نتزوجها؟",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794930545_story_s7_YA-w9mM73fI_m2.mp4",
+        "note": "made by A: 468.05-516.85 (called mom: girl has nowhere to sleep -> mom takes her in, salon -> a month passes, brothers tease -> mom: one girl and five bachelors, marry her and spare me); ends before his answer. Whisper skipped 477.5-507.7 in the full transcript, gap transcribed separately"
       },
       {
         "k": 3,
@@ -466,7 +470,6 @@
         "hook": "واش الزواج مكتوب؟",
         "status": "skip"
       }
-    ],
-    "reserved": "2026-11-17T15:39:12Z"
+    ]
   }
 }
