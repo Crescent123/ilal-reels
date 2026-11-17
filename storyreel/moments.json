@@ -569,7 +569,6 @@
     ]
   },
   "fetOcS0fBSg": {
-    "reserved": "2026-11-17T17:11:17Z",
     "mined": "2026-11-17",
     "note": "Whisper lost 1384-1634 (unknown audio); earlier clip location unknown",
     "moments": [
@@ -607,7 +606,9 @@
         "type": "secret",
         "score": 8,
         "hook": "شنو وقع بين ماما ومراتي؟",
-        "status": "todo"
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794936449_story_s8_fetOcS0fBSg_m4.mp4"
       },
       {
         "k": 5,
