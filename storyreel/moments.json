@@ -424,12 +424,15 @@
       },
       {
         "k": 7,
-        "start": 1268.9,
+        "start": 1268.95,
         "end": 1315.5,
         "type": "secret",
         "score": 7,
-        "hook": "شنو كانت كدير ختها الصغيرة فدارنا؟",
-        "status": "todo"
+        "hook": "شكون هاد البنت اللي جابت مراتي؟",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794925405_story_s7_YA-w9mM73fI_m7.mp4",
+        "note": "made by B: wife brings her \"little sister\" who looks nothing like her, narrator never met her family; brat glares, cuts his clothes, wife defends her; ends before who the girl really is"
       },
       {
         "k": 8,
@@ -458,7 +461,6 @@
         "hook": "واش الزواج مكتوب؟",
         "status": "skip"
       }
-    ],
-    "reserved": "2026-11-17T14:11:07Z"
+    ]
   }
 }
