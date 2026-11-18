@@ -45,12 +45,14 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    b. POOL: during Experiment 1 (tools/exp1.json: until 63 slot files have been posted, 18–24 Nov) the pool is the
       eligible Exp1 clips (clip_meta "arm" not null). If fewer than 9 − (drive items) Exp1 clips are eligible, add the
       other eligible clips to the pool.
-   c. PICK (backtest fallback, 18 Nov: v4 AUC 0.59 < 0.70, so ranking = hard rejects + T1 only, see tools/RUBRIC_V4.md): the 6 highest v4.T1 in the pool (ties: oldest first) = pick "top6"; then 3 drawn uniformly at
+   c. PICK (18 Nov, Hilal approved: hard rejects + STORY SCORE = v4.T1+T2+T3, the items that held up in the blind backtest, see tools/RUBRIC_V4.md): the 6 highest story scores in the pool (ties: T1, then oldest) = pick "top6"; then 3 drawn uniformly at
       random from the REST of the pool = pick "random3", using python `random.Random("<date>")`. Fewer available → take
       what there is (top first). Never swap a random pick for a better one: the 3 random slots are the control group.
    d. ORDER: shuffle the day's list with `random.Random("<date>-order")`; store
-      {"date":..,"built":UTC,"items":[{"pos":1,"file":..,"pick":"top6|random3|drive","v4":total,"t1":T1,"arm":{..}|null}, ...]}.
+      {"date":..,"built":UTC,"items":[{"pos":1,"file":..,"pick":"top6|random3|drive","v4":total,"story":T1+T2+T3,"arm":{..}|null}, ...]}.
    No slate item eligible → stop.
+2e. REPOST TESTS (from 25 Nov, after Experiment 1): at most 1 of the 9 slots a day may be a repost test from
+   tools/winners.json (see tools/WINNERS.md), pick "repost". Never during Experiment 1.
 3. PACING (Instagram blocks the account when too many go out at once: 21 Oct after a burst, 22 Oct after 12 posts in
    2 h). INSTAGRAM MIX (Hilal, 9 Nov evening — replaces every earlier explainer/trend rule): Instagram trials are STORY CLIPS ONLY (queue *_story_* files, plus videos Hilal himself puts in the Drive "Reels trial" folder). NEVER post *_explainer_* files on Instagram (21 tested: median ~2K vs ~9K for story clips; they stay on TikTok via the TikTok task). NEVER post *_trend_* files (or any other non-story queue file) on Instagram unless Hilal approves that file in chat. SKIP LIST: never post a queue file listed in tools/social_skip.json (clips Hilal/Claude judged too weird for any platform). ROLLING LIMIT (4 Nov: blocks came at ~10–11 Instagram posts in any 24 h, e.g. 5 on Nov 4 right after 11 on Nov 3): also count Instagram "posted" lines in the LAST 24 HOURS; if that is 9 or more, stop (post the rest later in the day once older posts drop out of the window). Count "posted" lines in tools/post_log.jsonl from TODAY (Toronto date) whose "platform" is "instagram" or missing (Facebook / TikTok lines never count): if cap or more (tools/post_cap.json), stop.
    SPACING (second-opinion doc): post AT MOST ONE item per run — the lowest-"pos" slate item not yet posted — and only if

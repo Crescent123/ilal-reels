@@ -17,3 +17,9 @@ Runs hourly at :52. One run:
    {"date": "<Toronto date>", "t": UTC, "followers": followersCount from the same insights call}.
 5. Commit + push (`git pull --rebase` first, retry on conflict). Nothing due → no commit. Never message Hilal from this
    task unless vidIQ is down for 6 runs in a row (then one line).
+
+## Winners stock (tools/WINNERS.md)
+Every run: any trial whose plays in a snapshot or insights reach 400K+ → add/update it in tools/winners.json as a
+"candidate" (ig_plays, sc, file from post_log, src). Once a day, for candidates at least 7 days past a TikTok post,
+read TikTok views (vidIQ) and apply WINNERS.md rule 2; mark "approved" or keep "candidate". When the number of
+"approved" first reaches 5, send Hilal one line with the list and the planned public start date.
