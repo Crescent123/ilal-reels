@@ -27,7 +27,14 @@ Total = sum (0–16). Tiers: A ≥12, B 9–11, C ≤8. Ties: T1, then D1.
 `tools/clip_meta.json` → `"<queue file name>": {"story": "<youtube id>", "moment": k, "v4": {"T1":..,"T2":..,"T3":..,"H1":..,
 "H2":..,"H3":..,"D1":..,"D2":.., "total": n, "tier": "A|B|C", "reject": false, "reject_why": ""}, "arm": {"build": 0|1,
 "ending": 0|1} or null, "exp1_slot": n or null, "length": seconds, "made": "<UTC>"}`.
-The poster ranks by `v4.total` (ties: T1, then D1) and never posts `reject: true`.
+The poster never posts `reject: true`.
+
+## Blind backtest result (18 Nov 2026) → FALLBACK IN FORCE
+62 recoverable posted clips (19 gate passes), scored blind by a separate agent from frame 1 + transcript + length only.
+AUC of v4 total vs gate pass = 0.59 (95% bootstrap CI 0.45–0.72), below the 0.70 bar. Per the doc, ranking falls back
+to: hard rejects + T1. The poster ranks by `v4.T1` (ties: oldest first). Makers still score and log ALL eight items
+(needed for the forward test and the 120-clip refit). Per-item AUCs: T1 0.62, T2 0.67, T3 0.72, H1 0.50, H2 0.49,
+H3 0.38, D1 0.39, D2 0.47; T1+T2+T3 0.78 (post hoc, not adopted without Hilal's OK). Details: tools/EXPERIMENT.md.
 
 ## Tests it must pass (never change the rubric because of day-to-day results)
 - Blind backtest: tools/EXPERIMENT.md "Rubric v4 backtest".

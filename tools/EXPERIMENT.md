@@ -49,3 +49,14 @@ watched / 28 % skip / 8.6 shares per 1K; losers 34 % / 37 % / 3.6. Small sample 
   27 sixes, 20 fives.
 - JUDGE: the 9s/8s/7s posted 16–18 Nov vs the 6s posted alongside them, at the same age (24 h / 72 h). PASS = the 7+ group has
   ≥2x the median and a higher 20K+ rate. Volume, platforms, formats unchanged.
+
+## Rubric v4 backtest (18 Nov 2026, second-opinion doc)
+- Set: 62 posted story clips still recoverable (the doc's 104 Appendix-A files are gone: trial-posted is squashed).
+  19 passed the gate (watched ≥48% and skip ≤33%). Scored blind (frame 1, transcript with timings, length; no plays,
+  no file names) by a separate agent. Scores: tools/backtest_v4_scores.json.
+- AUC v4 total = 0.589 (95% CI 0.45–0.72) → below 0.70 → FALLBACK: hard rejects + T1 for ranking (POSTER step 2c).
+- Items: T1 0.62, T2 0.67, T3 0.72, H1 0.50, H2 0.49, H3 0.38, D1 0.39, D2 0.47. Story items T1+T2+T3: 0.78 (CI 0.67–0.89),
+  0.82 among non-rejects — post hoc, flagged to Hilal, not adopted.
+- Hard rejects: 17/62 flagged; their pass rate 35% vs 29% kept (no evidence in this sample that rejects fail; n small).
+- Tiers: A 13 clips 31% pass, B 34 clips 38%, C 15 clips 13%.
+- The 1.5 s frame/hook items (H1–H3, D1–D2) did not predict passes here. Experiment 1 tests the build directly.
