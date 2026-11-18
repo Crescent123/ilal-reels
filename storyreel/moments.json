@@ -576,12 +576,14 @@
   "moments": [
    {
     "k": 1,
-    "start": 395.26,
-    "end": 452.52,
+    "start": 395.25,
+    "end": 444.0,
     "type": "conflict",
-    "score": 6,
-    "hook": "الأستاذ ضحك عليا قدام القسم",
-    "status": "todo"
+    "score": 9,
+    "hook": "شنو دار ليا الأستاذ قدام القسم؟",
+    "status": "queued",
+    "date": "2026-11-17",
+    "file": "1794977302_story_s9_fetOcS0fBSg_m1.mp4"
    },
    {
     "k": 2,
@@ -644,7 +646,6 @@
     "status": "todo"
    }
   ],
-  "reserved": "2026-11-18T04:43:26Z",
   "maker": "A"
  }
 }
