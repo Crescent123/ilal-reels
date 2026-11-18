@@ -358,17 +358,18 @@
    },
    {
     "k": 7,
-    "start": 1049.5,
-    "end": 1102.7,
+    "start": 1050.86,
+    "end": 1100.8,
     "type": "secret",
-    "score": 11,
+    "score": 10,
     "hook": "بابا كيعرف خطيبتي منين؟",
-    "status": "todo",
+    "status": "queued",
     "maker": "A",
-    "note": "reveal (dad knows her from a bar) + Hilal's close; starts 4 s before m3's end"
+    "note": "reveal (dad knows her from a bar) + Hilal's close; starts 4 s before m3's end",
+    "date": "2026-11-18",
+    "file": "1795031423_story_s10_gKM0ONyDmV4_m7.mp4"
    }
-  ],
-  "reserved": "2026-11-18T19:43:39Z"
+  ]
  },
  "YA-w9mM73fI": {
   "mined": "2026-11-16",
