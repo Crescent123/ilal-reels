@@ -651,7 +651,84 @@
   "maker": "A"
  },
  "n1Y5rhFeQ9s": {
-  "reserved": "2026-11-18T14:44:12Z",
-  "maker": "A"
+  "maker": "A",
+  "mined": "2026-11-18",
+  "note": "earlier clip (30 Oct) location unknown, assumed first 90 s",
+  "moments": [
+   {
+    "k": 1,
+    "start": 994.1,
+    "end": 1039.98,
+    "type": "secret",
+    "score": 13,
+    "hook": "شنو خبات مراتي فهاد الوراق؟",
+    "status": "queued",
+    "date": "2026-11-18",
+    "file": "1795013913_story_s13_n1Y5rhFeQ9s_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 572.42,
+    "end": 618.48,
+    "type": "conflict",
+    "score": 9,
+    "hook": "خواتاتي بغاو مراتي تخدم الوالدين",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 712.76,
+    "end": 757.68,
+    "type": "conflict",
+    "score": 8,
+    "hook": "مراتي ما طيبات والو ودارتها فيا",
+    "status": "todo"
+   },
+   {
+    "k": 4,
+    "start": 1087.9,
+    "end": 1131.9,
+    "type": "secret",
+    "score": 10,
+    "hook": "مراتي كتشفر ليا من البزطام",
+    "status": "todo"
+   },
+   {
+    "k": 5,
+    "start": 1181.96,
+    "end": 1230.92,
+    "type": "twist",
+    "score": 9,
+    "hook": "مراتي طلبات 5000 درهم قبل العرس",
+    "status": "todo"
+   },
+   {
+    "k": 6,
+    "start": 1233.78,
+    "end": 1280.84,
+    "type": "twist",
+    "score": 9,
+    "hook": "الحيلة اللي درت لمراتي قبل العرس",
+    "status": "todo"
+   },
+   {
+    "k": 7,
+    "start": 1320.72,
+    "end": 1363.08,
+    "type": "twist",
+    "score": 8,
+    "hook": "ميساج مجهول على مراتي القديمة",
+    "status": "todo"
+   },
+   {
+    "k": 8,
+    "start": 1407.88,
+    "end": 1453.44,
+    "type": "take",
+    "score": 7,
+    "hook": "واش الموظفة كتصلح للزواج؟",
+    "status": "todo"
+   }
+  ]
  }
 }
