@@ -355,8 +355,20 @@
     "score": 6,
     "hook": "واش الوالدين كيعرفو كتر منا؟",
     "status": "todo"
+   },
+   {
+    "k": 7,
+    "start": 1049.5,
+    "end": 1102.7,
+    "type": "secret",
+    "score": 11,
+    "hook": "بابا كيعرف خطيبتي منين؟",
+    "status": "todo",
+    "maker": "A",
+    "note": "reveal (dad knows her from a bar) + Hilal's close; starts 4 s before m3's end"
    }
-  ]
+  ],
+  "reserved": "2026-11-18T19:43:39Z"
  },
  "YA-w9mM73fI": {
   "mined": "2026-11-16",
@@ -837,7 +849,6 @@
     "hook": "واش تبع الحلم ديالك؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-18T19:41:54Z"
+  ]
  }
 }
