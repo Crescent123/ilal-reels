@@ -1,0 +1,541 @@
+{
+"note": "Mining order (second-opinion doc, day 2): stories whose FIRST clip passed the gate (watched>=48% and skip<=33%) first, then family topic, then watched %. Stories not listed have no retention data: mine them after these.",
+"order": [
+{
+"id": "n1Y5rhFeQ9s",
+"gate": 1,
+"watch": 59.4,
+"skip": 25.6,
+"plays": 17316,
+"relation": "family"
+},
+{
+"id": "VeuZUuCDy-M",
+"gate": 1,
+"watch": 58.9,
+"skip": 25.9,
+"plays": 17827,
+"relation": "family"
+},
+{
+"id": "L8p5gnqtTTY",
+"gate": 1,
+"watch": 57.9,
+"skip": 27.3,
+"plays": 47689,
+"relation": "family"
+},
+{
+"id": "lCzehIOldVQ",
+"gate": 1,
+"watch": 57.2,
+"skip": 31.2,
+"plays": 26083,
+"relation": "family"
+},
+{
+"id": "gKM0ONyDmV4",
+"gate": 1,
+"watch": 50.3,
+"skip": 31.7,
+"plays": 56006,
+"relation": "family"
+},
+{
+"id": "fetOcS0fBSg",
+"gate": 1,
+"watch": 48.9,
+"skip": 27.8,
+"plays": 41745,
+"relation": "family"
+},
+{
+"id": "kQoSHBH_y9c",
+"gate": 1,
+"watch": 66.0,
+"skip": 26.0,
+"plays": 40387,
+"relation": null
+},
+{
+"id": "Gl__IV5JNP4",
+"gate": 1,
+"watch": 64.0,
+"skip": 22.0,
+"plays": 27455,
+"relation": null
+},
+{
+"id": "tc3JMPwzK-Y",
+"gate": 1,
+"watch": 56.0,
+"skip": 28.0,
+"plays": 9647,
+"relation": null
+},
+{
+"id": "ON7TMT9vNMI",
+"gate": 1,
+"watch": 55.0,
+"skip": 31.0,
+"plays": 16940,
+"relation": null
+},
+{
+"id": "JKNbzIL9GsE",
+"gate": 1,
+"watch": 54.7,
+"skip": 25.8,
+"plays": 65547,
+"relation": "neighbor"
+},
+{
+"id": "YA-w9mM73fI",
+"gate": 1,
+"watch": 53.0,
+"skip": 25.0,
+"plays": 53561,
+"relation": "wife"
+},
+{
+"id": "tMcdf896iHI",
+"gate": 1,
+"watch": 53.0,
+"skip": 28.0,
+"plays": 84472,
+"relation": null
+},
+{
+"id": "ujby1DpbnSY",
+"gate": 1,
+"watch": 53.0,
+"skip": 28.0,
+"plays": 7765,
+"relation": null
+},
+{
+"id": "qpUDTizlg3c",
+"gate": 1,
+"watch": 52.2,
+"skip": 23.2,
+"plays": 20481,
+"relation": "wife"
+},
+{
+"id": "O0I8fmfON8A",
+"gate": 1,
+"watch": 52.0,
+"skip": 25.0,
+"plays": 9626,
+"relation": null
+},
+{
+"id": "g3QRDYyD9rI",
+"gate": 1,
+"watch": 51.0,
+"skip": 21.0,
+"plays": 28475,
+"relation": null
+},
+{
+"id": "K8KAnee9s6s",
+"gate": 1,
+"watch": 50.8,
+"skip": 28.9,
+"plays": 2508,
+"relation": "wife"
+},
+{
+"id": "PKjA5MhsMIc",
+"gate": 1,
+"watch": 50.0,
+"skip": 27.9,
+"plays": 6689,
+"relation": "stranger"
+},
+{
+"id": "t_11yIcRc8M",
+"gate": 1,
+"watch": 49.0,
+"skip": 32.0,
+"plays": 429244,
+"relation": null
+},
+{
+"id": "7dd81A4zfu4",
+"gate": 0,
+"watch": 50.6,
+"skip": 34.3,
+"plays": 357199,
+"relation": "family"
+},
+{
+"id": "fpnlHglfEPU",
+"gate": 0,
+"watch": 47.4,
+"skip": 29.9,
+"plays": 13329,
+"relation": "family"
+},
+{
+"id": "Dguqml2SLtg",
+"gate": 0,
+"watch": 43.7,
+"skip": 31.4,
+"plays": 2892,
+"relation": "family"
+},
+{
+"id": "j4c--PNL9DE",
+"gate": 0,
+"watch": 50.0,
+"skip": 41.0,
+"plays": 1850,
+"relation": null
+},
+{
+"id": "AR7VnQQCUGY",
+"gate": 0,
+"watch": 49.0,
+"skip": 34.0,
+"plays": 29105,
+"relation": null
+},
+{
+"id": "3LK1_3I56RY",
+"gate": 0,
+"watch": 49.0,
+"skip": 37.0,
+"plays": 10052,
+"relation": null
+},
+{
+"id": "fFzCwZdnelE",
+"gate": 0,
+"watch": 46.4,
+"skip": 27.9,
+"plays": 5161,
+"relation": "wife"
+},
+{
+"id": "OwsrXdqrqe8",
+"gate": 0,
+"watch": 46.4,
+"skip": 28.7,
+"plays": 13769,
+"relation": "work"
+},
+{
+"id": "jrlypkYnwuA",
+"gate": 0,
+"watch": 46.4,
+"skip": 27.5,
+"plays": 8263,
+"relation": "wife"
+},
+{
+"id": "qVj7Np0g3TY",
+"gate": 0,
+"watch": 46.0,
+"skip": 30.2,
+"plays": 7343,
+"relation": "wife"
+},
+{
+"id": "TNtq2upOdnE",
+"gate": 0,
+"watch": 46.0,
+"skip": 36.0,
+"plays": 2424,
+"relation": null
+},
+{
+"id": "Lwms6x8Y6ec",
+"gate": 0,
+"watch": 45.0,
+"skip": 30.0,
+"plays": 22392,
+"relation": null
+},
+{
+"id": "h3bWhPkoMs4",
+"gate": 0,
+"watch": 44.0,
+"skip": 28.0,
+"plays": 15676,
+"relation": null
+},
+{
+"id": "GBHoxRPMmVY",
+"gate": 0,
+"watch": 43.0,
+"skip": 35.0,
+"plays": 3313,
+"relation": null
+},
+{
+"id": "wvKdKe3lqXU",
+"gate": 0,
+"watch": 42.4,
+"skip": 32.9,
+"plays": 9386,
+"relation": "fiancee"
+},
+{
+"id": "eBJQiB03T1Q",
+"gate": 0,
+"watch": 42.1,
+"skip": 30.7,
+"plays": 7265,
+"relation": "gf"
+},
+{
+"id": "N2AXlUfc1no",
+"gate": 0,
+"watch": 40.7,
+"skip": 30.0,
+"plays": 5445,
+"relation": "wife"
+},
+{
+"id": "LEAfEgyD95U",
+"gate": 0,
+"watch": 40.2,
+"skip": 36.5,
+"plays": 2605,
+"relation": "wife"
+},
+{
+"id": "NTSe5HOvayw",
+"gate": 0,
+"watch": 40.1,
+"skip": 34.4,
+"plays": 4073,
+"relation": "gf"
+},
+{
+"id": "Xr0yLXlG5U0",
+"gate": 0,
+"watch": 40.0,
+"skip": 37.0,
+"plays": 1693,
+"relation": null
+},
+{
+"id": "9R3qdmdmRwc",
+"gate": 0,
+"watch": 40.0,
+"skip": 33.0,
+"plays": 1715,
+"relation": null
+},
+{
+"id": "4ZQZdaAdevw",
+"gate": 0,
+"watch": 39.1,
+"skip": 32.3,
+"plays": 5178,
+"relation": "wife"
+},
+{
+"id": "REUR-jlh7lo",
+"gate": 0,
+"watch": 39.0,
+"skip": 30.0,
+"plays": 6543,
+"relation": null
+},
+{
+"id": "duz_gB0uJYw",
+"gate": 0,
+"watch": 38.0,
+"skip": 36.0,
+"plays": 3021,
+"relation": null
+},
+{
+"id": "WNYpNp4DRww",
+"gate": 0,
+"watch": 38.0,
+"skip": 35.0,
+"plays": 2913,
+"relation": null
+},
+{
+"id": "L9CpPPDta3s",
+"gate": 0,
+"watch": 38.0,
+"skip": 33.0,
+"plays": 4262,
+"relation": null
+},
+{
+"id": "5cES3XSUDt8",
+"gate": 0,
+"watch": 37.0,
+"skip": 36.0,
+"plays": 2289,
+"relation": null
+},
+{
+"id": "b0GqfER3tik",
+"gate": 0,
+"watch": 36.0,
+"skip": 38.0,
+"plays": 4656,
+"relation": null
+},
+{
+"id": "uOwl22S6k3c",
+"gate": 0,
+"watch": 36.0,
+"skip": 30.0,
+"plays": 2786,
+"relation": null
+},
+{
+"id": "gmpMSPIhz9k",
+"gate": 0,
+"watch": 35.0,
+"skip": 37.0,
+"plays": 3072,
+"relation": null
+},
+{
+"id": "tM5efM6M0AY",
+"gate": 0,
+"watch": 34.4,
+"skip": 33.8,
+"plays": 2025,
+"relation": "wife"
+},
+{
+"id": "iXmznDnI6Bg",
+"gate": 0,
+"watch": 34.0,
+"skip": 35.0,
+"plays": 2839,
+"relation": null
+},
+{
+"id": "F55lWH-ftbI",
+"gate": 0,
+"watch": 34.0,
+"skip": 30.0,
+"plays": 3825,
+"relation": null
+},
+{
+"id": "bPSVD-5c-wo",
+"gate": 0,
+"watch": 34.0,
+"skip": 35.0,
+"plays": 1769,
+"relation": null
+},
+{
+"id": "NZKS-Ri7bT4",
+"gate": 0,
+"watch": 31.4,
+"skip": 38.0,
+"plays": 2186,
+"relation": "gf"
+},
+{
+"id": "0tdF8qOSkI4",
+"gate": 0,
+"watch": 31.0,
+"skip": 36.0,
+"plays": 1710,
+"relation": null
+},
+{
+"id": "wcDcx9n25R0",
+"gate": 0,
+"watch": 30.8,
+"skip": 33.2,
+"plays": 9449,
+"relation": "gf"
+},
+{
+"id": "G5L7FvdIxcA",
+"gate": 0,
+"watch": 30.0,
+"skip": 34.0,
+"plays": 4193,
+"relation": null
+},
+{
+"id": "7VzNo5BIzS8",
+"gate": 0,
+"watch": 29.0,
+"skip": 46.0,
+"plays": 1341,
+"relation": null
+},
+{
+"id": "kZqtekNd-K4",
+"gate": 0,
+"watch": 27.2,
+"skip": 35.5,
+"plays": 2148,
+"relation": "gf"
+},
+{
+"id": "Rmdapp9G2Ns",
+"gate": 0,
+"watch": 27.0,
+"skip": 43.0,
+"plays": 2063,
+"relation": null
+},
+{
+"id": "RgAzpvJTzwg",
+"gate": 0,
+"watch": 27.0,
+"skip": 31.0,
+"plays": 1830,
+"relation": null
+},
+{
+"id": "kgDH1GCfXWM",
+"gate": 0,
+"watch": 26.0,
+"skip": 38.0,
+"plays": 2075,
+"relation": null
+},
+{
+"id": "V03cH1IdGVg",
+"gate": 0,
+"watch": 26.0,
+"skip": 36.0,
+"plays": 1675,
+"relation": null
+},
+{
+"id": "rdn69EYblpc",
+"gate": 0,
+"watch": 25.0,
+"skip": 43.0,
+"plays": 1527,
+"relation": null
+},
+{
+"id": "Wao2t3II6ko",
+"gate": 0,
+"watch": 19.0,
+"skip": 54.0,
+"plays": 1545,
+"relation": null
+},
+{
+"id": "_So6G7gEGz0",
+"gate": 0,
+"watch": 17.0,
+"skip": 53.0,
+"plays": 1573,
+"relation": null
+}
+]
+}

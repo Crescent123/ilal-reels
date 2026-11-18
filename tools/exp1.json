@@ -1,0 +1,458 @@
+{
+ "experiment": "Exp1 build x ending",
+ "start": "2026-11-18",
+ "verdict_not_before": "2026-11-25",
+ "target_clips": 63,
+ "seed": 20261118,
+ "note": "Makers take the lowest slot with file=null (claim it with taken_by=<maker>-<UTC> and push before building). Blocks of 4 contain each cell once, so arms stay balanced over any day. Never edit build/ending.",
+ "slots": [
+  {
+   "slot": 1,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 2,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 3,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 4,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 5,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 6,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 7,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 8,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 9,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 10,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 11,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 12,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 13,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 14,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 15,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 16,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 17,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 18,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 19,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 20,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 21,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 22,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 23,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 24,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 25,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 26,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 27,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 28,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 29,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 30,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 31,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 32,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 33,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 34,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 35,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 36,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 37,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 38,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 39,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 40,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 41,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 42,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 43,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 44,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 45,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 46,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 47,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 48,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 49,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 50,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 51,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 52,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 53,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 54,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 55,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 56,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 57,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 58,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 59,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 60,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 61,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 62,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 63,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 64,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  }
+ ]
+}

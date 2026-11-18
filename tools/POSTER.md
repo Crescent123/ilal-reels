@@ -1,4 +1,4 @@
-# Trial-reel poster runbook (one run = drain the queues at a human pace)
+# Trial-reel poster runbook (one run = at most one post from the day's slate; runs at :04/:24/:44)
 
 Posts Instagram Trial Reels to @_ilal_ from TWO queues, oldest first, as many as Instagram allows:
 - A) Google Drive folder "Reels trial" 1rGW63KerCj3EQRGRk-mDWn1dVkU1onyK (videos Hilal drops in).
@@ -13,7 +13,7 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 0. BURST TIMING (Hilal, 30 Oct: "post one after the other until the limit; maybe the limit is a number, not timing"
    — and a block hit early in the day ends sooner). Get the Toronto time (TZ=America/Toronto date). Post only between
    10:00 and 23:59 Toronto (the 00:xx hour would start the next day's batch at midnight); outside that window stop right away (no post, nothing logged). No random skip, no random wait:
-   every run inside the window posts until today's cap is reached (step 3).
+   every run posts AT MOST ONE item from today's slate, 20+ minutes after the previous post (step 3 SPACING).
 0a. DAILY CAP RAMP (Hilal, 30 Oct: "6 posts with no problem → next day try 7, keep going until stopped, then go back"). The
    current cap lives in tools/post_cap.json ("cap"). On the FIRST run of each Toronto day (no "history" entry for
    yesterday yet): count yesterday's (Toronto date) Instagram "posted" and "error" lines in post_log.jsonl (platform "instagram" or missing) and append
@@ -34,21 +34,29 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    posting → stop right away. Otherwise write the current UTC time to tools/poster.lock, commit and push it (if the push
    is rejected, pull and re-check). Delete the lock (commit + push) when this run ends, whatever happened.
 1. Read the marker title (Google Drive get_file_metadata). If paused and that time is in the future, stop.
-2. QUALITY FIRST (Hilal, 23 Oct: post only the reels most likely to go viral; Instagram allows ~12/day).
-   Each queue B item has a hook score 1–10: from tools/queue_scores.json ("scores"[file]) or from its file name
-   ("..._s8_..." = 8); no score = 5. Drive folder items (Hilal's own videos, e.g. "As2ila b3qlha" Q&A) are always
-   score 10. Only items scoring 7+ may be posted; lower ones stay in the queue as reserve (never delete them).
-   Pick the HIGHEST score first; ties → oldest first. If nothing scores 7+, post nothing this run.
-   (17 Nov: two 7s were posted while two 8s that had already gone out on TikTok were waiting. A TikTok post does NOT
-   make a clip ineligible for Instagram — the platforms are separate. Before EVERY post, re-list the queue and confirm no
-   eligible file with a higher score is waiting.)
-   Only *_story_* queue files are eligible (see INSTAGRAM MIX in step 3; Drive files whose name starts with "explainer" are skipped too). Build the list: Drive folder video files (search parentId = folder, not trashed; ignore non-video files) with their
-   createdTime, plus queue B items with time = the unix prefix. Order by score (above), then age. Nothing eligible → stop.
+2. DAILY SLATE (second-opinion doc, 17 Nov; rubric v4 frozen until 2 Dec — tools/RUBRIC_V4.md). The day's posts are
+   fixed ONCE per Toronto day in tools/slate/<YYYY-MM-DD>.json; later runs only post from it.
+   If today's slate file does not exist yet, build it (then commit + push it before posting):
+   a. ELIGIBLE queue B items: *_story_* files only (see INSTAGRAM MIX), not in tools/social_skip.json, with an entry in
+      tools/clip_meta.json whose v4.reject is false and whose length is 40–55 s. HARD REJECTS are never posted, whatever
+      their score: name in title/first 8 s, abroad, part x, outside 40–55 s. Files without a clip_meta entry are not
+      eligible (the health check scores them). Drive folder videos (Hilal's own drops) stay eligible as before and are
+      added on top as pick "drive" (they count toward the 9 but not toward the 6/3).
+   b. POOL: during Experiment 1 (tools/exp1.json: until 63 slot files have been posted, 18–24 Nov) the pool is the
+      eligible Exp1 clips (clip_meta "arm" not null). If fewer than 9 − (drive items) Exp1 clips are eligible, add the
+      other eligible clips to the pool.
+   c. PICK: the 6 highest v4.total in the pool (ties: T1, then D1, then oldest) = pick "top6"; then 3 drawn uniformly at
+      random from the REST of the pool = pick "random3", using python `random.Random("<date>")`. Fewer available → take
+      what there is (top first). Never swap a random pick for a better one: the 3 random slots are the control group.
+   d. ORDER: shuffle the day's list with `random.Random("<date>-order")`; store
+      {"date":..,"built":UTC,"items":[{"pos":1,"file":..,"pick":"top6|random3|drive","v4":total,"arm":{..}|null}, ...]}.
+   No slate item eligible → stop.
 3. PACING (Instagram blocks the account when too many go out at once: 21 Oct after a burst, 22 Oct after 12 posts in
    2 h). INSTAGRAM MIX (Hilal, 9 Nov evening — replaces every earlier explainer/trend rule): Instagram trials are STORY CLIPS ONLY (queue *_story_* files, plus videos Hilal himself puts in the Drive "Reels trial" folder). NEVER post *_explainer_* files on Instagram (21 tested: median ~2K vs ~9K for story clips; they stay on TikTok via the TikTok task). NEVER post *_trend_* files (or any other non-story queue file) on Instagram unless Hilal approves that file in chat. SKIP LIST: never post a queue file listed in tools/social_skip.json (clips Hilal/Claude judged too weird for any platform). ROLLING LIMIT (4 Nov: blocks came at ~10–11 Instagram posts in any 24 h, e.g. 5 on Nov 4 right after 11 on Nov 3): also count Instagram "posted" lines in the LAST 24 HOURS; if that is 9 or more, stop (post the rest later in the day once older posts drop out of the window). Count "posted" lines in tools/post_log.jsonl from TODAY (Toronto date) whose "platform" is "instagram" or missing (Facebook / TikTok lines never count): if cap or more (tools/post_cap.json), stop.
-   Otherwise post items back to back in this same run (wait a random 3–6 minutes between posts) until today's count
-   reaches the cap, nothing eligible is left, or an error happens (then follow the error rules). Re-pick the best item
-   (step 2) before each post and commit/push the log after each post.
+   SPACING (second-opinion doc): post AT MOST ONE item per run — the lowest-"pos" slate item not yet posted — and only if
+   the last Instagram "posted" line is at least 20 minutes old (else stop). Runs are scheduled at :04, :24 and :44, so the
+   day's 9 go out 20 minutes apart in the slate's random order. If an item fails or vanished, mark it "skipped" in the
+   slate (with the reason) and the next run takes the next one. Commit/push the log after the post.
    POSTING TOOL (Hilal, 2 Nov): Instagram trial reels go through Upload-Post (tools/post.sh), no longer vidIQ.
    Job file for one reel (profile is "default"; no caption; never shared to followers):
      {"user":"default","platforms":["instagram"],"video":"<public url>","title":"",
@@ -82,6 +90,9 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
 After every PUBLISHED trial reel, and whenever Instagram returns a limit error, append ONE line to tools/post_log.jsonl
 and push (git pull --rebase first):
 {"t": "<UTC ISO time>", "src": "drive" | "vlog" | "story" (queue files: story_* = story, vlog_* = vlog), "event": "posted" | "limit" | "error", "permalink": "<url or empty>", "file": "<queue file name or Drive file title>", "platform": "instagram", "note": "<error text, only for error>"}
+Since 18 Nov also add to every Instagram "posted" line: "pos": <slate position 1–9>, "pick": "top6"|"random3"|"drive",
+"v4": <total or null>, "arm": {"build":0|1,"ending":0|1} or null (from the slate). The snapshot task (tools/SNAPSHOT.md)
+reads these.
 
 ## Waiting for results (IMPORTANT — 4 Nov: runs got killed while waiting and never logged their posts)
 `tools/post.sh` can wait up to 30 min (Upload-Post sometimes hands a post to its "background" worker). Never let a

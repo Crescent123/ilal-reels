@@ -7,7 +7,8 @@ spec = {
  "pieces": [[start,end], ...],          # ORIGINAL-audio seconds, usually ONE continuous piece
  "scenes": [{"at": orig_seconds, "image": "work/n1.png", "caption": "short Darija"} ...],  # first 'at' = pieces[0][0]
  "music": "music/suspense_1.mp3", "out": "work/reel.mp4",
- "badge": "PART 3"}                     # optional: yellow badge above the title (series parts)
+ "badge": "PART 3",                     # optional: yellow badge above the title (series parts)
+ "fast_open": true}                     # optional (Experiment 1 build arm 1): scene 1 pushes in 100%->112% over 2 s
 Voice is only cut (10 ms fades), never processed. Scene changes snap to the quietest point within 0.12 s."""
 import json, subprocess, numpy as np, base64, os, sys, tempfile
 from PIL import Image, ImageFilter, ImageEnhance
@@ -66,6 +67,7 @@ for i,s in enumerate(sc):
     bg=im.resize((H,H)).crop(((H-W)//2,0,(H-W)//2+W,H)).filter(ImageFilter.GaussianBlur(40)); ImageEnhance.Brightness(bg).enhance(0.45).save(f'{wd}/bg{i}.png')
     im.resize((2*W,2*H),Image.LANCZOS).save(f'{wd}/im{i}.png')
     n=max(1,round((bounds[i+1]-bounds[i])*FPS)); z=f"'1+0.045*on/{n}'" if i%2==0 else f"'1.045-0.045*on/{n}'"
+    if i==0 and S.get('fast_open'): z=f"'min(1+0.12*on/{2*FPS},1.12)'"  # Exp1 fast open: push 100%->112% over the first 2 s
     fc=f"[1:v]zoompan=z={z}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W}x{H}:fps={FPS}[z];[0:v][z]overlay=0:0[a];[a][2:v]overlay=0:0,format=yuv420p[v]"
     subprocess.run(['ffmpeg','-loglevel','error','-y','-loop','1','-i',f'{wd}/bg{i}.png','-i',f'{wd}/im{i}.png','-loop','1','-i',f'{wd}/ov{i}.png','-filter_complex',fc,'-map','[v]','-frames:v',str(n),'-r',str(FPS),'-c:v','libx264','-preset','veryfast','-crf','17',f'{wd}/s{i}.mp4'],check=True); segs.append(f'{wd}/s{i}.mp4')
 subprocess.run(['ffmpeg','-loglevel','error','-y','-loop','1','-i',wd+'/cta.png','-vf','format=yuv420p','-frames:v',str(round(END*FPS)),'-r',str(FPS),'-c:v','libx264','-preset','veryfast','-crf','17',wd+'/sE.mp4'],check=True); segs.append(wd+'/sE.mp4')
