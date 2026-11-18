@@ -1633,5 +1633,30 @@
   "exp1_slot": 1,
   "length": 53.0,
   "made": "2026-11-18T04:50:12Z"
+ },
+ "1795012544_story_s9_gKM0ONyDmV4_m5.mp4": {
+  "story": "gKM0ONyDmV4",
+  "moment": 5,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 2,
+   "H1": 1,
+   "H2": 0,
+   "H3": 1,
+   "D1": 2,
+   "D2": 1,
+   "total": 9,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "build": 0,
+   "ending": 0
+  },
+  "exp1_slot": 2,
+  "length": 53.59,
+  "made": "2026-11-18T14:37:26Z"
  }
 }
