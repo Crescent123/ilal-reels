@@ -11,7 +11,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 30 }
@@ -19,6 +19,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           BEFORE: ${{ github.event.before }}
+          GHT: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
         run: |
           export OPENAI_API_KEY="$(printf '%s' "$OPENAI_API_KEY" | tr -d '\r\n\t ')"
           which ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }
@@ -26,18 +28,34 @@ jobs:
           git diff --name-only --diff-filter=A "$BEFORE" HEAD -- ai/jobs/ | grep '\.json$' > /tmp/jobs.txt || true
           cat /tmp/jobs.txt
           mkdir -p /tmp/res
-          # run up to 4 jobs at the same time (each image takes minutes; one after another was too slow)
+          # run up to 8 jobs at the same time; each result is published the moment it is ready;
+          # a request stuck longer than 7 min is killed and retried once
           cat > /tmp/one.sh <<'SH'
           j="$1"; s=$(basename "$j" .json); mkdir -p "/tmp/res/$s"
           if [ -z "$OPENAI_API_KEY" ]; then echo "OPENAI_API_KEY secret is not set in the repo" > "/tmp/res/$s/done.txt"; exit 0; fi
-          python3 tools/ai_runner.py "$j" "/tmp/res/$s" > "/tmp/res/$s/log.txt" 2>&1 || true
+          for attempt in 1 2; do
+            rm -f "/tmp/res/$s/done.txt"
+            timeout 420 python3 tools/ai_runner.py "$j" "/tmp/res/$s" > "/tmp/res/$s/log.txt" 2>&1; rc=$?
+            if [ $rc -eq 0 ] && [ -f "/tmp/res/$s/done.txt" ] && [ ! -s "/tmp/res/$s/done.txt" ]; then break; fi
+            [ $rc -eq 124 ] && echo "timed out after 7 min (attempt $attempt)" >> "/tmp/res/$s/log.txt"
+          done
           [ -f "/tmp/res/$s/done.txt" ] || { tail -c 600 "/tmp/res/$s/log.txt" > "/tmp/res/$s/done.txt"; }
           # scrub: never let the key (or any sk- token / Bearer header) reach the public branch
           for f in "/tmp/res/$s"/*.txt; do sed -i -E 's/sk-[A-Za-z0-9_-]{8,}/[key]/g; s/Bearer [^ '"'"'"]+/Bearer [key]/g' "$f"; done
+          # publish this one result right away
+          URL="https://x-access-token:${GHT}@github.com/${REPO}"; W=$(mktemp -d)
+          for try in 1 2 3 4 5 6 7 8 9 10 11 12; do
+            rm -rf "$W"; mkdir -p "$W"; cd "$W"; git init -q; git config user.name ai-bot; git config user.email actions@users.noreply.github.com
+            OLD=none; if git fetch -q --depth 1 "$URL" ai-out 2>/dev/null; then OLD=$(git rev-parse FETCH_HEAD); git checkout -q FETCH_HEAD -- . ; fi
+            mkdir -p "$s"; cp -r "/tmp/res/$s"/. "$s"/; git checkout -q --orphan tmp; git add -A; git commit -qm "ai result $s" || break
+            if [ "$OLD" = none ]; then git push -q "$URL" tmp:ai-out && break; else git push -q --force-with-lease=ai-out:$OLD "$URL" tmp:ai-out && break; fi
+            cd /; sleep $((2 + RANDOM % 6))
+          done
           SH
           sed -i 's/^          //' /tmp/one.sh
           export OPENAI_API_KEY
-          xargs -a /tmp/jobs.txt -r -n1 -P4 bash /tmp/one.sh
+          export GHT REPO
+          xargs -a /tmp/jobs.txt -r -n1 -P8 bash /tmp/one.sh
       - name: Publish results to ai-out (keep the last 24 h)
         run: |
           [ -n "$(ls /tmp/res)" ] || exit 0
