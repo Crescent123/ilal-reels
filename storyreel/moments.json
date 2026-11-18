@@ -668,12 +668,15 @@
    },
    {
     "k": 2,
-    "start": 572.42,
-    "end": 618.48,
+    "start": 572.75,
+    "end": 619.36,
     "type": "conflict",
-    "score": 9,
+    "score": 13,
     "hook": "خواتاتي بغاو مراتي تخدم الوالدين",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-18",
+    "file": "1795018947_story_s13_n1Y5rhFeQ9s_m2.mp4",
+    "maker": "B"
    },
    {
     "k": 3,
@@ -735,7 +738,6 @@
     "hook": "واش الموظفة كتصلح للزواج؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-18T16:11:14Z"
+  ]
  }
 }
