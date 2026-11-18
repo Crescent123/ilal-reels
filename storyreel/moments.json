@@ -753,7 +753,6 @@
   ]
  },
  "VeuZUuCDy-M": {
-  "reserved": "2026-11-18T18:25:16Z",
   "mined": "2026-11-18",
   "maker": "B",
   "note": "earlier clip 152.1-185.5 (McDo / tuna bocadillo). 1300-1420 is set in the Emirates (skip). Whisper text is rough.",
@@ -765,7 +764,10 @@
     "type": "conflict",
     "score": 13,
     "hook": "بابا غيجريني من الدار؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-18",
+    "file": "1795028095_story_s13_VeuZUuCDy-M_m1.mp4",
+    "maker": "B"
    },
    {
     "k": 2,
