@@ -969,11 +969,15 @@
    {
     "k": 2,
     "start": 199.08,
-    "end": 247.1,
+    "end": 243.16,
     "type": "take",
     "score": 6,
-    "hook": "بابا كيحقرنا قدام البراني",
-    "status": "todo"
+    "hook": "علاش بابا كيحقرنا قدام البراني؟",
+    "status": "queued",
+    "date": "2026-11-19",
+    "file": "1795121785_story_s12_kQoSHBH_y9c_m2.mp4",
+    "maker": "A",
+    "note": "exp1 slot 24 (build 0, ending 1): dad belittles the kids in front of guests, kiss-hand rule; reveal inside = he brags about the 90 m2 house; closes on Hilal's take + 'write in the comments'"
    },
    {
     "k": 3,
@@ -1044,8 +1048,7 @@
     "maker": "A",
     "note": "ending arm 1: sales reveal (1 copy -> 192, 5000 DH) + take 'all because of her block' + debate 'should I keep writing?'"
    }
-  ],
-  "reserved": "2026-11-19T20:41:12Z"
+  ]
  },
  "Gl__IV5JNP4": {
   "maker": "B",
