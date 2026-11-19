@@ -1070,13 +1070,16 @@
    },
    {
     "k": 2,
-    "start": 700.0,
-    "end": 747.0,
+    "start": 693.42,
+    "end": 742.1,
     "type": "twist",
-    "score": 7,
-    "hook": "سميت الكونت ديالي باسم بنت الجيران",
-    "status": "todo",
-    "note": "friend mocks his marketplace account, he renames it to the neighbour girl's name; name said ~722 (ok, after 8 s)"
+    "score": 9,
+    "hook": "شنو درت بسمية بنت الجيران؟",
+    "status": "queued",
+    "note": "friend mocks his marketplace account, he renames it to the neighbour girl's name; name said ~722 (ok, after 8 s) | Exp1 slot 25 (build 0, ending 1): cut 693.42-742.10; printer friend mocks his account, he renames it to the neighbour girl's name + rose photo (reveal), closes on his own comment 'account 100% ready'. Overlaps nothing queued.",
+    "date": "2026-11-19",
+    "file": "1795123036_story_s9_Gl__IV5JNP4_m2.mp4",
+    "maker": "B"
    },
    {
     "k": 3,
@@ -1128,7 +1131,6 @@
     "status": "todo",
     "note": "lesson + debate 'would you exploit it like him?'"
    }
-  ],
-  "reserved": "2026-11-19T21:11:43Z"
+  ]
  }
 }
