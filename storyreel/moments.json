@@ -940,6 +940,89 @@
   "reserved": "2026-11-19T18:02:16Z"
  },
  "kQoSHBH_y9c": {
-  "reserved": "2026-11-19T17:44:40Z"
+  "mined": "2026-11-19",
+  "maker": "B",
+  "note": "guest story (Sidi Kacem, poverty, mum dies, depression, then he writes a novel). First clip 446.9-487.3 (mum seaweed secret). 698-830 mum death / dark thoughts: skip (heavy).",
+  "moments": [
+   {
+    "k": 1,
+    "start": 446.9,
+    "end": 487.3,
+    "type": "secret",
+    "score": 8,
+    "hook": "فين كانت كتمشي ماما؟",
+    "status": "queued",
+    "date": "2026-11-13",
+    "file": "1794588913_story_s8_kQoSHBH_y9c.mp4"
+   },
+   {
+    "k": 2,
+    "start": 199.08,
+    "end": 247.1,
+    "type": "take",
+    "score": 6,
+    "hook": "بابا كيحقرنا قدام البراني",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 487.3,
+    "end": 548.0,
+    "type": "secret",
+    "score": 0,
+    "hook": "ماما كانت خدامة فالديور",
+    "status": "skip",
+    "why": "reveal of the first clip, needs it"
+   },
+   {
+    "k": 4,
+    "start": 845.68,
+    "end": 880.7,
+    "type": "twist",
+    "score": 5,
+    "hook": "بابا داني عند الفقيه",
+    "status": "todo"
+   },
+   {
+    "k": 5,
+    "start": 954.34,
+    "end": 995.0,
+    "type": "twist",
+    "score": 5,
+    "hook": "شنو شفت عند طبيب النفس؟",
+    "status": "todo"
+   },
+   {
+    "k": 6,
+    "start": 1253.86,
+    "end": 1304.1,
+    "type": "twist",
+    "score": 11,
+    "hook": "شنو كانت كتخبي صاحبتي فالرواية؟",
+    "status": "queued",
+    "date": "2026-11-19",
+    "file": "1795111500_story_s11_kQoSHBH_y9c_m6.mp4",
+    "maker": "B"
+   },
+   {
+    "k": 7,
+    "start": 1304.1,
+    "end": 1356.2,
+    "type": "twist",
+    "score": 8,
+    "hook": "صاحبتي كانت كتكتب بالذكاء الاصطناعي",
+    "status": "todo",
+    "note": "reveal of m6 (ChatGPT) + she blocks him + he finishes alone; suits ending arm 1"
+   },
+   {
+    "k": 8,
+    "start": 1356.2,
+    "end": 1408.0,
+    "type": "take",
+    "score": 6,
+    "hook": "واش نكمل فالكتابة؟",
+    "status": "todo"
+   }
+  ]
  }
 }
