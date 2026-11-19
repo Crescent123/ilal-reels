@@ -1048,7 +1048,6 @@
   "reserved": "2026-11-19T20:41:12Z"
  },
  "Gl__IV5JNP4": {
-  "reserved": "2026-11-19T20:11:49Z",
   "maker": "B",
   "mined": "2026-11-19",
   "note": "first clip (11 Nov) 914.30-949.60 = farmer offers Cash Plus money, needs the girl's ID card, 'send me an audio'. Story: Fouad (Casa) renames his marketplace FB account to neighbour girl Salma's name, a rich farmer flirts with it; Salma becomes his partner; farmer lures her to his farm, Fouad finds her tied up (assault, heavy: skip 1289-1600). Names Salma/Fouad/Si Hassan are said often: keep them out of the first 8 s.",
@@ -1060,7 +1059,11 @@
     "type": "twist",
     "score": 11,
     "hook": "عروبي غني كيغازل الكونت الفيك ديالي",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-19",
+    "file": "1795120843_story_s11_Gl__IV5JNP4_m1.mp4",
+    "maker": "B",
+    "note": "Exp1 slot 23 (build 1, ending 0): farmer floods the fake girl account with messages promising money; his stories = cows + money rain; narrator checks, he's really rich; 'why not', messages him, instant reply. Cut before the photo request."
    },
    {
     "k": 2,
