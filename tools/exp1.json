@@ -1,458 +1,458 @@
 {
-  "experiment": "Exp1 build x ending",
-  "start": "2026-11-18",
-  "verdict_not_before": "2026-11-25",
-  "target_clips": 63,
-  "seed": 20261118,
-  "note": "Makers take the lowest slot with file=null (claim it with taken_by=<maker>-<UTC> and push before building). Blocks of 4 contain each cell once, so arms stay balanced over any day. Never edit build/ending.",
-  "slots": [
-    {
-      "slot": 1,
-      "build": 1,
-      "ending": 0,
-      "file": "1794977302_story_s9_fetOcS0fBSg_m1.mp4",
-      "taken_by": "A-2026-11-18T04:43:33Z"
-    },
-    {
-      "slot": 2,
-      "build": 0,
-      "ending": 0,
-      "file": "1795012544_story_s9_gKM0ONyDmV4_m5.mp4",
-      "taken_by": "B-2026-11-18T14:12:49Z"
-    },
-    {
-      "slot": 3,
-      "build": 1,
-      "ending": 1,
-      "file": "1795013913_story_s13_n1Y5rhFeQ9s_m1.mp4",
-      "taken_by": "A-2026-11-18T14:44:12Z"
-    },
-    {
-      "slot": 4,
-      "build": 0,
-      "ending": 1,
-      "file": "1795015120_story_s11_n1Y5rhFeQ9s_m4.mp4",
-      "taken_by": "B-2026-11-18T15:12:14Z"
-    },
-    {
-      "slot": 5,
-      "build": 0,
-      "ending": 1,
-      "file": "1795016946_story_s11_n1Y5rhFeQ9s_m5.mp4",
-      "taken_by": "A-2026-11-18T15:41:14Z"
-    },
-    {
-      "slot": 6,
-      "build": 1,
-      "ending": 0,
-      "file": "1795018947_story_s13_n1Y5rhFeQ9s_m2.mp4",
-      "taken_by": "B-2026-11-18T16:11:14Z"
-    },
-    {
-      "slot": 7,
-      "build": 1,
-      "ending": 1,
-      "file": "1795021100_story_s12_n1Y5rhFeQ9s_m7.mp4",
-      "taken_by": "A-2026-11-18T16:41:23Z"
-    },
-    {
-      "slot": 8,
-      "build": 0,
-      "ending": 0,
-      "file": "1795022329_story_s9_n1Y5rhFeQ9s_m6.mp4",
-      "taken_by": "B-2026-11-18T17:13:34Z"
-    },
-    {
-      "slot": 9,
-      "build": 0,
-      "ending": 0,
-      "file": "1795024520_story_s12_n1Y5rhFeQ9s_m3.mp4",
-      "taken_by": "A-2026-11-18T17:42:27Z"
-    },
-    {
-      "slot": 10,
-      "build": 1,
-      "ending": 0,
-      "file": "1795028095_story_s13_VeuZUuCDy-M_m1.mp4",
-      "taken_by": "B-2026-11-18T18:11:03Z"
-    },
-    {
-      "slot": 11,
-      "build": 0,
-      "ending": 1,
-      "file": "1795027632_story_s10_n1Y5rhFeQ9s_m8.mp4",
-      "taken_by": "A-2026-11-18T18:41:21Z"
-    },
-    {
-      "slot": 12,
-      "build": 1,
-      "ending": 1,
-      "file": "1795029785_story_s13_VeuZUuCDy-M_m4.mp4",
-      "taken_by": "B-2026-11-18T19:11:25Z"
-    },
-    {
-      "slot": 13,
-      "build": 0,
-      "ending": 1,
-      "file": "1795031423_story_s10_gKM0ONyDmV4_m7.mp4",
-      "taken_by": "A-2026-11-18T19:41:54Z"
-    },
-    {
-      "slot": 14,
-      "build": 0,
-      "ending": 0,
-      "file": "1795111239_story_s12_VeuZUuCDy-M_m3.mp4",
-      "taken_by": "A-2026-11-19T17:34:37Z"
-    },
-    {
-      "slot": 15,
-      "build": 1,
-      "ending": 0,
-      "file": "1795111500_story_s11_kQoSHBH_y9c_m6.mp4",
-      "taken_by": "B-2026-11-19T17:35:24Z"
-    },
-    {
-      "slot": 16,
-      "build": 1,
-      "ending": 1,
-      "file": "1795110728_story_s12_L8p5gnqtTTY_m1.mp4",
-      "taken_by": "A-2026-11-19T17:40:43Z"
-    },
-    {
-      "slot": 17,
-      "build": 1,
-      "ending": 1,
-      "file": "1795112061_story_s11_L8p5gnqtTTY_m2.mp4",
-      "taken_by": "A-2026-11-19T18:02:16Z"
-    },
-    {
-      "slot": 18,
-      "build": 0,
-      "ending": 0,
-      "file": "1795112207_story_s8_kQoSHBH_y9c_m5.mp4",
-      "taken_by": "B-2026-11-19T18:10:35Z"
-    },
-    {
-      "slot": 19,
-      "build": 1,
-      "ending": 0,
-      "file": "1795112632_story_s10_VeuZUuCDy-M_m6.mp4",
-      "taken_by": "B-2026-11-19T18:12:14Z"
-    },
-    {
-      "slot": 20,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": "A-2026-11-19T18:43:29Z"
-    },
-    {
-      "slot": 21,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 22,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 23,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 24,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 25,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 26,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 27,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 28,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 29,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 30,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 31,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 32,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 33,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 34,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 35,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 36,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 37,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 38,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 39,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 40,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 41,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 42,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 43,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 44,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 45,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 46,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 47,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 48,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 49,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 50,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 51,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 52,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 53,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 54,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 55,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 56,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 57,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 58,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 59,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 60,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 61,
-      "build": 0,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 62,
-      "build": 1,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 63,
-      "build": 0,
-      "ending": 1,
-      "file": null,
-      "taken_by": null
-    },
-    {
-      "slot": 64,
-      "build": 1,
-      "ending": 0,
-      "file": null,
-      "taken_by": null
-    }
-  ]
+ "experiment": "Exp1 build x ending",
+ "start": "2026-11-18",
+ "verdict_not_before": "2026-11-25",
+ "target_clips": 63,
+ "seed": 20261118,
+ "note": "Makers take the lowest slot with file=null (claim it with taken_by=<maker>-<UTC> and push before building). Blocks of 4 contain each cell once, so arms stay balanced over any day. Never edit build/ending.",
+ "slots": [
+  {
+   "slot": 1,
+   "build": 1,
+   "ending": 0,
+   "file": "1794977302_story_s9_fetOcS0fBSg_m1.mp4",
+   "taken_by": "A-2026-11-18T04:43:33Z"
+  },
+  {
+   "slot": 2,
+   "build": 0,
+   "ending": 0,
+   "file": "1795012544_story_s9_gKM0ONyDmV4_m5.mp4",
+   "taken_by": "B-2026-11-18T14:12:49Z"
+  },
+  {
+   "slot": 3,
+   "build": 1,
+   "ending": 1,
+   "file": "1795013913_story_s13_n1Y5rhFeQ9s_m1.mp4",
+   "taken_by": "A-2026-11-18T14:44:12Z"
+  },
+  {
+   "slot": 4,
+   "build": 0,
+   "ending": 1,
+   "file": "1795015120_story_s11_n1Y5rhFeQ9s_m4.mp4",
+   "taken_by": "B-2026-11-18T15:12:14Z"
+  },
+  {
+   "slot": 5,
+   "build": 0,
+   "ending": 1,
+   "file": "1795016946_story_s11_n1Y5rhFeQ9s_m5.mp4",
+   "taken_by": "A-2026-11-18T15:41:14Z"
+  },
+  {
+   "slot": 6,
+   "build": 1,
+   "ending": 0,
+   "file": "1795018947_story_s13_n1Y5rhFeQ9s_m2.mp4",
+   "taken_by": "B-2026-11-18T16:11:14Z"
+  },
+  {
+   "slot": 7,
+   "build": 1,
+   "ending": 1,
+   "file": "1795021100_story_s12_n1Y5rhFeQ9s_m7.mp4",
+   "taken_by": "A-2026-11-18T16:41:23Z"
+  },
+  {
+   "slot": 8,
+   "build": 0,
+   "ending": 0,
+   "file": "1795022329_story_s9_n1Y5rhFeQ9s_m6.mp4",
+   "taken_by": "B-2026-11-18T17:13:34Z"
+  },
+  {
+   "slot": 9,
+   "build": 0,
+   "ending": 0,
+   "file": "1795024520_story_s12_n1Y5rhFeQ9s_m3.mp4",
+   "taken_by": "A-2026-11-18T17:42:27Z"
+  },
+  {
+   "slot": 10,
+   "build": 1,
+   "ending": 0,
+   "file": "1795028095_story_s13_VeuZUuCDy-M_m1.mp4",
+   "taken_by": "B-2026-11-18T18:11:03Z"
+  },
+  {
+   "slot": 11,
+   "build": 0,
+   "ending": 1,
+   "file": "1795027632_story_s10_n1Y5rhFeQ9s_m8.mp4",
+   "taken_by": "A-2026-11-18T18:41:21Z"
+  },
+  {
+   "slot": 12,
+   "build": 1,
+   "ending": 1,
+   "file": "1795029785_story_s13_VeuZUuCDy-M_m4.mp4",
+   "taken_by": "B-2026-11-18T19:11:25Z"
+  },
+  {
+   "slot": 13,
+   "build": 0,
+   "ending": 1,
+   "file": "1795031423_story_s10_gKM0ONyDmV4_m7.mp4",
+   "taken_by": "A-2026-11-18T19:41:54Z"
+  },
+  {
+   "slot": 14,
+   "build": 0,
+   "ending": 0,
+   "file": "1795111239_story_s12_VeuZUuCDy-M_m3.mp4",
+   "taken_by": "A-2026-11-19T17:34:37Z"
+  },
+  {
+   "slot": 15,
+   "build": 1,
+   "ending": 0,
+   "file": "1795111500_story_s11_kQoSHBH_y9c_m6.mp4",
+   "taken_by": "B-2026-11-19T17:35:24Z"
+  },
+  {
+   "slot": 16,
+   "build": 1,
+   "ending": 1,
+   "file": "1795110728_story_s12_L8p5gnqtTTY_m1.mp4",
+   "taken_by": "A-2026-11-19T17:40:43Z"
+  },
+  {
+   "slot": 17,
+   "build": 1,
+   "ending": 1,
+   "file": "1795112061_story_s11_L8p5gnqtTTY_m2.mp4",
+   "taken_by": "A-2026-11-19T18:02:16Z"
+  },
+  {
+   "slot": 18,
+   "build": 0,
+   "ending": 0,
+   "file": "1795112207_story_s8_kQoSHBH_y9c_m5.mp4",
+   "taken_by": "B-2026-11-19T18:10:35Z"
+  },
+  {
+   "slot": 19,
+   "build": 1,
+   "ending": 0,
+   "file": "1795112632_story_s10_VeuZUuCDy-M_m6.mp4",
+   "taken_by": "B-2026-11-19T18:12:14Z"
+  },
+  {
+   "slot": 20,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": "A-2026-11-19T18:43:29Z"
+  },
+  {
+   "slot": 21,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 22,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 23,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 24,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 25,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 26,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 27,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 28,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 29,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 30,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 31,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 32,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 33,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 34,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 35,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 36,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 37,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 38,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 39,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 40,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 41,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 42,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 43,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 44,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 45,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 46,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 47,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 48,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 49,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 50,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 51,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 52,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 53,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 54,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 55,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 56,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 57,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 58,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 59,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 60,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 61,
+   "build": 0,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 62,
+   "build": 1,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 63,
+   "build": 0,
+   "ending": 1,
+   "file": null,
+   "taken_by": null
+  },
+  {
+   "slot": 64,
+   "build": 1,
+   "ending": 0,
+   "file": null,
+   "taken_by": null
+  }
+ ]
 }
