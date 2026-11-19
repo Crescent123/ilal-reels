@@ -875,12 +875,16 @@
    },
    {
     "k": 2,
-    "start": 382.76,
-    "end": 427.64,
+    "start": 380.5,
+    "end": 427.66,
     "type": "secret",
-    "score": 8,
+    "score": 11,
     "hook": "الواليدين دخلو وأنا فاللايف",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-19",
+    "file": "1795112061_story_s11_L8p5gnqtTTY_m2.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 17 (build 1, ending 1): parents come home mid-live, she hides it; reveal inside = 6000 DH in 2 h; closes on no longer asking parents for money. Skipped the gift/outfit part (366-380) on purpose."
    },
    {
     "k": 3,
@@ -937,8 +941,7 @@
     "status": "skip",
     "why": "violence / heavy (T3=0)"
    }
-  ],
-  "reserved": "2026-11-19T18:02:16Z"
+  ]
  },
  "kQoSHBH_y9c": {
   "mined": "2026-11-19",
