@@ -989,12 +989,15 @@
    },
    {
     "k": 5,
-    "start": 954.34,
-    "end": 995.0,
+    "start": 949.82,
+    "end": 994.9,
     "type": "twist",
-    "score": 5,
+    "score": 8,
     "hook": "شنو شفت عند طبيب النفس؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-19",
+    "file": "1795112207_story_s8_kQoSHBH_y9c_m5.mp4",
+    "maker": "B"
    },
    {
     "k": 6,
@@ -1027,7 +1030,6 @@
     "hook": "واش نكمل فالكتابة؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-19T18:10:35Z"
+  ]
  }
 }
