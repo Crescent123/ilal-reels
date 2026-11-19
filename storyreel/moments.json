@@ -1017,12 +1017,15 @@
    {
     "k": 7,
     "start": 1304.1,
-    "end": 1356.2,
+    "end": 1354.44,
     "type": "twist",
-    "score": 8,
-    "hook": "صاحبتي كانت كتكتب بالذكاء الاصطناعي",
-    "status": "todo",
-    "note": "reveal of m6 (ChatGPT) + she blocks him + he finishes alone; suits ending arm 1"
+    "score": 12,
+    "hook": "صاحبتي كتكتب روايتنا بالذكاء الاصطناعي؟",
+    "status": "queued",
+    "note": "exp1 slot 21 (build 1, ending 1): reveal (ChatGPT + she blocks him) inside, his take 'she only did good' + he finishes the novel alone; ends before 'nothing sold' (m8)",
+    "date": "2026-11-19",
+    "file": "1795116105_story_s12_kQoSHBH_y9c_m7.mp4",
+    "maker": "B"
    },
    {
     "k": 8,
@@ -1037,7 +1040,6 @@
     "maker": "A",
     "note": "ending arm 1: sales reveal (1 copy -> 192, 5000 DH) + take 'all because of her block' + debate 'should I keep writing?'"
    }
-  ],
-  "reserved": "2026-11-19T19:10:53Z"
+  ]
  }
 }
