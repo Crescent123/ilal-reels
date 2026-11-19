@@ -1,1038 +1,1039 @@
 {
- "7dd81A4zfu4": {
-  "mined": "2026-11-16",
-  "moments": [
-   {
-    "k": 1,
-    "start": 408.34,
-    "end": 457.22,
-    "type": "secret",
-    "score": 9,
-    "hook": "شنو بغات مرات خويا فالليل؟",
-    "status": "queued",
-    "date": "2026-11-15",
-    "file": "1794797482_story_s9_7dd81A4zfu4_m1.mp4"
-   },
-   {
-    "k": 2,
-    "start": 558.12,
-    "end": 599.66,
-    "type": "secret",
-    "score": 8,
-    "hook": "مرات خويا بقات معايا بوحدنا؟",
-    "status": "queued",
-    "date": "2026-11-15",
-    "file": "1794798962_story_s8_7dd81A4zfu4_m2.mp4"
-   },
-   {
-    "k": 3,
-    "start": 689.85,
-    "end": 736.68,
-    "type": "twist",
-    "score": 8,
-    "hook": "شنو بغات مرات خويا فبيتي؟",
-    "status": "queued",
-    "date": "2026-11-15",
-    "file": "1794802804_story_s8_7dd81A4zfu4_m3.mp4"
-   },
-   {
-    "k": 4,
-    "start": 742.15,
-    "end": 783.47,
-    "type": "conflict",
-    "score": 8,
-    "hook": "علاش خويا كيصورني؟",
-    "status": "queued",
-    "date": "2026-11-15",
-    "file": "1794800866_story_s8_7dd81A4zfu4_m4.mp4"
-   },
-   {
-    "k": 5,
-    "start": 846.7,
-    "end": 886.4,
-    "type": "secret",
-    "score": 7,
-    "hook": "شكون خرج من بيت مرات خويا؟",
-    "status": "queued",
-    "date": "2026-11-15",
-    "file": "1794804565_story_s7_7dd81A4zfu4_m5.mp4"
-   },
-   {
-    "k": 6,
-    "start": 934.2,
-    "end": 976.0,
-    "type": "take",
-    "score": 6,
-    "hook": "الولد يبقى مع مو ولا باه؟",
-    "status": "skip"
-   }
-  ]
- },
- "JKNbzIL9GsE": {
-  "mined": "2026-11-16",
-  "moments": [
-   {
-    "k": 1,
-    "start": 373.9,
-    "end": 409.3,
-    "type": "secret",
-    "score": 7,
-    "hook": "علاش بغات تكري بوحدها؟",
-    "status": "queued",
-    "note": "new tenant lady visits the flat, he wonders why she wants to rent alone (ends before: divorced). Approx times; may overlap the first clip (unknown position) | made: 373.9-409.3, ends on \"she laughed and told me\" before the divorce reveal",
-    "date": "2026-11-16",
-    "file": "1794840487_story_s7_JKNbzIL9GsE_m1.mp4"
-   },
-   {
-    "k": 2,
-    "start": 944.75,
-    "end": 985.1,
-    "type": "twist",
-    "score": 7,
-    "hook": "شنو بغات توريني الجارة؟",
-    "status": "queued",
-    "note": "he goes up to thank the neighbour for the job; she opens in pajamas and a towel, 'come in, I'll show you something you need to know'",
-    "date": "2026-11-16",
-    "file": "1794839169_story_s7_JKNbzIL9GsE_m2.mp4"
-   },
-   {
-    "k": 3,
-    "start": 1042.2,
-    "end": 1078.3,
-    "type": "conflict",
-    "score": 6,
-    "hook": "ماما دقات على الجارة",
-    "status": "skip",
-    "note": "mom knocks while he is at the neighbour's; narrator-caught + sexual context"
-   },
-   {
-    "k": 4,
-    "start": 1305.0,
-    "end": 1356.0,
-    "type": "conflict",
-    "score": 6,
-    "hook": "علاش ولات كتجاهلني؟",
-    "status": "skip",
-    "note": "at work she ignores him, then says keep it professional (romance drama)"
-   },
-   {
-    "k": 5,
-    "start": 1177.0,
-    "end": 1255.0,
-    "type": "take",
-    "score": 6,
-    "hook": "واش الدريات كيسلمو بالوجه؟",
-    "status": "skip",
-    "note": "Hilal's take on cheek-kiss greetings at work, debate question; too generic"
-   },
-   {
-    "k": 6,
-    "start": 1508.0,
-    "end": 1560.0,
-    "type": "conflict",
-    "score": 6,
-    "hook": "ماما شافتني مع الجارة فالدروج",
-    "status": "skip",
-    "note": "mom sees them close on the stairs and questions him about her (narrator at risk)"
-   },
-   {
-    "k": 7,
-    "start": 1610.0,
-    "end": 1660.0,
-    "type": "take",
-    "score": 6,
-    "hook": "واش نرجع ليها؟",
-    "status": "skip",
-    "note": "can they get back together, debate question"
-   }
-  ]
- },
- "s-gDstpbBGM": {
-  "maker": "B",
-  "mined": "2026-11-16",
-  "moments": [
-   {
-    "k": 1,
-    "start": 264.86,
-    "end": 313.74,
-    "type": "conflict",
-    "score": 8,
-    "hook": "شنو دارت مرت خويا لماما؟",
-    "status": "queued",
-    "note": "family gathering: brother's foul-mouthed wife yells at mom and nearly hits her, brother bows his head and does nothing; ends before the frying pan/cleaver part | made: 264.8-313.8",
-    "date": "2026-11-16",
-    "file": "1794842727_story_s8_s-gDstpbBGM_m1.mp4"
-   },
-   {
-    "k": 2,
-    "start": 455.0,
-    "end": 502.0,
-    "type": "twist",
-    "score": 7,
-    "hook": "بابا خطب ليا بنت ما شفتهاش",
-    "status": "queued",
-    "note": "dad sends him to propose to Hajj Mohamed's daughter he never saw, 150 DH suits, she comes out polite; dad lectures her. Approx times | made by A: pieces [[421.2,463.52],[477.8,482.84]] (dad: you must marry -> son laughs -> dad sends him to propose to the Hajj's daughter he never saw -> cheap suits; dropped the Arubia suit banter 463.5-477.8) -> ends on \"he brought his daughter in front of us\" before her looks",
-    "date": "2026-11-17",
-    "file": "1794927049_story_s7_s-gDstpbBGM_m2.mp4"
-   },
-   {
-    "k": 3,
-    "start": 664.0,
-    "end": 705.3,
-    "type": "secret",
-    "score": 7,
-    "hook": "شنو بغات مني مرت خويا؟",
-    "status": "queued",
-    "note": "brother's wife cries on his shoulder then starts flirting; ends on 'what is wrong with her' before her confession. Approx times; may overlap the first clip (position unknown); avoid the hashish/alcohol line before 662 | made by A: 664.0-705.3 (crying -> hug -> flirting -> 'what's wrong with her'), no alcohol lines",
-    "date": "2026-11-16",
-    "file": "1794844253_story_s7_s-gDstpbBGM_m3.mp4"
-   },
-   {
-    "k": 4,
-    "start": 745.0,
-    "end": 776.0,
-    "type": "conflict",
-    "score": 5,
-    "hook": "مرت خويا شكات بيا",
-    "status": "skip",
-    "note": "false rape accusation, police, prison (crime cap)"
-   },
-   {
-    "k": 5,
-    "start": 906.5,
-    "end": 917.0,
-    "type": "advice",
-    "score": 5,
-    "hook": "اختار مزيان شكون تزوج",
-    "status": "skip",
-    "note": "too short / generic"
-   }
-  ]
- },
- "R81K3EPbTZ4": {
-  "maker": "B",
-  "mined": "2026-11-16",
-  "moments": [
-   {
-    "k": 1,
-    "start": 248.68,
-    "end": 279.74,
-    "type": "twist",
-    "score": 7,
-    "hook": "علاش السيدة كتصيفط ليا بنتها؟",
-    "status": "queued",
-    "note": "the landlady starts sending her shy daughter down with his food, she can't take her eyes off him; he realises the lady is matchmaking. Ends before he leaves the town | made by A: 244.50-279.80, 35.6 s, title \"علاش السيدة كتصيفط ليا بنتها؟\"",
-    "date": "2026-11-16",
-    "file": "1794847622_story_s7_R81K3EPbTZ4_m1.mp4"
-   },
-   {
-    "k": 2,
-    "start": 377.72,
-    "end": 442.1,
-    "type": "twist",
-    "score": 8,
-    "hook": "شنو دارت ماما ملي شافت البنت؟",
-    "status": "queued",
-    "note": "pieces 377.72-389.52 + 408.30-442.10 (drops a garbled joke about her body): the lady and daughter visit, mom falls for the girl, asks her hand for her son; ends on 'I still don't even have her number' | made: 377.72-389.52 + 408.30-442.10, 46 s",
-    "date": "2026-11-16",
-    "file": "1794846300_story_s8_R81K3EPbTZ4_m2.mp4"
-   },
-   {
-    "k": 3,
-    "start": 457.2,
-    "end": 487.18,
-    "type": "take",
-    "score": 6,
-    "hook": "دار كاملة ولا أبارتمون؟",
-    "status": "skip",
-    "note": "Hilal's house-vs-flat debate question; generic"
-   },
-   {
-    "k": 4,
-    "start": 761.7,
-    "end": 834.5,
-    "type": "secret",
-    "score": 6,
-    "hook": "شنو كانت كدير مرتي فالليل؟",
-    "status": "skip",
-    "note": "back from the Sahara, his sister blurts out that the wife talks on the phone till 6am; partner trust (6)"
-   },
-   {
-    "k": 5,
-    "start": 533.8,
-    "end": 560.0,
-    "type": "twist",
-    "score": 5,
-    "hook": "ليلة الدخلة",
-    "status": "skip",
-    "note": "wedding night virginity confession (sexual)"
-   },
-   {
-    "k": 6,
-    "start": 967.7,
-    "end": 1016.0,
-    "type": "secret",
-    "score": 5,
-    "hook": "شنو لقيت فتيليفون مرتي؟",
-    "status": "skip",
-    "note": "sexual videos (hard skip)"
-   },
-   {
-    "k": 7,
-    "start": 1135.5,
-    "end": 1157.5,
-    "type": "conflict",
-    "score": 5,
-    "hook": "ختي باست ليا رجلي",
-    "status": "skip",
-    "note": "sister stops him from killing the wife (violence)"
-   }
-  ]
- },
- "gKM0ONyDmV4": {
-  "mined": "2026-11-16",
-  "moments": [
-   {
-    "k": 1,
-    "start": 978.05,
-    "end": 1022.65,
-    "type": "secret",
-    "score": 9,
-    "hook": "بابا كيعرف خطيبتي؟",
-    "status": "queued",
-    "date": "2026-11-16",
-    "file": "1794849947_story_s9_gKM0ONyDmV4_m1.mp4"
-   },
-   {
-    "k": 2,
-    "start": 911.3,
-    "end": 957.3,
-    "type": "secret",
-    "score": 8,
-    "hook": "علاش بابا تصدم من صورتها؟",
-    "status": "queued",
-    "date": "2026-11-16",
-    "file": "1794851300_story_s8_gKM0ONyDmV4_m2.mp4"
-   },
-   {
-    "k": 3,
-    "start": 1022.62,
-    "end": 1053.66,
-    "type": "conflict",
-    "score": 8,
-    "hook": "علاش بابا خرجنا من الخطبة؟",
-    "status": "queued",
-    "date": "2026-11-16",
-    "file": "1794871450_story_s8_gKM0ONyDmV4_m3.mp4"
-   },
-   {
-    "k": 4,
-    "start": 789.3,
-    "end": 828.02,
-    "type": "twist",
-    "score": 7,
-    "hook": "طحت فيها من أول نهار فالخدمة",
-    "status": "queued",
-    "date": "2026-11-17",
-    "file": "1794932621_story_s7_gKM0ONyDmV4_m4.mp4"
-   },
-   {
-    "k": 5,
-    "start": 283.95,
-    "end": 333.45,
-    "type": "twist",
-    "score": 6,
-    "hook": "علاش الخدامة كيشوفو فيا هكا؟",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795012544_story_s9_gKM0ONyDmV4_m5.mp4"
-   },
-   {
-    "k": 6,
-    "start": 1106.0,
-    "end": 1150.0,
-    "type": "take",
-    "score": 6,
-    "hook": "واش الوالدين كيعرفو كتر منا؟",
-    "status": "todo"
-   },
-   {
-    "k": 7,
-    "start": 1050.86,
-    "end": 1100.8,
-    "type": "secret",
-    "score": 10,
-    "hook": "بابا كيعرف خطيبتي منين؟",
-    "status": "queued",
-    "maker": "A",
-    "note": "reveal (dad knows her from a bar) + Hilal's close; starts 4 s before m3's end",
-    "date": "2026-11-18",
-    "file": "1795031423_story_s10_gKM0ONyDmV4_m7.mp4"
-   }
-  ]
- },
- "YA-w9mM73fI": {
-  "mined": "2026-11-16",
-  "moments": [
-   {
-    "k": 1,
-    "start": 396.3,
-    "end": 450.5,
-    "type": "conflict",
-    "score": 5,
-    "hook": "شنو دارت ليها مرت باباها؟",
-    "status": "skip",
-    "note": "stepmother frames her for stealing gold, dad beats her / nearly kills her (violence cap) — rescored by A"
-   },
-   {
-    "k": 2,
-    "start": 468.05,
-    "end": 516.85,
-    "type": "twist",
-    "score": 7,
-    "hook": "علاش ماما بغاتني نتزوجها؟",
-    "status": "queued",
-    "date": "2026-11-17",
-    "file": "1794930545_story_s7_YA-w9mM73fI_m2.mp4",
-    "note": "made by A: 468.05-516.85 (called mom: girl has nowhere to sleep -> mom takes her in, salon -> a month passes, brothers tease -> mom: one girl and five bachelors, marry her and spare me); ends before his answer. Whisper skipped 477.5-507.7 in the full transcript, gap transcribed separately"
-   },
-   {
-    "k": 3,
-    "start": 556.3,
-    "end": 612.7,
-    "type": "conflict",
-    "score": 6,
-    "hook": "صاحبتي القديمة جرات عليا فالتيليفون",
-    "status": "skip"
-   },
-   {
-    "k": 4,
-    "start": 657.5,
-    "end": 692.9,
-    "type": "secret",
-    "score": 5,
-    "hook": "(sensitive childhood abuse confession)",
-    "status": "skip"
-   },
-   {
-    "k": 5,
-    "start": 715.7,
-    "end": 784.4,
-    "type": "secret",
-    "score": 8,
-    "hook": "شنو كانت كتكتب مراتي فالدفتر؟",
-    "status": "queued",
-    "pieces": [
-     [
-      722.05,
-      731.25
-     ],
-     [
-      763.35,
-      784.5
-     ]
-    ],
-    "date": "2026-11-16",
-    "file": "1794872975_story_s8_YA-w9mM73fI_m5.mp4",
-    "note": "made by A: something odd about wife -> kind/helps mom -> (comment plug dropped) -> always writing in notebook \"secrets of my life\" -> friend: crazy -> one night took notebook; ends before what she wrote"
-   },
-   {
-    "k": 6,
-    "start": 1081.2,
-    "end": 1112.7,
-    "type": "conflict",
-    "score": 6,
-    "hook": "مراتي تبدلات عليا",
-    "status": "skip"
-   },
-   {
-    "k": 7,
-    "start": 1268.95,
-    "end": 1315.5,
-    "type": "secret",
-    "score": 7,
-    "hook": "شكون هاد البنت اللي جابت مراتي؟",
-    "status": "queued",
-    "date": "2026-11-17",
-    "file": "1794925405_story_s7_YA-w9mM73fI_m7.mp4",
-    "note": "made by B: wife brings her \"little sister\" who looks nothing like her, narrator never met her family; brat glares, cuts his clothes, wife defends her; ends before who the girl really is"
-   },
-   {
-    "k": 8,
-    "start": 1338.8,
-    "end": 1400.0,
-    "type": "secret",
-    "score": 6,
-    "hook": "مراتي ما بقاتش كتمشي للخدمة",
-    "status": "skip"
-   },
-   {
-    "k": 9,
-    "start": 1450.88,
-    "end": 1500.52,
-    "type": "secret",
-    "score": 7,
-    "hook": "شنو كتخبي عائلة مراتي؟",
-    "status": "queued",
-    "date": "2026-11-17",
-    "file": "1794928803_story_s7_YA-w9mM73fI_m9.mp4",
-    "note": "made by B: realises he married someone he knows nothing about -> meets her aunts, they act uneasy, mom suspicious -> anonymous SMS from wife's family \"do you know...\" ; ends before the reveal"
-   },
-   {
-    "k": 10,
-    "start": 1743.2,
-    "end": 1770.0,
-    "type": "take",
-    "score": 6,
-    "hook": "واش الزواج مكتوب؟",
-    "status": "skip"
-   }
-  ]
- },
- "lCzehIOldVQ": {
-  "mined": "2026-11-17",
-  "note": "earlier clip 343.95-393.85 (pajamas in kitchen)",
-  "moments": [
-   {
-    "k": 1,
-    "start": 207.0,
-    "end": 258.0,
-    "type": "conflict",
-    "score": 6,
-    "hook": "عطاو بيتي لبنت خالتي",
-    "status": "skip"
-   },
-   {
-    "k": 2,
-    "start": 292.08,
-    "end": 338.8,
-    "type": "secret",
-    "score": 8,
-    "hook": "شنو تبدل فبنت خالتي المحجبة؟",
-    "status": "queued",
-    "date": "2026-11-17",
-    "file": "1794935684_story_s8_lCzehIOldVQ_m2.mp4"
-   },
-   {
-    "k": 3,
-    "start": 541.0,
-    "end": 644.0,
-    "type": "secret",
-    "score": 6,
-    "hook": "بقينا بوحدنا فالدار",
-    "status": "skip",
-    "note": "narrator's own wrongdoing"
-   },
-   {
-    "k": 4,
-    "start": 938.0,
-    "end": 1014.0,
-    "type": "conflict",
-    "score": 5,
-    "hook": "بنت خالتي تهمتني قدام ماما",
-    "status": "skip",
-    "note": "false assault accusation, sensitive"
-   },
-   {
-    "k": 5,
-    "start": 1040.0,
-    "end": 1092.0,
-    "type": "conflict",
-    "score": 5,
-    "hook": "بابا ما تيقش فيا",
-    "status": "skip",
-    "note": "father beats him, violence"
-   },
-   {
-    "k": 6,
-    "start": 1225.7,
-    "end": 1266.1,
-    "type": "twist",
-    "score": 7,
-    "hook": "شنو خطة عمي ضد بنت خالتي؟",
-    "status": "queued",
-    "note": "uncle wakes him at 3am with the recording plan; avoid joint mention before 1221",
-    "date": "2026-11-17",
-    "file": "1794938532_story_s7_lCzehIOldVQ_m6.mp4"
-   },
-   {
-    "k": 7,
-    "start": 1298.0,
-    "end": 1352.0,
-    "type": "twist",
-    "score": 6,
-    "hook": "بنت خالتي اعترفات",
-    "status": "skip",
-    "note": "gives away the reveal"
-   },
-   {
-    "k": 8,
-    "start": 1352.0,
-    "end": 1403.0,
-    "type": "twist",
-    "score": 6,
-    "hook": "ماما طلبات مني السماح",
-    "status": "skip"
-   },
-   {
-    "k": 9,
-    "start": 1480.0,
-    "end": 1532.0,
-    "type": "take",
-    "score": 6,
-    "hook": "شنو كنتي غتدير بلاصتي؟",
-    "status": "skip"
-   }
-  ]
- },
- "fetOcS0fBSg": {
-  "mined": "2026-11-17",
-  "note": "Whisper lost 1384-1634 (unknown audio); earlier clip location unknown; 19 Nov re-transcribe: Whisper looped/garbled 900-1440 too (m2 needs a clean transcript of that span)",
-  "moments": [
-   {
-    "k": 1,
-    "start": 395.25,
-    "end": 444.0,
-    "type": "conflict",
-    "score": 9,
-    "hook": "شنو دار ليا الأستاذ قدام القسم؟",
-    "status": "queued",
-    "date": "2026-11-17",
-    "file": "1794977302_story_s9_fetOcS0fBSg_m1.mp4"
-   },
-   {
-    "k": 2,
-    "start": 1084.64,
-    "end": 1137.22,
-    "type": "twist",
-    "score": 6,
-    "hook": "دافعت على بنت فالزنقة",
-    "status": "todo"
-   },
-   {
-    "k": 3,
-    "start": 1269.3,
-    "end": 1314.25,
-    "type": "twist",
-    "score": 7,
-    "hook": "كنتمتم وبغيت نعرض عليها",
-    "status": "queued",
-    "date": "2026-11-17",
-    "file": "1794941510_story_s7_fetOcS0fBSg_m3.mp4"
-   },
-   {
-    "k": 4,
-    "start": 1637.98,
-    "end": 1676.4,
-    "type": "secret",
-    "score": 8,
-    "hook": "شنو وقع بين ماما ومراتي؟",
-    "status": "queued",
-    "date": "2026-11-17",
-    "file": "1794936449_story_s8_fetOcS0fBSg_m4.mp4"
-   },
-   {
-    "k": 5,
-    "start": 1684.22,
-    "end": 1734.42,
-    "type": "secret",
-    "score": 7,
-    "hook": "شنو كانت كدير جدة مراتي؟",
-    "status": "queued",
-    "date": "2026-11-17",
-    "file": "1794939716_story_s7_fetOcS0fBSg_m5.mp4"
-   },
-   {
-    "k": 6,
-    "start": 1845.66,
-    "end": 1880.56,
-    "type": "conflict",
-    "score": 6,
-    "hook": "واجهت مراتي بالحجابات",
-    "status": "todo"
-   },
-   {
-    "k": 7,
-    "start": 1910.82,
-    "end": 1960.42,
-    "type": "take",
-    "score": 6,
-    "hook": "واش خاصك تاخد وقتك قبل الزواج؟",
-    "status": "todo"
-   }
-  ],
-  "maker": "A"
- },
- "n1Y5rhFeQ9s": {
-  "maker": "A",
-  "mined": "2026-11-18",
-  "note": "earlier clip (30 Oct) location unknown, assumed first 90 s",
-  "moments": [
-   {
-    "k": 1,
-    "start": 994.1,
-    "end": 1039.98,
-    "type": "secret",
-    "score": 13,
-    "hook": "شنو خبات مراتي فهاد الوراق؟",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795013913_story_s13_n1Y5rhFeQ9s_m1.mp4"
-   },
-   {
-    "k": 2,
-    "start": 572.75,
-    "end": 619.36,
-    "type": "conflict",
-    "score": 13,
-    "hook": "خواتاتي بغاو مراتي تخدم الوالدين",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795018947_story_s13_n1Y5rhFeQ9s_m2.mp4",
-    "maker": "B"
-   },
-   {
-    "k": 3,
-    "start": 690.56,
-    "end": 741.5,
-    "type": "conflict",
-    "score": 8,
-    "hook": "مراتي خدامة وما كتطيبش الغدا",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795024520_story_s12_n1Y5rhFeQ9s_m3.mp4",
-    "maker": "A"
-   },
-   {
-    "k": 4,
-    "start": 1111.25,
-    "end": 1160.45,
-    "type": "secret",
-    "score": 10,
-    "hook": "مراتي كتشفر ليا من البزطام",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795015120_story_s11_n1Y5rhFeQ9s_m4.mp4",
-    "maker": "B"
-   },
-   {
-    "k": 5,
-    "start": 1172.6,
-    "end": 1217.8,
-    "type": "twist",
-    "score": 11,
-    "hook": "مراتي طلبات 5000 درهم قبل العرس",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795016946_story_s11_n1Y5rhFeQ9s_m5.mp4",
-    "maker": "A"
-   },
-   {
-    "k": 6,
-    "start": 1220.58,
-    "end": 1271.13,
-    "type": "twist",
-    "score": 9,
-    "hook": "شنو الحيلة اللي درت لمراتي؟",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795022329_story_s9_n1Y5rhFeQ9s_m6.mp4",
-    "maker": "B"
-   },
-   {
-    "k": 7,
-    "start": 1321.95,
-    "end": 1372.45,
-    "type": "twist",
-    "score": 12,
-    "hook": "شكون صيفط ليا تصاور طليقتي؟",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795021100_story_s12_n1Y5rhFeQ9s_m7.mp4",
-    "maker": "A"
-   },
-   {
-    "k": 8,
-    "start": 1404.78,
-    "end": 1443.46,
-    "type": "take",
-    "score": 10,
-    "hook": "واش الموظفة كتصلح للزواج؟",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795027632_story_s10_n1Y5rhFeQ9s_m8.mp4",
-    "maker": "A"
-   }
-  ]
- },
- "VeuZUuCDy-M": {
-  "mined": "2026-11-18",
-  "maker": "B",
-  "note": "earlier clip 152.1-185.5 (McDo / tuna bocadillo). 1300-1420 is set in the Emirates (skip). Whisper text is rough.",
-  "moments": [
-   {
-    "k": 1,
-    "start": 1254.6,
-    "end": 1301.35,
-    "type": "conflict",
-    "score": 13,
-    "hook": "بابا غيجريني من الدار؟",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795028095_story_s13_VeuZUuCDy-M_m1.mp4",
-    "maker": "B"
-   },
-   {
-    "k": 2,
-    "start": 186.0,
-    "end": 232.0,
-    "type": "secret",
-    "score": 0,
-    "hook": "بابا كان كيكذب علينا بماكدو",
-    "status": "skip",
-    "why": "reveal of the earlier clip, needs it"
-   },
-   {
-    "k": 3,
-    "start": 553.0,
-    "end": 602.35,
-    "type": "twist",
-    "score": 12,
-    "hook": "ولد الحومة عندو ستوديو فالسطح",
-    "status": "queued",
-    "date": "2026-11-19",
-    "file": "1795111239_story_s12_VeuZUuCDy-M_m3.mp4",
-    "maker": "A"
-   },
-   {
-    "k": 4,
-    "start": 668.98,
-    "end": 709.06,
-    "type": "twist",
-    "score": 13,
-    "hook": "خفت نسلم على مول الستوديو",
-    "status": "queued",
-    "date": "2026-11-18",
-    "file": "1795029785_story_s13_VeuZUuCDy-M_m4.mp4",
-    "maker": "B"
-   },
-   {
-    "k": 5,
-    "start": 1140.0,
-    "end": 1180.0,
-    "type": "take",
-    "score": 6,
-    "hook": "واش الوالدين كيتسيفو عليك؟",
-    "status": "todo"
-   },
-   {
-    "k": 6,
-    "start": 951.4,
-    "end": 1000.42,
-    "type": "conflict",
-    "score": 10,
-    "hook": "مع من ولات صاحبتي فسطات؟",
-    "status": "queued",
-    "date": "2026-11-19",
-    "file": "1795112632_story_s10_VeuZUuCDy-M_m6.mp4",
+  "7dd81A4zfu4": {
+    "mined": "2026-11-16",
+    "moments": [
+      {
+        "k": 1,
+        "start": 408.34,
+        "end": 457.22,
+        "type": "secret",
+        "score": 9,
+        "hook": "شنو بغات مرات خويا فالليل؟",
+        "status": "queued",
+        "date": "2026-11-15",
+        "file": "1794797482_story_s9_7dd81A4zfu4_m1.mp4"
+      },
+      {
+        "k": 2,
+        "start": 558.12,
+        "end": 599.66,
+        "type": "secret",
+        "score": 8,
+        "hook": "مرات خويا بقات معايا بوحدنا؟",
+        "status": "queued",
+        "date": "2026-11-15",
+        "file": "1794798962_story_s8_7dd81A4zfu4_m2.mp4"
+      },
+      {
+        "k": 3,
+        "start": 689.85,
+        "end": 736.68,
+        "type": "twist",
+        "score": 8,
+        "hook": "شنو بغات مرات خويا فبيتي؟",
+        "status": "queued",
+        "date": "2026-11-15",
+        "file": "1794802804_story_s8_7dd81A4zfu4_m3.mp4"
+      },
+      {
+        "k": 4,
+        "start": 742.15,
+        "end": 783.47,
+        "type": "conflict",
+        "score": 8,
+        "hook": "علاش خويا كيصورني؟",
+        "status": "queued",
+        "date": "2026-11-15",
+        "file": "1794800866_story_s8_7dd81A4zfu4_m4.mp4"
+      },
+      {
+        "k": 5,
+        "start": 846.7,
+        "end": 886.4,
+        "type": "secret",
+        "score": 7,
+        "hook": "شكون خرج من بيت مرات خويا؟",
+        "status": "queued",
+        "date": "2026-11-15",
+        "file": "1794804565_story_s7_7dd81A4zfu4_m5.mp4"
+      },
+      {
+        "k": 6,
+        "start": 934.2,
+        "end": 976.0,
+        "type": "take",
+        "score": 6,
+        "hook": "الولد يبقى مع مو ولا باه؟",
+        "status": "skip"
+      }
+    ]
+  },
+  "JKNbzIL9GsE": {
+    "mined": "2026-11-16",
+    "moments": [
+      {
+        "k": 1,
+        "start": 373.9,
+        "end": 409.3,
+        "type": "secret",
+        "score": 7,
+        "hook": "علاش بغات تكري بوحدها؟",
+        "status": "queued",
+        "note": "new tenant lady visits the flat, he wonders why she wants to rent alone (ends before: divorced). Approx times; may overlap the first clip (unknown position) | made: 373.9-409.3, ends on \"she laughed and told me\" before the divorce reveal",
+        "date": "2026-11-16",
+        "file": "1794840487_story_s7_JKNbzIL9GsE_m1.mp4"
+      },
+      {
+        "k": 2,
+        "start": 944.75,
+        "end": 985.1,
+        "type": "twist",
+        "score": 7,
+        "hook": "شنو بغات توريني الجارة؟",
+        "status": "queued",
+        "note": "he goes up to thank the neighbour for the job; she opens in pajamas and a towel, 'come in, I'll show you something you need to know'",
+        "date": "2026-11-16",
+        "file": "1794839169_story_s7_JKNbzIL9GsE_m2.mp4"
+      },
+      {
+        "k": 3,
+        "start": 1042.2,
+        "end": 1078.3,
+        "type": "conflict",
+        "score": 6,
+        "hook": "ماما دقات على الجارة",
+        "status": "skip",
+        "note": "mom knocks while he is at the neighbour's; narrator-caught + sexual context"
+      },
+      {
+        "k": 4,
+        "start": 1305.0,
+        "end": 1356.0,
+        "type": "conflict",
+        "score": 6,
+        "hook": "علاش ولات كتجاهلني؟",
+        "status": "skip",
+        "note": "at work she ignores him, then says keep it professional (romance drama)"
+      },
+      {
+        "k": 5,
+        "start": 1177.0,
+        "end": 1255.0,
+        "type": "take",
+        "score": 6,
+        "hook": "واش الدريات كيسلمو بالوجه؟",
+        "status": "skip",
+        "note": "Hilal's take on cheek-kiss greetings at work, debate question; too generic"
+      },
+      {
+        "k": 6,
+        "start": 1508.0,
+        "end": 1560.0,
+        "type": "conflict",
+        "score": 6,
+        "hook": "ماما شافتني مع الجارة فالدروج",
+        "status": "skip",
+        "note": "mom sees them close on the stairs and questions him about her (narrator at risk)"
+      },
+      {
+        "k": 7,
+        "start": 1610.0,
+        "end": 1660.0,
+        "type": "take",
+        "score": 6,
+        "hook": "واش نرجع ليها؟",
+        "status": "skip",
+        "note": "can they get back together, debate question"
+      }
+    ]
+  },
+  "s-gDstpbBGM": {
     "maker": "B",
-    "note": "girlfriend drifts to new people in Settat, ends before the phone call (exp1 slot 19 build1/end0)"
-   },
-   {
-    "k": 7,
-    "start": 1316.0,
-    "end": 1420.0,
-    "type": "twist",
-    "score": 0,
-    "hook": "خدمة فالإمارات",
-    "status": "skip",
-    "why": "set abroad"
-   },
-   {
-    "k": 8,
-    "start": 1620.0,
-    "end": 1665.0,
-    "type": "take",
-    "score": 5,
-    "hook": "واش تبع الحلم ديالك؟",
-    "status": "todo"
-   }
-  ]
- },
- "L8p5gnqtTTY": {
-  "mined": "2026-11-19",
-  "note": "first clip (7 Nov, 'بابا غيشوف التيكتوك ديالي؟') = dad's warning ~108-150 s; story = teen TikToker hides lives/money from parents, later an influencer assaults her in his studio (dark, skip)",
-  "moments": [
-   {
-    "k": 1,
-    "start": 435.3,
-    "end": 484.78,
-    "type": "secret",
-    "score": 10,
-    "hook": "شنو شافت ماما فالبنكة ديالي؟",
-    "status": "queued",
-    "date": "2026-11-19",
-    "file": "1795110728_story_s12_L8p5gnqtTTY_m1.mp4",
+    "mined": "2026-11-16",
+    "moments": [
+      {
+        "k": 1,
+        "start": 264.86,
+        "end": 313.74,
+        "type": "conflict",
+        "score": 8,
+        "hook": "شنو دارت مرت خويا لماما؟",
+        "status": "queued",
+        "note": "family gathering: brother's foul-mouthed wife yells at mom and nearly hits her, brother bows his head and does nothing; ends before the frying pan/cleaver part | made: 264.8-313.8",
+        "date": "2026-11-16",
+        "file": "1794842727_story_s8_s-gDstpbBGM_m1.mp4"
+      },
+      {
+        "k": 2,
+        "start": 455.0,
+        "end": 502.0,
+        "type": "twist",
+        "score": 7,
+        "hook": "بابا خطب ليا بنت ما شفتهاش",
+        "status": "queued",
+        "note": "dad sends him to propose to Hajj Mohamed's daughter he never saw, 150 DH suits, she comes out polite; dad lectures her. Approx times | made by A: pieces [[421.2,463.52],[477.8,482.84]] (dad: you must marry -> son laughs -> dad sends him to propose to the Hajj's daughter he never saw -> cheap suits; dropped the Arubia suit banter 463.5-477.8) -> ends on \"he brought his daughter in front of us\" before her looks",
+        "date": "2026-11-17",
+        "file": "1794927049_story_s7_s-gDstpbBGM_m2.mp4"
+      },
+      {
+        "k": 3,
+        "start": 664.0,
+        "end": 705.3,
+        "type": "secret",
+        "score": 7,
+        "hook": "شنو بغات مني مرت خويا؟",
+        "status": "queued",
+        "note": "brother's wife cries on his shoulder then starts flirting; ends on 'what is wrong with her' before her confession. Approx times; may overlap the first clip (position unknown); avoid the hashish/alcohol line before 662 | made by A: 664.0-705.3 (crying -> hug -> flirting -> 'what's wrong with her'), no alcohol lines",
+        "date": "2026-11-16",
+        "file": "1794844253_story_s7_s-gDstpbBGM_m3.mp4"
+      },
+      {
+        "k": 4,
+        "start": 745.0,
+        "end": 776.0,
+        "type": "conflict",
+        "score": 5,
+        "hook": "مرت خويا شكات بيا",
+        "status": "skip",
+        "note": "false rape accusation, police, prison (crime cap)"
+      },
+      {
+        "k": 5,
+        "start": 906.5,
+        "end": 917.0,
+        "type": "advice",
+        "score": 5,
+        "hook": "اختار مزيان شكون تزوج",
+        "status": "skip",
+        "note": "too short / generic"
+      }
+    ]
+  },
+  "R81K3EPbTZ4": {
+    "maker": "B",
+    "mined": "2026-11-16",
+    "moments": [
+      {
+        "k": 1,
+        "start": 248.68,
+        "end": 279.74,
+        "type": "twist",
+        "score": 7,
+        "hook": "علاش السيدة كتصيفط ليا بنتها؟",
+        "status": "queued",
+        "note": "the landlady starts sending her shy daughter down with his food, she can't take her eyes off him; he realises the lady is matchmaking. Ends before he leaves the town | made by A: 244.50-279.80, 35.6 s, title \"علاش السيدة كتصيفط ليا بنتها؟\"",
+        "date": "2026-11-16",
+        "file": "1794847622_story_s7_R81K3EPbTZ4_m1.mp4"
+      },
+      {
+        "k": 2,
+        "start": 377.72,
+        "end": 442.1,
+        "type": "twist",
+        "score": 8,
+        "hook": "شنو دارت ماما ملي شافت البنت؟",
+        "status": "queued",
+        "note": "pieces 377.72-389.52 + 408.30-442.10 (drops a garbled joke about her body): the lady and daughter visit, mom falls for the girl, asks her hand for her son; ends on 'I still don't even have her number' | made: 377.72-389.52 + 408.30-442.10, 46 s",
+        "date": "2026-11-16",
+        "file": "1794846300_story_s8_R81K3EPbTZ4_m2.mp4"
+      },
+      {
+        "k": 3,
+        "start": 457.2,
+        "end": 487.18,
+        "type": "take",
+        "score": 6,
+        "hook": "دار كاملة ولا أبارتمون؟",
+        "status": "skip",
+        "note": "Hilal's house-vs-flat debate question; generic"
+      },
+      {
+        "k": 4,
+        "start": 761.7,
+        "end": 834.5,
+        "type": "secret",
+        "score": 6,
+        "hook": "شنو كانت كدير مرتي فالليل؟",
+        "status": "skip",
+        "note": "back from the Sahara, his sister blurts out that the wife talks on the phone till 6am; partner trust (6)"
+      },
+      {
+        "k": 5,
+        "start": 533.8,
+        "end": 560.0,
+        "type": "twist",
+        "score": 5,
+        "hook": "ليلة الدخلة",
+        "status": "skip",
+        "note": "wedding night virginity confession (sexual)"
+      },
+      {
+        "k": 6,
+        "start": 967.7,
+        "end": 1016.0,
+        "type": "secret",
+        "score": 5,
+        "hook": "شنو لقيت فتيليفون مرتي؟",
+        "status": "skip",
+        "note": "sexual videos (hard skip)"
+      },
+      {
+        "k": 7,
+        "start": 1135.5,
+        "end": 1157.5,
+        "type": "conflict",
+        "score": 5,
+        "hook": "ختي باست ليا رجلي",
+        "status": "skip",
+        "note": "sister stops him from killing the wife (violence)"
+      }
+    ]
+  },
+  "gKM0ONyDmV4": {
+    "mined": "2026-11-16",
+    "moments": [
+      {
+        "k": 1,
+        "start": 978.05,
+        "end": 1022.65,
+        "type": "secret",
+        "score": 9,
+        "hook": "بابا كيعرف خطيبتي؟",
+        "status": "queued",
+        "date": "2026-11-16",
+        "file": "1794849947_story_s9_gKM0ONyDmV4_m1.mp4"
+      },
+      {
+        "k": 2,
+        "start": 911.3,
+        "end": 957.3,
+        "type": "secret",
+        "score": 8,
+        "hook": "علاش بابا تصدم من صورتها؟",
+        "status": "queued",
+        "date": "2026-11-16",
+        "file": "1794851300_story_s8_gKM0ONyDmV4_m2.mp4"
+      },
+      {
+        "k": 3,
+        "start": 1022.62,
+        "end": 1053.66,
+        "type": "conflict",
+        "score": 8,
+        "hook": "علاش بابا خرجنا من الخطبة؟",
+        "status": "queued",
+        "date": "2026-11-16",
+        "file": "1794871450_story_s8_gKM0ONyDmV4_m3.mp4"
+      },
+      {
+        "k": 4,
+        "start": 789.3,
+        "end": 828.02,
+        "type": "twist",
+        "score": 7,
+        "hook": "طحت فيها من أول نهار فالخدمة",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794932621_story_s7_gKM0ONyDmV4_m4.mp4"
+      },
+      {
+        "k": 5,
+        "start": 283.95,
+        "end": 333.45,
+        "type": "twist",
+        "score": 6,
+        "hook": "علاش الخدامة كيشوفو فيا هكا؟",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795012544_story_s9_gKM0ONyDmV4_m5.mp4"
+      },
+      {
+        "k": 6,
+        "start": 1106.0,
+        "end": 1150.0,
+        "type": "take",
+        "score": 6,
+        "hook": "واش الوالدين كيعرفو كتر منا؟",
+        "status": "todo"
+      },
+      {
+        "k": 7,
+        "start": 1050.86,
+        "end": 1100.8,
+        "type": "secret",
+        "score": 10,
+        "hook": "بابا كيعرف خطيبتي منين؟",
+        "status": "queued",
+        "maker": "A",
+        "note": "reveal (dad knows her from a bar) + Hilal's close; starts 4 s before m3's end",
+        "date": "2026-11-18",
+        "file": "1795031423_story_s10_gKM0ONyDmV4_m7.mp4"
+      }
+    ]
+  },
+  "YA-w9mM73fI": {
+    "mined": "2026-11-16",
+    "moments": [
+      {
+        "k": 1,
+        "start": 396.3,
+        "end": 450.5,
+        "type": "conflict",
+        "score": 5,
+        "hook": "شنو دارت ليها مرت باباها؟",
+        "status": "skip",
+        "note": "stepmother frames her for stealing gold, dad beats her / nearly kills her (violence cap) — rescored by A"
+      },
+      {
+        "k": 2,
+        "start": 468.05,
+        "end": 516.85,
+        "type": "twist",
+        "score": 7,
+        "hook": "علاش ماما بغاتني نتزوجها؟",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794930545_story_s7_YA-w9mM73fI_m2.mp4",
+        "note": "made by A: 468.05-516.85 (called mom: girl has nowhere to sleep -> mom takes her in, salon -> a month passes, brothers tease -> mom: one girl and five bachelors, marry her and spare me); ends before his answer. Whisper skipped 477.5-507.7 in the full transcript, gap transcribed separately"
+      },
+      {
+        "k": 3,
+        "start": 556.3,
+        "end": 612.7,
+        "type": "conflict",
+        "score": 6,
+        "hook": "صاحبتي القديمة جرات عليا فالتيليفون",
+        "status": "skip"
+      },
+      {
+        "k": 4,
+        "start": 657.5,
+        "end": 692.9,
+        "type": "secret",
+        "score": 5,
+        "hook": "(sensitive childhood abuse confession)",
+        "status": "skip"
+      },
+      {
+        "k": 5,
+        "start": 715.7,
+        "end": 784.4,
+        "type": "secret",
+        "score": 8,
+        "hook": "شنو كانت كتكتب مراتي فالدفتر؟",
+        "status": "queued",
+        "pieces": [
+          [
+            722.05,
+            731.25
+          ],
+          [
+            763.35,
+            784.5
+          ]
+        ],
+        "date": "2026-11-16",
+        "file": "1794872975_story_s8_YA-w9mM73fI_m5.mp4",
+        "note": "made by A: something odd about wife -> kind/helps mom -> (comment plug dropped) -> always writing in notebook \"secrets of my life\" -> friend: crazy -> one night took notebook; ends before what she wrote"
+      },
+      {
+        "k": 6,
+        "start": 1081.2,
+        "end": 1112.7,
+        "type": "conflict",
+        "score": 6,
+        "hook": "مراتي تبدلات عليا",
+        "status": "skip"
+      },
+      {
+        "k": 7,
+        "start": 1268.95,
+        "end": 1315.5,
+        "type": "secret",
+        "score": 7,
+        "hook": "شكون هاد البنت اللي جابت مراتي؟",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794925405_story_s7_YA-w9mM73fI_m7.mp4",
+        "note": "made by B: wife brings her \"little sister\" who looks nothing like her, narrator never met her family; brat glares, cuts his clothes, wife defends her; ends before who the girl really is"
+      },
+      {
+        "k": 8,
+        "start": 1338.8,
+        "end": 1400.0,
+        "type": "secret",
+        "score": 6,
+        "hook": "مراتي ما بقاتش كتمشي للخدمة",
+        "status": "skip"
+      },
+      {
+        "k": 9,
+        "start": 1450.88,
+        "end": 1500.52,
+        "type": "secret",
+        "score": 7,
+        "hook": "شنو كتخبي عائلة مراتي؟",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794928803_story_s7_YA-w9mM73fI_m9.mp4",
+        "note": "made by B: realises he married someone he knows nothing about -> meets her aunts, they act uneasy, mom suspicious -> anonymous SMS from wife's family \"do you know...\" ; ends before the reveal"
+      },
+      {
+        "k": 10,
+        "start": 1743.2,
+        "end": 1770.0,
+        "type": "take",
+        "score": 6,
+        "hook": "واش الزواج مكتوب؟",
+        "status": "skip"
+      }
+    ]
+  },
+  "lCzehIOldVQ": {
+    "mined": "2026-11-17",
+    "note": "earlier clip 343.95-393.85 (pajamas in kitchen)",
+    "moments": [
+      {
+        "k": 1,
+        "start": 207.0,
+        "end": 258.0,
+        "type": "conflict",
+        "score": 6,
+        "hook": "عطاو بيتي لبنت خالتي",
+        "status": "skip"
+      },
+      {
+        "k": 2,
+        "start": 292.08,
+        "end": 338.8,
+        "type": "secret",
+        "score": 8,
+        "hook": "شنو تبدل فبنت خالتي المحجبة؟",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794935684_story_s8_lCzehIOldVQ_m2.mp4"
+      },
+      {
+        "k": 3,
+        "start": 541.0,
+        "end": 644.0,
+        "type": "secret",
+        "score": 6,
+        "hook": "بقينا بوحدنا فالدار",
+        "status": "skip",
+        "note": "narrator's own wrongdoing"
+      },
+      {
+        "k": 4,
+        "start": 938.0,
+        "end": 1014.0,
+        "type": "conflict",
+        "score": 5,
+        "hook": "بنت خالتي تهمتني قدام ماما",
+        "status": "skip",
+        "note": "false assault accusation, sensitive"
+      },
+      {
+        "k": 5,
+        "start": 1040.0,
+        "end": 1092.0,
+        "type": "conflict",
+        "score": 5,
+        "hook": "بابا ما تيقش فيا",
+        "status": "skip",
+        "note": "father beats him, violence"
+      },
+      {
+        "k": 6,
+        "start": 1225.7,
+        "end": 1266.1,
+        "type": "twist",
+        "score": 7,
+        "hook": "شنو خطة عمي ضد بنت خالتي؟",
+        "status": "queued",
+        "note": "uncle wakes him at 3am with the recording plan; avoid joint mention before 1221",
+        "date": "2026-11-17",
+        "file": "1794938532_story_s7_lCzehIOldVQ_m6.mp4"
+      },
+      {
+        "k": 7,
+        "start": 1298.0,
+        "end": 1352.0,
+        "type": "twist",
+        "score": 6,
+        "hook": "بنت خالتي اعترفات",
+        "status": "skip",
+        "note": "gives away the reveal"
+      },
+      {
+        "k": 8,
+        "start": 1352.0,
+        "end": 1403.0,
+        "type": "twist",
+        "score": 6,
+        "hook": "ماما طلبات مني السماح",
+        "status": "skip"
+      },
+      {
+        "k": 9,
+        "start": 1480.0,
+        "end": 1532.0,
+        "type": "take",
+        "score": 6,
+        "hook": "شنو كنتي غتدير بلاصتي؟",
+        "status": "skip"
+      }
+    ]
+  },
+  "fetOcS0fBSg": {
+    "mined": "2026-11-17",
+    "note": "Whisper lost 1384-1634 (unknown audio); earlier clip location unknown; 19 Nov re-transcribe: Whisper looped/garbled 900-1440 too (m2 needs a clean transcript of that span)",
+    "moments": [
+      {
+        "k": 1,
+        "start": 395.25,
+        "end": 444.0,
+        "type": "conflict",
+        "score": 9,
+        "hook": "شنو دار ليا الأستاذ قدام القسم؟",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794977302_story_s9_fetOcS0fBSg_m1.mp4"
+      },
+      {
+        "k": 2,
+        "start": 1084.64,
+        "end": 1137.22,
+        "type": "twist",
+        "score": 6,
+        "hook": "دافعت على بنت فالزنقة",
+        "status": "todo"
+      },
+      {
+        "k": 3,
+        "start": 1269.3,
+        "end": 1314.25,
+        "type": "twist",
+        "score": 7,
+        "hook": "كنتمتم وبغيت نعرض عليها",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794941510_story_s7_fetOcS0fBSg_m3.mp4"
+      },
+      {
+        "k": 4,
+        "start": 1637.98,
+        "end": 1676.4,
+        "type": "secret",
+        "score": 8,
+        "hook": "شنو وقع بين ماما ومراتي؟",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794936449_story_s8_fetOcS0fBSg_m4.mp4"
+      },
+      {
+        "k": 5,
+        "start": 1684.22,
+        "end": 1734.42,
+        "type": "secret",
+        "score": 7,
+        "hook": "شنو كانت كدير جدة مراتي؟",
+        "status": "queued",
+        "date": "2026-11-17",
+        "file": "1794939716_story_s7_fetOcS0fBSg_m5.mp4"
+      },
+      {
+        "k": 6,
+        "start": 1845.66,
+        "end": 1880.56,
+        "type": "conflict",
+        "score": 6,
+        "hook": "واجهت مراتي بالحجابات",
+        "status": "todo"
+      },
+      {
+        "k": 7,
+        "start": 1910.82,
+        "end": 1960.42,
+        "type": "take",
+        "score": 6,
+        "hook": "واش خاصك تاخد وقتك قبل الزواج؟",
+        "status": "todo"
+      }
+    ],
+    "maker": "A"
+  },
+  "n1Y5rhFeQ9s": {
     "maker": "A",
-    "note": "Exp1 slot 16 (build 1, ending 1): mom (bank employee who manages her account) suspects the TikTok-live money, asks where it comes from; reveal inside = her cover story (reselling clothes online with a friend)"
-   },
-   {
-    "k": 2,
-    "start": 380.5,
-    "end": 427.66,
-    "type": "secret",
-    "score": 11,
-    "hook": "الواليدين دخلو وأنا فاللايف",
-    "status": "queued",
-    "date": "2026-11-19",
-    "file": "1795112061_story_s11_L8p5gnqtTTY_m2.mp4",
-    "maker": "A",
-    "note": "Exp1 slot 17 (build 1, ending 1): parents come home mid-live, she hides it; reveal inside = 6000 DH in 2 h; closes on no longer asking parents for money. Skipped the gift/outfit part (366-380) on purpose."
-   },
-   {
-    "k": 3,
-    "start": 329.6,
-    "end": 380.48,
-    "type": "twist",
-    "score": 5,
-    "hook": "واحد فاللايف بغاني نشطح",
-    "status": "todo"
-   },
-   {
-    "k": 4,
-    "start": 1099.16,
-    "end": 1153.66,
-    "type": "twist",
-    "score": 6,
-    "hook": "ماما لقاتني كنبكي فالبيت",
-    "status": "todo"
-   },
-   {
-    "k": 5,
-    "start": 901.36,
-    "end": 958.26,
-    "type": "twist",
-    "score": 6,
-    "hook": "كذبت على ماما ومشيت للستوديو",
-    "status": "todo"
-   },
-   {
-    "k": 6,
-    "start": 770.76,
-    "end": 817.8,
-    "type": "secret",
-    "score": 5,
-    "hook": "المؤثر بغاني فمشروع سري",
-    "status": "todo"
-   },
-   {
-    "k": 7,
-    "start": 509.3,
-    "end": 564.96,
-    "type": "twist",
-    "score": 4,
-    "hook": "شركة بغات تخدم معايا",
-    "status": "todo"
-   },
-   {
-    "k": 8,
-    "start": 958.26,
-    "end": 1012.02,
-    "type": "conflict",
-    "score": 2,
-    "hook": "assault in the studio",
-    "status": "skip",
-    "why": "violence / heavy (T3=0)"
-   }
-  ]
- },
- "kQoSHBH_y9c": {
-  "mined": "2026-11-19",
-  "maker": "B",
-  "note": "guest story (Sidi Kacem, poverty, mum dies, depression, then he writes a novel). First clip 446.9-487.3 (mum seaweed secret). 698-830 mum death / dark thoughts: skip (heavy).",
-  "moments": [
-   {
-    "k": 1,
-    "start": 446.9,
-    "end": 487.3,
-    "type": "secret",
-    "score": 8,
-    "hook": "فين كانت كتمشي ماما؟",
-    "status": "queued",
-    "date": "2026-11-13",
-    "file": "1794588913_story_s8_kQoSHBH_y9c.mp4"
-   },
-   {
-    "k": 2,
-    "start": 199.08,
-    "end": 247.1,
-    "type": "take",
-    "score": 6,
-    "hook": "بابا كيحقرنا قدام البراني",
-    "status": "todo"
-   },
-   {
-    "k": 3,
-    "start": 487.3,
-    "end": 548.0,
-    "type": "secret",
-    "score": 0,
-    "hook": "ماما كانت خدامة فالديور",
-    "status": "skip",
-    "why": "reveal of the first clip, needs it"
-   },
-   {
-    "k": 4,
-    "start": 845.68,
-    "end": 880.7,
-    "type": "twist",
-    "score": 5,
-    "hook": "بابا داني عند الفقيه",
-    "status": "todo"
-   },
-   {
-    "k": 5,
-    "start": 949.82,
-    "end": 994.9,
-    "type": "twist",
-    "score": 8,
-    "hook": "شنو شفت عند طبيب النفس؟",
-    "status": "queued",
-    "date": "2026-11-19",
-    "file": "1795112207_story_s8_kQoSHBH_y9c_m5.mp4",
-    "maker": "B"
-   },
-   {
-    "k": 6,
-    "start": 1253.86,
-    "end": 1304.1,
-    "type": "twist",
-    "score": 11,
-    "hook": "شنو كانت كتخبي صاحبتي فالرواية؟",
-    "status": "queued",
-    "date": "2026-11-19",
-    "file": "1795111500_story_s11_kQoSHBH_y9c_m6.mp4",
-    "maker": "B"
-   },
-   {
-    "k": 7,
-    "start": 1304.1,
-    "end": 1356.2,
-    "type": "twist",
-    "score": 8,
-    "hook": "صاحبتي كانت كتكتب بالذكاء الاصطناعي",
-    "status": "todo",
-    "note": "reveal of m6 (ChatGPT) + she blocks him + he finishes alone; suits ending arm 1"
-   },
-   {
-    "k": 8,
-    "start": 1356.2,
-    "end": 1408.0,
-    "type": "take",
-    "score": 6,
-    "hook": "واش نكمل فالكتابة؟",
-    "status": "todo"
-   }
-  ]
- }
+    "mined": "2026-11-18",
+    "note": "earlier clip (30 Oct) location unknown, assumed first 90 s",
+    "moments": [
+      {
+        "k": 1,
+        "start": 994.1,
+        "end": 1039.98,
+        "type": "secret",
+        "score": 13,
+        "hook": "شنو خبات مراتي فهاد الوراق؟",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795013913_story_s13_n1Y5rhFeQ9s_m1.mp4"
+      },
+      {
+        "k": 2,
+        "start": 572.75,
+        "end": 619.36,
+        "type": "conflict",
+        "score": 13,
+        "hook": "خواتاتي بغاو مراتي تخدم الوالدين",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795018947_story_s13_n1Y5rhFeQ9s_m2.mp4",
+        "maker": "B"
+      },
+      {
+        "k": 3,
+        "start": 690.56,
+        "end": 741.5,
+        "type": "conflict",
+        "score": 8,
+        "hook": "مراتي خدامة وما كتطيبش الغدا",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795024520_story_s12_n1Y5rhFeQ9s_m3.mp4",
+        "maker": "A"
+      },
+      {
+        "k": 4,
+        "start": 1111.25,
+        "end": 1160.45,
+        "type": "secret",
+        "score": 10,
+        "hook": "مراتي كتشفر ليا من البزطام",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795015120_story_s11_n1Y5rhFeQ9s_m4.mp4",
+        "maker": "B"
+      },
+      {
+        "k": 5,
+        "start": 1172.6,
+        "end": 1217.8,
+        "type": "twist",
+        "score": 11,
+        "hook": "مراتي طلبات 5000 درهم قبل العرس",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795016946_story_s11_n1Y5rhFeQ9s_m5.mp4",
+        "maker": "A"
+      },
+      {
+        "k": 6,
+        "start": 1220.58,
+        "end": 1271.13,
+        "type": "twist",
+        "score": 9,
+        "hook": "شنو الحيلة اللي درت لمراتي؟",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795022329_story_s9_n1Y5rhFeQ9s_m6.mp4",
+        "maker": "B"
+      },
+      {
+        "k": 7,
+        "start": 1321.95,
+        "end": 1372.45,
+        "type": "twist",
+        "score": 12,
+        "hook": "شكون صيفط ليا تصاور طليقتي؟",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795021100_story_s12_n1Y5rhFeQ9s_m7.mp4",
+        "maker": "A"
+      },
+      {
+        "k": 8,
+        "start": 1404.78,
+        "end": 1443.46,
+        "type": "take",
+        "score": 10,
+        "hook": "واش الموظفة كتصلح للزواج؟",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795027632_story_s10_n1Y5rhFeQ9s_m8.mp4",
+        "maker": "A"
+      }
+    ]
+  },
+  "VeuZUuCDy-M": {
+    "mined": "2026-11-18",
+    "maker": "B",
+    "note": "earlier clip 152.1-185.5 (McDo / tuna bocadillo). 1300-1420 is set in the Emirates (skip). Whisper text is rough.",
+    "moments": [
+      {
+        "k": 1,
+        "start": 1254.6,
+        "end": 1301.35,
+        "type": "conflict",
+        "score": 13,
+        "hook": "بابا غيجريني من الدار؟",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795028095_story_s13_VeuZUuCDy-M_m1.mp4",
+        "maker": "B"
+      },
+      {
+        "k": 2,
+        "start": 186.0,
+        "end": 232.0,
+        "type": "secret",
+        "score": 0,
+        "hook": "بابا كان كيكذب علينا بماكدو",
+        "status": "skip",
+        "why": "reveal of the earlier clip, needs it"
+      },
+      {
+        "k": 3,
+        "start": 553.0,
+        "end": 602.35,
+        "type": "twist",
+        "score": 12,
+        "hook": "ولد الحومة عندو ستوديو فالسطح",
+        "status": "queued",
+        "date": "2026-11-19",
+        "file": "1795111239_story_s12_VeuZUuCDy-M_m3.mp4",
+        "maker": "A"
+      },
+      {
+        "k": 4,
+        "start": 668.98,
+        "end": 709.06,
+        "type": "twist",
+        "score": 13,
+        "hook": "خفت نسلم على مول الستوديو",
+        "status": "queued",
+        "date": "2026-11-18",
+        "file": "1795029785_story_s13_VeuZUuCDy-M_m4.mp4",
+        "maker": "B"
+      },
+      {
+        "k": 5,
+        "start": 1140.0,
+        "end": 1180.0,
+        "type": "take",
+        "score": 6,
+        "hook": "واش الوالدين كيتسيفو عليك؟",
+        "status": "todo"
+      },
+      {
+        "k": 6,
+        "start": 951.4,
+        "end": 1000.42,
+        "type": "conflict",
+        "score": 10,
+        "hook": "مع من ولات صاحبتي فسطات؟",
+        "status": "queued",
+        "date": "2026-11-19",
+        "file": "1795112632_story_s10_VeuZUuCDy-M_m6.mp4",
+        "maker": "B",
+        "note": "girlfriend drifts to new people in Settat, ends before the phone call (exp1 slot 19 build1/end0)"
+      },
+      {
+        "k": 7,
+        "start": 1316.0,
+        "end": 1420.0,
+        "type": "twist",
+        "score": 0,
+        "hook": "خدمة فالإمارات",
+        "status": "skip",
+        "why": "set abroad"
+      },
+      {
+        "k": 8,
+        "start": 1620.0,
+        "end": 1665.0,
+        "type": "take",
+        "score": 5,
+        "hook": "واش تبع الحلم ديالك؟",
+        "status": "todo"
+      }
+    ]
+  },
+  "L8p5gnqtTTY": {
+    "mined": "2026-11-19",
+    "note": "first clip (7 Nov, 'بابا غيشوف التيكتوك ديالي؟') = dad's warning ~108-150 s; story = teen TikToker hides lives/money from parents, later an influencer assaults her in his studio (dark, skip)",
+    "moments": [
+      {
+        "k": 1,
+        "start": 435.3,
+        "end": 484.78,
+        "type": "secret",
+        "score": 10,
+        "hook": "شنو شافت ماما فالبنكة ديالي؟",
+        "status": "queued",
+        "date": "2026-11-19",
+        "file": "1795110728_story_s12_L8p5gnqtTTY_m1.mp4",
+        "maker": "A",
+        "note": "Exp1 slot 16 (build 1, ending 1): mom (bank employee who manages her account) suspects the TikTok-live money, asks where it comes from; reveal inside = her cover story (reselling clothes online with a friend)"
+      },
+      {
+        "k": 2,
+        "start": 380.5,
+        "end": 427.66,
+        "type": "secret",
+        "score": 11,
+        "hook": "الواليدين دخلو وأنا فاللايف",
+        "status": "queued",
+        "date": "2026-11-19",
+        "file": "1795112061_story_s11_L8p5gnqtTTY_m2.mp4",
+        "maker": "A",
+        "note": "Exp1 slot 17 (build 1, ending 1): parents come home mid-live, she hides it; reveal inside = 6000 DH in 2 h; closes on no longer asking parents for money. Skipped the gift/outfit part (366-380) on purpose."
+      },
+      {
+        "k": 3,
+        "start": 329.6,
+        "end": 380.48,
+        "type": "twist",
+        "score": 5,
+        "hook": "واحد فاللايف بغاني نشطح",
+        "status": "todo"
+      },
+      {
+        "k": 4,
+        "start": 1099.16,
+        "end": 1153.66,
+        "type": "twist",
+        "score": 6,
+        "hook": "ماما لقاتني كنبكي فالبيت",
+        "status": "todo"
+      },
+      {
+        "k": 5,
+        "start": 901.36,
+        "end": 958.26,
+        "type": "twist",
+        "score": 6,
+        "hook": "كذبت على ماما ومشيت للستوديو",
+        "status": "todo"
+      },
+      {
+        "k": 6,
+        "start": 770.76,
+        "end": 817.8,
+        "type": "secret",
+        "score": 5,
+        "hook": "المؤثر بغاني فمشروع سري",
+        "status": "todo"
+      },
+      {
+        "k": 7,
+        "start": 509.3,
+        "end": 564.96,
+        "type": "twist",
+        "score": 4,
+        "hook": "شركة بغات تخدم معايا",
+        "status": "todo"
+      },
+      {
+        "k": 8,
+        "start": 958.26,
+        "end": 1012.02,
+        "type": "conflict",
+        "score": 2,
+        "hook": "assault in the studio",
+        "status": "skip",
+        "why": "violence / heavy (T3=0)"
+      }
+    ]
+  },
+  "kQoSHBH_y9c": {
+    "mined": "2026-11-19",
+    "maker": "B",
+    "note": "guest story (Sidi Kacem, poverty, mum dies, depression, then he writes a novel). First clip 446.9-487.3 (mum seaweed secret). 698-830 mum death / dark thoughts: skip (heavy).",
+    "moments": [
+      {
+        "k": 1,
+        "start": 446.9,
+        "end": 487.3,
+        "type": "secret",
+        "score": 8,
+        "hook": "فين كانت كتمشي ماما؟",
+        "status": "queued",
+        "date": "2026-11-13",
+        "file": "1794588913_story_s8_kQoSHBH_y9c.mp4"
+      },
+      {
+        "k": 2,
+        "start": 199.08,
+        "end": 247.1,
+        "type": "take",
+        "score": 6,
+        "hook": "بابا كيحقرنا قدام البراني",
+        "status": "todo"
+      },
+      {
+        "k": 3,
+        "start": 487.3,
+        "end": 548.0,
+        "type": "secret",
+        "score": 0,
+        "hook": "ماما كانت خدامة فالديور",
+        "status": "skip",
+        "why": "reveal of the first clip, needs it"
+      },
+      {
+        "k": 4,
+        "start": 845.68,
+        "end": 880.7,
+        "type": "twist",
+        "score": 5,
+        "hook": "بابا داني عند الفقيه",
+        "status": "todo"
+      },
+      {
+        "k": 5,
+        "start": 949.82,
+        "end": 994.9,
+        "type": "twist",
+        "score": 8,
+        "hook": "شنو شفت عند طبيب النفس؟",
+        "status": "queued",
+        "date": "2026-11-19",
+        "file": "1795112207_story_s8_kQoSHBH_y9c_m5.mp4",
+        "maker": "B"
+      },
+      {
+        "k": 6,
+        "start": 1253.86,
+        "end": 1304.1,
+        "type": "twist",
+        "score": 11,
+        "hook": "شنو كانت كتخبي صاحبتي فالرواية؟",
+        "status": "queued",
+        "date": "2026-11-19",
+        "file": "1795111500_story_s11_kQoSHBH_y9c_m6.mp4",
+        "maker": "B"
+      },
+      {
+        "k": 7,
+        "start": 1304.1,
+        "end": 1356.2,
+        "type": "twist",
+        "score": 8,
+        "hook": "صاحبتي كانت كتكتب بالذكاء الاصطناعي",
+        "status": "todo",
+        "note": "reveal of m6 (ChatGPT) + she blocks him + he finishes alone; suits ending arm 1"
+      },
+      {
+        "k": 8,
+        "start": 1356.2,
+        "end": 1408.0,
+        "type": "take",
+        "score": 6,
+        "hook": "واش نكمل فالكتابة؟",
+        "status": "todo"
+      }
+    ],
+    "reserved": "2026-11-19T18:43:29Z"
+  }
 }
