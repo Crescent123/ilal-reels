@@ -1026,14 +1026,17 @@
    },
    {
     "k": 8,
-    "start": 1356.2,
-    "end": 1408.0,
+    "start": 1356.25,
+    "end": 1409.42,
     "type": "take",
     "score": 6,
-    "hook": "واش نكمل فالكتابة؟",
-    "status": "todo"
+    "hook": "صاحبتو بلوكاتو، فكتب رواية بوحدو",
+    "status": "queued",
+    "date": "2026-11-19",
+    "file": "1795114471_story_s11_kQoSHBH_y9c_m8.mp4",
+    "maker": "A",
+    "note": "ending arm 1: sales reveal (1 copy -> 192, 5000 DH) + take 'all because of her block' + debate 'should I keep writing?'"
    }
-  ],
-  "reserved": "2026-11-19T18:43:29Z"
+  ]
  }
 }
