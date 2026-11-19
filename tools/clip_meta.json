@@ -2068,5 +2068,31 @@
   "length": 49.16,
   "made": "2026-11-19T18:20:57Z",
   "maker": "B"
+ },
+ "1795112632_story_s10_VeuZUuCDy-M_m6.mp4": {
+  "story": "VeuZUuCDy-M",
+  "moment": 6,
+  "v4": {
+   "T1": 0,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 1,
+   "D1": 2,
+   "D2": 2,
+   "total": 10,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": 19,
+  "length": 53.02,
+  "made": "2026-11-19T18:25:10Z",
+  "maker": "B"
  }
 }

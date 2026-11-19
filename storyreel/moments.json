@@ -827,12 +827,16 @@
    },
    {
     "k": 6,
-    "start": 950.0,
-    "end": 1000.0,
+    "start": 951.4,
+    "end": 1000.42,
     "type": "conflict",
-    "score": 5,
-    "hook": "صاحبتي تبدلات فسطات",
-    "status": "todo"
+    "score": 10,
+    "hook": "مع من ولات صاحبتي فسطات؟",
+    "status": "queued",
+    "date": "2026-11-19",
+    "file": "1795112632_story_s10_VeuZUuCDy-M_m6.mp4",
+    "maker": "B",
+    "note": "girlfriend drifts to new people in Settat, ends before the phone call (exp1 slot 19 build1/end0)"
    },
    {
     "k": 7,
@@ -853,8 +857,7 @@
     "hook": "واش تبع الحلم ديالك؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-19T18:13:27Z"
+  ]
  },
  "L8p5gnqtTTY": {
   "mined": "2026-11-19",
