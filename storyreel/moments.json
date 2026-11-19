@@ -909,12 +909,16 @@
    },
    {
     "k": 5,
-    "start": 901.36,
-    "end": 958.26,
+    "start": 902.64,
+    "end": 953.1,
     "type": "twist",
     "score": 6,
     "hook": "كذبت على ماما ومشيت للستوديو",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-19",
+    "file": "1795118638_story_s11_L8p5gnqtTTY_m5.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 22 (build 0, ending 0): lies to mom, friend covers, goes to the influencer's studio, feels uneasy, he gets closer; cut before the phone-recording plan / assault"
    },
    {
     "k": 6,
@@ -944,8 +948,7 @@
     "status": "skip",
     "why": "violence / heavy (T3=0)"
    }
-  ],
-  "reserved": "2026-11-19T19:41:47Z"
+  ]
  },
  "kQoSHBH_y9c": {
   "mined": "2026-11-19",
