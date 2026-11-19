@@ -1048,6 +1048,79 @@
  },
  "Gl__IV5JNP4": {
   "reserved": "2026-11-19T20:11:49Z",
-  "maker": "B"
+  "maker": "B",
+  "mined": "2026-11-19",
+  "note": "first clip (11 Nov) 914.30-949.60 = farmer offers Cash Plus money, needs the girl's ID card, 'send me an audio'. Story: Fouad (Casa) renames his marketplace FB account to neighbour girl Salma's name, a rich farmer flirts with it; Salma becomes his partner; farmer lures her to his farm, Fouad finds her tied up (assault, heavy: skip 1289-1600). Names Salma/Fouad/Si Hassan are said often: keep them out of the first 8 s.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 766.3,
+    "end": 812.58,
+    "type": "twist",
+    "score": 11,
+    "hook": "عروبي غني كيغازل الكونت الفيك ديالي",
+    "status": "todo"
+   },
+   {
+    "k": 2,
+    "start": 700.0,
+    "end": 747.0,
+    "type": "twist",
+    "score": 7,
+    "hook": "سميت الكونت ديالي باسم بنت الجيران",
+    "status": "todo",
+    "note": "friend mocks his marketplace account, he renames it to the neighbour girl's name; name said ~722 (ok, after 8 s)"
+   },
+   {
+    "k": 3,
+    "start": 951.0,
+    "end": 1004.0,
+    "type": "secret",
+    "score": 7,
+    "hook": "بنت الجيران ولات شريكتي فالنصبة",
+    "status": "todo",
+    "note": "after the ID card (first clip): Cash Plus pickup, 200 DH, he tells her the whole plan, she joins. Check names in first 8 s"
+   },
+   {
+    "k": 4,
+    "start": 1162.72,
+    "end": 1216.4,
+    "type": "conflict",
+    "score": 6,
+    "hook": "العروبي بغا ياخدها للفيرما",
+    "status": "todo",
+    "note": "she refuses the farm, farmer sends farm photos, narrator pushes her; 'Si Hassan' at 1185.8 (23 s in)"
+   },
+   {
+    "k": 5,
+    "start": 1213.4,
+    "end": 1267.1,
+    "type": "secret",
+    "score": 6,
+    "hook": "التيليفون سكت فالفيرما",
+    "status": "todo",
+    "note": "tense; gap 1227.7-1236.8 to check; cut before the break-in"
+   },
+   {
+    "k": 6,
+    "start": 1289.0,
+    "end": 1600.0,
+    "type": "conflict",
+    "score": 2,
+    "hook": "assault at the farm",
+    "status": "skip",
+    "why": "crime / violence, heavy (T3=0)"
+   },
+   {
+    "k": 7,
+    "start": 1621.0,
+    "end": 1662.0,
+    "type": "take",
+    "score": 5,
+    "hook": "واش كون كنتي فبلاصتو؟",
+    "status": "todo",
+    "note": "lesson + debate 'would you exploit it like him?'"
+   }
+  ]
  }
 }
