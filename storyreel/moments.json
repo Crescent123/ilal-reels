@@ -854,7 +854,84 @@
   "reserved": "2026-11-19T17:34:37Z"
  },
  "L8p5gnqtTTY": {
-  "reserved": "2026-11-19T17:40:43Z"
+  "reserved": "2026-11-19T17:40:43Z",
+  "mined": "2026-11-19",
+  "note": "first clip (7 Nov, 'بابا غيشوف التيكتوك ديالي؟') = dad's warning ~108-150 s; story = teen TikToker hides lives/money from parents, later an influencer assaults her in his studio (dark, skip)",
+  "moments": [
+   {
+    "k": 1,
+    "start": 435.3,
+    "end": 484.78,
+    "type": "secret",
+    "score": 10,
+    "hook": "شنو شافت ماما فالبنكة ديالي؟",
+    "status": "todo"
+   },
+   {
+    "k": 2,
+    "start": 382.76,
+    "end": 427.64,
+    "type": "secret",
+    "score": 8,
+    "hook": "الواليدين دخلو وأنا فاللايف",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 329.6,
+    "end": 380.48,
+    "type": "twist",
+    "score": 5,
+    "hook": "واحد فاللايف بغاني نشطح",
+    "status": "todo"
+   },
+   {
+    "k": 4,
+    "start": 1099.16,
+    "end": 1153.66,
+    "type": "twist",
+    "score": 6,
+    "hook": "ماما لقاتني كنبكي فالبيت",
+    "status": "todo"
+   },
+   {
+    "k": 5,
+    "start": 901.36,
+    "end": 958.26,
+    "type": "twist",
+    "score": 6,
+    "hook": "كذبت على ماما ومشيت للستوديو",
+    "status": "todo"
+   },
+   {
+    "k": 6,
+    "start": 770.76,
+    "end": 817.8,
+    "type": "secret",
+    "score": 5,
+    "hook": "المؤثر بغاني فمشروع سري",
+    "status": "todo"
+   },
+   {
+    "k": 7,
+    "start": 509.3,
+    "end": 564.96,
+    "type": "twist",
+    "score": 4,
+    "hook": "شركة بغات تخدم معايا",
+    "status": "todo"
+   },
+   {
+    "k": 8,
+    "start": 958.26,
+    "end": 1012.02,
+    "type": "conflict",
+    "score": 2,
+    "hook": "assault in the studio",
+    "status": "skip",
+    "why": "violence / heavy (T3=0)"
+   }
+  ]
  },
  "kQoSHBH_y9c": {
   "reserved": "2026-11-19T17:44:40Z"
