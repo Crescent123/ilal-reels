@@ -587,7 +587,7 @@
  },
  "fetOcS0fBSg": {
   "mined": "2026-11-17",
-  "note": "Whisper lost 1384-1634 (unknown audio); earlier clip location unknown",
+  "note": "Whisper lost 1384-1634 (unknown audio); earlier clip location unknown; 19 Nov re-transcribe: Whisper looped/garbled 900-1440 too (m2 needs a clean transcript of that span)",
   "moments": [
    {
     "k": 1,
@@ -661,8 +661,7 @@
     "status": "todo"
    }
   ],
-  "maker": "A",
-  "reserved": "2026-11-19T17:35:24Z"
+  "maker": "A"
  },
  "n1Y5rhFeQ9s": {
   "maker": "A",
@@ -856,5 +855,8 @@
  },
  "L8p5gnqtTTY": {
   "reserved": "2026-11-19T17:40:43Z"
+ },
+ "kQoSHBH_y9c": {
+  "reserved": "2026-11-19T17:44:40Z"
  }
 }
