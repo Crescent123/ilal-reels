@@ -854,7 +854,6 @@
   "reserved": "2026-11-19T17:34:37Z"
  },
  "L8p5gnqtTTY": {
-  "reserved": "2026-11-19T17:40:43Z",
   "mined": "2026-11-19",
   "note": "first clip (7 Nov, 'بابا غيشوف التيكتوك ديالي؟') = dad's warning ~108-150 s; story = teen TikToker hides lives/money from parents, later an influencer assaults her in his studio (dark, skip)",
   "moments": [
@@ -865,7 +864,11 @@
     "type": "secret",
     "score": 10,
     "hook": "شنو شافت ماما فالبنكة ديالي؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-19",
+    "file": "1795110728_story_s12_L8p5gnqtTTY_m1.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 16 (build 1, ending 1): mom (bank employee who manages her account) suspects the TikTok-live money, asks where it comes from; reveal inside = her cover story (reselling clothes online with a friend)"
    },
    {
     "k": 2,
