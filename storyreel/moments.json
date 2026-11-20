@@ -1008,12 +1008,16 @@
    },
    {
     "k": 4,
-    "start": 845.68,
-    "end": 880.7,
+    "start": 845.5,
+    "end": 895.5,
     "type": "twist",
-    "score": 5,
-    "hook": "بابا داني عند الفقيه",
-    "status": "todo"
+    "score": 12,
+    "hook": "علاش داني بابا عند الفقيه؟",
+    "status": "queued",
+    "date": "2026-11-20",
+    "file": "1795197396_story_s12_kQoSHBH_y9c_m4.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 33 (build 1, ending 0): dad decides he's bewitched, drags him to the fqih; sceptic but desperate; fqih laughs 'never seen a case like you'; ruqya does nothing, walks the streets alone, tells friends; cut on 'things got worse' before the suicidal thoughts (896+). Re-transcribed 820-950. T3=0 (depression)."
    },
    {
     "k": 5,
@@ -1065,8 +1069,7 @@
     "maker": "A",
     "note": "ending arm 1: sales reveal (1 copy -> 192, 5000 DH) + take 'all because of her block' + debate 'should I keep writing?'"
    }
-  ],
-  "reserved": "2026-11-20T17:45:42Z"
+  ]
  },
  "Gl__IV5JNP4": {
   "maker": "B",
