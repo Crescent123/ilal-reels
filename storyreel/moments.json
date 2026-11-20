@@ -1167,18 +1167,20 @@
     "type": "twist",
     "score": 9,
     "hook": "الجار عيط على البوليس فالليل",
-    "status": "todo",
-    "note": "fits ENDING 0 only: neighbour threatens, police knock at 3am, cut on neighbour 'I swear I heard a girl screaming there'. Whisper dropped 558.6-567.9 (speech there, check for names); 'Imad' at ~14 s"
+    "status": "skip",
+    "note": "fits ENDING 0 only: neighbour threatens, police knock at 3am, cut on neighbour 'I swear I heard a girl screaming there'. Whisper dropped 558.6-567.9 (speech there, check for names); 'Imad' at ~14 s | B 20 Nov: re-transcribed 550-606 -> 'Imad' spoken at 558.6 (4.7 s in) = hard reject (name in first 8 s); no later start fits 40-55 s"
    },
    {
     "k": 2,
-    "start": 478.0,
-    "end": 524.8,
+    "start": 476.0,
+    "end": 524.85,
     "type": "twist",
     "score": 6,
-    "hook": "جاب البنات للدار حفيانين",
-    "status": "todo",
-    "note": "invites the girls back to the flat, sneak in barefoot so the neighbours don't hear; transcript gaps 494-508, check names"
+    "hook": "دخلو البنات بلا ما يسمع الجار؟",
+    "status": "queued",
+    "note": "invites the girls back to the flat, sneak in barefoot so the neighbours don't hear; transcript gaps 494-508, check names | B 20 Nov re-transcribed 470-535: no names before 527",
+    "date": "2026-11-20",
+    "file": "1795192003_story_s7_tc3JMPwzK-Y_m2.mp4"
    },
    {
     "k": 3,
@@ -1190,7 +1192,6 @@
     "status": "todo",
     "note": "Hilal's take on the nosy neighbour + 'tell us in the comments'; name Abdessamad at 658.9, start after it"
    }
-  ],
-  "reserved": "2026-11-20T16:11:26Z"
+  ]
  }
 }
