@@ -649,7 +649,8 @@
     "type": "conflict",
     "score": 6,
     "hook": "واجهت مراتي بالحجابات",
-    "status": "todo"
+    "status": "skip",
+    "why": "covered by m8 (same confrontation, re-cut 1847.8-1893.85)"
    },
    {
     "k": 7,
@@ -659,10 +660,22 @@
     "score": 6,
     "hook": "واش خاصك تاخد وقتك قبل الزواج؟",
     "status": "todo"
+   },
+   {
+    "k": 8,
+    "start": 1847.8,
+    "end": 1893.85,
+    "type": "conflict",
+    "score": 12,
+    "hook": "مراتي كتخبي حجابات فالمخدة؟",
+    "status": "queued",
+    "date": "2026-11-20",
+    "file": "1795190345_story_s12_fetOcS0fBSg_m8.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 29 (build 1, ending 1): confronts wife over the talismans 'before we married?'; reveal inside = she stammers, says it's their family custom; divorce decision at 17.6 s; his take: not a small mistake, trust gone, divorce hard. Re-transcribed 1836-1916 (old transcript had a gap 1871-1885)."
    }
   ],
-  "maker": "A",
-  "reserved": "2026-11-20T15:49:18Z"
+  "maker": "A"
  },
  "n1Y5rhFeQ9s": {
   "maker": "A",
