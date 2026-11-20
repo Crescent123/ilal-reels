@@ -1347,12 +1347,16 @@
    },
    {
     "k": 4,
-    "start": 1016.18,
-    "end": 1062.3,
+    "start": 1016.12,
+    "end": 1062.42,
     "type": "twist",
     "score": 5,
     "hook": "ختي فالسبيطار",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-20",
+    "file": "1795205022_story_s14_ujby1DpbnSY_m4.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 37 (build 1, ending 1): opens on the sister's husband calling ('your sister wants to see you, she's in hospital'); reveal inside at ~12-17 s (she fell down the stairs, hurt her hands and face); he waits, enters, cries, stays the whole day; ends on her asking about his wife and her face dropping. 7 scenes (n2 dropped: wrong character)."
    },
    {
     "k": 5,
@@ -1361,8 +1365,9 @@
     "type": "twist",
     "score": 6,
     "hook": "صاحبي شاف مراتي مع واحد",
-    "status": "todo",
-    "note": "start after the name at 1185.4; Whisper text very rough"
+    "status": "skip",
+    "note": "start after the name at 1185.4; Whisper text very rough",
+    "why": "A 20 Nov: wife's name (Nisrine) spoken at ~1193 and 1210, inside the first 8 s of any start that makes sense"
    },
    {
     "k": 6,
@@ -1374,7 +1379,6 @@
     "status": "skip",
     "why": "under 40 s"
    }
-  ],
-  "reserved": "2026-11-20T19:41:23Z"
+  ]
  }
 }
