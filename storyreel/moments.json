@@ -661,7 +661,8 @@
     "status": "todo"
    }
   ],
-  "maker": "A"
+  "maker": "A",
+  "reserved": "2026-11-20T15:49:18Z"
  },
  "n1Y5rhFeQ9s": {
   "maker": "A",
@@ -1144,6 +1145,38 @@
   ]
  },
  "tc3JMPwzK-Y": {
-  "reserved": "2026-11-20T15:42:00Z"
+  "mined": "2026-11-20",
+  "moments": [
+   {
+    "k": 1,
+    "start": 553.86,
+    "end": 602.54,
+    "type": "twist",
+    "score": 9,
+    "hook": "الجار عيط على البوليس فالليل",
+    "status": "todo",
+    "note": "fits ENDING 0 only: neighbour threatens, police knock at 3am, cut on neighbour 'I swear I heard a girl screaming there'. Whisper dropped 558.6-567.9 (speech there, check for names); 'Imad' at ~14 s"
+   },
+   {
+    "k": 2,
+    "start": 478.0,
+    "end": 524.8,
+    "type": "twist",
+    "score": 6,
+    "hook": "جاب البنات للدار حفيانين",
+    "status": "todo",
+    "note": "invites the girls back to the flat, sneak in barefoot so the neighbours don't hear; transcript gaps 494-508, check names"
+   },
+   {
+    "k": 3,
+    "start": 660.0,
+    "end": 713.0,
+    "type": "take",
+    "score": 4,
+    "hook": "واش الجار عندو الحق؟",
+    "status": "todo",
+    "note": "Hilal's take on the nosy neighbour + 'tell us in the comments'; name Abdessamad at 658.9, start after it"
+   }
+  ]
  }
 }
