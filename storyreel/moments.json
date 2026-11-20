@@ -1263,12 +1263,16 @@
    },
    {
     "k": 2,
-    "start": 660.26,
-    "end": 710.0,
+    "start": 657.5,
+    "end": 706.75,
     "type": "twist",
     "score": 7,
     "hook": "جاب بنت الحلوى لعيد ماماه؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-20",
+    "file": "1795202105_story_s11_tMcdf896iHI_m2.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 35 (build 1, ending 1): he loves the cake girl's cake, invites her to his mom's birthday, she comes dressed up, mom understands, he presents her; reveal inside = she is welcomed by the family; closes 'everything went fine'. Started 657.5 so the Whisper-lost span (667.9-672.7) stays past 8 s."
    },
    {
     "k": 3,
@@ -1293,8 +1297,7 @@
     "status": "todo",
     "why": "starts right after a Whisper gap; check start"
    }
-  ],
-  "reserved": "2026-11-20T18:44:10Z"
+  ]
  },
  "ujby1DpbnSY": {
   "mined": "2026-11-20",
