@@ -905,7 +905,8 @@
     "type": "twist",
     "score": 6,
     "hook": "ماما لقاتني كنبكي فالبيت",
-    "status": "todo"
+    "status": "skip",
+    "why": "heavy: crying after studio assault + blackmail video (T3=0); not light"
    },
    {
     "k": 5,
@@ -1141,5 +1142,8 @@
     "note": "lesson + debate 'would you exploit it like him?'"
    }
   ]
+ },
+ "tc3JMPwzK-Y": {
+  "reserved": "2026-11-20T15:42:00Z"
  }
 }
