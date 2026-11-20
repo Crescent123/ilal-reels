@@ -1320,12 +1320,16 @@
    },
    {
     "k": 2,
-    "start": 756.78,
-    "end": 806.3,
+    "start": 789.25,
+    "end": 842.85,
     "type": "conflict",
     "score": 7,
     "hook": "واجهت مراتي بالتليفون",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-20",
+    "file": "1795202836_story_s10_ujby1DpbnSY_m2.mp4",
+    "maker": "B",
+    "note": "Exp1 slot 36 (build 0, ending 1): she plays innocent, he explodes and reads her the whole chat, she breaks down ('I didn't intend, he played me'); he announces the divorce and ends on 'if I threw her out she'd have nowhere to go'."
    },
    {
     "k": 3,
@@ -1370,7 +1374,6 @@
     "status": "skip",
     "why": "under 40 s"
    }
-  ],
-  "reserved": "2026-11-20T19:17:00Z"
+  ]
  }
 }
