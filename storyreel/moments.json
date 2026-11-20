@@ -354,7 +354,8 @@
     "type": "take",
     "score": 6,
     "hook": "واش الوالدين كيعرفو كتر منا؟",
-    "status": "todo"
+    "status": "skip",
+    "why": "hard reject: needs the earlier clip (aftermath of m7's reveal: 'that lady', French, the bar); Hilal's take 1137.8-1184 has no reveal inside"
    },
    {
     "k": 7,
@@ -369,8 +370,7 @@
     "date": "2026-11-18",
     "file": "1795031423_story_s10_gKM0ONyDmV4_m7.mp4"
    }
-  ],
-  "reserved": "2026-11-20T16:41:17Z"
+  ]
  },
  "YA-w9mM73fI": {
   "mined": "2026-11-16",
@@ -872,7 +872,8 @@
     "hook": "واش تبع الحلم ديالك؟",
     "status": "todo"
    }
-  ]
+  ],
+  "reserved": "2026-11-20T16:49:15Z"
  },
  "L8p5gnqtTTY": {
   "mined": "2026-11-19",
