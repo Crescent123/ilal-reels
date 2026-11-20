@@ -1245,7 +1245,6 @@
   ]
  },
  "tMcdf896iHI": {
-  "reserved": "2026-11-20T17:11:14Z",
   "mined": "2026-11-20",
   "maker": "B",
   "note": "Saad+Ayoub open a laundry (المصبانة); Saad likes the cake girl, orders his mom's birthday cake, mom keeps her overnight, they marry. Names (Saad/Ayoub) are spoken often: check first 8 s. Whisper lost 841-871 (continuous speech). Earlier clip location unknown (assume first 90 s).",
@@ -1270,12 +1269,16 @@
    },
    {
     "k": 3,
-    "start": 739.06,
+    "start": 739.84,
     "end": 790.38,
     "type": "twist",
     "score": 9,
     "hook": "بنت الحلوى باتت فدارهم؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-20",
+    "file": "1795197042_story_s9_tMcdf896iHI_m3.mp4",
+    "maker": "B",
+    "note": "Exp1 slot 31 (build 0, ending 1): mom keeps the cake girl overnight; in the dark he holds her hand, salon chat, sister gives pajamas, he lingers at the bedroom door; reveal inside = both confirm they like each other; closes on Hilal's line 'they're not little kids'."
    },
    {
     "k": 4,
