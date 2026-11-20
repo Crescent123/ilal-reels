@@ -608,7 +608,8 @@
     "type": "twist",
     "score": 6,
     "hook": "دافعت على بنت فالزنقة",
-    "status": "todo"
+    "status": "skip",
+    "why": "A 20 Nov re-transcribed 1050-1170: name 'Hajar' at 1091.4 (6.8 s in) + street fight with thugs/stones, stitches (violence hook)"
    },
    {
     "k": 3,
@@ -676,8 +677,7 @@
     "note": "Exp1 slot 29 (build 1, ending 1): confronts wife over the talismans 'before we married?'; reveal inside = she stammers, says it's their family custom; divorce decision at 17.6 s; his take: not a small mistake, trust gone, divorce hard. Re-transcribed 1836-1916 (old transcript had a gap 1871-1885)."
    }
   ],
-  "maker": "A",
-  "reserved": "2026-11-20T17:41:47Z"
+  "maker": "A"
  },
  "n1Y5rhFeQ9s": {
   "maker": "A",
@@ -1065,7 +1065,8 @@
     "maker": "A",
     "note": "ending arm 1: sales reveal (1 copy -> 192, 5000 DH) + take 'all because of her block' + debate 'should I keep writing?'"
    }
-  ]
+  ],
+  "reserved": "2026-11-20T17:45:42Z"
  },
  "Gl__IV5JNP4": {
   "maker": "B",
