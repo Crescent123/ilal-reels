@@ -1245,7 +1245,49 @@
   ]
  },
  "tMcdf896iHI": {
-  "reserved": "2026-11-20T17:11:14Z"
+  "reserved": "2026-11-20T17:11:14Z",
+  "mined": "2026-11-20",
+  "maker": "B",
+  "note": "Saad+Ayoub open a laundry (المصبانة); Saad likes the cake girl, orders his mom's birthday cake, mom keeps her overnight, they marry. Names (Saad/Ayoub) are spoken often: check first 8 s. Whisper lost 841-871 (continuous speech). Earlier clip location unknown (assume first 90 s).",
+  "moments": [
+   {
+    "k": 1,
+    "start": 517.4,
+    "end": 570.0,
+    "type": "twist",
+    "score": 6,
+    "hook": "عجباتو مولات الحلوى",
+    "status": "todo"
+   },
+   {
+    "k": 2,
+    "start": 660.26,
+    "end": 710.0,
+    "type": "twist",
+    "score": 7,
+    "hook": "جاب بنت الحلوى لعيد ماماه؟",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 739.06,
+    "end": 790.38,
+    "type": "twist",
+    "score": 9,
+    "hook": "بنت الحلوى باتت فدارهم؟",
+    "status": "todo"
+   },
+   {
+    "k": 4,
+    "start": 871.38,
+    "end": 925.52,
+    "type": "take",
+    "score": 6,
+    "hook": "تزوج بمولات الحلوى",
+    "status": "todo",
+    "why": "starts right after a Whisper gap; check start"
+   }
+  ]
  },
  "ujby1DpbnSY": {
   "reserved": "2026-11-20T17:29:57Z",
