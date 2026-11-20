@@ -1106,13 +1106,16 @@
    },
    {
     "k": 5,
-    "start": 1213.4,
-    "end": 1267.1,
+    "start": 1213.42,
+    "end": 1263.82,
     "type": "secret",
     "score": 6,
-    "hook": "التيليفون سكت فالفيرما",
-    "status": "todo",
-    "note": "tense; gap 1227.7-1236.8 to check; cut before the break-in"
+    "hook": "صيفطت بنت الجيران للفيرما",
+    "status": "queued",
+    "note": "tense; gap 1227.7-1236.8 to check; cut before the break-in | Exp1 slot 27 (build 0, ending 0): cut 1213.42-1263.82; taxi plan + 'marry him, live like a queen', isolated farm, waits an hour, they arrive, she leaves the line open, line dies. Cut before 'he may be beating her'. Whisper dropped 1227.7-1236.8 (speech there, unverified). Name ~14 s in.",
+    "date": "2026-11-20",
+    "file": "1795185897_story_s8_Gl__IV5JNP4_m5.mp4",
+    "maker": "A"
    },
    {
     "k": 6,
@@ -1134,7 +1137,6 @@
     "status": "todo",
     "note": "lesson + debate 'would you exploit it like him?'"
    }
-  ],
-  "reserved": "2026-11-20T14:39:25Z"
+  ]
  }
 }
