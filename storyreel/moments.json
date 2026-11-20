@@ -1326,12 +1326,17 @@
    },
    {
     "k": 3,
-    "start": 892.92,
-    "end": 941.3,
+    "start": 892.85,
+    "end": 951.3,
     "type": "twist",
     "score": 8,
     "hook": "ختي كتدافع على مراتي؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-20",
+    "file": "1795200240_story_s12_ujby1DpbnSY_m3.mp4",
+    "maker": "B",
+    "cut": "drop friend aside 909.0-920.05",
+    "note": "Exp1 slot 34 (build 0, ending 0): sister asks him to forgive the wife ('just a message'); ends on 'I made a decision, even if it costs me money' before the reveal."
    },
    {
     "k": 4,
@@ -1362,7 +1367,6 @@
     "status": "skip",
     "why": "under 40 s"
    }
-  ],
-  "reserved": "2026-11-20T18:10:49Z"
+  ]
  }
 }
