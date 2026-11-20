@@ -1246,6 +1246,68 @@
   "reserved": "2026-11-20T17:11:14Z"
  },
  "ujby1DpbnSY": {
-  "reserved": "2026-11-20T17:29:57Z"
+  "reserved": "2026-11-20T17:29:57Z",
+  "mined": "2026-11-20",
+  "maker": "A",
+  "note": "narrator (Casablanca, web developer) marries; finds his wife's WhatsApp chat with his close friend; his older sister later defends the wife. Earlier clip location unknown (assume 0-90). Wife is named (Nisrine) from 876 on; the friend (Mounir) at 565 and 598.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 602.4,
+    "end": 653.1,
+    "type": "secret",
+    "score": 12,
+    "hook": "مراتي كتراسل صاحبي فالليل؟",
+    "status": "todo",
+    "cut": "drop aside 628.88-633.88"
+   },
+   {
+    "k": 2,
+    "start": 756.78,
+    "end": 806.3,
+    "type": "conflict",
+    "score": 7,
+    "hook": "واجهت مراتي بالتليفون",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 892.92,
+    "end": 941.3,
+    "type": "twist",
+    "score": 8,
+    "hook": "ختي كتدافع على مراتي؟",
+    "status": "todo"
+   },
+   {
+    "k": 4,
+    "start": 1016.18,
+    "end": 1062.3,
+    "type": "twist",
+    "score": 5,
+    "hook": "ختي فالسبيطار",
+    "status": "todo"
+   },
+   {
+    "k": 5,
+    "start": 1187.0,
+    "end": 1237.0,
+    "type": "twist",
+    "score": 6,
+    "hook": "صاحبي شاف مراتي مع واحد",
+    "status": "todo",
+    "note": "start after the name at 1185.4; Whisper text very rough"
+   },
+   {
+    "k": 6,
+    "start": 1317.76,
+    "end": 1346.9,
+    "type": "advice",
+    "score": 0,
+    "hook": "الخيانة ما فيهاش فرصة تانية",
+    "status": "skip",
+    "why": "under 40 s"
+   }
+  ]
  }
 }
