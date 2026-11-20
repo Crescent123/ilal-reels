@@ -1290,7 +1290,6 @@
   ]
  },
  "ujby1DpbnSY": {
-  "reserved": "2026-11-20T17:29:57Z",
   "mined": "2026-11-20",
   "maker": "A",
   "note": "narrator (Casablanca, web developer) marries; finds his wife's WhatsApp chat with his close friend; his older sister later defends the wife. Earlier clip location unknown (assume 0-90). Wife is named (Nisrine) from 876 on; the friend (Mounir) at 565 and 598.",
@@ -1302,8 +1301,12 @@
     "type": "secret",
     "score": 12,
     "hook": "مراتي كتراسل صاحبي فالليل؟",
-    "status": "todo",
-    "cut": "drop aside 628.88-633.88"
+    "status": "queued",
+    "cut": "drop aside 628.88-633.88",
+    "date": "2026-11-20",
+    "file": "1795196789_story_s12_ujby1DpbnSY_m1.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 32 (build 1, ending 0): opens on her last WhatsApp message to his friend 'not now, he comes home early these days'; friend started the chat (19.9 s); ends on 'the message that shocked me most was the last one' before the reveal. Dropped the 5 s aside 628.88-633.88."
    },
    {
     "k": 2,
