@@ -1096,13 +1096,16 @@
    },
    {
     "k": 4,
-    "start": 1162.72,
-    "end": 1216.4,
+    "start": 1162.66,
+    "end": 1212.12,
     "type": "conflict",
     "score": 6,
     "hook": "العروبي بغا ياخدها للفيرما",
-    "status": "todo",
-    "note": "she refuses the farm, farmer sends farm photos, narrator pushes her; 'Si Hassan' at 1185.8 (23 s in)"
+    "status": "queued",
+    "note": "she refuses the farm, farmer sends farm photos, narrator pushes her; 'Si Hassan' at 1185.8 (23 s in) | Exp1 slot 28 (build 1, ending 0): cut 1162.66-1212.12 (ends before the taxi plan / m5); she refuses the farm, farmer sends farm photos, narrator convinces her; cliffhanger = will she go",
+    "date": "2026-11-20",
+    "file": "1795188489_story_s11_Gl__IV5JNP4_m4.mp4",
+    "maker": "B"
    },
    {
     "k": 5,
@@ -1137,7 +1140,6 @@
     "status": "todo",
     "note": "lesson + debate 'would you exploit it like him?'"
    }
-  ],
-  "reserved": "2026-11-20T15:11:50Z"
+  ]
  }
 }
