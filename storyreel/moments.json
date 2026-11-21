@@ -1483,13 +1483,17 @@
   "moments": [
    {
     "k": 1,
-    "start": 330.0,
-    "end": 378.0,
+    "start": 330.78,
+    "end": 371.5,
     "type": "twist",
-    "score": 6,
-    "hook": "شنو بغاو مننا الكاوريات؟",
-    "status": "todo",
-    "why": "beach: three foreign girls + a guy join them, ask to be taken somewhere nice, fear of a scam; check sentence starts (Whisper rough)"
+    "score": 8,
+    "hook": "شنو بغاو مننا الڭاوريات فالبحر؟",
+    "status": "queued",
+    "why": "beach: three foreign girls + a guy join them, ask to be taken somewhere nice, fear of a scam; check sentence starts (Whisper rough)",
+    "date": "2026-11-21",
+    "file": "1795286809_story_s8_O0I8fmfON8A_m1.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 47 (build 0, ending 0): Essaouira beach, three foreign girls + a guy sit with the narrator and his friend, ask to be taken somewhere nice, fear of a scam; cuts on 'they gave you money, go buy for us' (before the hashish reveal). No names in first 8 s; Whisper lost 348-358."
    },
    {
     "k": 2,
@@ -1524,7 +1528,6 @@
     "status": "todo",
     "why": "morning after: Mustafa still stoned, fear the foreigner files a police report, they flee back to Errachidia; ends near the outro debate question (did he decide well?) at ~830; names likely"
    }
-  ],
-  "reserved": "2026-11-21T18:41:51Z"
+  ]
  }
 }
