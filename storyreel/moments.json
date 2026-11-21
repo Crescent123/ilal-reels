@@ -939,12 +939,16 @@
    },
    {
     "k": 6,
-    "start": 770.76,
-    "end": 817.8,
+    "start": 769.96,
+    "end": 817.76,
     "type": "secret",
     "score": 5,
     "hook": "المؤثر بغاني فمشروع سري",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-21",
+    "file": "1795272866_story_s12_L8p5gnqtTTY_m6.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 39 (build 1, ending 0): influencer asks to meet about a project, calls her to his studio, 'not for the brand, my own project, keep it between us'; she feels uneasy but goes, dreams of being famous; cut before the studio visit"
    },
    {
     "k": 7,
@@ -965,8 +969,7 @@
     "status": "skip",
     "why": "violence / heavy (T3=0)"
    }
-  ],
-  "reserved": "2026-11-21T14:40:45Z"
+  ]
  },
  "kQoSHBH_y9c": {
   "mined": "2026-11-19",
