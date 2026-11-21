@@ -1311,10 +1311,9 @@
     "score": 6,
     "hook": "تزوج بمولات الحلوى",
     "status": "todo",
-    "why": "starts right after a Whisper gap; check start"
+    "why": "starts right after a Whisper gap; check start; B 21 Nov: epilogue/take, no reversal at 12-18 s, fails build arm 1 (slot 46)"
    }
-  ],
-  "reserved": "2026-11-21T18:12:45Z"
+  ]
  },
  "ujby1DpbnSY": {
   "mined": "2026-11-20",
@@ -1476,5 +1475,8 @@
     "note": "relieved he left her ('God knows what she would post at the birth'); a page with 90K reposted his video; advice: don't post people who don't want it. End on a debate question"
    }
   ]
+ },
+ "O0I8fmfON8A": {
+  "reserved": "2026-11-21T18:13:24Z"
  }
 }
