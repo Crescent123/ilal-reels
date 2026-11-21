@@ -916,7 +916,8 @@
     "type": "twist",
     "score": 5,
     "hook": "واحد فاللايف بغاني نشطح",
-    "status": "todo"
+    "status": "skip",
+    "why": "A 21 Nov: teen narrator pressured on live by a gifter to dance then take her top off (sexual pressure on a minor, heavy, T2=0) - not clip material"
    },
    {
     "k": 4,
@@ -961,7 +962,8 @@
     "type": "twist",
     "score": 4,
     "hook": "شركة بغات تخدم معايا",
-    "status": "todo"
+    "status": "todo",
+    "note": "A 21 Nov: company email -> ad collab with an influencer, 6000 DH; no take after it, so fits ENDING 0 only (cut before the fee reveal ~561)"
    },
    {
     "k": 8,
@@ -973,8 +975,7 @@
     "status": "skip",
     "why": "violence / heavy (T3=0)"
    }
-  ],
-  "reserved": "2026-11-21T15:41:18Z"
+  ]
  },
  "kQoSHBH_y9c": {
   "mined": "2026-11-19",
@@ -1393,5 +1394,8 @@
     "why": "under 40 s"
    }
   ]
+ },
+ "qpUDTizlg3c": {
+  "reserved": "2026-11-21T15:42:03Z"
  }
 }
