@@ -1415,13 +1415,16 @@
    },
    {
     "k": 2,
-    "start": 1119.0,
-    "end": 1170.0,
+    "start": 1126.24,
+    "end": 1178.8,
     "type": "secret",
     "score": 11,
     "hook": "فين كتمشي مراتي الصباح؟",
-    "status": "todo",
-    "note": "mom: watch your wife, she goes to the shop in the morning and comes back at noon; he worries; check exact sentence starts"
+    "status": "queued",
+    "note": "mom: watch your wife, she goes to the shop in the morning and comes back at noon; he worries; check exact sentence starts | Exp1 slot 42 (build 1, ending 0): mom warns him she leaves in the morning and returns at noon; he suspects; she asks for a phone so she won't go out (cliffhanger before the Instagram secret).",
+    "date": "2026-11-21",
+    "file": "1795277806_story_s14_qpUDTizlg3c_m2.mp4",
+    "maker": "B"
    },
    {
     "k": 3,
@@ -1463,7 +1466,6 @@
     "status": "todo",
     "note": "relieved he left her ('God knows what she would post at the birth'); a page with 90K reposted his video; advice: don't post people who don't want it. End on a debate question"
    }
-  ],
-  "reserved": "2026-11-21T16:10:51Z"
+  ]
  }
 }
