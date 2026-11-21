@@ -1477,6 +1477,53 @@
   ]
  },
  "O0I8fmfON8A": {
-  "reserved": "2026-11-21T18:13:24Z"
+  "mined": "2026-11-21",
+  "maker": "B",
+  "note": "Obaid (named at 7.7 s) from Errachidia hosts tourists; road trip with friend Mustafa (named often) to Essaouira; foreign group, hashish bought with their 1000 dh, rooftop fight when Mustafa takes a foreign girl upstairs, her friend threatens police. Whisper first 300 s came out as MSA/garbled. Earlier clip location unknown (assume first 90 s). Drug/police content: T3 low.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 330.0,
+    "end": 378.0,
+    "type": "twist",
+    "score": 6,
+    "hook": "شنو بغاو مننا الكاوريات؟",
+    "status": "todo",
+    "why": "beach: three foreign girls + a guy join them, ask to be taken somewhere nice, fear of a scam; check sentence starts (Whisper rough)"
+   },
+   {
+    "k": 2,
+    "start": 450.0,
+    "end": 500.0,
+    "type": "twist",
+    "score": 4,
+    "hook": "عطاني ألف درهم باش نشري ليه",
+    "status": "todo",
+    "why": "tourist hands 1000 dh to buy hashish; drug hook (T3 0)"
+   },
+   {
+    "k": 3,
+    "start": 644.4,
+    "end": 693.18,
+    "type": "conflict",
+    "score": 11,
+    "hook": "شنو كان كيدير صاحبي الفوق؟",
+    "status": "queued",
+    "date": "2026-11-21",
+    "file": "1795285462_story_s11_O0I8fmfON8A_m3.mp4",
+    "maker": "B",
+    "note": "Exp1 slot 46 (build 1, ending 1): buddy hears voices upstairs and flies up, narrator follows, they find the foreign guy confronting Mustafa, narrator holds his friend, the girl shouts, he laughs, foreigner threatens police; reveal inside = 'your friend took the girl upstairs alone'. 'Aiden' spoken at 14 s, 'Mustafa' not in clip."
+   },
+   {
+    "k": 4,
+    "start": 745.0,
+    "end": 795.0,
+    "type": "take",
+    "score": 5,
+    "hook": "واش البوليس غيجي للدار؟",
+    "status": "todo",
+    "why": "morning after: Mustafa still stoned, fear the foreigner files a police report, they flee back to Errachidia; ends near the outro debate question (did he decide well?) at ~830; names likely"
+   }
+  ]
  }
 }
