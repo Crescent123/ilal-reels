@@ -1441,13 +1441,16 @@
    },
    {
     "k": 4,
-    "start": 997.0,
-    "end": 1045.0,
+    "start": 998.9,
+    "end": 1052.4,
     "type": "conflict",
     "score": 8,
-    "hook": "ماما شدتني فالصالون",
-    "status": "todo",
-    "note": "mom confronts him after the ex shouted at him in the shop; he kisses her feet/head, apologises"
+    "hook": "علاش شداتني الواليدة فالصالون؟",
+    "status": "queued",
+    "note": "mom confronts him after the ex shouted at him in the shop; he kisses her feet/head, apologises | Exp1 slot 44 (build 0, ending 0): 998.90-1052.40 one piece: mom catches him in the salon and scolds him (bothering girls, jail?), all because of the bakery ex, he kisses her head/feet, regrets; days pass, mom back to the marriage plan; ends on 'this time it was not just empty talk' (cliffhanger before the wife).",
+    "date": "2026-11-21",
+    "file": "1795281723_story_s11_qpUDTizlg3c_m4.mp4",
+    "maker": "B"
    },
    {
     "k": 5,
@@ -1469,7 +1472,6 @@
     "status": "todo",
     "note": "relieved he left her ('God knows what she would post at the birth'); a page with 90K reposted his video; advice: don't post people who don't want it. End on a debate question"
    }
-  ],
-  "reserved": "2026-11-21T17:13:38Z"
+  ]
  }
 }
