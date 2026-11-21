@@ -1,0 +1,2 @@
+/home/runner/work/ilal-reels/ilal-reels/tools/post_runner.py:61: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  line=dict(job['log']); line.update({'t':datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),'event':'posted' if u else 'error','permalink':u})
