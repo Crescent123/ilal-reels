@@ -957,13 +957,15 @@
    },
    {
     "k": 7,
-    "start": 509.3,
-    "end": 564.96,
+    "start": 510.33,
+    "end": 558.68,
     "type": "twist",
     "score": 4,
     "hook": "شركة بغات تخدم معايا",
-    "status": "todo",
-    "note": "A 21 Nov: company email -> ad collab with an influencer, 6000 DH; no take after it, so fits ENDING 0 only (cut before the fee reveal ~561)"
+    "status": "queued",
+    "note": "A 21 Nov: company email -> ad collab with an influencer, 6000 DH; no take after it, so fits ENDING 0 only (cut before the fee reveal ~561)",
+    "date": "2026-11-21",
+    "file": "1795283377_story_s11_L8p5gnqtTTY_m7.mp4"
    },
    {
     "k": 8,
@@ -975,8 +977,7 @@
     "status": "skip",
     "why": "violence / heavy (T3=0)"
    }
-  ],
-  "reserved": "2026-11-21T17:40:58Z"
+  ]
  },
  "kQoSHBH_y9c": {
   "mined": "2026-11-19",
