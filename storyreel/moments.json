@@ -656,12 +656,16 @@
    },
    {
     "k": 7,
-    "start": 1910.82,
-    "end": 1960.42,
+    "start": 1910.62,
+    "end": 1961.3,
     "type": "take",
-    "score": 6,
+    "score": 8,
     "hook": "واش خاصك تاخد وقتك قبل الزواج؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-21",
+    "file": "1795290746_story_s8_fetOcS0fBSg_m7.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 49 (build 0, ending 0): his take after the divorce - she showed another face in one hour, divorced 2 yrs, take your time before marriage, her side played against him over money; ends 'imagined a pure life and it wasn't'. Re-transcribed 1895-1975 only."
    },
    {
     "k": 8,
@@ -677,8 +681,7 @@
     "note": "Exp1 slot 29 (build 1, ending 1): confronts wife over the talismans 'before we married?'; reveal inside = she stammers, says it's their family custom; divorce decision at 17.6 s; his take: not a small mistake, trust gone, divorce hard. Re-transcribed 1836-1916 (old transcript had a gap 1871-1885)."
    }
   ],
-  "maker": "A",
-  "reserved": "2026-11-21T19:44:08Z"
+  "maker": "A"
  },
  "n1Y5rhFeQ9s": {
   "maker": "A",
