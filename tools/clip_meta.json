@@ -2562,5 +2562,31 @@
   "length": 50.3,
   "made": "2026-11-20T20:08:20Z",
   "maker": "A"
+ },
+ "1795270914_story_s11_tMcdf896iHI_m1.mp4": {
+  "story": "tMcdf896iHI",
+  "moment": 1,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 2,
+   "H1": 2,
+   "H2": 0,
+   "H3": 1,
+   "D1": 2,
+   "D2": 1,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "build": 0,
+   "ending": 0
+  },
+  "exp1_slot": 38,
+  "length": 50.8,
+  "made": "2026-11-21T14:23:00Z",
+  "maker": "B"
  }
 }
