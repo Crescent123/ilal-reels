@@ -1428,13 +1428,16 @@
    },
    {
     "k": 3,
-    "start": 1446.0,
-    "end": 1551.0,
+    "start": 1437.25,
+    "end": 1537.48,
     "type": "conflict",
     "score": 10,
-    "hook": "مراتي ولات كتشطح فانستغرام",
-    "status": "todo",
-    "note": "second discovery: she posted more, became a 'content creator', dances and gives marriage secrets to women; he tells her in front of mom to pack and go. Cut the plug 1461-1505 at sentence boundaries; total must be 40-55 s"
+    "hook": "شنو كتبوسطي مراتي فانستغرام؟",
+    "status": "queued",
+    "note": "second discovery: she posted more, became a 'content creator', dances and gives marriage secrets to women; he tells her in front of mom to pack and go. Cut the plug 1461-1505 at sentence boundaries; total must be 40-55 s | Exp1 slot 43 (build 0, ending 1): pieces 1437.25-1461.12 + 1512.52-1537.48 (plug cut): she hands him her phone with no code, he opens her Instagram, she posts more, became a content creator, dances and gives marriage advice; closes on his take: she needs advice herself, people only mock her in the comments.",
+    "date": "2026-11-21",
+    "file": "1795279712_story_s12_qpUDTizlg3c_m3.mp4",
+    "maker": "A"
    },
    {
     "k": 4,
@@ -1466,7 +1469,6 @@
     "status": "todo",
     "note": "relieved he left her ('God knows what she would post at the birth'); a page with 90K reposted his video; advice: don't post people who don't want it. End on a debate question"
    }
-  ],
-  "reserved": "2026-11-21T16:40:46Z"
+  ]
  }
 }
