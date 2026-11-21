@@ -1306,15 +1306,18 @@
    {
     "k": 4,
     "start": 871.38,
-    "end": 925.52,
+    "end": 922.05,
     "type": "take",
     "score": 6,
     "hook": "تزوج بمولات الحلوى",
-    "status": "todo",
-    "why": "starts right after a Whisper gap; check start; B 21 Nov: epilogue/take, no reversal at 12-18 s, fails build arm 1 (slot 46)"
+    "status": "queued",
+    "why": "starts right after a Whisper gap; check start; B 21 Nov: epilogue/take, no reversal at 12-18 s, fails build arm 1 (slot 46)",
+    "date": "2026-11-21",
+    "file": "1795289109_story_s12_tMcdf896iHI_m4.mp4",
+    "maker": "B",
+    "note": "Exp1 slot 48 (build 0, ending 1): 'we have to get married', laundry guy has work and a place, family likes the cake girl; reveal inside = they really marry; closes on Hilal's line that they live well and he drives her to work himself. Whisper gap 837-867 again; started 871.38 (quiet point)."
    }
-  ],
-  "reserved": "2026-11-21T19:10:52Z"
+  ]
  },
  "ujby1DpbnSY": {
   "mined": "2026-11-20",
