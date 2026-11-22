@@ -1542,20 +1542,22 @@
   ]
  },
  "g3QRDYyD9rI": {
-  "reserved": "2026-11-22T14:44:37Z",
   "maker": "A",
   "mined": "2026-11-22",
   "note": "Fathi (named at 0-2 s, 533, 573), Casablanca DJ, chats on Instagram with a Swedish girl, she visits Morocco on spring break; at his club gig a mustache guy dances with her, Fathi jumps from the DJ booth and gets beaten by bouncers; she says she is not interested. Earlier clip (23 Oct) location unknown, assume first 90 s. Whisper rough.",
   "moments": [
    {
     "k": 1,
-    "start": 455.26,
-    "end": 504.74,
+    "start": 455.2,
+    "end": 504.8,
     "type": "twist",
     "score": 11,
     "hook": "مول الموستاش لصق فالسويدية فالبوات؟",
-    "status": "todo",
-    "note": "club: mustache guy dances with the Swedish girl, she dances back; DJ plays sad songs, heart breaking; cut before he takes off his cap and jumps"
+    "status": "queued",
+    "note": "club: mustache guy dances with the Swedish girl, she dances back; DJ plays sad songs, heart breaking; cut before he takes off his cap and jumps | Exp1 slot 51 (build 1, ending 0): opens on the mustache guy gluing himself to her on the dance floor; ends on 'his heart breaking' before the cap comes off and the jump.",
+    "date": "2026-11-22",
+    "file": "1795359256_story_s11_g3QRDYyD9rI_m1.mp4",
+    "maker": "A"
    },
    {
     "k": 2,
