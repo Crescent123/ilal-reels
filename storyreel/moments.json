@@ -1581,13 +1581,16 @@
    },
    {
     "k": 4,
-    "start": 506.0,
-    "end": 560.0,
+    "start": 509.05,
+    "end": 559.82,
     "type": "conflict",
-    "score": 6,
-    "hook": "نقز من البلاصة ديال الديجي",
-    "status": "todo",
-    "note": "the jump + fight, she says the mustache guy was exotic; violence hook (T3 low)"
+    "score": 9,
+    "hook": "الديجي نقز على مول الموستاش",
+    "status": "queued",
+    "note": "the jump + fight, she says the mustache guy was exotic; violence hook (T3 low) | Exp1 slot 52 (build 0, ending 1): opens on the jump from the DJ booth, bouncers carry him off, she liked the other guy because he was 'different', Hilal's take, ends on 'does she have the right or not?'. Name Fathi at 24 s only.",
+    "date": "2026-11-22",
+    "file": "1795360594_story_s9_g3QRDYyD9rI_m4.mp4",
+    "maker": "B"
    },
    {
     "k": 5,
@@ -1628,8 +1631,6 @@
     "hook": "واش كتكون واضح معاها؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-22T15:10:44Z",
-  "reserved_by": "B"
+  ]
  }
 }
