@@ -874,15 +874,18 @@
    },
    {
     "k": 8,
-    "start": 1620.0,
-    "end": 1665.0,
+    "start": 1598.85,
+    "end": 1648.24,
     "type": "take",
-    "score": 5,
-    "hook": "واش تبع الحلم ديالك؟",
-    "status": "todo"
+    "score": 11,
+    "hook": "شنو ورا لباباه فالأخير؟",
+    "status": "queued",
+    "date": "2026-11-22",
+    "file": "1795368783_story_s11_VeuZUuCDy-M_m8.mp4",
+    "maker": "B",
+    "note": "Exp1 slot 56 (build 0, ending 1): one piece 1598.85-1648.24; reveal inside = he now earns a little from streaming and finally has something to show at home, still giving himself a chance, wants every Moroccan to know him; then Hilal's take (cucumbers on the roof joke, many rappers aren't famous/rich, the bac) closing on 'I don't want anyone to kill his dreams'. No names."
    }
-  ],
-  "reserved": "2026-11-22T17:16:10Z"
+  ]
  },
  "L8p5gnqtTTY": {
   "mined": "2026-11-19",
