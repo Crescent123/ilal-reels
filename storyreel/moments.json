@@ -1515,13 +1515,17 @@
    },
    {
     "k": 2,
-    "start": 450.0,
-    "end": 500.0,
+    "start": 450.55,
+    "end": 494.48,
     "type": "twist",
     "score": 4,
     "hook": "عطاني ألف درهم باش نشري ليه",
-    "status": "todo",
-    "why": "tourist hands 1000 dh to buy hashish; drug hook (T3 0)"
+    "status": "queued",
+    "why": "tourist hands 1000 dh to buy hashish; drug hook (T3 0)",
+    "date": "2026-11-22",
+    "file": "1795373462_story_s7_O0I8fmfON8A_m2.mp4",
+    "maker": "A",
+    "note": "Exp1 slot 59 (build 0, ending 0): 450.55-494.48 one piece: after the beach the tourist hands him 1000 dh 'for the thing we said', he balks, 'it's for all of us'; Hilal's short don't-follow-this comment; the hunt for a dealer starts, phones, 'look Marzouk, what's this?' — cut before the buy. Re-transcribed 22 Nov (old ai-out gone). No names in first 8 s (Obaid ~25 s, Marzouk ~42 s)."
    },
    {
     "k": 3,
@@ -1546,8 +1550,7 @@
     "status": "todo",
     "why": "morning after: Mustafa still stoned, fear the foreigner files a police report, they flee back to Errachidia; ends near the outro debate question (did he decide well?) at ~830; names likely"
    }
-  ],
-  "reserved": "2026-11-22T18:41:58Z"
+  ]
  },
  "g3QRDYyD9rI": {
   "maker": "A",
