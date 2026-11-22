@@ -1468,13 +1468,16 @@
    },
    {
     "k": 5,
-    "start": 848.0,
-    "end": 949.0,
+    "start": 897.15,
+    "end": 943.15,
     "type": "conflict",
     "score": 5,
     "hook": "صاحبتي القديمة غوتات فالمحل",
-    "status": "todo",
-    "note": "ex-girlfriend (nearly went to jail for hitting someone) shouts at him in the shop; tense, girlfriend T1=0"
+    "status": "queued",
+    "note": "ex-girlfriend (nearly went to jail for hitting someone) shouts at him in the shop; tense, girlfriend T1=0 | Exp1 slot 58 (build 1, ending 1): 897.15-943.15 one piece: the ex shouts at him in front of customers in the shop, 'you took what you wanted and dumped me' (reveal inside ~3 s), he calls a witness he has known 15 years, alone she flips sweet ('I miss you'), he says it's over, she keeps coming back shouting. No names.",
+    "date": "2026-11-22",
+    "file": "1795371825_story_s10_qpUDTizlg3c_m5.mp4",
+    "maker": "B"
    },
    {
     "k": 6,
@@ -1489,8 +1492,7 @@
     "file": "1795357046_story_s10_qpUDTizlg3c_m6.mp4",
     "maker": "B"
    }
-  ],
-  "reserved": "2026-11-22T18:11:08Z"
+  ]
  },
  "O0I8fmfON8A": {
   "mined": "2026-11-21",
