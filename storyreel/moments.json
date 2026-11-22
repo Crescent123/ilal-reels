@@ -1561,13 +1561,16 @@
    },
    {
     "k": 2,
-    "start": 90.0,
-    "end": 140.0,
+    "start": 81.95,
+    "end": 124.75,
     "type": "twist",
     "score": 7,
     "hook": "صيفط ميساج لبنت من السويد",
-    "status": "todo",
-    "note": "DMs a Swedish girl on Instagram, she answers; check names (Fathi ~67 s)"
+    "status": "queued",
+    "note": "DMs a Swedish girl on Instagram, she answers; check names (Fathi ~67 s) | Exp1 slot 53 (build 0, ending 0): opens 'one day he went on foreign Instagram', DMs 'hi I just liked you', keeps messaging; ends on 'she is from Sweden' before her reply. Name at 125.4 is cut off.",
+    "date": "2026-11-22",
+    "file": "1795362568_story_s10_g3QRDYyD9rI_m2.mp4",
+    "maker": "A"
    },
    {
     "k": 3,
@@ -1631,7 +1634,6 @@
     "hook": "واش كتكون واضح معاها؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-22T15:41:44Z"
+  ]
  }
 }
