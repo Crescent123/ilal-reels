@@ -1543,6 +1543,89 @@
  },
  "g3QRDYyD9rI": {
   "reserved": "2026-11-22T14:44:37Z",
-  "maker": "A"
+  "maker": "A",
+  "mined": "2026-11-22",
+  "note": "Fathi (named at 0-2 s, 533, 573), Casablanca DJ, chats on Instagram with a Swedish girl, she visits Morocco on spring break; at his club gig a mustache guy dances with her, Fathi jumps from the DJ booth and gets beaten by bouncers; she says she is not interested. Earlier clip (23 Oct) location unknown, assume first 90 s. Whisper rough.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 455.26,
+    "end": 504.74,
+    "type": "twist",
+    "score": 11,
+    "hook": "مول الموستاش لصق فالسويدية فالبوات؟",
+    "status": "todo",
+    "note": "club: mustache guy dances with the Swedish girl, she dances back; DJ plays sad songs, heart breaking; cut before he takes off his cap and jumps"
+   },
+   {
+    "k": 2,
+    "start": 90.0,
+    "end": 140.0,
+    "type": "twist",
+    "score": 7,
+    "hook": "صيفط ميساج لبنت من السويد",
+    "status": "todo",
+    "note": "DMs a Swedish girl on Instagram, she answers; check names (Fathi ~67 s)"
+   },
+   {
+    "k": 3,
+    "start": 199.5,
+    "end": 250.0,
+    "type": "twist",
+    "score": 7,
+    "hook": "السويدية جات للمغرب عندو",
+    "status": "todo",
+    "note": "she comes for spring break, he waits at the airport with flowers; Whisper gap 210-240"
+   },
+   {
+    "k": 4,
+    "start": 506.0,
+    "end": 560.0,
+    "type": "conflict",
+    "score": 6,
+    "hook": "نقز من البلاصة ديال الديجي",
+    "status": "todo",
+    "note": "the jump + fight, she says the mustache guy was exotic; violence hook (T3 low)"
+   },
+   {
+    "k": 5,
+    "start": 573.6,
+    "end": 610.0,
+    "type": "take",
+    "score": 5,
+    "hook": "واش من حقها تشطح مع واحد آخر؟",
+    "status": "todo",
+    "note": "Hilal's take; name Fathi at 573.0, start after; short, may need extend"
+   },
+   {
+    "k": 6,
+    "start": 612.0,
+    "end": 665.0,
+    "type": "take",
+    "score": 5,
+    "hook": "شنو كنتي غتدير فبلاصتي؟",
+    "status": "todo",
+    "note": "Hilal's own karaoke-bar anecdote (spit in his face?)"
+   },
+   {
+    "k": 7,
+    "start": 726.0,
+    "end": 775.0,
+    "type": "twist",
+    "score": 6,
+    "hook": "السويدية قالت ليه ماشي انترستد",
+    "status": "todo",
+    "note": "after the beating she says she is not interested, leaves; he goes back to the gym"
+   },
+   {
+    "k": 8,
+    "start": 780.0,
+    "end": 830.0,
+    "type": "advice",
+    "score": 4,
+    "hook": "واش كتكون واضح معاها؟",
+    "status": "todo"
+   }
+  ]
  }
 }
