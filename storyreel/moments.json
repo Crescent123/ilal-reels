@@ -1614,13 +1614,16 @@
    },
    {
     "k": 6,
-    "start": 612.0,
-    "end": 665.0,
+    "start": 643.1,
+    "end": 690.95,
     "type": "take",
     "score": 5,
     "hook": "شنو كنتي غتدير فبلاصتي؟",
-    "status": "todo",
-    "note": "Hilal's own karaoke-bar anecdote (spit in his face?)"
+    "status": "queued",
+    "note": "Hilal's own karaoke-bar anecdote (spit in his face?) | Exp1 slot 57 (build 0, ending 1): Hilal's own karaoke-bar anecdote (Casablanca): a cocky guy takes the table and keeps staring, he wants to spit in his face (50/50 -> 70/30), but the bouncers at the door would throw him out; reveal inside = that's why he didn't do it; closes on his joke. No names.",
+    "date": "2026-11-22",
+    "file": "1795369873_story_s10_g3QRDYyD9rI_m6.mp4",
+    "maker": "A"
    },
    {
     "k": 7,
@@ -1644,7 +1647,6 @@
     "hook": "واش كتكون واضح معاها؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-22T17:40:38Z"
+  ]
  }
 }
