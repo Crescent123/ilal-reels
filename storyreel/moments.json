@@ -1574,13 +1574,16 @@
    },
    {
     "k": 3,
-    "start": 199.5,
-    "end": 250.0,
+    "start": 248.06,
+    "end": 297.54,
     "type": "twist",
     "score": 7,
-    "hook": "السويدية جات للمغرب عندو",
-    "status": "todo",
-    "note": "she comes for spring break, he waits at the airport with flowers; Whisper gap 210-240"
+    "hook": "شنو لقا فتصاور صاحبتو السويدية؟",
+    "status": "queued",
+    "note": "she comes for spring break, he waits at the airport with flowers; Whisper gap 210-240 | Moved past the Whisper gap. Exp1 slot 54 (build 1, ending 0): opens 'she came', he waits at the airport with roses, tours Casablanca, she shows nothing, he checks her Instagram: photos dancing with an ordinary mustache guy in silk shirts; ends before the club night.",
+    "date": "2026-11-22",
+    "file": "1795364467_story_s12_g3QRDYyD9rI_m3.mp4",
+    "maker": "B"
    },
    {
     "k": 4,
@@ -1634,7 +1637,6 @@
     "hook": "واش كتكون واضح معاها؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-22T16:11:11Z"
+  ]
  }
 }

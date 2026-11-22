@@ -2976,5 +2976,31 @@
   "length": 46.77,
   "made": "2026-11-22T15:52:21Z",
   "maker": "A"
+ },
+ "1795364467_story_s12_g3QRDYyD9rI_m3.mp4": {
+  "story": "g3QRDYyD9rI",
+  "moment": 3,
+  "v4": {
+   "T1": 0,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": 54,
+  "length": 53.58,
+  "made": "2026-11-22T16:24:17Z",
+  "maker": "B"
  }
 }
