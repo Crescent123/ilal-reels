@@ -1620,13 +1620,16 @@
    },
    {
     "k": 7,
-    "start": 726.0,
-    "end": 775.0,
+    "start": 729.92,
+    "end": 779.05,
     "type": "twist",
     "score": 6,
-    "hook": "السويدية قالت ليه ماشي انترستد",
-    "status": "todo",
-    "note": "after the beating she says she is not interested, leaves; he goes back to the gym"
+    "hook": "شنو قالت السويدية بعد العركة؟",
+    "status": "queued",
+    "note": "after the beating she says she is not interested, leaves; he goes back to the gym | Exp1 slot 55 (build 1, ending 1): 729.92-779.05 one piece: opens on her line 'I didn't understand, why did you do that?' (cut in the gap right after 'Fathi' at ~729.7), he confesses he likes her, she says not interested (reveal inside ~11 s), she finishes the trip and leaves, he waits, goes back to the gym, focuses on work; closes on Hilal's take: stay away from night-life trouble. No names inside the cut.",
+    "date": "2026-11-22",
+    "file": "1795366425_story_s9_g3QRDYyD9rI_m7.mp4",
+    "maker": "A"
    },
    {
     "k": 8,
@@ -1637,7 +1640,6 @@
     "hook": "واش كتكون واضح معاها؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-22T16:45:55Z"
+  ]
  }
 }
