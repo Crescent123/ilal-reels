@@ -1657,7 +1657,113 @@
   ]
  },
  "K8KAnee9s6s": {
-  "reserved": "2026-11-22T19:11:02Z",
-  "maker": "B"
+  "maker": "B",
+  "mined": "2026-11-22",
+  "note": "Narrator (38, Morocco) is infertile per test, wife (33) announces pregnancy; new handsome neighbour (27) next door; wife hugs him at the pregnancy party, narrator searches her laptop, finds a hidden email account with love letters to the neighbour (he told her to abort); 9-month revenge as perfect husband, calls the neighbour to the delivery room, divorce papers + test; lover asks him to forgive her (to live off the alimony); she moves in with the neighbour; court lie (addict); neighbour beats her, narrator rescues her and the baby. First clip (6 Nov, 'pregnant and I'm infertile?') location unknown, probably ~120-175. Whisper (full file) is MSA-translated before ~320 s and dropped 417.8-429.6; re-transcribed 370-450 (Darija). Names: few ('حديجة'? at 402, unclear).",
+  "moments": [
+   {
+    "k": 1,
+    "start": 378.9,
+    "end": 426.85,
+    "type": "secret",
+    "score": 13,
+    "hook": "مراتي عنقات الجار فالعراضة؟",
+    "status": "queued",
+    "date": "2026-11-22",
+    "file": "1795375425_story_s13_K8KAnee9s6s_m1.mp4",
+    "maker": "B",
+    "note": "Exp1 slot 60 (build 1, ending 0): opens 'I see my wife, the moment she saw him, ran and hugged him'; she's busy with guests, he takes her laptop, heat rising, earlier phone search found nothing, she always watched what he did on it, password, 'the only chance to search that PC' — cut before he opens the hidden email account."
+   },
+   {
+    "k": 2,
+    "start": 429.5,
+    "end": 478.0,
+    "type": "secret",
+    "score": 11,
+    "hook": "شنو لقيت فالإيميل ديال مراتي؟",
+    "status": "todo",
+    "note": "opens on the laptop search, extra email account, love letters with our neighbour; she told him she's pregnant, he said get rid of it; fits ending 1 (reveal inside). Check words 445-480 (Whisper gap 445-449 = subscribe plug?)."
+   },
+   {
+    "k": 3,
+    "start": 529.0,
+    "end": 603.0,
+    "type": "twist",
+    "score": 12,
+    "hook": "عيطت للجار نهار ولدات مراتي",
+    "status": "todo",
+    "note": "9 months as the perfect husband; delivery day he takes her to hospital, holds her hand, then 'I called our neighbour, he's on his way... the baby's father must be here', her face changes colour. Too long: start ~553 ('جا النهار اللي غتولد فيه'), end ~603."
+   },
+   {
+    "k": 4,
+    "start": 603.0,
+    "end": 655.0,
+    "type": "conflict",
+    "score": 9,
+    "hook": "جبت ليها وراق الطلاق فالسبيطار",
+    "status": "todo",
+    "note": "divorce papers + his test on the hospital table, walks out, nearly faints, hotel night; reveal inside."
+   },
+   {
+    "k": 5,
+    "start": 655.0,
+    "end": 705.0,
+    "type": "twist",
+    "score": 9,
+    "hook": "العاشق ديال مراتي صيفط ليا ميساج",
+    "status": "todo",
+    "note": "tells her parents, they back him; the lover messages him to forgive her so they can live off his alimony."
+   },
+   {
+    "k": 6,
+    "start": 768.0,
+    "end": 815.0,
+    "type": "twist",
+    "score": 9,
+    "hook": "مراتي سكنات مع الجار حدايا",
+    "status": "todo",
+    "note": "she leaves, he thinks she went to her parents, she moved in with the neighbour next door; her father apologises."
+   },
+   {
+    "k": 7,
+    "start": 818.0,
+    "end": 868.0,
+    "type": "conflict",
+    "score": 7,
+    "hook": "شنو كذبات مراتي قدام القاضي؟",
+    "status": "todo",
+    "note": "court: she claims he was an addict and that's why he can't have kids; he has proof."
+   },
+   {
+    "k": 8,
+    "start": 868.0,
+    "end": 918.0,
+    "type": "conflict",
+    "score": 6,
+    "hook": "سمعت الغوات من دار الجار",
+    "status": "todo",
+    "note": "neighbour beats her, narrator brings her and the baby inside, calls her father. Violence: T3 0."
+   },
+   {
+    "k": 9,
+    "start": 1040.0,
+    "end": 1070.0,
+    "type": "take",
+    "score": 5,
+    "hook": "كيفاش كنتي غتدير فبلاصتو؟",
+    "status": "todo",
+    "note": "debate question + stay calm lesson; short, may need extending back to ~1020."
+   },
+   {
+    "k": 10,
+    "start": 320.0,
+    "end": 370.0,
+    "type": "twist",
+    "score": 8,
+    "hook": "مراتي وليات صاحبة الجار",
+    "status": "todo",
+    "note": "new handsome neighbour, wife gets close (both into literature), narrator thinks it's fine; Whisper Darija from ~320, check."
+   }
+  ]
  }
 }
