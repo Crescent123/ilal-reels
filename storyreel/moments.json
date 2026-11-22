@@ -1686,13 +1686,16 @@
    },
    {
     "k": 3,
-    "start": 529.0,
+    "start": 554.05,
     "end": 603.0,
     "type": "twist",
     "score": 12,
     "hook": "عيطت للجار نهار ولدات مراتي",
-    "status": "todo",
-    "note": "9 months as the perfect husband; delivery day he takes her to hospital, holds her hand, then 'I called our neighbour, he's on his way... the baby's father must be here', her face changes colour. Too long: start ~553 ('جا النهار اللي غتولد فيه'), end ~603."
+    "status": "queued",
+    "note": "9 months as the perfect husband; delivery day he takes her to hospital, holds her hand, then 'I called our neighbour, he's on his way... the baby's father must be here', her face changes colour. Too long: start ~553 ('جا النهار اللي غتولد فيه'), end ~603. | Exp1 slot 61 (build 0, ending 0): 554.05-603.0, day of birth, perfect-husband digression, hospital, calls the neighbour 'the baby's father must be here', her face changes colour — cut before the divorce papers.",
+    "date": "2026-11-22",
+    "file": "1795376755_story_s8_K8KAnee9s6s_m3.mp4",
+    "maker": "A"
    },
    {
     "k": 4,
@@ -1764,7 +1767,6 @@
     "status": "todo",
     "note": "new handsome neighbour, wife gets close (both into literature), narrator thinks it's fine; Whisper Darija from ~320, check."
    }
-  ],
-  "reserved": "2026-11-22T19:40:45Z"
+  ]
  }
 }
