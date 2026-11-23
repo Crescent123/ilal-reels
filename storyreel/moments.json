@@ -1754,13 +1754,16 @@
    },
    {
     "k": 8,
-    "start": 868.0,
-    "end": 918.0,
+    "start": 871.05,
+    "end": 920.5,
     "type": "conflict",
     "score": 6,
-    "hook": "سمعت الغوات من دار الجار",
-    "status": "todo",
-    "note": "neighbour beats her, narrator brings her and the baby inside, calls her father. Violence: T3 0."
+    "hook": "طليقتي كتغوت فدار الجار؟",
+    "status": "queued",
+    "note": "neighbour beats her, narrator brings her and the baby inside, calls her father. Violence: T3 0. | Normal build (Exp1 63 full): 871.05-920.5, opens 'that night I was sitting at home, heard screams', she runs out with the baby, neighbour chases and beats her in the street, he brings her and the baby inside, she won't let him call police, calls her father who takes her; his take; closes on her crying and asking forgiveness (before his answer).",
+    "date": "2026-11-23",
+    "file": "1795454330_story_s10_K8KAnee9s6s_m8.mp4",
+    "maker": "B"
    },
    {
     "k": 9,
@@ -1785,7 +1788,6 @@
     "file": "1795450867_story_s12_K8KAnee9s6s_m10.mp4",
     "maker": "B"
    }
-  ],
-  "reserved": "2026-11-23T17:11:42Z"
+  ]
  }
 }

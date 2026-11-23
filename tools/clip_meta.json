@@ -3328,5 +3328,28 @@
   "length": 52.38,
   "made": "2026-11-23T16:57:00Z",
   "maker": "A"
+ },
+ "1795454330_story_s10_K8KAnee9s6s_m8.mp4": {
+  "story": "K8KAnee9s6s",
+  "moment": 8,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 0,
+   "H1": 2,
+   "H2": 0,
+   "H3": 2,
+   "D1": 1,
+   "D2": 2,
+   "total": 10,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": null,
+  "exp1_slot": null,
+  "length": 53.47,
+  "made": "2026-11-23T17:22:06Z",
+  "maker": "B"
  }
 }
