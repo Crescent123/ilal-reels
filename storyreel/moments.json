@@ -1838,7 +1838,6 @@
   ]
  },
  "PKjA5MhsMIc": {
-  "reserved": "2026-11-23T20:16:49Z",
   "mined": "2026-11-23",
   "maker": "B",
   "note": "Aziz (named often, first at 133.6) tells Hilal: serial womaniser, 42; caught over the years; the veg seller at the souk becomes his lover; later an affair with a married employee whose 16-year-old daughter films them; divorce. Earlier clip location unknown (assume first 90 s). Narrator does wrong in most moments (T2 low). Whisper rough.",
@@ -1850,8 +1849,12 @@
     "type": "secret",
     "score": 12,
     "hook": "البنت شفرات سنسلة مرت خويا",
-    "status": "todo",
-    "why": "girl he brought home stole his brother's wife's gold necklace; she quietly confronts him; he stammers; cut on 'the necklace was under her pillow' (before how the girl found it / the deal). 'Aziz' at 10 s."
+    "status": "queued",
+    "why": "girl he brought home stole his brother's wife's gold necklace; she quietly confronts him; he stammers; cut on 'the necklace was under her pillow' (before how the girl found it / the deal). 'Aziz' at 10 s.",
+    "date": "2026-11-23",
+    "file": "1795465899_story_s11_PKjA5MhsMIc_m1.mp4",
+    "maker": "B",
+    "note": "123.45-173.4 one piece: the last girl he brought home stole his brother's wife's gold necklace; she knew him, didn't tell mom, quietly asks 'did you bring a girl yesterday?'; he stammers; cut on 'she kept it under her pillow'. 'Aziz' at ~10 s. No slot (Exp1 full)."
    },
    {
     "k": 2,
