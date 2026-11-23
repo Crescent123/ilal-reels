@@ -1771,15 +1771,17 @@
    },
    {
     "k": 10,
-    "start": 320.0,
-    "end": 370.0,
+    "start": 301.52,
+    "end": 351.66,
     "type": "twist",
     "score": 8,
     "hook": "مراتي وليات صاحبة الجار",
-    "status": "todo",
-    "note": "new handsome neighbour, wife gets close (both into literature), narrator thinks it's fine; Whisper Darija from ~320, check."
+    "status": "queued",
+    "note": "new handsome neighbour, wife gets close (both into literature), narrator thinks it's fine; Whisper Darija from ~320, check. | Normal build (Exp1 full): 301.52-351.66, party day, the new neighbour (27, handsome), wife cooks for them, dinner, both read the same literature, talk for hours — closes on 'I said: good, she has a friend she gets along with' (before the hug at the party). Full-file Whisper is MSA here; snipB re-transcription dropped 295-325.",
+    "date": "2026-11-23",
+    "file": "1795450867_story_s12_K8KAnee9s6s_m10.mp4",
+    "maker": "B"
    }
-  ],
-  "reserved": "2026-11-23T16:10:44Z"
+  ]
  }
 }
