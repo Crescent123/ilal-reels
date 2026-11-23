@@ -1858,13 +1858,17 @@
    },
    {
     "k": 2,
-    "start": 700.0,
-    "end": 752.0,
+    "start": 708.48,
+    "end": 758.2,
     "type": "twist",
     "score": 8,
     "hook": "مولات الخضرة عيطات ليا بالليل؟",
-    "status": "todo",
-    "why": "veg seller keeps calling him, wife distrusts her, 'hello Aziz' in a sweet voice, next day she waits for him dressed up. Check names in first 8 s; 5 years faithful before."
+    "status": "queued",
+    "why": "veg seller keeps calling him, wife distrusts her, 'hello Aziz' in a sweet voice, next day she waits for him dressed up. Check names in first 8 s; 5 years faithful before.",
+    "date": "2026-11-23",
+    "file": "1795469035_story_s11_PKjA5MhsMIc_m2.mp4",
+    "maker": "B",
+    "note": "long slot 2: 708.48-758.2 one piece (total 53.78 s). Wife distrusts the veg seller, she calls every 20 days, sweet 'hello' (name at 21 s), next day waits dressed up; cut on the tattoos, before he gives in. Main hook of the story (video title), narrator not at fault inside the clip."
    },
    {
     "k": 3,
@@ -1910,8 +1914,6 @@
     "status": "todo",
     "why": "wife leaves with the kids, divorce, daughter asks for him, regret; heavy. End on debate line if found."
    }
-  ],
-  "reserved": "2026-11-23T21:10:45Z",
-  "reserved_by": "B"
+  ]
  }
 }
