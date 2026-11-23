@@ -1954,12 +1954,14 @@
       },
       {
         "k": 4,
-        "start": 433.66,
-        "end": 462.36,
+        "start": 433.62,
+        "end": 462.42,
         "type": "secret",
         "score": 11,
-        "hook": "شنو سمعت فبيت ختي؟",
-        "status": "todo"
+        "hook": "علاش ختي ما بغاتش تحل الباب؟",
+        "status": "queued",
+        "date": "2026-11-23",
+        "file": "1795476623_story_s12_t_11yIcRc8M_m4.mp4"
       },
       {
         "k": 5,
@@ -2001,8 +2003,7 @@
         "status": "skip",
         "why": "friend named in first 8 s"
       }
-    ],
-    "reserved": "2026-11-23T23:10:36Z"
+    ]
   },
   "fpnlHglfEPU": {
     "maker": "A",
