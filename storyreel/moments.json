@@ -1639,13 +1639,16 @@
    },
    {
     "k": 5,
-    "start": 573.6,
-    "end": 610.0,
+    "start": 559.8,
+    "end": 606.7,
     "type": "take",
     "score": 5,
     "hook": "واش من حقها تشطح مع واحد آخر؟",
-    "status": "todo",
-    "note": "Hilal's take; name Fathi at 573.0, start after; short, may need extend"
+    "status": "queued",
+    "note": "Hilal's take: she has the right to meet whoever she likes, to her he is just a friend; 'don't be a donkey' (name at 573, 13 s in); ends before 'back to the story'. No exp1 slot (63 filled). Re-transcribed 530-625 snippet (main Whisper dropped gaps).",
+    "date": "2026-11-23",
+    "file": "1795464795_story_s9_g3QRDYyD9rI_m5.mp4",
+    "maker": "A"
    },
    {
     "k": 6,
@@ -1682,8 +1685,7 @@
     "hook": "واش كتكون واضح معاها؟",
     "status": "todo"
    }
-  ],
-  "reserved": "2026-11-23T19:43:22Z"
+  ]
  },
  "K8KAnee9s6s": {
   "maker": "B",
