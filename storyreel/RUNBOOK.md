@@ -17,6 +17,20 @@ posts only 9 a day; the extra clips build the pool the slate ranks from (better 
 - Pause marker shared with the other posting task: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1 (title "reels-trial-state: active" or "… paused until <ISO>").
 - Used-story log: storyreel/used.json in this repo (video_id → {date, queued|permalink}). Push it after every reel.
 
+## WHAT WORKS — from 130 posted story clips, 5–22 Nov (Hilal, 23 Nov: "just analyse the clips"). These override the pick order.
+1. TOPIC: a WOMAN OF THE FAMILY OR HOUSE doing something secret or suspicious — sister, brother's wife, mom, cousin,
+   aunt, mother-in-law, the neighbour girl, the bride (titles like "شنو كانت كدير ختي وصاحبتها؟", "مرات خويا دخلات لبيتي
+   فالليل؟", "ماماه خلات البنت تبات عندهم؟"). Median 13.3K plays, 44% reach 20K+. Everything else does 3.9–5.8K and 15–22%
+   (dad/brother 5.7K, "my wife" 5.8K, girlfriend/fiancée/ex 3.9K). Make these moments FIRST, from any story.
+2. MOMENT TYPE: only "secret" moments (a close person hides something and the narrator finds out) or the story's main
+   hook. NEVER "twist", "take" or "advice" moments: 0 of 26 reached 20K (twist median 2.8K).
+3. TITLE: a question about what that person did ("شنو بغات مرات خويا فالليل؟"). Questions 5.8K vs 3.3K.
+4. STORY KILL / STORY DIG: if a story's first 2 posted clips are both under 5K at 24 h, stop making clips from it (n1Y5rhFeQ9s:
+   9 clips, median 2.7K). If a story has a clip over 50K, mine every remaining secret moment of it (7dd81A4zfu4: 4 clips,
+   median 138K). Check tools/snapshots.jsonl before picking.
+5. LENGTH: the 8 clips under 40 s did median 20.5K with 62% over 20K (small sample) — that's why Experiment 2 tests 20–30 s.
+Never the narrator's own wrongdoing (cheating, drunk), never abroad, never school-friends/party/business stories.
+
 ## Steps
 1. (An Instagram pause does not stop story makers; it only lowers today's target to 10.)
 2. PICK A STORY — EVERY STORY HOLDS SEVERAL CLIPS (Hilal, 16 Nov: "a story could have lotta clips about lotta shit,
