@@ -1741,13 +1741,16 @@
    },
    {
     "k": 7,
-    "start": 818.0,
-    "end": 868.0,
+    "start": 822.82,
+    "end": 871.08,
     "type": "conflict",
     "score": 7,
     "hook": "شنو كذبات مراتي قدام القاضي؟",
-    "status": "todo",
-    "note": "court: she claims he was an addict and that's why he can't have kids; he has proof."
+    "status": "queued",
+    "note": "court: she claims he was an addict and that's why he can't have kids; he has proof. | Normal build (Exp1 full): 822.82-871.08, opens 'when the court hearings started', he shows proof she cheats and lives with that man, she lies that he was an addict and that's why he can't have kids, he has witnesses and proof, no shame before judge and family, wants to ruin him — closes on her telling the neighbour she'll never get the alimony (before the screams that night).",
+    "date": "2026-11-23",
+    "file": "1795452240_story_s11_K8KAnee9s6s_m7.mp4",
+    "maker": "A"
    },
    {
     "k": 8,
@@ -1782,7 +1785,6 @@
     "file": "1795450867_story_s12_K8KAnee9s6s_m10.mp4",
     "maker": "B"
    }
-  ],
-  "reserved": "2026-11-23T16:38:58Z"
+  ]
  }
 }
