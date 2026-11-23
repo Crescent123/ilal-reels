@@ -1917,6 +1917,88 @@
   ]
  },
  "t_11yIcRc8M": {
-  "reserved": "2026-11-23T21:41:31Z"
+  "mined": "2026-11-23",
+  "note": "Meknes: narrator (20) lives with mom, sister and little brother after dad died; sister's friend sleeps over while mom travels; he slowly finds out the two girls are together. First clip (Oct, 430K) assumed to cover 0-90 s.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 159.64,
+    "end": 185.1,
+    "type": "secret",
+    "score": 7,
+    "hook": "علاش ختي بغات صاحبتها تبات عندها؟",
+    "status": "skip",
+    "why": "friend named at 161 s (first 8 s)"
+   },
+   {
+    "k": 2,
+    "start": 286.3,
+    "end": 333.94,
+    "type": "secret",
+    "score": 13,
+    "hook": "شكون ناعس فبلاصة ختي؟",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 403.8,
+    "end": 431.24,
+    "type": "secret",
+    "score": 14,
+    "hook": "علاش ختي سدات الباب على صاحبتها؟",
+    "status": "queued",
+    "date": "2026-11-23",
+    "file": "1795470769_story_s14_t_11yIcRc8M_m3.mp4"
+   },
+   {
+    "k": 4,
+    "start": 433.66,
+    "end": 462.36,
+    "type": "secret",
+    "score": 11,
+    "hook": "شنو سمعت فبيت ختي؟",
+    "status": "todo"
+   },
+   {
+    "k": 5,
+    "start": 462.36,
+    "end": 510.0,
+    "type": "twist",
+    "score": 6,
+    "hook": "",
+    "status": "skip",
+    "why": "the reveal itself / twist"
+   },
+   {
+    "k": 6,
+    "start": 576.06,
+    "end": 633.0,
+    "type": "conflict",
+    "score": 8,
+    "hook": "",
+    "status": "skip",
+    "why": "friend named in first 8 s"
+   },
+   {
+    "k": 7,
+    "start": 633.0,
+    "end": 711.0,
+    "type": "take",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "take"
+   },
+   {
+    "k": 8,
+    "start": 721.38,
+    "end": 757.0,
+    "type": "conflict",
+    "score": 6,
+    "hook": "",
+    "status": "skip",
+    "why": "friend named in first 8 s"
+   }
+  ]
  }
 }
