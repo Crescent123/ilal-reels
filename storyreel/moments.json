@@ -1878,13 +1878,17 @@
    },
    {
     "k": 4,
-    "start": 1263.0,
-    "end": 1316.6,
+    "start": 1286.21,
+    "end": 1311.55,
     "type": "twist",
     "score": 9,
     "hook": "بنت الخدامة صوراتنا فالمعمل",
-    "status": "todo",
-    "why": "alone with the married worker in the workshop, her 16-year-old daughter comes down the stairs, films them, screams, runs to her father (a butcher); cut before the father arrives. Name Loubna ~1286 (after 8 s if start 1263)."
+    "status": "queued",
+    "why": "alone with the married worker in the workshop, her 16-year-old daughter comes down the stairs, films them, screams, runs to her father (a butcher); cut before the father arrives. Name Loubna ~1286 (after 8 s if start 1263).",
+    "date": "2026-11-23",
+    "file": "1795467116_story_s11_PKjA5MhsMIc_m4.mp4",
+    "maker": "A",
+    "note": "short slot 1: 1286.21-1311.55 one piece, starts at 'what the girl did' (after the name 'Loubna' at 1286.0) so no name in first 8 s; girl films them, screams, runs, mother runs after, he freezes. Name at 21 s. Cut before the butcher father hears."
    },
    {
     "k": 5,
@@ -1906,7 +1910,6 @@
     "status": "todo",
     "why": "wife leaves with the kids, divorce, daughter asks for him, regret; heavy. End on debate line if found."
    }
-  ],
-  "reserved": "2026-11-23T20:41:22Z"
+  ]
  }
 }
