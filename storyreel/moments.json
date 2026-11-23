@@ -1676,13 +1676,16 @@
    },
    {
     "k": 2,
-    "start": 429.5,
-    "end": 478.0,
+    "start": 437.8,
+    "end": 486.72,
     "type": "secret",
     "score": 11,
-    "hook": "شنو لقيت فالإيميل ديال مراتي؟",
-    "status": "todo",
-    "note": "opens on the laptop search, extra email account, love letters with our neighbour; she told him she's pregnant, he said get rid of it; fits ending 1 (reveal inside). Check words 445-480 (Whisper gap 445-449 = subscribe plug?)."
+    "hook": "شنو كتبات مراتي للجار؟",
+    "status": "queued",
+    "note": "opens on the laptop search, extra email account, love letters with our neighbour; she told him she's pregnant, he said get rid of it; fits ending 1 (reveal inside). Check words 445-480 (Whisper gap 445-449 = subscribe plug?). | Exp1 slot 62 (build 1, ending 1): 437.8-486.72, opens 'I find she has another email account', love letters with our neighbour, she told him she's pregnant, he said get rid of it, his plan (pass the baby as mine, divorce, I pay alimony, she lives with him) — closes on 'I didn't know where to go, ya nari ya nari'.",
+    "date": "2026-11-23",
+    "file": "1795443765_story_s12_K8KAnee9s6s_m2.mp4",
+    "maker": "B"
    },
    {
     "k": 3,
@@ -1767,7 +1770,6 @@
     "status": "todo",
     "note": "new handsome neighbour, wife gets close (both into literature), narrator thinks it's fine; Whisper Darija from ~320, check."
    }
-  ],
-  "reserved": "2026-11-23T14:11:02Z"
+  ]
  }
 }
