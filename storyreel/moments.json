@@ -1712,13 +1712,16 @@
    },
    {
     "k": 5,
-    "start": 655.0,
-    "end": 705.0,
+    "start": 656.67,
+    "end": 704.5,
     "type": "twist",
     "score": 9,
-    "hook": "العاشق ديال مراتي صيفط ليا ميساج",
-    "status": "todo",
-    "note": "tells her parents, they back him; the lover messages him to forgive her so they can live off his alimony."
+    "hook": "العاشق ديال مراتي بغاني نسمح ليها",
+    "status": "queued",
+    "note": "tells her parents, they back him; the lover messages him to forgive her so they can live off his alimony. | Normal build (Exp1 full): 656.67-704.5, opens 'switched on my phone, missed calls from my wife and her lover', goes to his parents, they back him, wife texts, he ignores, lover messages 'your wife regrets, give her a chance' — reveal: so they live off his alimony, neither works. Whisper drops speech 704.6-710.4; cut at the dip after 'ما عندهمش الخدمة'.",
+    "date": "2026-11-23",
+    "file": "1795447466_story_s11_K8KAnee9s6s_m5.mp4",
+    "maker": "B"
    },
    {
     "k": 6,
@@ -1773,7 +1776,6 @@
     "status": "todo",
     "note": "new handsome neighbour, wife gets close (both into literature), narrator thinks it's fine; Whisper Darija from ~320, check."
    }
-  ],
-  "reserved": "2026-11-23T15:14:00Z"
+  ]
  }
 }
