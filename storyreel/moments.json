@@ -2004,7 +2004,6 @@
   ]
  },
  "fpnlHglfEPU": {
-  "reserved": "2026-11-23T22:41:20Z",
   "maker": "A",
   "mined": "2026-11-23",
   "note": "Car mechanic (40), dad died, carries the family; marries a very polite bride who lives with his family; mom distrusts her; he gets scammed on a car (cocaine, police, paralysis), then drinking years, then robbed at knifepoint in the Sahara. Narrator name at 4 s, friend 'Sofiane' at 126 s, 'Hamid' at 419 s. First clip location unknown: assume 0-90 s.",
@@ -2016,8 +2015,12 @@
     "type": "secret",
     "score": 12,
     "hook": "علاش ماما ماعجباتهاش العروسة؟",
-    "status": "todo",
-    "why": "mom distrusts the too-perfect bride ('one day she'll turn on us'); bride moves in, her family nice; cut right before 'we discovered the problem was us'."
+    "status": "queued",
+    "why": "mom distrusts the too-perfect bride ('one day she'll turn on us'); bride moves in, her family nice; cut right before 'we discovered the problem was us'.",
+    "date": "2026-11-23",
+    "file": "1795474341_story_s14_fpnlHglfEPU_m1.mp4",
+    "maker": "A",
+    "note": "long slot 5: 205.55-254.8 one piece (49.47 s voice). Engagement visit, polite bride, mom suspicious at 13 s ('too perfect, she'll turn on us'), bride moves in, her family brings gifts; cut before 'we discovered the problem was us'."
    },
    {
     "k": 2,
