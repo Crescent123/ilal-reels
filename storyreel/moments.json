@@ -1178,11 +1178,24 @@
     "type": "take",
     "score": 5,
     "hook": "واش كون كنتي فبلاصتو؟",
-    "status": "todo",
-    "note": "lesson + debate 'would you exploit it like him?'"
+    "status": "skip",
+    "note": "lesson + debate 'would you exploit it like him?'",
+    "why": "hard reject: outro recap, needs earlier clips (rescue/farmer context), names Salma at start"
+   },
+   {
+    "k": 8,
+    "start": 627.56,
+    "end": 670.25,
+    "type": "twist",
+    "score": 9,
+    "hook": "شنو دار ليا ولد الحبوس؟",
+    "status": "queued",
+    "date": "2026-11-23",
+    "file": "1795461799_story_s9_Gl__IV5JNP4_m8.mp4",
+    "maker": "B",
+    "note": "mined 23 Nov from the unmined early part: he buys broken phones at the weekly souk, repairs them (YouTube), buys 100 dh sells 250-300 on Marketplace, buyer haggles, easy money; cut on 'a story with a guy from Habous' (before the S7 Edge deal). No names, no slot (Exp1 full)."
    }
-  ],
-  "reserved": "2026-11-23T19:11:04Z"
+  ]
  },
  "tc3JMPwzK-Y": {
   "mined": "2026-11-20",
