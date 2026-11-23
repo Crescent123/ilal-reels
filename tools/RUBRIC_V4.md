@@ -7,7 +7,7 @@ story's past results, or which experiment arm the clip is in.
 - A person's NAME in the title or in the first 8 s (spoken or on screen).
 - Set ABROAD.
 - "Part x", or the clip needs an earlier clip to make sense.
-- Shorter than 40 s or longer than 55 s (the clip's video length).
+- Length outside its Experiment 2 slot's range (short 20–30 s / long 44–54 s); clips without a slot: outside 20–30 s and 40–55 s.
 
 ## Step 2 — eight items, 0–2 each (max 16)
 | item | 2 | 1 | 0 |

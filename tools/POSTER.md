@@ -38,13 +38,13 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    fixed ONCE per Toronto day in tools/slate/<YYYY-MM-DD>.json; later runs only post from it.
    If today's slate file does not exist yet, build it (then commit + push it before posting):
    a. ELIGIBLE queue B items: *_story_* files only (see INSTAGRAM MIX), not in tools/social_skip.json, with an entry in
-      tools/clip_meta.json whose v4.reject is false and whose length is 40–55 s. HARD REJECTS are never posted, whatever
-      their score: name in title/first 8 s, abroad, part x, outside 40–55 s. Files without a clip_meta entry are not
+      tools/clip_meta.json whose v4.reject is false and whose length is 20–30 s or 40–55 s (Experiment 2, 24 Nov). HARD REJECTS are never posted, whatever
+      their score: name in title/first 8 s, abroad, part x, length outside 20–30 s and 40–55 s. Files without a clip_meta entry are not
       eligible (the health check scores them). Drive folder videos (Hilal's own drops) stay eligible as before and are
       added on top as pick "drive" (they count toward the 9 but not toward the 6/3).
-   b. POOL: during Experiment 1 (tools/exp1.json: until 63 slot files have been posted, 18–24 Nov) the pool is the
-      eligible Exp1 clips (clip_meta "arm" not null). If fewer than 9 − (drive items) Exp1 clips are eligible, add the
-      other eligible clips to the pool.
+   b. POOL (24 Nov – Experiment 2, tools/exp2.json): the pool is the eligible Exp2 clips (clip_meta "exp2_slot" not null)
+      until 63 slot files have been posted. If fewer than 9 − (drive items) are eligible, add leftover Experiment 1 clips,
+      then other eligible clips.
    c. PICK (18 Nov, Hilal approved: hard rejects + STORY SCORE = v4.T1+T2+T3, the items that held up in the blind backtest, see tools/RUBRIC_V4.md): the 6 highest story scores in the pool (ties: T1, then oldest) = pick "top6"; then 3 drawn uniformly at
       random from the REST of the pool = pick "random3", using python `random.Random("<date>")`. Fewer available → take
       what there is (top first). Never swap a random pick for a better one: the 3 random slots are the control group.

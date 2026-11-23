@@ -1,7 +1,7 @@
 # 2D story reel runbook (ilal Stories → Instagram Trial Reels)
 
 Goal per run: turn ONE new story from the Drive folder "Stories audio" into a 30–50 s vertical 2D reel in Hilal's own
-voice (40–55 s; see Experiment 1 for the build arm) and ADD IT TO THE SHARED TRIAL QUEUE (branch "trial-queue"). Several story makers run in parallel; the poster task
+voice (length from the clip's Experiment 2 slot: 20–30 s or 44–54 s) and ADD IT TO THE SHARED TRIAL QUEUE (branch "trial-queue"). Several story makers run in parallel; the poster task
 publishes the queue as MANUAL Trial Reels with NO caption, as many as Instagram allows. Story makers never publish.
 NO DAILY TARGET (Hilal, 23 Nov: "we are unlimited"): every run makes one clip, all day (9:00–23:00). The poster still
 posts only 9 a day; the extra clips build the pool the slate ranks from (better top 6), the repost/winners stock and TikTok.
@@ -55,7 +55,7 @@ posts only 9 a day; the extra clips build the pool the slate ranks from (better 
    on images: (1) claim your Exp1 slot in tools/exp1.json (lowest slot with "file": null; set "taken_by": "<maker letter>-<UTC>",
    commit, push; on a rejected push, pull and claim the next one). The slot's "build" and "ending" decide how you cut and
    build this clip — never change them. (2) Plan the cut for that arm, then apply the v4 HARD REJECTS (name in title or
-   first 8 s, set abroad, part x / needs an earlier clip, outside 40–55 s). A rejected moment is marked "skip" in
+   first 8 s, set abroad, part x / needs an earlier clip, outside the Experiment 2 slot's length range). A rejected moment is marked "skip" in
    moments.json and you take the next moment (keep the same slot). Do not filter on score otherwise: the poster needs
    low scores too (3 random slots a day). (3) Score the eight v4 items honestly from what frame 1, the title and the
    transcript of your cut will be, before building (no plays, no story history).
@@ -81,7 +81,21 @@ posts only 9 a day; the extra clips build the pool the slate ranks from (better 
 11. Queue it: `bash tools/queue_add.sh work/reel.mp4 story_s<v4 total>_<youtube_id>_m<k>` (e.g. story_s12_abc123_m3) (keep the file under ~45 MB). Do NOT publish.
 12. In storyreel/moments.json set that moment to {"status": "queued", "date": "<today>", "file": "<queued file name>"}, drop the "reserved" key, commit and push. (used.json stays as the record of first clips; don't add to it.)
 
-## Experiment 1 (18–24 Nov, 63 clips; verdict not before 25 Nov — no rule changes before then)
+## Experiment 2 — LENGTH (24 Nov – 30 Nov, 63 clips; verdict not before 1 Dec — no rule changes before then)
+Experiment 1 verdict (23 Nov, 36 clips at 24 h): no significant winner. Fast open cut skip from 37% to 33% (p=0.053, almost),
+endings made no difference. So EVERY clip now uses: BUILD = Experiment 1 build arm 1 ("fast open + hold" spec above,
+"fast_open": true) and ENDING = arm 0 (cut before the reveal).
+Claim the lowest free slot in tools/exp2.json (taken_by = "<maker letter>-<UTC>", push first) — this replaces the Exp1
+slot claim in step 5b. Cut to the slot's length:
+- "short" = 20–30 s: start on the sentence that names the relationship + the odd act, keep the next beat (the twist or the
+  question), cut right before the reveal. 3–5 scenes, scene 2 by 2.5 s. Still one continuous passage, voice only cut.
+- "long" = 44–54 s, the fast open + hold spec exactly as above.
+Length hard reject = outside the slot's range. Other hard rejects unchanged. Never change a slot's length; if a story has
+no moment that fits, release the slot and pick another story. In tools/clip_meta.json set "arm": {"length": "short|long",
+"build": 1, "ending": 0} and "exp2_slot": n, and set the slot's "file" in tools/exp2.json in the same commit as step 12.
+Once all 63 slots are filled, make clips in the length that is ahead on 24 h plays (ask the health check) — never stop.
+
+## Experiment 1 (18–24 Nov, DONE, 63 clips; verdict not before 25 Nov — no rule changes before then)
 Each clip's arm comes from its tools/exp1.json slot (seeded, balanced in blocks of 4). Both ending arms use the same kind of
 moment; only the end cut moves.
 

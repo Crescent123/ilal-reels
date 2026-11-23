@@ -60,3 +60,13 @@ watched / 28 % skip / 8.6 shares per 1K; losers 34 % / 37 % / 3.6. Small sample 
 - Hard rejects: 17/62 flagged; their pass rate 35% vs 29% kept (no evidence in this sample that rejects fail; n small).
 - Tiers: A 13 clips 31% pass, B 34 clips 38%, C 15 clips 13%.
 - The 1.5 s frame/hook items (H1–H3, D1–D2) did not predict passes here. Experiment 1 tests the build directly.
+
+## Experiment 1 verdict (23 Nov 2026, called early at Hilal's request; 36 of 63 clips had a 24 h snapshot)
+- BUILD fast open (arm 1, n=17) vs current (n=19): skip 33.3% vs 37.0% (p=0.053), watched 34.9% vs 34.6% (p=0.15),
+  plays median 4,217 vs 3,311 (p=0.46). Not significant; nearly on skip. Adopted anyway as default (costs nothing).
+- ENDING reveal + take (arm 1, n=19) vs cliffhanger (n=17): skip 33.9 vs 33.6, watched 34.0 vs 36.6, shares/1K 2.1 vs 3.0.
+  No effect → keep the cliffhanger (doc default).
+- Cells median plays: b0e0 3,311 · b0e1 5,805 · b1e0 4,858 · b1e1 4,217. Only 1/36 passed the gate (all clips 44–54 s).
+- Forward test: top6 median 3,820 (n=25) vs random3 3,311 (n=11); story score vs watched % rho −0.14 (p=0.42), vs plays
+  0.03. The ranking is not picking better clips yet.
+- Next: Experiment 2 = length (tools/EXP2.md), started 24 Nov instead of 26 Nov.
