@@ -1215,11 +1215,23 @@
     "type": "take",
     "score": 4,
     "hook": "واش الجار عندو الحق؟",
-    "status": "todo",
-    "note": "Hilal's take on the nosy neighbour + 'tell us in the comments'; name Abdessamad at 658.9, start after it"
+    "status": "skip",
+    "note": "Hilal's take on the nosy neighbour + 'tell us in the comments'; name Abdessamad at 658.9, start after it | B 23 Nov: re-transcribed 600-725 (snipB): 'Imad' spoken at 666 (6 s in) and it opens on an unexplained 'he calls him and insults him' about the police night = hard reject (name in first 8 s + needs earlier clip)."
+   },
+   {
+    "k": 4,
+    "start": 599.0,
+    "end": 642.35,
+    "type": "conflict",
+    "score": 10,
+    "hook": "شنو سمع الجار فالليل؟",
+    "status": "queued",
+    "date": "2026-11-23",
+    "file": "1795458439_story_s10_tc3JMPwzK-Y_m4.mp4",
+    "maker": "B",
+    "note": "Re-mined 23 Nov (snipB re-transcription 105-300/295-480/600-725). Normal build (Exp1 63 full): 599.0-642.35 one piece, opens 'that man stood before the police: I swear I heard a girl screaming in there', chaos, all neighbours out, police shout 'come out', nobody comes out, hidden in the room, wait till 3am, at 5:30 'take the girl out before anyone asks' — cut before Imad and the girl sneak out (646). Names: Abdessamad at 621.5 only (21 s in). Overlaps skipped m1 (never posted). Other passages left: 116-163 train to Marrakech + flirt on social media (stranger, names 166/174), 263-313 concert night (garbled)."
    }
-  ],
-  "reserved": "2026-11-23T18:12:15Z"
+  ]
  },
  "ON7TMT9vNMI": {
   "mined": "2026-11-20",
