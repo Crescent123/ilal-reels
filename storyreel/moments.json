@@ -1722,13 +1722,16 @@
    },
    {
     "k": 6,
-    "start": 768.0,
-    "end": 815.0,
+    "start": 763.7,
+    "end": 813.85,
     "type": "twist",
     "score": 9,
     "hook": "مراتي سكنات مع الجار حدايا",
-    "status": "todo",
-    "note": "she leaves, he thinks she went to her parents, she moved in with the neighbour next door; her father apologises."
+    "status": "queued",
+    "note": "she leaves, he thinks she went to her parents, she moved in with the neighbour next door; her father apologises. | Exp1 slot 63 (build 0, ending 1): 763.70-813.85, 'she was lucky I gave her time to leave my house, didn't throw her out till she gave birth', she leaves, he comes home happy, thinks she went to her parents — she moved in with the neighbour next door, sees them every day, her father apologises, parents disown her, closes on his take that the family isn't to blame. Whisper dropped 768.4-775.6 (re-transcribed 755-800 via snipA branch).",
+    "date": "2026-11-23",
+    "file": "1795446154_story_s10_K8KAnee9s6s_m6.mp4",
+    "maker": "A"
    },
    {
     "k": 7,
@@ -1770,7 +1773,6 @@
     "status": "todo",
     "note": "new handsome neighbour, wife gets close (both into literature), narrator thinks it's fine; Whisper Darija from ~320, check."
    }
-  ],
-  "reserved": "2026-11-23T14:45:00Z"
+  ]
  }
 }
