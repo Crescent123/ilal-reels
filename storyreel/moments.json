@@ -1574,11 +1574,11 @@
     "type": "take",
     "score": 5,
     "hook": "واش البوليس غيجي للدار؟",
-    "status": "todo",
-    "why": "morning after: Mustafa still stoned, fear the foreigner files a police report, they flee back to Errachidia; ends near the outro debate question (did he decide well?) at ~830; names likely"
+    "status": "skip",
+    "why": "morning after: Mustafa still stoned, fear the foreigner files a police report, they flee back to Errachidia; ends near the outro debate question (did he decide well?) at ~830; names likely",
+    "skip_why": "B 23 Nov: epilogue that needs the earlier clips (the report, the localisation, \"still stoned since yesterday\"); Whisper left 742-752 and 773-781 blank so names in first 8 s cannot be ruled out"
    }
-  ],
-  "reserved": "2026-11-23T20:10:49Z"
+  ]
  },
  "g3QRDYyD9rI": {
   "maker": "A",
@@ -1834,5 +1834,8 @@
     "note": "Found while re-mining (gap between m8 end 920.5 and m9). Normal build (Exp1 63 full): 920.46-965.14 one piece, opens on the ex-wife's 'I was blinded, I made a big mistake', she loved him, 'what do I do, me and his son', forgive me; he: 'congrats on what you did, go, God ease your way', greets her father, closes the door (reveal inside ~13-16 s); his pain, leaves it to God and the law, hopes she leaves 'that donkey' and raises the child; closes on 'the child is the only loser, he has no fault in the whole story'. No names."
    }
   ]
+ },
+ "PKjA5MhsMIc": {
+  "reserved": "2026-11-23T20:16:49Z"
  }
 }
