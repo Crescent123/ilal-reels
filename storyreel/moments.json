@@ -1702,13 +1702,16 @@
    },
    {
     "k": 4,
-    "start": 603.0,
-    "end": 655.0,
+    "start": 609.42,
+    "end": 655.68,
     "type": "conflict",
-    "score": 9,
-    "hook": "جبت ليها وراق الطلاق فالسبيطار",
-    "status": "todo",
-    "note": "divorce papers + his test on the hospital table, walks out, nearly faints, hotel night; reveal inside."
+    "score": 11,
+    "hook": "عطيت مراتي وراق الطلاق فالسبيطار",
+    "status": "queued",
+    "note": "divorce papers + his test on the hospital table, walks out, nearly faints, hotel night; reveal inside. | Normal build (Exp1 63 slots full, slot 64 beyond target left alone): 609.42-655.68, opens 'I brought her divorce papers and my test showing I can't have kids', 'I know what happened', papers on the table, your family is on the way, don't contact me, walks out dizzy, car, phone off, hotel — cut before the next morning's missed calls.",
+    "date": "2026-11-23",
+    "file": "1795449100_story_s11_K8KAnee9s6s_m4.mp4",
+    "maker": "A"
    },
    {
     "k": 5,
@@ -1776,7 +1779,6 @@
     "status": "todo",
     "note": "new handsome neighbour, wife gets close (both into literature), narrator thinks it's fine; Whisper Darija from ~320, check."
    }
-  ],
-  "reserved": "2026-11-23T15:42:55Z"
+  ]
  }
 }
