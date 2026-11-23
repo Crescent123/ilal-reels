@@ -2005,6 +2005,70 @@
  },
  "fpnlHglfEPU": {
   "reserved": "2026-11-23T22:41:20Z",
-  "maker": "A"
+  "maker": "A",
+  "mined": "2026-11-23",
+  "note": "Car mechanic (40), dad died, carries the family; marries a very polite bride who lives with his family; mom distrusts her; he gets scammed on a car (cocaine, police, paralysis), then drinking years, then robbed at knifepoint in the Sahara. Narrator name at 4 s, friend 'Sofiane' at 126 s, 'Hamid' at 419 s. First clip location unknown: assume 0-90 s.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 205.55,
+    "end": 254.8,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش ماما ماعجباتهاش العروسة؟",
+    "status": "todo",
+    "why": "mom distrusts the too-perfect bride ('one day she'll turn on us'); bride moves in, her family nice; cut right before 'we discovered the problem was us'."
+   },
+   {
+    "k": 2,
+    "start": 312.96,
+    "end": 361.92,
+    "type": "conflict",
+    "score": 8,
+    "hook": "علاش خوها سولني على ختو؟",
+    "status": "todo",
+    "why": "woman customer wants him to sell her Golf; her Rifi brother grills him 'where do you know my sister?'; cut on the Rif reputation line."
+   },
+   {
+    "k": 3,
+    "start": 373.1,
+    "end": 418.22,
+    "type": "twist",
+    "score": 6,
+    "hook": "",
+    "status": "skip",
+    "why": "Rabat buyer test drive, police find cocaine: twist + crime hook"
+   },
+   {
+    "k": 4,
+    "start": 475.0,
+    "end": 512.3,
+    "type": "take",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "narrator's own drinking/cheating"
+   },
+   {
+    "k": 5,
+    "start": 541.0,
+    "end": 621.6,
+    "type": "twist",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "why": "robbed at knifepoint in the Sahara (violence/crime, abroad-ish south)"
+   },
+   {
+    "k": 6,
+    "start": 141.16,
+    "end": 168.0,
+    "type": "conflict",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "father's death, heavy"
+   }
+  ]
  }
 }
