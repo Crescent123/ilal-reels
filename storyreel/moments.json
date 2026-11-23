@@ -1932,12 +1932,14 @@
    },
    {
     "k": 2,
-    "start": 286.3,
-    "end": 333.94,
+    "start": 286.36,
+    "end": 332.5,
     "type": "secret",
     "score": 13,
-    "hook": "شكون ناعس فبلاصة ختي؟",
-    "status": "todo"
+    "hook": "علاش صاحبة ختي ناعسة حداها؟",
+    "status": "queued",
+    "date": "2026-11-23",
+    "file": "1795472302_story_s12_t_11yIcRc8M_m2.mp4"
    },
    {
     "k": 3,
@@ -1999,7 +2001,6 @@
     "status": "skip",
     "why": "friend named in first 8 s"
    }
-  ],
-  "reserved": "2026-11-23T22:10:55Z"
+  ]
  }
 }
