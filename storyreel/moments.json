@@ -2026,13 +2026,17 @@
       },
       {
         "k": 2,
-        "start": 312.96,
-        "end": 361.92,
+        "start": 344.92,
+        "end": 370.94,
         "type": "conflict",
         "score": 8,
-        "hook": "علاش خوها سولني على ختو؟",
-        "status": "todo",
-        "why": "woman customer wants him to sell her Golf; her Rifi brother grills him 'where do you know my sister?'; cut on the Rif reputation line."
+        "hook": "خوها سولني: فين كتعرف ختي؟",
+        "status": "queued",
+        "why": "woman customer wants him to sell her Golf; her Rifi brother grills him 'where do you know my sister?'; cut on the Rif reputation line.",
+        "date": "2026-11-24",
+        "file": "1795482660_story_s12_fpnlHglfEPU_m2.mp4",
+        "maker": "A",
+        "note": "exp2 slot 9 short, one piece 344.92-370.94 (26.26 s voice). Car in her brother's name, goes to sign, Rifi brother grills him 'where do you know my sister?', Rif reputation, he explains he's just the mechanic; cut before 'تكاتبت' (they signed)."
       },
       {
         "k": 3,
@@ -2074,8 +2078,7 @@
         "status": "skip",
         "why": "father's death, heavy"
       }
-    ],
-    "reserved": "2026-11-24T00:45:32Z"
+    ]
   },
   "h3bWhPkoMs4": {
     "maker": "A",
