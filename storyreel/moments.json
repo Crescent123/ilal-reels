@@ -2296,7 +2296,6 @@
     ]
   },
   "gmpMSPIhz9k": {
-    "reserved": "2026-11-24T04:40:39Z",
     "mined": "2026-11-24",
     "note": "first clip (used.json) was 531.52-570.76 (incense at the bride house)",
     "moments": [
@@ -2332,13 +2331,15 @@
       },
       {
         "k": 4,
-        "start": 738.6,
-        "end": 788.78,
+        "start": 738.55,
+        "end": 786.1,
         "type": "secret",
         "score": 12,
         "hook": "شنو دارت مرات خويا لماما؟",
-        "status": "todo",
-        "why": "brother wife lets mom in, humiliates her in front of Hamza, mom comes home crying; later she pushes him to sell and puts the house in her name"
+        "status": "queued",
+        "why": "brother wife lets mom in, humiliates her in front of Hamza, mom comes home crying; later she pushes him to sell and puts the house in her name",
+        "date": "2026-11-24",
+        "file": "1795495860_story_s12_gmpMSPIhz9k_m4.mp4"
       },
       {
         "k": 5,
