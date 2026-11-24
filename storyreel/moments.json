@@ -2095,13 +2095,16 @@
       },
       {
         "k": 2,
-        "start": 401.0,
-        "end": 432.6,
+        "start": 393.45,
+        "end": 422.2,
         "type": "secret",
         "score": 9,
-        "hook": "فين مشاو الفراخ؟",
-        "status": "todo",
-        "why": "chickens gone, feathers on the floor, maid's odd excuse ('a cat chased them'). 'Fatima' spoken at 407.9 (7.9 s in) -> start must move later or skip; 31.6 s = neither slot without a later start."
+        "hook": "شنو دارت الخدامة للفراخ؟",
+        "status": "queued",
+        "why": "chickens gone, feathers on the floor, maid's odd excuse ('a cat chased them'). 'Fatima' spoken at 407.9 (7.9 s in) -> start must move later or skip; 31.6 s = neither slot without a later start.",
+        "date": "2026-11-24",
+        "file": "1795479511_story_s13_h3bWhPkoMs4_m2.mp4",
+        "note": "exp2 slot 8 short, one piece 393.45-422.2 (28.95 s voice). Came home early, chickens gone, feathers, asks maid, her cat excuse, ends on \"I didn't like it\". Name at 14.9 s."
       },
       {
         "k": 3,
@@ -2153,7 +2156,6 @@
         "status": "skip",
         "why": "police, missing-person report, mental illness, interrogation: crime/heavy"
       }
-    ],
-    "reserved": "2026-11-24T00:11:10Z"
+    ]
   }
 }
