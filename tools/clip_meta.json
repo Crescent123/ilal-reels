@@ -4399,5 +4399,34 @@
   "made": "2026-11-24T22:29:00Z",
   "maker": "B",
   "ws": 3
+ },
+ "1795561193_story_s11_s-gDstpbBGM_m6.mp4": {
+  "story": "s-gDstpbBGM",
+  "moment": 6,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 1,
+   "H2": 0,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": 33,
+  "length": 21.42,
+  "made": "2026-11-24T23:02:17Z",
+  "maker": "A",
+  "ws": 5
  }
 }

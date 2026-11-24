@@ -287,9 +287,20 @@
     "hook": "اختار مزيان شكون تزوج",
     "status": "skip",
     "note": "too short / generic"
+   },
+   {
+    "k": 6,
+    "start": 355.4,
+    "end": 376.66,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش عنقاتني مرت خويا فالليل؟",
+    "status": "queued",
+    "date": "2026-11-24",
+    "file": "1795561193_story_s11_s-gDstpbBGM_m6.mp4",
+    "note": "re-mined by A 24 Nov (fresh transcript): he goes at night with dessert to apologise, she is alone, he kisses her head, her hug is not normal, she cries; cut on 'but that is not the abnormal part' before she touches him. Earlier than m3 (664-705, the later flirting scene)."
    }
-  ],
-  "reserved": "2026-11-24T22:47:25Z"
+  ]
  },
  "R81K3EPbTZ4": {
   "maker": "B",
