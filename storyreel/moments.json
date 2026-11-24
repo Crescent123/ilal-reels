@@ -2551,12 +2551,16 @@
   "moments": [
    {
     "k": 1,
-    "start": 805.62,
-    "end": 852.1,
-    "type": "twist",
+    "start": 805.5,
+    "end": 851.4,
+    "type": "secret",
     "score": 7,
-    "hook": "بنت المعلم عقلات عليا فالفيلا؟",
-    "status": "todo"
+    "hook": "علاش رجعات بنت المعلم عندي بوحدها؟",
+    "status": "queued",
+    "date": "2026-11-24",
+    "file": "1795555531_story_s12_rO5a-bkixf0_m1.mp4",
+    "maker": "B",
+    "note": "Exp2 slot 30 long: first day the Haj brings his daughter, gets a call, gives her money and tells her to come back to the villa; she returns alone, sits with the narrator, asks if he's the guy who used to stare at her by the lycee; he tries to lie, gets tangled, admits; cut before her perfume/Instagram (m2). Name 'صلاح' at 10.6 s (outside 8 s). Re-labelled secret (her odd act). | B 24 Nov: 380-805 re-read: backstory (school, tiling job, knew her from lycee, she stared at him 630-644) — no standalone 20-30/44-54 passage without the 577-590 digression; not mined."
    },
    {
     "k": 2,
@@ -2637,7 +2641,6 @@
     "hook": "",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-24T21:12:59Z"
+  ]
  }
 }
