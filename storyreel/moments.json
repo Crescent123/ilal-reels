@@ -2296,6 +2296,80 @@
     ]
   },
   "gmpMSPIhz9k": {
-    "reserved": "2026-11-24T04:40:39Z"
+    "reserved": "2026-11-24T04:40:39Z",
+    "mined": "2026-11-24",
+    "note": "first clip (used.json) was 531.52-570.76 (incense at the bride house)",
+    "moments": [
+      {
+        "k": 1,
+        "start": 334.08,
+        "end": 365.04,
+        "type": "secret",
+        "score": 9,
+        "hook": "شنو دار خويا فالليسي؟",
+        "status": "todo",
+        "why": "adopted brother Hamza (teen) catches narrator (Leila) with a boy at the lycee and slaps her; comic; ~31 s (short slot). Mentions Hilal name at 330, start after it."
+      },
+      {
+        "k": 2,
+        "start": 644.86,
+        "end": 696.12,
+        "type": "conflict",
+        "score": 8,
+        "hook": "شنو شاف بابا فدار العروسة؟",
+        "status": "todo",
+        "why": "dad at the engagement sees the bride mother scheming, warns Hamza, Hamza insists on Zakia (name spoken ~669: check first 8 s ok), mom cries, dad falls ill"
+      },
+      {
+        "k": 3,
+        "start": 697.76,
+        "end": 742.0,
+        "type": "conflict",
+        "score": 8,
+        "hook": "شنو بغا خويا يدير بدار والديه؟",
+        "status": "todo",
+        "why": "Hamza comes to sell his late parents house, dad shouts at him, he cuts ties"
+      },
+      {
+        "k": 4,
+        "start": 738.6,
+        "end": 788.78,
+        "type": "secret",
+        "score": 12,
+        "hook": "شنو دارت مرات خويا لماما؟",
+        "status": "todo",
+        "why": "brother wife lets mom in, humiliates her in front of Hamza, mom comes home crying; later she pushes him to sell and puts the house in her name"
+      },
+      {
+        "k": 5,
+        "start": 488.0,
+        "end": 531.52,
+        "type": "take",
+        "score": 5,
+        "hook": "علاقة توكسيك",
+        "status": "skip",
+        "why": "take/advice on toxic relationships + name Zakia at 490"
+      },
+      {
+        "k": 6,
+        "start": 161.88,
+        "end": 226.54,
+        "type": "twist",
+        "score": 4,
+        "hook": "",
+        "status": "skip",
+        "why": "parents die in a car accident: heavy"
+      },
+      {
+        "k": 7,
+        "start": 780.86,
+        "end": 826.0,
+        "type": "take",
+        "score": 5,
+        "hook": "",
+        "status": "skip",
+        "why": "his life ruined, she wont forgive him: take, reveals the ending"
+      }
+    ]
   }
 }
