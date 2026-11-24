@@ -2074,7 +2074,8 @@
         "status": "skip",
         "why": "father's death, heavy"
       }
-    ]
+    ],
+    "reserved": "2026-11-24T00:45:32Z"
   },
   "h3bWhPkoMs4": {
     "maker": "A",
@@ -2113,8 +2114,8 @@
         "type": "secret",
         "score": 8,
         "hook": "شكون حل الباب ديال الدار؟",
-        "status": "todo",
-        "why": "outside door found open, maid says he left it, he is sure he closed it. Check name 'فاطيمة' near 360 s (first 8 s)."
+        "status": "skip",
+        "why": "outside door found open, maid says he left it, he is sure he closed it. Check name 'فاطيمة' near 360 s (first 8 s). | A 24 Nov: 'فاطيمة' spoken at 352.5, 359.9 s - no 20-30/44-54 s start avoids a name in the first 8 s (hard reject)."
       },
       {
         "k": 4,
@@ -2123,8 +2124,8 @@
         "type": "secret",
         "score": 9,
         "hook": "",
-        "status": "todo",
-        "why": "his missing cat; later found the maid... chickens 'she killed them' line ~891; check transcript, may reveal ending."
+        "status": "skip",
+        "why": "his missing cat; later found the maid... chickens 'she killed them' line ~891; check transcript, may reveal ending. | A 24 Nov: transcript checked - 868-905 is after he fires her; it reveals she killed the chickens + chased the cat, needs earlier clips (hard reject)."
       },
       {
         "k": 5,
@@ -2156,7 +2157,6 @@
         "status": "skip",
         "why": "police, missing-person report, mental illness, interrogation: crime/heavy"
       }
-    ],
-    "reserved": "2026-11-24T00:40:27Z"
+    ]
   }
 }
