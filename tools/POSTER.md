@@ -45,9 +45,9 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    b. POOL (24 Nov – Experiment 2, tools/exp2.json): the pool is the eligible Exp2 clips (clip_meta "exp2_slot" not null)
       until 63 slot files have been posted. If fewer than 9 − (drive items) are eligible, add leftover Experiment 1 clips,
       then other eligible clips.
-   c. PICK (18 Nov, Hilal approved: hard rejects + STORY SCORE = v4.T1+T2+T3, the items that held up in the blind backtest, see tools/RUBRIC_V4.md): the 6 highest story scores in the pool (ties: T1, then oldest) = pick "top6"; then 3 drawn uniformly at
-      random from the REST of the pool = pick "random3", using python `random.Random("<date>")`. Fewer available → take
-      what there is (top first). Never swap a random pick for a better one: the 3 random slots are the control group.
+   c. PICK (24 Nov, Hilal: "do what works"): the 9 clips with the highest clip_meta "ws" (winner score, see RUNBOOK
+      "COPY THE WINNERS"); clips without ws count ws = 3 if v4.T1 == 2 else 0. Ties: Exp2 clips first, then the newest.
+      No random slots any more. pick = "ws". Keep both lengths in the day if both are available (at least 3 of each).
    c2. STORY CAP (22 Nov, Hilal approved): at most 2 clips from the same story (YouTube id) in one day's slate, across
       top6 and random3. A pick that would be a 3rd clip of a story is skipped and the next one taken (for random3,
       redraw with the same seeded generator). Arms are unaffected.

@@ -17,6 +17,24 @@ posts only 9 a day; the extra clips build the pool the slate ranks from (better 
 - Pause marker shared with the other posting task: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1 (title "reels-trial-state: active" or "… paused until <ISO>").
 - Used-story log: storyreel/used.json in this repo (video_id → {date, queued|permalink}). Push it after every reel.
 
+## COPY THE WINNERS (Hilal, 24 Nov: "analyze whatever went viral, do the same"). This is the pick order now.
+Winner stories (a clip ≥40K): t_11yIcRc8M 431K, 5xbZb6He3Ww 415K, 7dd81A4zfu4 357K, qpUDTizlg3c 165K, rO5a-bkixf0 145K,
+lCzehIOldVQ 115K, tMcdf896iHI 88K, YA-w9mM73fI 74K, JKNbzIL9GsE 66K, gKM0ONyDmV4 56K, kQoSHBH_y9c 48K, L8p5gnqtTTY 48K,
+fetOcS0fBSg 42K (update this list from tools/snapshots.jsonl when a new story passes 40K).
+Pick, in this order:
+  a) 5xbZb6He3Ww and rO5a-bkixf0 — winners never mined: mine them fully now, every secret moment.
+  b) the other winner stories: re-read the transcript and find every passage NOT yet posted that holds a secret or
+     suspicious act by a family/house woman (a 20–30 s short cut of a new passage counts). Never re-cut a passage already posted.
+  c) new stories whose title or transcript centres on a woman of the family/house hiding something (sister, brother's
+     wife, mom, cousin, aunt, mother-in-law, neighbour girl, bride) — mine them.
+  d) anything else only if a–c have nothing.
+Copy the winners' shape: the title is a question about what that woman did ("شنو كانت كدير ختي وصاحبتها؟",
+"مرات خويا دخلات لبيتي فالليل؟"), the clip opens on her doing the odd thing, ends before the reveal.
+Length: alternate short 20–30 s and long 44–54 s via the tools/exp2.json slot (so we keep learning which wins).
+WINNER SCORE — write "ws" into the clip's tools/clip_meta.json entry: +3 the secret/odd act is by a family/house woman,
++2 the story is on the winner list, +1 the title is a question about what that person did, +1 moment type "secret",
+−3 the story is killed (first 2 clips under 5K at 24 h). The poster ranks by ws.
+
 ## WHAT WORKS — from 130 posted story clips, 5–22 Nov (Hilal, 23 Nov: "just analyse the clips"). These override the pick order.
 1. TOPIC: a WOMAN OF THE FAMILY OR HOUSE doing something secret or suspicious — sister, brother's wife, mom, cousin,
    aunt, mother-in-law, the neighbour girl, the bride (titles like "شنو كانت كدير ختي وصاحبتها؟", "مرات خويا دخلات لبيتي
