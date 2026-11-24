@@ -2198,12 +2198,15 @@
       },
       {
         "k": 4,
-        "start": 1099.5,
-        "end": 1150.2,
+        "start": 1076.82,
+        "end": 1105.22,
         "type": "secret",
         "score": 8,
         "hook": "شنو خبا عليا خطيبي الكوري؟",
-        "status": "todo"
+        "status": "queued",
+        "date": "2026-11-24",
+        "file": "1795492106_story_s9_Dguqml2SLtg_m4.mp4",
+        "note": "short slot 15: dad tries to talk her out of it, she insists, he gives in; gathering marriage papers, 'and here is the shock: I saw his birth date' - cut before the year (age reveal)."
       },
       {
         "k": 5,
@@ -2226,8 +2229,7 @@
         "date": "2026-11-24",
         "file": "1795488512_story_s14_Dguqml2SLtg_m6.mp4"
       }
-    ],
-    "reserved": "2026-11-24T03:40:41Z"
+    ]
   },
   "1GcvPJwol8w": {
     "mined": "2026-11-24",
