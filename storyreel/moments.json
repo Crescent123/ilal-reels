@@ -2002,9 +2002,35 @@
     "hook": "",
     "status": "skip",
     "why": "friend named in first 8 s"
+   },
+   {
+    "k": 9,
+    "start": 338.42,
+    "end": 403.78,
+    "type": "secret",
+    "score": 14,
+    "hook": "شنو كدير ختي وصاحبتها فالليل؟",
+    "status": "queued",
+    "date": "2026-11-24",
+    "file": "1795542667_story_s14_t_11yIcRc8M_m9.mp4",
+    "maker": "A",
+    "pieces": [
+     [
+      338.42,
+      347.56
+     ],
+     [
+      355.7,
+      365.78
+     ],
+     [
+      377.56,
+      403.78
+     ]
+    ],
+    "note": "Exp2 slot 23 long (46.1 s voice): on the bus he keeps thinking why the friend slept next to his sister; girls hug/kiss but sleeping two together under one blanket?; goes out with his pal, driver drops him home at night, hears the two still giggling, goes up to the room - cut right before m3 (403.8). Dropped Hilal's 'explain girls to us in comments' aside (347.56-353.74) and the school/prof filler (365.78-377.56). Pal's name at ~20 s only."
    }
-  ],
-  "reserved": "2026-11-24T17:44:18Z"
+  ]
  },
  "fpnlHglfEPU": {
   "maker": "A",
