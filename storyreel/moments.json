@@ -2086,9 +2086,20 @@
     "status": "queued",
     "date": "2026-11-24",
     "file": "1795549710_story_s12_t_11yIcRc8M_m10.mp4"
+   },
+   {
+    "k": 11,
+    "start": 576.0,
+    "end": 601.92,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش بكات ختي قدام ماما؟",
+    "status": "queued",
+    "date": "2026-11-24",
+    "file": "1795553604_story_s12_t_11yIcRc8M_m11.mp4",
+    "note": "Exp2 slot 29 short (26.2 s voice): night, everyone waits, mom comes home, greets, asks sister where her friend is (name at 10.5 s), sister looks at narrator and bursts into tears, mom freezes; he starts telling her, she listens without reaction - cut before mom explodes (~604). Whisper missed speech 528.7-538.9 and 602-604.5."
    }
-  ],
-  "reserved": "2026-11-24T20:40:41Z"
+  ]
  },
  "fpnlHglfEPU": {
   "maker": "A",
