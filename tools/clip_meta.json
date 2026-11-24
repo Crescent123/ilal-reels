@@ -3824,5 +3824,33 @@
   "length": 50.23,
   "made": "2026-11-24T02:21:03Z",
   "maker": "B"
+ },
+ "1795488512_story_s14_Dguqml2SLtg_m6.mp4": {
+  "story": "Dguqml2SLtg",
+  "moment": 6,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 14,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": 13,
+  "length": 52.08,
+  "made": "2026-11-24T02:54:34Z",
+  "maker": "A"
  }
 }
