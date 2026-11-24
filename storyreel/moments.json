@@ -2446,7 +2446,7 @@
     "score": 7,
     "hook": "شكون خبر ماما بالسطح؟",
     "status": "todo",
-    "note": "long only: girl's two tough brothers threaten him, mom goes to the girl's mother and settles it; someone else had seen him and told mom. Start after the name at 411.4; Whisper rough, check words | A 24 Nov: as a long it has no cliffhanger (resolution: mom settles it) and 413.72 starts without its subject; possible SHORT 430.42-451.06 (mom went to the girl's mother... worst part: someone else had seen me and it reached mom)."
+    "note": "long only: girl's two tough brothers threaten him, mom goes to the girl's mother and settles it; someone else had seen him and told mom. Start after the name at 411.4; Whisper rough, check words | A 24 Nov: as a long it has no cliffhanger (resolution: mom settles it) and 413.72 starts without its subject; possible SHORT 430.42-451.06 (mom went to the girl's mother... worst part: someone else had seen me and it reached mom). | B 24 Nov: 430-451 short re-checked: muddy Whisper, resolution inside, 'that woman' unexplained — weak."
    },
    {
     "k": 5,
@@ -2457,9 +2457,21 @@
     "hook": "",
     "status": "skip",
     "why": "English-learning / self-improvement advice"
+   },
+   {
+    "k": 6,
+    "start": 277.86,
+    "end": 307.44,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش طلعات ماما للسطح بالزرواطة؟",
+    "status": "queued",
+    "date": "2026-11-24",
+    "file": "1795544748_story_s12_5xbZb6He3Ww_m6.mp4",
+    "maker": "B",
+    "note": "Exp2 slot 24 short: mom fakes leaving, sends the kids to school, storms the roof room with a stick, beats the girl, narrator takes blows, runs to the door; cut before 'found it locked' (m2). Overlaps the first clip's last 4.6 s (282.48)."
    }
-  ],
-  "reserved": "2026-11-24T18:11:16Z"
+  ]
  },
  "rO5a-bkixf0": {
   "maker": "A",
