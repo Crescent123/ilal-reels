@@ -78,9 +78,41 @@
     "file": "1795546396_story_s11_7dd81A4zfu4_m7.mp4",
     "maker": "A",
     "note": "Exp2 slot 25 long (51.5 s): brother's wife slides closer on the sofa at night in pajamas, he plays dumb and moves away, she chats, confides 'I have a problem with your brother', 'patience has limits', leaves; he lies in the dark, cut on someone coming in on him (before 'thank God nothing happened'). Right after m1 (ends 457.22). Unmined gaps left: 600-689 (she is alone with him at home, he calls brother; brother's odd instructions 677-689), 783-846."
+   },
+   {
+    "k": 8,
+    "start": 616.88,
+    "end": 642.56,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش عيطات ليا مرات خويا لبيتها؟",
+    "status": "queued",
+    "date": "2026-11-24",
+    "file": "1795548220_story_s12_7dd81A4zfu4_m8.mp4",
+    "maker": "B",
+    "note": "Exp2 slot 26 short (25.9 s voice): after the salon scene (m2), he hasn't told his brother; she calls him to her room 'I need something', he plays normal, she gives him that look, laughs, plays with her hair, he forces a yellow laugh; cut before he leaves / calls his brother. Comment plug 613-616 left out."
+   },
+   {
+    "k": 9,
+    "start": 522.5,
+    "end": 557.5,
+    "type": "conflict",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "morning-after filler (headache, brother proposes an outing); no secret act"
+   },
+   {
+    "k": 10,
+    "start": 783.6,
+    "end": 846.7,
+    "type": "conflict",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "why": "aftermath/resolution: brother's wife accuses him, divorce talk — reveals the ending"
    }
-  ],
-  "reserved": "2026-11-24T19:11:10Z"
+  ]
  },
  "JKNbzIL9GsE": {
   "mined": "2026-11-16",
