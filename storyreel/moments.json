@@ -2434,7 +2434,6 @@
   ]
  },
  "rO5a-bkixf0": {
-  "reserved": "2026-11-24T15:42:09Z",
   "maker": "A",
   "mined": "2026-11-24",
   "note": "Narrator (named Saleh at 37 s, 'صالح' at 816 s; boss 'الحاج محمد' named often) works as a tiler in Haj Mohamed's villa; the Haj's daughter (knew him from the lycee) asks his Instagram, secretly comes to the empty villa by taxi while dad is away (sexual, 1155-1200), next time her mother follows her and catches them, screams, wants to call the Haj; daughter fights her mom; now he fears the Haj. First clip (Oct, 36 s, 145K) came from the first 380 s. Plugs 355-375 and 876-913 (cut them). From 1430 s on: Hilal's money/self-improvement advice.",
@@ -2475,7 +2474,9 @@
     "type": "secret",
     "score": 11,
     "hook": "علاش تبعات الحاجة بنتها للفيلا؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-24",
+    "file": "1795535370_story_s11_rO5a-bkixf0_m4.mp4"
    },
    {
     "k": 5,
