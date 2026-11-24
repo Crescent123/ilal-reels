@@ -203,9 +203,30 @@
     "hook": "واش نرجع ليها؟",
     "status": "skip",
     "note": "can they get back together, debate question"
+   },
+   {
+    "k": 8,
+    "start": 756.8,
+    "end": 801.95,
+    "type": "hook",
+    "score": 12,
+    "hook": "علاش بغات جارتنا تخدمني؟",
+    "status": "queued",
+    "date": "2026-11-24",
+    "file": "1795559343_story_s12_JKNbzIL9GsE_m8.mp4"
+   },
+   {
+    "k": 9,
+    "start": 698.56,
+    "end": 744.0,
+    "type": "secret",
+    "score": 8,
+    "hook": "شنو قالت ماما لجارتنا عليا؟",
+    "status": "todo",
+    "note": "mom tells the new neighbour her son is jobless, neighbour offers him a job; check no name in first 8 s"
    }
   ],
-  "reserved": "2026-11-24T22:13:11Z"
+  "mined2": "2026-11-24"
  },
  "s-gDstpbBGM": {
   "maker": "B",
