@@ -3768,5 +3768,33 @@
   "length": 53.95,
   "made": "2026-11-24T01:41:30Z",
   "maker": "B"
+ },
+ "1795485493_story_s14_NhSbv-eD2Cs_m1.mp4": {
+  "story": "NhSbv-eD2Cs",
+  "moment": 1,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 14,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": 11,
+  "length": 27.36,
+  "made": "2026-11-24T02:00:41Z",
+  "maker": "A"
  }
 }

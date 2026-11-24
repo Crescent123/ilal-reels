@@ -2221,6 +2221,56 @@
     "moments": []
   },
   "NhSbv-eD2Cs": {
-    "reserved": "2026-11-24T01:48:37Z"
+    "mined": "2026-11-24",
+    "note": "sister (named on audio) secretly did OnlyFans to pay for the family/brother's studies; cousin (named on audio) tells the narrator on the way to a far shop in Kenitra. Names spoken at 402, 624, 653, 733 - keep them out of the first 8 s.",
+    "moments": [
+      {
+        "k": 1,
+        "start": 705.15,
+        "end": 735.75,
+        "type": "secret",
+        "score": 14,
+        "hook": "منين جابت ختي فلوس قرايتي؟",
+        "status": "queued",
+        "date": "2026-11-24",
+        "file": "1795485493_story_s14_NhSbv-eD2Cs_m1.mp4"
+      },
+      {
+        "k": 2,
+        "start": 405.5,
+        "end": 452.1,
+        "type": "secret",
+        "score": 11,
+        "hook": "فين كانت كتمشي ختي فالعطلة؟",
+        "status": "todo"
+      },
+      {
+        "k": 3,
+        "start": 641.3,
+        "end": 690.0,
+        "type": "secret",
+        "score": 10,
+        "hook": "علاش بغات بنت خالتي تمشي معايا؟",
+        "status": "todo"
+      },
+      {
+        "k": 4,
+        "start": 737.0,
+        "end": 799.6,
+        "type": "twist",
+        "score": 6,
+        "hook": "ورات ليا الكونت ديال ختي",
+        "status": "skip"
+      },
+      {
+        "k": 5,
+        "start": 830.0,
+        "end": 880.0,
+        "type": "take",
+        "score": 4,
+        "hook": "واش نقول لواليديا؟",
+        "status": "skip"
+      }
+    ]
   }
 }
