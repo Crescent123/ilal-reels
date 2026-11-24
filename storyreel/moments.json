@@ -2374,7 +2374,63 @@
     ]
   },
   "5xbZb6He3Ww": {
-    "reserved": "2026-11-24T14:13:18Z",
-    "maker": "B"
+    "mined": "2026-11-24",
+    "maker": "B",
+    "note": "Sale popular derb: narrator secretly brings his girlfriend (named Chaimae at 156 s / 249 s / 411 s) up to the old rooftop room; one morning mom fakes going out, storms in with a stick, locks them in, neighbours had told her; her brothers threaten; mom tells him to tell dad street guys beat him. First clip 232.55-282.48 (Nov 9, 415K). Whisper lost 349-379 (plug) and 493-524. From ~520 s on it's Hilal's English-learning / self-improvement advice.",
+    "moments": [
+      {
+        "k": 1,
+        "start": 183.0,
+        "end": 231.5,
+        "type": "secret",
+        "score": 6,
+        "hook": "شنو كنت كنخبي فوق السطح؟",
+        "status": "skip",
+        "why": "setup of the narrator's own secret (girlfriend on the roof), name at 249 s area; first clip starts 232.55 right after"
+      },
+      {
+        "k": 2,
+        "start": 307.42,
+        "end": 332.45,
+        "type": "secret",
+        "score": 12,
+        "hook": "علاش ماما سدات علينا السطح؟",
+        "status": "queued",
+        "date": "2026-11-24",
+        "file": "1795530774_story_s12_5xbZb6He3Ww_m2.mp4",
+        "maker": "B",
+        "note": "Exp2 slot 18 short: mom locked the roof door with the key, goes at the girl, 'shut up donkey, you bring girls to the roof', neighbours saw you, cut on 'her brothers will finish you' (before mom's cover-up for dad)."
+      },
+      {
+        "k": 3,
+        "start": 332.6,
+        "end": 348.9,
+        "type": "secret",
+        "score": 6,
+        "hook": "شنو قالت ليا ماما نقول لبابا؟",
+        "status": "skip",
+        "why": "only 16 s before the Whisper gap / plug; mom's cover-up is the payoff of m2 and too short alone"
+      },
+      {
+        "k": 4,
+        "start": 413.72,
+        "end": 460.0,
+        "type": "conflict",
+        "score": 7,
+        "hook": "شكون خبر ماما بالسطح؟",
+        "status": "todo",
+        "note": "long only: girl's two tough brothers threaten him, mom goes to the girl's mother and settles it; someone else had seen him and told mom. Start after the name at 411.4; Whisper rough, check words"
+      },
+      {
+        "k": 5,
+        "start": 524.0,
+        "end": 700.0,
+        "type": "advice",
+        "score": 3,
+        "hook": "",
+        "status": "skip",
+        "why": "English-learning / self-improvement advice"
+      }
+    ]
   }
 }
