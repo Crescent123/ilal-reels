@@ -2435,6 +2435,86 @@
  },
  "rO5a-bkixf0": {
   "reserved": "2026-11-24T15:42:09Z",
-  "maker": "A"
+  "maker": "A",
+  "mined": "2026-11-24",
+  "note": "Narrator (named Saleh at 37 s, 'صالح' at 816 s; boss 'الحاج محمد' named often) works as a tiler in Haj Mohamed's villa; the Haj's daughter (knew him from the lycee) asks his Instagram, secretly comes to the empty villa by taxi while dad is away (sexual, 1155-1200), next time her mother follows her and catches them, screams, wants to call the Haj; daughter fights her mom; now he fears the Haj. First clip (Oct, 36 s, 145K) came from the first 380 s. Plugs 355-375 and 876-913 (cut them). From 1430 s on: Hilal's money/self-improvement advice.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 805.62,
+    "end": 852.1,
+    "type": "twist",
+    "score": 7,
+    "hook": "بنت المعلم عقلات عليا فالفيلا؟",
+    "status": "todo"
+   },
+   {
+    "k": 2,
+    "start": 852.1,
+    "end": 935.96,
+    "type": "secret",
+    "score": 8,
+    "hook": "علاش بنت المعلم طلبات الانستا ديالي؟",
+    "status": "todo",
+    "note": "cut the Instagram plug 876.18-913.26"
+   },
+   {
+    "k": 3,
+    "start": 1124.5,
+    "end": 1168.84,
+    "type": "secret",
+    "score": 8,
+    "hook": "بنت المعلم جات بوحدها للفيلا؟",
+    "status": "todo",
+    "note": "names: check 'الحاج محمد' not in first 8 s"
+   },
+   {
+    "k": 4,
+    "start": 1223.62,
+    "end": 1252.66,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش تبعات الحاجة بنتها للفيلا؟",
+    "status": "todo"
+   },
+   {
+    "k": 5,
+    "start": 1253.68,
+    "end": 1300.7,
+    "type": "conflict",
+    "score": 8,
+    "hook": "علاش البنت طيرات التيليفون لماماها؟",
+    "status": "todo"
+   },
+   {
+    "k": 6,
+    "start": 1318.38,
+    "end": 1352.86,
+    "type": "conflict",
+    "score": 6,
+    "hook": "الحاجة ما بغاتش تخلصني",
+    "status": "skip",
+    "note": "needs the earlier clip"
+   },
+   {
+    "k": 7,
+    "start": 1366.26,
+    "end": 1430.32,
+    "type": "take",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "note": "take; names the Haj"
+   },
+   {
+    "k": 8,
+    "start": 1430.32,
+    "end": 1590.0,
+    "type": "advice",
+    "score": 3,
+    "hook": "",
+    "status": "skip"
+   }
+  ]
  }
 }
