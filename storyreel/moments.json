@@ -679,9 +679,20 @@
     "score": 6,
     "hook": "شنو كنتي غتدير بلاصتي؟",
     "status": "skip"
+   },
+   {
+    "k": 10,
+    "start": 350.42,
+    "end": 400.1,
+    "type": "secret",
+    "score": 14,
+    "hook": "بنت خالتي المحجبة بدلات حوايجها؟",
+    "status": "queued",
+    "date": "2026-11-24",
+    "file": "1795564467_story_s14_lCzehIOldVQ_m10.mp4",
+    "why": "A 24 Nov re-mine: right after m2; hijabi cousin changes into short pyjama when alone with narrator, teases him, knock on door. Name 'Amina' at 362.3 (11.8 s in)."
    }
-  ],
-  "reserved": "2026-11-24T23:41:26Z"
+  ]
  },
  "fetOcS0fBSg": {
   "mined": "2026-11-17",
