@@ -2189,12 +2189,15 @@
       },
       {
         "k": 3,
-        "start": 459.2,
-        "end": 512.3,
+        "start": 461.45,
+        "end": 513.95,
         "type": "secret",
         "score": 9,
         "hook": "شنو خبيت على دارنا فالقنيطرة؟",
-        "status": "todo"
+        "status": "queued",
+        "date": "2026-11-24",
+        "file": "1795494057_story_s10_Dguqml2SLtg_m3.mp4",
+        "note": "long slot 16: starts after the boyfriend's name (he wants to come to Morocco), she is 22 in Kenitra, strict family, plans for him to come up by train; cut before they meet."
       },
       {
         "k": 4,
@@ -2229,8 +2232,7 @@
         "date": "2026-11-24",
         "file": "1795488512_story_s14_Dguqml2SLtg_m6.mp4"
       }
-    ],
-    "reserved": "2026-11-24T04:10:52Z"
+    ]
   },
   "1GcvPJwol8w": {
     "mined": "2026-11-24",
