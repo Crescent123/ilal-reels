@@ -2480,12 +2480,16 @@
    },
    {
     "k": 5,
-    "start": 1253.68,
-    "end": 1300.7,
+    "start": 1263.26,
+    "end": 1316.64,
     "type": "conflict",
-    "score": 8,
-    "hook": "علاش البنت طيرات التيليفون لماماها؟",
-    "status": "todo"
+    "score": 12,
+    "hook": "علاش البنت خطفات التيليفون لماماها؟",
+    "status": "queued",
+    "date": "2026-11-24",
+    "file": "1795537084_story_s12_rO5a-bkixf0_m5.mp4",
+    "maker": "B",
+    "note": "Exp2 slot 20 long: daughter snatches the phone from her mom (who wanted to call the Haj), threatens to tell dad what mom does, mom cries, narrator slips out; cut on fearing the Haj coming (before the unpaid-week part)."
    },
    {
     "k": 6,
@@ -2516,7 +2520,6 @@
     "hook": "",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-24T16:11:33Z"
+  ]
  }
 }
