@@ -3374,12 +3374,14 @@
    {
     "k": 3,
     "start": 451.54,
-    "end": 505.24,
+    "end": 505.14,
     "type": "secret",
     "score": 9,
-    "hook": "علاش مّا صاحبتي كتلبس هاكا قدامي؟",
-    "status": "todo",
-    "note": "they study at her mom's, mom tutors physics, dresses lightly in front of him as she gets used to him; name at 477 (ok, >8 s); untranscribed speech 463-470; stop before 512 (crude)."
+    "hook": "علاش ماما صاحبتي كتلبس هاكا قدامي؟",
+    "status": "queued",
+    "note": "they study at her mom's, mom tutors physics, dresses lightly in front of him as she gets used to him; name at 477 (ok, >8 s); untranscribed speech 463-470; stop before 512 (crude). | Exp2 slot 63 long (53.96 s voice), maker A: goes to her mom's to study, mom tutors physics, treats him better than her daughter, starts wearing light home clothes in front of him, explains nuclear physics close to him; ends on 'and I was staring at her beauty' (before 512 crude).",
+    "date": "2026-11-25",
+    "file": "1795646993_story_s11_bPSVD-5c-wo_m3.mp4"
    },
    {
     "k": 4,
@@ -3421,7 +3423,6 @@
     "status": "skip",
     "note": "plug + debate question"
    }
-  ],
-  "reserved": "2026-11-25T22:41:44Z"
+  ]
  }
 }
