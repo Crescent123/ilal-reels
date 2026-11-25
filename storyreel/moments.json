@@ -2880,6 +2880,75 @@
   ]
  },
  "cH4ajjE3xMw": {
-  "reserved": "2026-11-25T03:13:16Z"
+  "mined": "2026-11-25",
+  "maker": "B",
+  "note": "Narrator (21, coastal city) and his little sister (named on audio at 112 s and 203 s only); he falls for his older cousin from the countryside (she had a village scandal); after a fight she cries, says 'go see what your sister does', laughs hysterically and blocks him; he searches the sister's phone and finds she is in a secret relationship with a girl (shared videos, 1003-1047 sexual: skip). First clip (14 Oct) location unknown: assume 0-90 s. Plug from 1117 s.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 429.7,
+    "end": 458.2,
+    "type": "secret",
+    "score": 9,
+    "hook": "شنو دارت بنت عمي فالفاك؟",
+    "status": "todo"
+   },
+   {
+    "k": 2,
+    "start": 636.3,
+    "end": 661.9,
+    "type": "conflict",
+    "score": 6,
+    "hook": "علاش الواليدين رفضو بنت عمي؟",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 748.6,
+    "end": 830.0,
+    "type": "conflict",
+    "score": 3,
+    "hook": "",
+    "status": "skip"
+   },
+   {
+    "k": 4,
+    "start": 914.36,
+    "end": 941.3,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش قالت بنت عمي: شوف ختك؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795577244_story_s12_cH4ajjE3xMw_m4.mp4"
+   },
+   {
+    "k": 5,
+    "start": 946.7,
+    "end": 996.4,
+    "type": "secret",
+    "score": 12,
+    "hook": "شنو لقيت فتيليفون ختي؟",
+    "status": "todo"
+   },
+   {
+    "k": 6,
+    "start": 1003.0,
+    "end": 1047.5,
+    "type": "secret",
+    "score": 4,
+    "hook": "",
+    "status": "skip"
+   },
+   {
+    "k": 7,
+    "start": 1067.9,
+    "end": 1092.6,
+    "type": "secret",
+    "score": 12,
+    "hook": "شنو كانت كدير ختي فالدوار؟",
+    "status": "todo"
+   }
+  ]
  }
 }
