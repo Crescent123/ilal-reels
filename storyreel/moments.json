@@ -2875,12 +2875,15 @@
    },
    {
     "k": 5,
-    "start": 735,
-    "end": 770,
+    "start": 728.9,
+    "end": 758.4,
     "type": "secret",
     "score": 11,
-    "hook": "واش ختهم كانت عارفة؟",
-    "status": "todo"
+    "hook": "واش ختهم عارفة شنو كيدير راجلها؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795625791_story_s11_kgDH1GCfXWM_m5.mp4",
+    "note": "A 25 Nov: Exp2 slot 51 short (29.5 s voice): brothers panic, agree to call their sister and her husband and ask directly, she says come, he is home all day; cut right after they tell her everything, before 'I know, he really does that'. Name (sister) first spoken at 8.3 s."
    },
    {
     "k": 6,
@@ -2900,8 +2903,7 @@
     "hook": "",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-25T16:42:59Z"
+  ]
  },
  "cH4ajjE3xMw": {
   "mined": "2026-11-25",
