@@ -3084,9 +3084,12 @@
     "end": 1123.14,
     "type": "secret",
     "score": 9,
-    "hook": "شكون كان كيدق علينا فالليل؟",
-    "status": "todo",
-    "why": "short: one night at dinner hard knocks at the door, he opens and finds his sister crying with bruised eyes; cut before 'it is that guy'. Heavy (domestic violence): T3 low"
+    "hook": "علاش جات ختي كتبكي فالليل؟",
+    "status": "queued",
+    "why": "short: one night at dinner hard knocks at the door, he opens and finds his sister crying with bruised eyes; cut before 'it is that guy'. Heavy (domestic violence): T3 low",
+    "date": "2026-11-25",
+    "file": "1795634462_story_s12_kdpygd9ZiGs_m3.mp4",
+    "note": "B 25 Nov: Exp2 slot 56 short (26.72 s voice, 1096.80-1123.25): dinner as usual, little sister studying, hard knocks, he opens: sister crying, eyes bruised; cut before 'it is that guy'"
    },
    {
     "k": 4,
@@ -3137,8 +3140,7 @@
     "hook": "",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-25T19:12:01Z"
+  ]
  },
  "j4c--PNL9DE": {
   "mined": "2026-11-25",
