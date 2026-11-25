@@ -2812,12 +2812,14 @@
   "moments": [
    {
     "k": 1,
-    "start": 238,
-    "end": 273,
+    "start": 238.3,
+    "end": 292.2,
     "type": "secret",
     "score": 9,
     "hook": "شنو ولات كدير ختهم فالليل؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795575128_story_s13_kgDH1GCfXWM_m1.mp4"
    },
    {
     "k": 2,
@@ -2875,7 +2877,6 @@
     "hook": "",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-25T02:40:53Z"
+  ]
  }
 }
