@@ -4776,5 +4776,34 @@
   "made": "2026-11-25T04:52:11Z",
   "maker": "A",
   "ws": 7
+ },
+ "1795616662_story_s10_DuNX1YE4Apw_m3.mp4": {
+  "story": "DuNX1YE4Apw",
+  "moment": 3,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 1,
+   "H2": 0,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 10,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": 46,
+  "length": 45.5,
+  "made": "2026-11-25T14:26:54Z",
+  "maker": "B",
+  "ws": 4
  }
 }

@@ -2967,7 +2967,53 @@
   ]
  },
  "DuNX1YE4Apw": {
-  "reserved": "2026-11-25T14:11:56Z",
-  "maker": "B"
+  "mined": "2026-11-25",
+  "maker": "B",
+  "note": "13-year-old (told as 'Hussam', 2010, Beni Mellal) has a crush on the married neighbour, hacks her Facebook, finds she cheats with a derb guy (named Amine at 123 s; she is named Fatine at 154 s), prints the screenshots and mails them to her husband; night fight in the derb, she later wears niqab. First clip (17 Oct, winner) location unknown: assume first 90 s. Ends ~220 s on Hilal's debate question.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 38.2,
+    "end": 88.8,
+    "type": "secret",
+    "score": 0,
+    "hook": "هاكا فيسبوك ديال جارتو",
+    "status": "skip",
+    "why": "covered by the first clip (17 Oct)"
+   },
+   {
+    "k": 2,
+    "start": 88.86,
+    "end": 133.34,
+    "type": "secret",
+    "score": 8,
+    "hook": "مع من كانت كتهضر الجارة؟",
+    "status": "skip",
+    "why": "13-year-old hunting intimate photos in her hacked album, name Amine at ~35 s, porn mention right after; minor + sexual content"
+   },
+   {
+    "k": 3,
+    "start": 141.25,
+    "end": 186.5,
+    "type": "secret",
+    "score": 10,
+    "hook": "شنو صيفط البرهوش لراجل الجارة؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795616662_story_s10_DuNX1YE4Apw_m3.mp4",
+    "maker": "B",
+    "note": "Exp2 slot 46 long (45.5 s): conscience -> decides to tell her husband -> prints all in black and white -> big envelope + stamp in the husband's mailbox -> same night shouting, husband in the derb hunting the guy -> guy comes down with a knife, people separate them (cut before \"go to your wife, she wants me\")."
+   },
+   {
+    "k": 4,
+    "start": 186.48,
+    "end": 234.5,
+    "type": "take",
+    "score": 5,
+    "hook": "واش كان خصو يسكت؟",
+    "status": "todo",
+    "note": "aftermath (she wears niqab, husband sells the house) + Hilal's debate question; take type rarely works"
+   }
+  ]
  }
 }
