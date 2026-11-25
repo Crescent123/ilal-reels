@@ -3219,7 +3219,81 @@
   ]
  },
  "iXmznDnI6Bg": {
-  "reserved": "2026-11-25T18:15:22Z",
-  "maker": "B"
+  "maker": "B",
+  "mined": "2026-11-25",
+  "moments": [
+   {
+    "k": 1,
+    "start": 1063.4,
+    "end": 1116.86,
+    "type": "secret",
+    "score": 13,
+    "hook": "علاش بغات خالتي تسافر معايا؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795631429_story_s13_iXmznDnI6Bg_m1.mp4",
+    "note": "Exp2 slot 54 long (53.5 s voice): 'khalti' (his stepmother's sister, ~42) starts asking him to come to the beach with her, outings to the nearby city, he protects her from harassers, 'someone besides my girlfriend', every outing she calls him, he pays; ends on 'until she proposed to travel with me' (before the trip / the one-room house night)."
+   },
+   {
+    "k": 2,
+    "start": 1011.0,
+    "end": 1062.6,
+    "type": "secret",
+    "score": 9,
+    "hook": "علاش خالتي كتجيب ليا الشكلاط؟",
+    "status": "todo",
+    "note": "stepmother's sister visits when dad is out, talks with him, brings him chocolates, hugs him 'spontaneously'; ends on 'the relationship started to develop'. Short or long; check sentence boundaries."
+   },
+   {
+    "k": 3,
+    "start": 1140.0,
+    "end": 1190.0,
+    "type": "secret",
+    "score": 8,
+    "hook": "خالتي كرات دار فيها غير بيت وحدة؟",
+    "status": "todo",
+    "note": "approx: the trip - he tells the family, they find only a small one-room house by the sea, 'I'll sleep in the salon'; must end BEFORE the night scene (1230+ is sexual)."
+   },
+   {
+    "k": 4,
+    "start": 1225.0,
+    "end": 1400.0,
+    "type": "twist",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "note": "night in the shared house + morning after: sexual"
+   },
+   {
+    "k": 5,
+    "start": 103.0,
+    "end": 170.0,
+    "type": "conflict",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "note": "drunk father attacks/abuses the 13-year-old narrator: too heavy"
+   },
+   {
+    "k": 6,
+    "start": 255.0,
+    "end": 375.0,
+    "type": "conflict",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "note": "neighbour lady takes him in, neighbours confront the father: abuse context, heavy"
+   },
+   {
+    "k": 7,
+    "start": 775.0,
+    "end": 830.0,
+    "type": "conflict",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "note": "dad knocks while girlfriend hides in his room: overlaps the first clip (737.7-776.7) and narrator's own wrongdoing"
+   }
+  ]
  }
 }
