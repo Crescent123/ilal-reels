@@ -2808,6 +2808,73 @@
   ]
  },
  "kgDH1GCfXWM": {
-  "reserved": "2026-11-25T02:13:00Z"
+  "mined": "2026-11-25",
+  "moments": [
+   {
+    "k": 1,
+    "start": 238,
+    "end": 273,
+    "type": "secret",
+    "score": 9,
+    "hook": "شنو ولات كدير ختهم فالليل؟",
+    "status": "todo"
+   },
+   {
+    "k": 2,
+    "start": 382,
+    "end": 417,
+    "type": "secret",
+    "score": 9,
+    "hook": "ختهم ولات كتبات برا الدار؟",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 546.4,
+    "end": 572.2,
+    "type": "secret",
+    "score": 12,
+    "hook": "شنو كيدير راجل ختهم؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795573703_story_s12_kgDH1GCfXWM_m3.mp4"
+   },
+   {
+    "k": 4,
+    "start": 594,
+    "end": 646,
+    "type": "twist",
+    "score": 7,
+    "hook": "راجل ختهم كيبيع الغبرة؟",
+    "status": "skip"
+   },
+   {
+    "k": 5,
+    "start": 735,
+    "end": 770,
+    "type": "secret",
+    "score": 11,
+    "hook": "واش ختهم كانت عارفة؟",
+    "status": "todo"
+   },
+   {
+    "k": 6,
+    "start": 862,
+    "end": 930,
+    "type": "conflict",
+    "score": 5,
+    "hook": "خالتهم المحامية عيطات للبوليس",
+    "status": "skip"
+   },
+   {
+    "k": 7,
+    "start": 930,
+    "end": 972,
+    "type": "take",
+    "score": 4,
+    "hook": "",
+    "status": "skip"
+   }
+  ]
  }
 }
