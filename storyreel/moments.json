@@ -3361,13 +3361,15 @@
    },
    {
     "k": 2,
-    "start": 626.04,
-    "end": 671.58,
+    "start": 629.84,
+    "end": 656.3,
     "type": "secret",
     "score": 8,
     "hook": "علاش وصاتني صاحبتي على ماماها؟",
-    "status": "todo",
-    "note": "farewell day: she entrusts her mom to him, airport, long-distance nights; ends right where the first clip starts (671.5). No name inside."
+    "status": "queued",
+    "note": "Exp2 slot 62 short (26.5 s voice), maker B: 'the most important thing she did: she entrusted me with her mom' - if mom needs anything come help, eat with her, she'll be alone, you're family; airport, 'she left and left me'. No name inside. Cut 629.84 (not 626.04) to open on the act.",
+    "date": "2026-11-25",
+    "file": "1795645292_story_s12_bPSVD-5c-wo_m2.mp4"
    },
    {
     "k": 3,
@@ -3419,7 +3421,6 @@
     "status": "skip",
     "note": "plug + debate question"
    }
-  ],
-  "reserved": "2026-11-25T22:11:24Z"
+  ]
  }
 }
