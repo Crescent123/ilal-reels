@@ -3029,6 +3029,92 @@
   ]
  },
  "kdpygd9ZiGs": {
-  "reserved": "2026-11-25T15:12:21Z"
+  "mined": "2026-11-25",
+  "maker": "B",
+  "note": "Narrator (29, Casablanca): older sister (named on audio at ~47 s and likely ~816/835 s, transcribed 'سيدة') marries a much older snack cook; she pays the wedding, then secretly buys the land and builds their house on an informal estate while he stops working; he brings her friend into her house; narrator beats him and gets 6 months prison. First clip 912.40-957.25 (used.json).",
+  "moments": [
+   {
+    "k": 1,
+    "start": 912.4,
+    "end": 957.25,
+    "type": "secret",
+    "score": 8,
+    "hook": "",
+    "status": "queued",
+    "date": "2026-11-09",
+    "file": "1794249301_story_s8_kdpygd9ZiGs.mp4"
+   },
+   {
+    "k": 2,
+    "start": 821.04,
+    "end": 871.36,
+    "type": "secret",
+    "score": 13,
+    "hook": "علاش ختي ما بقاتش كتجي عندنا؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795620484_story_s13_kdpygd9ZiGs_m2.mp4",
+    "note": "B 25 Nov: Exp2 slot 48 long (50.62 s voice): she stops visiting, comes in a hurry, sits silent; they move to an unfinished far-off informal area; cut on 'we didn't know that all this...' before 'my sister paid it from her pocket'"
+   },
+   {
+    "k": 3,
+    "start": 1096.88,
+    "end": 1123.14,
+    "type": "secret",
+    "score": 9,
+    "hook": "شكون كان كيدق علينا فالليل؟",
+    "status": "todo",
+    "why": "short: one night at dinner hard knocks at the door, he opens and finds his sister crying with bruised eyes; cut before 'it is that guy'. Heavy (domestic violence): T3 low"
+   },
+   {
+    "k": 4,
+    "start": 452.7,
+    "end": 500.84,
+    "type": "twist",
+    "score": 6,
+    "hook": "",
+    "status": "skip",
+    "why": "friend's fiance says he likes the sister; name Rachid at 502; twist type"
+   },
+   {
+    "k": 5,
+    "start": 553.0,
+    "end": 612.0,
+    "type": "take",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "rant about weddings"
+   },
+   {
+    "k": 6,
+    "start": 1194.0,
+    "end": 1290.0,
+    "type": "conflict",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "he beats the husband with a club: violence"
+   },
+   {
+    "k": 7,
+    "start": 1294.0,
+    "end": 1440.0,
+    "type": "take",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "prison + regrets: heavy"
+   },
+   {
+    "k": 8,
+    "start": 1600.0,
+    "end": 1670.0,
+    "type": "advice",
+    "score": 2,
+    "hook": "",
+    "status": "skip"
+   }
+  ]
  }
 }
