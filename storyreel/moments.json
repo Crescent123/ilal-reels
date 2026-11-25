@@ -1208,9 +1208,18 @@
     "file": "1795114471_story_s11_kQoSHBH_y9c_m8.mp4",
     "maker": "A",
     "note": "ending arm 1: sales reveal (1 copy -> 192, 5000 DH) + take 'all because of her block' + debate 'should I keep writing?'"
+   },
+   {
+    "k": 9,
+    "start": 536.36,
+    "end": 553.14,
+    "type": "secret",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "why": "re-read 25 Nov (A): only unposted bit of the mom secret is dad finding out after the reveal (m3); 560-845 is the narrator's studies, mom's illness/death and depression (heavy). No new secret passage left."
    }
-  ],
-  "reserved": "2026-11-25T00:41:53Z"
+  ]
  },
  "Gl__IV5JNP4": {
   "maker": "B",
@@ -2174,7 +2183,8 @@
     "file": "1795553604_story_s12_t_11yIcRc8M_m11.mp4",
     "note": "Exp2 slot 29 short (26.2 s voice): night, everyone waits, mom comes home, greets, asks sister where her friend is (name at 10.5 s), sister looks at narrator and bursts into tears, mom freezes; he starts telling her, she listens without reaction - cut before mom explodes (~604). Whisper missed speech 528.7-538.9 and 602-604.5."
    }
-  ]
+  ],
+  "reserved": "2026-11-25T00:49:51Z"
  },
  "fpnlHglfEPU": {
   "maker": "A",
