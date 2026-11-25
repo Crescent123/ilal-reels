@@ -124,9 +124,20 @@
     "file": "1795557348_story_s14_7dd81A4zfu4_m11.mp4",
     "maker": "A",
     "note": "Exp2 slot 31 short (24.2 s voice): brother's wife asks him to reach the high cupboard, holds him in the kitchen chatting, 'you're the dearest to me', says his brother changed and comes home late; cut before Hilal's 'stop' comment. Name at 342.6 (12.9 s in). Whisper lost 315.5-322.8."
+   },
+   {
+    "k": 12,
+    "start": 648.8,
+    "end": 676.92,
+    "type": "secret",
+    "score": 9,
+    "hook": "خويا عرف شنو دارت مراتو؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795566031_story_s9_7dd81A4zfu4_m12.mp4",
+    "maker": "B"
    }
-  ],
-  "reserved": "2026-11-25T00:11:02Z"
+  ]
  },
  "JKNbzIL9GsE": {
   "mined": "2026-11-16",
