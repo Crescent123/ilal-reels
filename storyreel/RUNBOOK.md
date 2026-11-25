@@ -20,7 +20,7 @@ posts only 9 a day; the extra clips build the pool the slate ranks from (better 
 ## COPY THE WINNERS (Hilal, 24 Nov: "analyze whatever went viral, do the same"). This is the pick order now.
 Winner stories (a clip ≥40K): t_11yIcRc8M 431K, 5xbZb6He3Ww 415K, 7dd81A4zfu4 357K, qpUDTizlg3c 165K, rO5a-bkixf0 145K,
 lCzehIOldVQ 115K, tMcdf896iHI 88K, YA-w9mM73fI 74K, JKNbzIL9GsE 66K, gKM0ONyDmV4 56K, kQoSHBH_y9c 48K, L8p5gnqtTTY 48K,
-fetOcS0fBSg 42K (update this list from tools/snapshots.jsonl when a new story passes 40K).
+fetOcS0fBSg 42K, NhSbv-eD2Cs 86K (m3 at 24 h; fully mined 25 Nov) (update this list from tools/snapshots.jsonl when a new story passes 40K).
 Pick, in this order:
   a) 5xbZb6He3Ww and rO5a-bkixf0 — winners never mined: mine them fully now, every secret moment.
   b) the other winner stories: re-read the transcript and find every passage NOT yet posted that holds a secret or

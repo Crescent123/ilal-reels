@@ -2521,9 +2521,21 @@
     "date": "2026-11-25",
     "file": "1795618342_story_s14_NhSbv-eD2Cs_m6.mp4",
     "note": "A 25 Nov: Exp2 slot 47 short (27.95 s voice): sister grows up and starts going alone, works summers in a bakery to pay her way, cousin rents a flat alone after a fight with her mom (name at 13.2 s), sister tells parents at night she goes to the aunt's but really goes to the cousin's flat and they stay alone; cut before 'where do they pay rent / get money' (418). Remaining 418-641: obvious-implication line, sister's bac/job backstory, Hilal's envy/take - no standalone secret left."
+   },
+   {
+    "k": 7,
+    "start": 608.92,
+    "end": 634.82,
+    "type": "secret",
+    "score": 15,
+    "hook": "شنو كانت كتخبي عليا ختي؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795649183_story_s15_NhSbv-eD2Cs_m7.mp4",
+    "maker": "B",
+    "note": "Exp2 slot 64 short (26.15 s voice): 'I'd learn the secret hidden from me for years'; trip to Kenitra with mom; cousin embarrassed on seeing mom; gas bottle runs out at midnight; ends right before m3 (aunt sends me to the far shop). Remaining unposted passages are digressions/heavy/post-reveal: story fully mined."
    }
-  ],
-  "reserved": "2026-11-25T23:11:37Z"
+  ]
  },
  "gmpMSPIhz9k": {
   "mined": "2026-11-24",
