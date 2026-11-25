@@ -2048,7 +2048,7 @@
  },
  "t_11yIcRc8M": {
   "mined": "2026-11-23",
-  "note": "Meknes: narrator (20) lives with mom, sister and little brother after dad died; sister's friend sleeps over while mom travels; he slowly finds out the two girls are together. First clip (Oct, 430K) assumed to cover 0-90 s.",
+  "note": "Meknes: narrator (20) lives with mom, sister and little brother after dad died; sister's friend sleeps over while mom travels; he slowly finds out the two girls are together. First clip (Oct, 430K) assumed to cover 0-90 s. | B 25 Nov: re-read whole transcript, no unposted standalone secret left (185-286 = airport trip + Hilal digression with names; rest posted or take/conflict).",
   "moments": [
    {
     "k": 1,
@@ -2195,8 +2195,7 @@
     "file": "1795568353_story_s14_t_11yIcRc8M_m12.mp4",
     "why": "mom announces a 10-day trip, sister jumps in asking her friend to sleep over, narrator wants to say no, mom agrees; friend named at 19 s (outside first 8 s). Re-read 25 Nov (A): 185-286 is the airport trip + a long take digression, no other unposted secret passage."
    }
-  ],
-  "reserved": "2026-11-25T16:12:39Z"
+  ]
  },
  "fpnlHglfEPU": {
   "maker": "A",
@@ -3121,5 +3120,8 @@
     "status": "skip"
    }
   ]
+ },
+ "j4c--PNL9DE": {
+  "reserved": "2026-11-25T16:14:13Z"
  }
 }
