@@ -242,7 +242,8 @@
     "maker": "B"
    }
   ],
-  "mined2": "2026-11-24"
+  "mined2": "2026-11-24",
+  "reserved": "2026-11-25T21:20:10Z"
  },
  "s-gDstpbBGM": {
   "maker": "B",
@@ -601,7 +602,7 @@
  },
  "lCzehIOldVQ": {
   "mined": "2026-11-17",
-  "note": "earlier clip 343.95-393.85 (pajamas in kitchen)",
+  "note": "earlier clip 343.95-393.85 (pajamas in kitchen) | B 25 Nov re-mined 400-938: knock/mom at door, Hilal's digressions (series, rooms, comments plug ~600-630), then the narrator's own affair with the cousin (sexual, T2=0) — nothing usable.",
   "moments": [
    {
     "k": 1,
@@ -705,8 +706,7 @@
     "file": "1795564467_story_s14_lCzehIOldVQ_m10.mp4",
     "why": "A 24 Nov re-mine: right after m2; hijabi cousin changes into short pyjama when alone with narrator, teases him, knock on door. Name 'Amina' at 362.3 (11.8 s in)."
    }
-  ],
-  "reserved": "2026-11-25T21:11:30Z"
+  ]
  },
  "fetOcS0fBSg": {
   "mined": "2026-11-17",
