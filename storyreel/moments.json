@@ -2771,8 +2771,19 @@
     "date": "2026-11-25",
     "file": "1795627187_story_s12_rO5a-bkixf0_m10.mp4",
     "note": "B 25 Nov: Exp2 slot 52 long (50.96 s voice): pieces 572.14-576.74 + 590.04-635.72 (dropped the 'how do you know the Haj's daughter? easy question' aside, which names the Haj). He brought his daughter, my age, I knew her; flashback: she waited for her driver at her lycee near mine, watched me pass every day; first time at the villa she stared at me till I got scared. Cut before 'I didn't want to come back the next day'. 0-567 and 913-1020 still unmined (913-990 IG ask + rich/poor take)."
+   },
+   {
+    "k": 11,
+    "start": 874.06,
+    "end": 935.96,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش طلبات بنت المعلم الانستغرام ديالي؟",
+    "status": "todo",
+    "why": "boss's daughter asks for his Instagram (874-876) then plug 876-913.8 cut, he gives it, her dad's car picks her up; short slot; ends before the follow request (999)"
    }
-  ]
+  ],
+  "reserved": "2026-11-25T19:42:08Z"
  },
  "1ARy7CXYPzI": {
   "mined": "2026-11-24",
