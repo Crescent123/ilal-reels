@@ -3122,6 +3122,82 @@
   ]
  },
  "j4c--PNL9DE": {
-  "reserved": "2026-11-25T16:14:13Z"
+  "mined": "2026-11-25",
+  "maker": "B",
+  "note": "Casablanca: narrator (named Ammar at ~16 s, now in Ottawa) meets a woman at a conference, quick engagement in Kenitra, she insists on a tiny wedding, wants to stay home; she pushes him to travel, he comes back early and finds her in bed with two men (reveal ~1140-1200, skip). First clip (Oct 30, 45 s, 1.8K) location unknown - probably the 'go travel' push ~1009-1100 (title of the video), so k3/k4 are marked to check. Hilal's digressions 199-460 (language/clothes) and 693-830 (class/money) and 891-971 (dogs).",
+  "moments": [
+   {
+    "k": 1,
+    "start": 604.52,
+    "end": 653.8,
+    "type": "secret",
+    "score": 13,
+    "hook": "علاش مراتي رفضات العرس الكبير؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795623960_story_s13_j4c--PNL9DE_m1.mp4",
+    "note": "Exp2 slot 50 long (49.6 s voice): he wants a big wedding, she says no no, only a small party, he finds it strange, wedding in a month ('biggest mistake'), wedding night, 'but something important was missing'."
+   },
+   {
+    "k": 2,
+    "start": 658.52,
+    "end": 680.0,
+    "type": "secret",
+    "score": 9,
+    "hook": "علاش مراتي بغات تجلس فالدار؟",
+    "status": "todo",
+    "note": "short only: she wants to quit work and stay home; check end sentence boundary"
+   },
+   {
+    "k": 3,
+    "start": 1009.1,
+    "end": 1047.3,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش مراتي بغاتني نسافر؟",
+    "status": "skip",
+    "note": "likely the first clip (video title) - don't re-cut"
+   },
+   {
+    "k": 4,
+    "start": 1085.9,
+    "end": 1140.0,
+    "type": "secret",
+    "score": 12,
+    "hook": "شكون كان كيضحك فبيتي؟",
+    "status": "todo",
+    "note": "comes home early as a surprise, hears laughter in the bedroom; may overlap the first clip (Oct, location unknown) - only if sure it doesn't"
+   },
+   {
+    "k": 5,
+    "start": 1140.0,
+    "end": 1213.8,
+    "type": "twist",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "note": "reveal, sexual"
+   },
+   {
+    "k": 6,
+    "start": 1226.4,
+    "end": 1263.0,
+    "type": "secret",
+    "score": 6,
+    "hook": "",
+    "status": "skip",
+    "note": "neighbour says men came often; post-reveal, needs earlier clip"
+   },
+   {
+    "k": 7,
+    "start": 851.6,
+    "end": 891.0,
+    "type": "take",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "note": "take/advice"
+   }
+  ]
  }
 }
