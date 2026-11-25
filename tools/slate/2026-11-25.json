@@ -151,7 +151,8 @@
    },
    "ws": 7,
    "length": 49.83,
-   "exp2_slot": 35
+   "exp2_slot": 35,
+   "status": "posted"
   }
  ]
 }
