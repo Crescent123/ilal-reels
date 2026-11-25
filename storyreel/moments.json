@@ -2484,9 +2484,20 @@
     "score": 4,
     "hook": "واش نقول لواليديا؟",
     "status": "skip"
+   },
+   {
+    "k": 6,
+    "start": 388.55,
+    "end": 416.25,
+    "type": "secret",
+    "score": 14,
+    "hook": "فين كانت كتمشي ختي فالليل؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795618342_story_s14_NhSbv-eD2Cs_m6.mp4",
+    "note": "A 25 Nov: Exp2 slot 47 short (27.95 s voice): sister grows up and starts going alone, works summers in a bakery to pay her way, cousin rents a flat alone after a fight with her mom (name at 13.2 s), sister tells parents at night she goes to the aunt's but really goes to the cousin's flat and they stay alone; cut before 'where do they pay rent / get money' (418). Remaining 418-641: obvious-implication line, sister's bac/job backstory, Hilal's envy/take - no standalone secret left."
    }
-  ],
-  "reserved": "2026-11-25T14:41:55Z"
+  ]
  },
  "gmpMSPIhz9k": {
   "mined": "2026-11-24",
