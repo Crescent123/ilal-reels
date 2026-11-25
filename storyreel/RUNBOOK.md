@@ -31,9 +31,17 @@ Pick, in this order:
 Copy the winners' shape: the title is a question about what that woman did ("شنو كانت كدير ختي وصاحبتها؟",
 "مرات خويا دخلات لبيتي فالليل؟"), the clip opens on her doing the odd thing, ends before the reveal.
 Length: alternate short 20–30 s and long 44–54 s via the tools/exp2.json slot (so we keep learning which wins).
+UPDATE 24 Nov evening (first day of copy-the-winners: 4 of 9 broke out, 8–29K at 3 h, vs 2 of 58 the week before):
+all 4 breakouts were a woman acting suspiciously TOWARD THE NARRATOR — her hidden intention is the hook:
+"علاش صيفطاتني خالتي لحانوت بعيد؟" (aunt sends me far away, why?) 28.5K · "علاش تزوقات بنت المعلم للشانطي؟" (boss's
+daughter dressed up for the site) 16K · "شنو كدير ختي وصاحبتها فالليل؟" 14K · "علاش بغات بنت المعلم تجي للفيلا؟" 7.9K.
+The flops (2–3K) were wholesome or family-conflict secrets ("منين جابت ختي فلوس قرايتي؟", "شنو دارت مرات خويا لماما؟",
+"علاش ماما سدات علينا السطح؟") and a story told by a woman (the Korean-drama girl, 2 clips, both ~2K).
+So pick moments where the woman's odd act is aimed at HIM (she sends him away, dresses up, wants him to come, hides
+something from him, acts strangely around him), and title it "علاش …؟" asking her motive. Skip stories narrated by a woman.
 WINNER SCORE — write "ws" into the clip's tools/clip_meta.json entry: +3 the secret/odd act is by a family/house woman,
-+2 the story is on the winner list, +1 the title is a question about what that person did, +1 moment type "secret",
-−3 the story is killed (first 2 clips under 5K at 24 h). The poster ranks by ws.
++2 the story is on the winner list, +1 the title is a question about what that person did, +1 moment type "secret", +2 her odd act is aimed at the narrator,
++1 the title asks her motive ("علاش …؟"), −2 wholesome / family-conflict secret, −3 narrated by a woman, −3 the story is killed (first 2 clips under 5K at 24 h). The poster ranks by ws.
 
 ## WHAT WORKS — from 130 posted story clips, 5–22 Nov (Hilal, 23 Nov: "just analyse the clips"). These override the pick order.
 1. TOPIC: a WOMAN OF THE FAMILY OR HOUSE doing something secret or suspicious — sister, brother's wife, mom, cousin,
