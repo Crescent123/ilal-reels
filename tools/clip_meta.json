@@ -5153,5 +5153,34 @@
   "made": "2026-11-25T20:39:14Z",
   "maker": "B",
   "ws": 8
+ },
+ "1795640412_story_s10_j4c--PNL9DE_m2.mp4": {
+  "story": "j4c--PNL9DE",
+  "moment": 2,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 1,
+   "D2": 0,
+   "total": 10,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": 59,
+  "length": 25.4,
+  "made": "2026-11-25T21:02:01Z",
+  "maker": "A",
+  "ws": 3
  }
 }

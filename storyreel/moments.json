@@ -3174,13 +3174,15 @@
    },
    {
     "k": 2,
-    "start": 658.52,
-    "end": 680.0,
+    "start": 656.2,
+    "end": 681.62,
     "type": "secret",
     "score": 9,
     "hook": "علاش مراتي بغات تجلس فالدار؟",
-    "status": "todo",
-    "note": "short only: she wants to quit work and stay home; check end sentence boundary"
+    "status": "queued",
+    "note": "Exp2 slot 59 short (25.4 s voice): 'we're married now'; he believed she'd keep her job, but she wants to quit and stay home, look after the house and kids, work stress got to her; ends on 'you'll say financially it'd be better if she worked' (before his salary justification). m4 left todo: likely overlaps the Oct first clip (45 s, video title) - don't cut unless sure.",
+    "date": "2026-11-25",
+    "file": "1795640412_story_s10_j4c--PNL9DE_m2.mp4"
    },
    {
     "k": 3,
@@ -3232,8 +3234,7 @@
     "status": "skip",
     "note": "take/advice"
    }
-  ],
-  "reserved": "2026-11-25T20:41:41Z"
+  ]
  },
  "iXmznDnI6Bg": {
   "maker": "B",
