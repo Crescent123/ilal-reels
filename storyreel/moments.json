@@ -2909,12 +2909,16 @@
   "moments": [
    {
     "k": 1,
-    "start": 429.7,
-    "end": 458.2,
+    "start": 429.66,
+    "end": 451.92,
     "type": "secret",
     "score": 9,
     "hook": "شنو دارت بنت عمي فالفاك؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795622873_story_s14_cH4ajjE3xMw_m1.mp4",
+    "maker": "A",
+    "note": "Exp2 slot 49 short: older cousin, 2 years at fac, back in the village waiting to marry, her news spread and reached us: caught at fac doing something not right, not once; cut before what she did (the two brothers)."
    },
    {
     "k": 2,
@@ -2976,8 +2980,7 @@
     "date": "2026-11-25",
     "file": "1795580205_story_s13_cH4ajjE3xMw_m7.mp4"
    }
-  ],
-  "reserved": "2026-11-25T15:41:22Z"
+  ]
  },
  "DuNX1YE4Apw": {
   "mined": "2026-11-25",
