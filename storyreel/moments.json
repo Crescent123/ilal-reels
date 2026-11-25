@@ -138,7 +138,7 @@
     "maker": "B"
    }
   ],
-  "reserved": "2026-11-25T20:13:54Z"
+  "note_b_1125": "re-read 25 Nov: 0-329 is setup (Madrid intro, Casa rent, trip to Tangier) and the kitchen moment is m11; no new standalone secret passage left - exhausted"
  },
  "JKNbzIL9GsE": {
   "mined": "2026-11-16",
@@ -3312,6 +3312,7 @@
     "status": "skip",
     "note": "dad knocks while girlfriend hides in his room: overlaps the first clip (737.7-776.7) and narrator's own wrongdoing"
    }
-  ]
+  ],
+  "reserved": "2026-11-25T20:21:23Z"
  }
 }
