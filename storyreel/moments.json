@@ -2745,6 +2745,64 @@
   "moments": []
  },
  "bCONXeLVmeY": {
-  "reserved": "2026-11-25T01:11:49Z"
+  "mined": "2026-11-25",
+  "moments": [
+   {
+    "k": 1,
+    "start": 321.25,
+    "end": 373.35,
+    "type": "secret",
+    "score": 12,
+    "hook": "شنو كتخبي ماما فالتيليفون؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795570041_story_s12_bCONXeLVmeY_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 380.0,
+    "end": 430.0,
+    "type": "secret",
+    "score": 9,
+    "hook": "شكون كان مع ماما فالقهوة؟",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 477.0,
+    "end": 530.0,
+    "type": "conflict",
+    "score": 7,
+    "hook": "علاش بكا قدام ماما؟",
+    "status": "todo"
+   },
+   {
+    "k": 4,
+    "start": 558.0,
+    "end": 610.0,
+    "type": "conflict",
+    "score": 6,
+    "hook": "شكون هو الراجل اللي مع ماما؟",
+    "status": "todo"
+   },
+   {
+    "k": 5,
+    "start": 654.0,
+    "end": 705.0,
+    "type": "twist",
+    "score": 5,
+    "hook": "شنو قال لماماه على صاحبها؟",
+    "status": "skip"
+   },
+   {
+    "k": 6,
+    "start": 810.0,
+    "end": 850.0,
+    "type": "take",
+    "score": 4,
+    "hook": "",
+    "status": "skip"
+   }
+  ]
  }
 }
