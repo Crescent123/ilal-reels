@@ -2736,8 +2736,18 @@
     "score": 3,
     "hook": "",
     "status": "skip"
+   },
+   {
+    "k": 9,
+    "start": 1020.86,
+    "end": 1046.06,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش بنت المعلم كتلوح ليا كلمات؟",
+    "status": "todo"
    }
-  ]
+  ],
+  "reserved": "2026-11-25T04:42:49Z"
  },
  "1ARy7CXYPzI": {
   "mined": "2026-11-24",
