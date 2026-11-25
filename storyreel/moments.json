@@ -3239,8 +3239,8 @@
     "type": "secret",
     "score": 12,
     "hook": "شكون كان كيضحك فبيتي؟",
-    "status": "todo",
-    "note": "comes home early as a surprise, hears laughter in the bedroom; may overlap the first clip (Oct, location unknown) - only if sure it doesn't"
+    "status": "skip",
+    "note": "A 25 Nov: checked the posted first clip (Dfu-uWqMYh3) - it IS this passage (surprise return, laughter in the bedroom). Story has nothing left."
    },
    {
     "k": 5,
@@ -3272,8 +3272,7 @@
     "status": "skip",
     "note": "take/advice"
    }
-  ],
-  "reserved": "2026-11-25T23:43:25Z"
+  ]
  },
  "iXmznDnI6Bg": {
   "maker": "B",
@@ -3439,5 +3438,8 @@
     "note": "plug + debate question"
    }
   ]
+ },
+ "xTdFufAJVp4": {
+  "reserved": "2026-11-25T23:46:47Z"
  }
 }
