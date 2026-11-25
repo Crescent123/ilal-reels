@@ -2182,9 +2182,20 @@
     "date": "2026-11-24",
     "file": "1795553604_story_s12_t_11yIcRc8M_m11.mp4",
     "note": "Exp2 slot 29 short (26.2 s voice): night, everyone waits, mom comes home, greets, asks sister where her friend is (name at 10.5 s), sister looks at narrator and bursts into tears, mom freezes; he starts telling her, she listens without reaction - cut before mom explodes (~604). Whisper missed speech 528.7-538.9 and 602-604.5."
+   },
+   {
+    "k": 12,
+    "start": 143.4,
+    "end": 171.3,
+    "type": "secret",
+    "score": 14,
+    "hook": "علاش ختي بغات صاحبتها تبات معاها؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795568353_story_s14_t_11yIcRc8M_m12.mp4",
+    "why": "mom announces a 10-day trip, sister jumps in asking her friend to sleep over, narrator wants to say no, mom agrees; friend named at 19 s (outside first 8 s). Re-read 25 Nov (A): 185-286 is the airport trip + a long take digression, no other unposted secret passage."
    }
-  ],
-  "reserved": "2026-11-25T00:49:51Z"
+  ]
  },
  "fpnlHglfEPU": {
   "maker": "A",
