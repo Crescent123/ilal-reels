@@ -3264,13 +3264,15 @@
    },
    {
     "k": 3,
-    "start": 1140.0,
-    "end": 1190.0,
+    "start": 1139.2,
+    "end": 1190.65,
     "type": "secret",
-    "score": 8,
-    "hook": "خالتي كرات دار فيها غير بيت وحدة؟",
-    "status": "todo",
-    "note": "approx: the trip - he tells the family, they find only a small one-room house by the sea, 'I'll sleep in the salon'; must end BEFORE the night scene (1230+ is sexual)."
+    "score": 15,
+    "hook": "علاش رضات خالتي ببيت وحدة؟",
+    "status": "queued",
+    "note": "Exp2 slot 58 long (51.7 s voice): 'the lady, I call her khalti' proposes the trip, she's happy, coastal road, no reservation, an old man offers a tiny clean house, three days, 'nobody would suspect, she's older', ends on 'though it had only one room' (before 'I'll sleep in the salon' / the night).",
+    "date": "2026-11-25",
+    "file": "1795638874_story_s15_iXmznDnI6Bg_m3.mp4"
    },
    {
     "k": 4,
@@ -3312,7 +3314,6 @@
     "status": "skip",
     "note": "dad knocks while girlfriend hides in his room: overlaps the first clip (737.7-776.7) and narrator's own wrongdoing"
    }
-  ],
-  "reserved": "2026-11-25T20:21:23Z"
+  ]
  }
 }
