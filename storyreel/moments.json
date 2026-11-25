@@ -2858,12 +2858,15 @@
    },
    {
     "k": 2,
-    "start": 382,
-    "end": 417,
+    "start": 391.58,
+    "end": 413.95,
     "type": "secret",
     "score": 9,
-    "hook": "ختهم ولات كتبات برا الدار؟",
-    "status": "todo"
+    "hook": "شكون جا يخطب ختهم؟",
+    "status": "queued",
+    "date": "2026-11-25",
+    "file": "1795629106_story_s13_kgDH1GCfXWM_m2.mp4",
+    "note": "A 25 Nov: Exp2 slot 53 short (22.71 s voice): suitor arrives in the morning with lavish gifts, walks in, family suspicious; cut at his greeting, before who he really is. Started after the name 'Si Mourad' (389.2) to avoid a name in the first 8 s."
    },
    {
     "k": 3,
@@ -2915,8 +2918,7 @@
     "hook": "",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-25T17:42:40Z"
+  ]
  },
  "cH4ajjE3xMw": {
   "mined": "2026-11-25",
