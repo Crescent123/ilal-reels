@@ -3959,6 +3959,91 @@
   ]
  },
  "jrlypkYnwuA": {
-  "reserved": "2026-11-26T14:12:44Z"
+  "reserved": "2026-11-26T14:12:44Z",
+  "mined": "2026-11-26",
+  "maker": "B",
+  "note": "Hilal reads a listener's story: narrator (32, engineer) has a favoured older brother Abderrahman; toxic gf Ilham scams him of 6M (fake sick mom, found her running a salon); later the brother (now in Belgium) pushes his ex Souhaila on him, they marry fast, and he finds her WhatsApp love chats with the brother. First clip (4 Nov) = 1196-1250 (phone/WhatsApp discovery), located by audio cross-correlation. Names spoken often.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 1142.2,
+    "end": 1190.3,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش زربات مراتي على العرس؟",
+    "status": "todo",
+    "why": "long: she rushed the wedding, rented a flat far from both families, honeymoon, then always angry, ignores him; 8 months later she goes out alone for the first time (ends right before the phone part = first clip). Name at 23 s only."
+   },
+   {
+    "k": 2,
+    "start": 1019.7,
+    "end": 1066.3,
+    "type": "secret",
+    "score": 9,
+    "hook": "علاش بغا خويا يزوجني بصاحبتو؟",
+    "status": "todo",
+    "why": "brother calls out of nowhere: do you want to marry? she likes you... his own ex; he leaves her my number, I wait for her message. Brother named at 1018.8 (start after it); her name at ~1037 (17 s, ok). Brother is a man (ws low)."
+   },
+   {
+    "k": 3,
+    "start": 1090.1,
+    "end": 1131.5,
+    "type": "twist",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "flash-forward that reveals the brother's scheme (reveals ending)"
+   },
+   {
+    "k": 4,
+    "start": 620.0,
+    "end": 680.0,
+    "type": "secret",
+    "score": 7,
+    "hook": "علاش صاحبتي ما بقاتش كتجاوبني؟",
+    "status": "todo",
+    "why": "girlfriend (T1 0) borrows 6M for her mom's heart surgery, then quits her job and stops answering; names (Ilham) spoken often - check first 8 s"
+   },
+   {
+    "k": 5,
+    "start": 725.5,
+    "end": 772.0,
+    "type": "secret",
+    "score": 7,
+    "hook": "شنو لقيت فدار صاحبتي؟",
+    "status": "todo",
+    "why": "goes to the girlfriend's house to see her sick mom, finds a women's salon downstairs, knocks... name on the sign at ~760 (check 8 s). Girlfriend (T1 0)."
+   },
+   {
+    "k": 6,
+    "start": 772.0,
+    "end": 911.0,
+    "type": "conflict",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "why": "confrontation + he hits her in the salon (violence, narrator at fault)"
+   },
+   {
+    "k": 7,
+    "start": 153.4,
+    "end": 250.9,
+    "type": "take",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "backstory of brother and his girlfriend, names in every sentence"
+   },
+   {
+    "k": 8,
+    "start": 1250.0,
+    "end": 1310.0,
+    "type": "twist",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "continues the first clip with the reveal (brother's messages)"
+   }
+  ]
  }
 }
