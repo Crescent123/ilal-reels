@@ -3675,13 +3675,15 @@
    },
    {
     "k": 3,
-    "start": 585.9,
-    "end": 645.0,
+    "start": 585.92,
+    "end": 635.06,
     "type": "conflict",
     "score": 8,
     "hook": "علاش ماما كتكره مراتي؟",
-    "status": "todo",
-    "why": "mom alone with him: your wife goes out without a scarf, why let her study; he plays diplomat; family-conflict secret (weak per ws)"
+    "status": "queued",
+    "why": "mom alone with him: your wife goes out without a scarf, why let her study; he plays diplomat; family-conflict secret (weak per ws)",
+    "date": "2026-11-26",
+    "file": "1795720697_story_s11_nrVKL_UkW4w_m3.mp4"
    },
    {
     "k": 4,
@@ -3715,8 +3717,7 @@
     "file": "1795719290_story_s11_nrVKL_UkW4w_m6.mp4",
     "why": "A 26 Nov: mom stirs trouble with wife/neighbours/brother; he finds mom in the derb holding the thug's shoulder, she says 'we're advising him'; wife always scared; ends right before m1 (690.95), before the reveal that mom paid the thug."
    }
-  ],
-  "reserved": "2026-11-26T19:12:02Z"
+  ]
  },
  "Lwms6x8Y6ec": {
   "mined": "2026-11-26",
