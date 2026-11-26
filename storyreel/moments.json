@@ -3871,7 +3871,91 @@
   ]
  },
  "VHgFPkz9Cxw": {
-  "reserved": "2026-11-26T04:42:08Z",
-  "maker": "A"
+  "mined": "2026-11-26",
+  "maker": "A",
+  "note": "Casablanca man (32); his older half-sister (father's daughter, named Amal - spoken at 340, 600-605, 732.8, 900.8) hates him since childhood; he married her friend; sister moves to Jakarta (Indonesia) and secretly pushes his wife to divorce him and marry an Indonesian (later an ex-con). Narrator in Morocco; the sister abroad is only mentioned. First clip (used.json, Oct) location unknown: assume first 90 s. Plug 925-960.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 686.42,
+    "end": 732.06,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش ختي كتهضر مع مراتي فالسر؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795668744_story_s12_VHgFPkz9Cxw_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 891.74,
+    "end": 919.36,
+    "type": "secret",
+    "score": 10,
+    "hook": "شكون بغات ختي تعرف لمراتي؟",
+    "status": "todo",
+    "why": "short: before leaving for a 2-month job he mirrors her WhatsApp on his PC; first thing: wife still talks to his sister, who wants to introduce her to a man - an ex-prisoner; cut before the plan. Name 'أمال' at 900.80 (9 s in, OK if start ≤892.8)."
+   },
+   {
+    "k": 3,
+    "start": 744.46,
+    "end": 790.48,
+    "type": "conflict",
+    "score": 8,
+    "hook": "شنو كانت كتقول ختي لمراتي؟",
+    "status": "todo",
+    "why": "overlaps nothing; sister tells wife to divorce, sends photos of the Indonesian's relatives 'they want you'; wife only laughs; he storms into the kitchen. Must start after 732.8 (name). Ends on him yelling - check reveal."
+   },
+   {
+    "k": 4,
+    "start": 412.52,
+    "end": 457.0,
+    "type": "secret",
+    "score": 6,
+    "hook": "شنو كانت مخبية ختي وبابا؟",
+    "status": "skip",
+    "why": "sister's mother's illicit relationship overheard: heavy, family-conflict"
+   },
+   {
+    "k": 5,
+    "start": 139.9,
+    "end": 190.0,
+    "type": "twist",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "why": "sister's jinn/fqih treatment, garbled transcript, twist"
+   },
+   {
+    "k": 6,
+    "start": 59.6,
+    "end": 112.78,
+    "type": "conflict",
+    "score": 6,
+    "hook": "",
+    "status": "skip",
+    "why": "childhood beatings / tagine incident: inside the assumed first-clip 90 s, conflict"
+   },
+   {
+    "k": 7,
+    "start": 786.0,
+    "end": 871.0,
+    "type": "conflict",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "why": "confronts parents and calls sister: family conflict, heavy"
+   },
+   {
+    "k": 8,
+    "start": 961.0,
+    "end": 1090.0,
+    "type": "take",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "asks audience what to do: take"
+   }
+  ]
  }
 }
