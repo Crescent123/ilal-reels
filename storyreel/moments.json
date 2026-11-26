@@ -4114,6 +4114,61 @@
   ]
  },
  "GzgMeEmVj0A": {
-  "reserved": "2026-11-26T17:20:52Z"
+  "mined": "2026-11-26",
+  "maker": "B",
+  "note": "Hilal tells (1st person as the narrator) the story of Hamza (32, Casablanca grand-taxi driver), wife Iman (neighbour girl), daughter Rim (3); his childhood friend Rida, kicked out by his own wife, moves in at Iman's suggestion; Iman starts dressing up, laughs too much with Rida; daughter reveals 'mama sleeps with uncle Rida in the room'; he hides a camera (friend installs it) and sees them on video (~680). Names Hamza/Iman/Rida/Rim spoken in most sentences: check first 8 s. Whisper ends at 690 (rest lost). Earlier clip (Oct) location unknown, assume first 90 s.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 464.52,
+    "end": 517.9,
+    "type": "secret",
+    "score": 10,
+    "hook": "علاش كانت مراتي مع صاحبي فالبيت؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795714340_story_s10_GzgMeEmVj0A_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 361.02,
+    "end": 410.84,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش ولات مراتي كتزوق فالدار؟",
+    "status": "todo",
+    "why": "wife starts making herself up at home, he asks why, she flips it on him; then she and his friend laugh too much together, he finds them laughing when he comes home. Starts after 'Iman' at 360.54; 'Iman/Rida' at 399.6 (after 8 s). Long: maybe extend to ~415. Ends before the friend avoids his eyes."
+   },
+   {
+    "k": 3,
+    "start": 556.8,
+    "end": 610.5,
+    "type": "secret",
+    "score": 9,
+    "hook": "علاش خبيت كاميرا فداري؟",
+    "status": "todo",
+    "why": "he hides his suspicion, gets a small hidden camera from a friend who installs CCTV, connects it to wifi, hides it in the room; check names in first 8 s; ends before he watches the card (672)."
+   },
+   {
+    "k": 4,
+    "start": 652.0,
+    "end": 690.0,
+    "type": "twist",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "camera footage = the reveal; Whisper stops at 690"
+   },
+   {
+    "k": 5,
+    "start": 187.0,
+    "end": 255.0,
+    "type": "secret",
+    "score": 6,
+    "hook": "",
+    "status": "skip",
+    "why": "wife suggests the friend moves in: names (Iman 189.5, Hamza 193, Rida) in nearly every sentence, no 8 s window"
+   }
+  ]
  }
 }

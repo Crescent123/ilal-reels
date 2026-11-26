@@ -5832,5 +5832,35 @@
   "maker": "A",
   "ws": 7,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). One piece 1356.45-1402.15. Wife (salon job) has stopped going to work but has money; he searches her bag at night, she lies 'I was with the salon owner'; cut as she starts crying, before her explanation. Possible name-like word 'مودة' at ~10 s (after 8 s). ws: +2 winner story, +1 question, +1 secret, +2 aimed at narrator, +1 'علاش' (wife: no family/house-woman bonus). Morocco (Chtouka area)."
+ },
+ "1795714340_story_s10_GzgMeEmVj0A_m1.mp4": {
+  "story": "GzgMeEmVj0A",
+  "moment": 1,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 0,
+   "H2": 0,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 10,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 53.6,
+  "made": "2026-11-26T17:34:31Z",
+  "maker": "B",
+  "ws": 5,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). One piece 464.52-517.90 (Casablanca). Taxi driver comes home early from the heat, his 3-year-old is alone in the salon: 'mama is with uncle (his friend) in the room'; rooms empty, wife at the hanout, friend out; he asks the girl again: 'when you go to work mama sleeps with uncle in the room'. Cut there, before the hidden camera. Daughter's name at 8.9 s, friend's name at 14.7 s (after 8 s). Frame 1 = narrator in the sun (H1 0), opens on setup (H2 0). ws: +1 question, +1 secret, +2 hidden from him, +1 'علاش' (wife: no family/house-woman bonus)."
  }
 }
