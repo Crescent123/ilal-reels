@@ -3440,6 +3440,52 @@
   ]
  },
  "xTdFufAJVp4": {
-  "reserved": "2026-11-25T23:46:47Z"
+  "mined": "2026-11-26",
+  "maker": "A",
+  "note": "Narrator (named Adil, at 4 s/448/501/511; girl named Hiba at 277/421) dates the school principal's daughter, sleeps with her at a friend's flat (narrator's own wrongdoing, sexual). First clip (Oct, 27K, 'المدير شدني مع بنتو؟', De14lLainQs) = 459-513 (her dad calls, car stops by him at night). Whisper dropped 281-289, 359-370, 390-399.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 513.35,
+    "end": 558.95,
+    "type": "conflict",
+    "score": 9,
+    "hook": "شنو قال ليا المدير على بنتو؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795651081_story_s9_xTdFufAJVp4_m1.mp4",
+    "note": "overflow long (45.8 s voice): principal drags him to a corner, 'you know my daughter? took her to the doctor today', he answers: not me, she ran off 3 days with a guy, I'm a minor, keep it quiet, don't worry; principal explodes. Cut before what happens next."
+   },
+   {
+    "k": 2,
+    "start": 277.34,
+    "end": 327.84,
+    "type": "hook",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "note": "meets the principal's daughter in class: school-friend romance, name at start, Whisper gap 281-289"
+   },
+   {
+    "k": 3,
+    "start": 345.6,
+    "end": 398.0,
+    "type": "secret",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "note": "secret dating + looking for a flat: narrator's own wrongdoing, sexual, gaps"
+   },
+   {
+    "k": 4,
+    "start": 560.4,
+    "end": 624.4,
+    "type": "take",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "note": "aftermath + debate question"
+   }
+  ]
  }
 }
