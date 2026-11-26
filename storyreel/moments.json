@@ -1536,16 +1536,17 @@
    },
    {
     "k": 6,
-    "start": 579.46,
-    "end": 627.86,
-    "type": "twist",
+    "start": 579.42,
+    "end": 625.36,
+    "type": "secret",
     "score": 7,
-    "hook": "علاش ما بغاتش تاخد الفلوس؟",
-    "status": "todo",
-    "why": "long: he orders mom's birthday cake, she insists it's on her; romance, weak; check names"
+    "hook": "علاش رفضات بنت الحلوى الفلوس؟",
+    "status": "queued",
+    "why": "long: he orders mom's birthday cake, she insists it's on her; romance, weak; check names",
+    "date": "2026-11-26",
+    "file": "1795729804_story_s12_tMcdf896iHI_m6.mp4"
    }
-  ],
-  "reserved": "2026-11-26T21:43:55Z"
+  ]
  },
  "ujby1DpbnSY": {
   "mined": "2026-11-20",
