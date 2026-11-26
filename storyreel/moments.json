@@ -3575,7 +3575,8 @@
     "score": 11,
     "hook": "علاش ولات بنت عمي كتخبي التيليفون؟",
     "status": "todo",
-    "why": "short: she laughs alone on her phone, cuts the call when someone comes near, he suspects a boyfriend and gets jealous; ends before he hears her. Starts on 'مثلا' - check opening words; overlaps nothing. | B 26 Nov: no long version possible (before 326 is the narrator's own photo-collecting, after 369 is m1); keep for a short."
+    "why": "short: she laughs alone on her phone, cuts the call when someone comes near, he suspects a boyfriend and gets jealous; ends before he hears her. Starts on 'مثلا' - check opening words; overlaps nothing. | B 26 Nov: no long version possible (before 326 is the narrator's own photo-collecting, after 369 is m1); keep for a short.",
+    "note_b_1126": "can't stretch to long 44-54 s: 326.3 (Whisper gap 319-326, name at 317) to m1 start 369.06 = 42.8 s; keep as short-only."
    },
    {
     "k": 3,
@@ -3627,8 +3628,7 @@
     "status": "skip",
     "why": "regret / asks the audience for advice: take"
    }
-  ],
-  "reserved": "2026-11-26T16:11:47Z"
+  ]
  },
  "nrVKL_UkW4w": {
   "mined": "2026-11-26",
@@ -4056,6 +4056,7 @@
     "status": "skip",
     "why": "continues the first clip with the reveal (brother's messages)"
    }
-  ]
+  ],
+  "reserved": "2026-11-26T16:12:22Z"
  }
 }
