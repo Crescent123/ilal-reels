@@ -5447,5 +5447,35 @@
   "maker": "B",
   "ws": 3,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long), 45.6 s voice. Cousin reveals the uncles found grandpa's treasure and hid it so they would not share with their siblings; narrator doubts, remembers the family legend, decides it's true; cut on 'what do I do' before he confronts them."
+ },
+ "1795658146_story_s14_5qfbg1tlgLo_m1.mp4": {
+  "story": "5qfbg1tlgLo",
+  "moment": 1,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 14,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 51.49,
+  "made": "2026-11-26T01:56:00Z",
+  "maker": "A",
+  "ws": 5,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long), 47.7 s voice, one piece 369.06-416.40. Narrator (teen boy living at his uncle's) hears his older cousin laughing secretly on the phone, is sure she's seeing someone; Saturday she dresses up 'going out with the girls', he follows her, a car stops for her and she gets in; cut before who the driver is. Whisper wrote 'أحمد' at ~5 s (374.14), most likely a mis-hearing of 'أنا مني' (Ahmed only appears ~980 s); 'أسماء' first at 21.7 s."
  }
 }
