@@ -6133,5 +6133,35 @@
   "maker": "A",
   "ws": 9,
   "note": "all 64 Exp2 slots full: overflow long (long ahead on 24 h plays per H8). One piece 579.42-625.36 (voice 46.1 s), Morocco, no names in title or first 8 s (Saad ~550 s outside; possible 'Saad' at ~616.6 = 37 s in). New neighbourhood cake girl comes to the laundry for her clothes; he asks her to make his mom's birthday cake; she gladly agrees, asks what mom likes; they chat ten minutes; he asks the price, she says it's on her, he insists, she refuses again; cut on 'no, I don't want', before he reads it as a sign she likes him. Frame 1 = the girl at the counter seen from behind it. Type relabelled: her odd act aimed at him (not a twist). ws: +3 neighbour girl, +2 winner story, +1 question, +2 aimed at him, +1 alash."
+ },
+ "1795731796_story_s12_kP3IVqSuJUA_m2.mp4": {
+  "story": "kP3IVqSuJUA",
+  "moment": 2,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 28.71,
+  "made": "2026-11-26T22:25:44Z",
+  "maker": "B",
+  "ws": 3,
+  "note": "all 64 Exp2 slots full: overflow clip; moment was short-only (m1 starts 565.5, m3 skip). One piece 518.42-546.95 (voice 28.71 s, file 32.5 s with end card), Casablanca, no names (Amine first named after 560). Hilal tells (3rd person): the wife starts going out more, takes part of her salary for a car, coffees with work friends, he always brings the kids in alone; cut on 'she started going to the colleague she works with', before who he is. Frame 1 = wife at the hall mirror with keys, seen from the doorway. ws: +1 question, +1 secret, +1 alash (wife = not family/house woman, 3rd person)."
  }
 }

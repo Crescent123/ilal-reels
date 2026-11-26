@@ -3885,13 +3885,16 @@
    },
    {
     "k": 2,
-    "start": 520.7,
-    "end": 546.9,
+    "start": 518.42,
+    "end": 546.95,
     "type": "secret",
     "score": 8,
     "hook": "علاش ولات مراتو كتخرج بزاف؟",
-    "status": "todo",
-    "why": "short only: after she gets the new job, coffees with work friends, a car, she stops caring; Amine named at ~533? check first 8 s; ends before she starts going to the colleague (546.9). Does not overlap m1."
+    "status": "queued",
+    "why": "short only: after she gets the new job, coffees with work friends, a car, she stops caring; Amine named at ~533? check first 8 s; ends before she starts going to the colleague (546.9). Does not overlap m1.",
+    "date": "2026-11-26",
+    "file": "1795731796_story_s12_kP3IVqSuJUA_m2.mp4",
+    "note": "B, overflow short (28.7 s voice)"
    },
    {
     "k": 3,
@@ -3933,8 +3936,7 @@
     "status": "skip",
     "why": "setup with both names + Hilal's take on parents marrying daughters off"
    }
-  ],
-  "reserved": "2026-11-26T22:13:55Z"
+  ]
  },
  "VHgFPkz9Cxw": {
   "mined": "2026-11-26",
