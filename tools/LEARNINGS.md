@@ -1,5 +1,17 @@
 # What we've learned (running log — newest at the top). Updated by the daily learning check.
 
+## 25 Nov — daily check (24 Nov posts at 24 h, 25 Nov posts at 3 h)
+- 24 Nov (first copy-the-winners day) at 24 h: median 5.6K, 4 of 9 over 20K (85.9K, 52.2K, 29.3K, 22.0K).
+  18–23 Nov: median 3.3K, 3 of 49 over 20K. 11–17 Nov: 4.7K, 13 of 62.
+- 25 Nov at 3 h: "بنت خالتي المحجبة بدلات حوايجها؟" 91.8K (biggest 3 h number we've had; winner story lCzehIOldVQ),
+  then 11.5K, 6.3K, 5.3K, 4.9K; four clips 2.0–3.3K. 3 h median 4.9K vs 2.5K the week before.
+- "علاش" titles: 24 Nov 4 clips median 40.7K at 24 h, but on 25 Nov most "علاش" clips sat at 2–6K at 3 h — the title alone
+  doesn't carry it; the woman's act toward the narrator does ("بدلات حوايجها", "صيفطاتني لحانوت بعيد", "تزوقات للشانطي").
+- Short vs long (24 h, 24 Nov): long median 22.0K (n=5) vs short 5.6K (n=4). Too few clips to switch — keep alternating.
+- ws known vs not (24 h): 25.7K (n=4) vs 3.3K (n=5).
+- Changed: nothing (no pattern yet over 15 clips / 2 days). Watch: long beating short; winner stories (lCzehIOldVQ,
+  rO5a-bkixf0, t_11yIcRc8M) keep delivering.
+
 ## 24 Nov — copy the winners, day 1 (3 h numbers)
 - 4 of 9 clips broke out (28.5K, 16K, 14K, 7.9K at 3 h) vs 2 of 58 clips over 14K at 3 h the week before.
 - All 4: a woman acting suspiciously TOWARD THE NARRATOR, title asks her motive ("علاش …؟").
