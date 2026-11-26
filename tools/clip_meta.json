@@ -5743,5 +5743,34 @@
   "maker": "B",
   "ws": 8,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). Pieces 887.40-922.86 + 960.50-967.62 (only the Discord/Patreon plug dropped, sentence boundaries). Before a 2-month job away he mirrors his wife's WhatsApp on his PC; first thing he finds: wife still talks to his sister, who wants to introduce her to a man just out of prison; they chat all day and his wife goes along, doesn't defend him; cut before he acts. Sister's name at 11.8 s (after 8 s). ws: +3 sister, +1 question, +1 secret, +2 aimed at narrator, +1 'علاش'. Casablanca."
+ },
+ "1795708736_story_s13_Lwms6x8Y6ec_m3.mp4": {
+  "story": "Lwms6x8Y6ec",
+  "moment": 3,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 2,
+   "H3": 2,
+   "D1": 1,
+   "D2": 1,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 51.33,
+  "made": "2026-11-26T16:00:51Z",
+  "maker": "A",
+  "ws": 5
  }
 }

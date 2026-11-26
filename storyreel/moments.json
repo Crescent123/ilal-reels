@@ -3719,12 +3719,15 @@
    },
    {
     "k": 3,
-    "start": 255.0,
-    "end": 300.0,
-    "type": "conflict",
-    "score": 6,
+    "start": 387.06,
+    "end": 434.32,
+    "type": "secret",
+    "score": 13,
     "hook": "علاش ماما زربانة تزوجني؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795708736_story_s13_Lwms6x8Y6ec_m3.mp4",
+    "note": "A, overflow long (47.5 s voice, 51.3 s clip); re-cut from 255-300 (garbled whisper) to 387-434: mom in a hurry, has already arranged the engagement for tomorrow, night talk 'you became a man', Fatiha read that same night; cut before the sister arrives. Whisper missed 411.6-422.4 (speech)."
    },
    {
     "k": 4,
@@ -3762,8 +3765,7 @@
     "hook": "",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-26T15:42:45Z"
+  ]
  },
  "7rSFdpkCiuw": {
   "mined": "2026-11-26",
