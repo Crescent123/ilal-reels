@@ -4143,13 +4143,16 @@
    },
    {
     "k": 3,
-    "start": 556.8,
-    "end": 610.5,
+    "start": 555.92,
+    "end": 607.12,
     "type": "secret",
     "score": 9,
-    "hook": "علاش خبيت كاميرا فداري؟",
-    "status": "todo",
-    "why": "he hides his suspicion, gets a small hidden camera from a friend who installs CCTV, connects it to wifi, hides it in the room; check names in first 8 s; ends before he watches the card (672)."
+    "hook": "علاش مراتي كتبقى مع صاحبي فالدار؟",
+    "status": "queued",
+    "why": "he hides his suspicion, gets a small hidden camera from a friend who installs CCTV, connects it to wifi, hides it in the room; check names in first 8 s; ends before he watches the card (672).",
+    "date": "2026-11-26",
+    "file": "1795717189_story_s11_GzgMeEmVj0A_m3.mp4",
+    "maker": "B"
    },
    {
     "k": 4,
@@ -4171,7 +4174,6 @@
     "status": "skip",
     "why": "wife suggests the friend moves in: names (Iman 189.5, Hamza 193, Rida) in nearly every sentence, no 8 s window"
    }
-  ],
-  "reserved": "2026-11-26T18:11:01Z"
+  ]
  }
 }
