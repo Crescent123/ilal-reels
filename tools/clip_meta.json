@@ -5802,5 +5802,35 @@
   "maker": "B",
   "ws": 3,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). One piece 1019.72-1066.34 (starts after the brother's name at 1017.4-1018.8). Brother calls out of nowhere: want to marry? his own ex wants you; he refuses but lets him give her his number; waits all night for her message; cut before she writes. Ex's name spoken at ~18 s (after 8 s). ws: +1 question, +1 secret, +1 'علاش' (brother is a man: no woman bonus)."
+ },
+ "1795712522_story_s12_YA-w9mM73fI_m11.mp4": {
+  "story": "YA-w9mM73fI",
+  "moment": 11,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 46.02,
+  "made": "2026-11-26T17:07:30Z",
+  "maker": "A",
+  "ws": 7,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). One piece 1356.45-1402.15. Wife (salon job) has stopped going to work but has money; he searches her bag at night, she lies 'I was with the salon owner'; cut as she starts crying, before her explanation. Possible name-like word 'مودة' at ~10 s (after 8 s). ws: +2 winner story, +1 question, +1 secret, +2 aimed at narrator, +1 'علاش' (wife: no family/house-woman bonus). Morocco (Chtouka area)."
  }
 }

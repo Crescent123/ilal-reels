@@ -621,9 +621,22 @@
     "score": 6,
     "hook": "واش الزواج مكتوب؟",
     "status": "skip"
+   },
+   {
+    "k": 11,
+    "start": 1356.45,
+    "end": 1402.15,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش مراتي ما بقاتش كتمشي للخدمة؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795712522_story_s12_YA-w9mM73fI_m11.mp4",
+    "maker": "A",
+    "note": "overflow long. Wife's salon boss said she stopped coming; on the way home he wonders where her money comes from; sleepless, she comes in, he searches her bag, she screams, 'explain where the money comes from' - 'I was with the salon owner' - 'what did she say?', she starts crying; cut before her explanation (1402+). Overlaps the skipped m8 (1338-1400) but starts after the 1348 'مودة' word."
    }
   ],
-  "reserved": "2026-11-26T16:47:37Z"
+  "note": "A 26 Nov re-read 700-1745: 784-1081 mostly Hilal digressions/garbled (932-962 lost), 1081-1135 wife changes (m6, short), 1500-1745 = SMS reveal aftermath, confrontation, divorce, take. Only m11 left usable."
  },
  "lCzehIOldVQ": {
   "mined": "2026-11-17",
