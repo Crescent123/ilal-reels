@@ -3683,7 +3683,8 @@
     "status": "skip",
     "why": "ending / membership plug"
    }
-  ]
+  ],
+  "reserved": "2026-11-26T03:46:42Z"
  },
  "Lwms6x8Y6ec": {
   "mined": "2026-11-26",
@@ -3761,6 +3762,40 @@
   ]
  },
  "7rSFdpkCiuw": {
-  "reserved": "2026-11-26T03:41:40Z"
+  "mined": "2026-11-26",
+  "maker": "A",
+  "note": "A 26 Nov: short (6.5 min) wholesome success story (idle guy, neighbour girl, her mom tells him to get a job, he does, engagement). Name Mounir spoken at 0, 10, 66, 178 s. Whisper garbled MSA and lost 147-161. No secret/odd-act moment; first clip (Oct) likely covered the gas-bottle meeting 46-95.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 113.4,
+    "end": 176.0,
+    "type": "conflict",
+    "score": 6,
+    "hook": "علاش عيطات عليه مّ البنت؟",
+    "status": "skip",
+    "why": "needs 'that day' context, Whisper lost 147-161 (unknown words, possible reveal), wholesome"
+   },
+   {
+    "k": 2,
+    "start": 177.0,
+    "end": 300.0,
+    "type": "take",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "job search / success, no hook"
+   },
+   {
+    "k": 3,
+    "start": 330.0,
+    "end": 395.0,
+    "type": "advice",
+    "score": 2,
+    "hook": "",
+    "status": "skip",
+    "why": "motivation advice"
+   }
+  ]
  }
 }
