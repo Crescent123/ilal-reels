@@ -5982,5 +5982,35 @@
   "maker": "B",
   "ws": 3,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long, as other makers). One piece 585.92-635.06 (Fes, 49.45 s voice). Opens 'me and mom face to face, she'd tell me your wife goes out without a scarf'; frame 1 = mom on sofa pointing, complaining. Sister adds fuel, clothes, he plays diplomat, asks wife to cover and be like a daughter, mom still hates her (studying), ends on mom's 'why do you let her go out alone?'. Ends before m6. No names in clip. ws: +3 family woman (mom), +1 question, +1 'علاش', -2 family-conflict (aimed at the wife, not him)."
+ },
+ "1795722774_story_s13_xTFHdHxbyCA_m1.mp4": {
+  "story": "xTFHdHxbyCA",
+  "moment": 1,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 2,
+   "H1": 2,
+   "H2": 0,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 53.13,
+  "made": "2026-11-26T19:55:17Z",
+  "maker": "A",
+  "ws": 2,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long, as other makers). One piece 181.64-230.62 (49.3 s voice), Morocco, no names (narrator named at 11 s, 'Hilal' at 112 s and 578 s). The preachy uncle (lectures the family over songs/films, grave-torment talk) gets a Facebook account from the neighbour's kid; at night the narrator gets a notification that the uncle liked a post; cut on 'I went to look', before the reveal of what he was watching. Frame 1 = uncle mid-sermon wagging his finger. Opens on 'when he enters the house and people have songs or a film on' (H2 0). ws: +1 question, +1 secret (male uncle: no family-woman bonus). Wife/jinn main plot (969-1130) is sexual + knife threat: skipped."
  }
 }

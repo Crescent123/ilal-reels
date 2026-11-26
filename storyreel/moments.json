@@ -4191,6 +4191,81 @@
   ]
  },
  "xTFHdHxbyCA": {
-  "reserved": "2026-11-26T19:41:27Z"
+  "mined": "2026-11-26",
+  "maker": "A",
+  "note": "Narrator (named Bilal at 11 s) tells of a preachy uncle (jinn/grave-torment talk, gave him a dark phobia at 13), the uncle's Facebook hypocrisy, then his marriage: on the night with his new wife at a friend's flat she 'gets possessed' (jinn lover), attacks him with a knife; he later emigrates to Sweden. First clip (Oct) location unknown - assume first 90 s. Whisper rough.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 181.64,
+    "end": 230.62,
+    "type": "secret",
+    "score": 13,
+    "hook": "شنو كان كيتفرج عمي فالفيسبوك؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795722774_story_s13_xTFHdHxbyCA_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 93.42,
+    "end": 132.24,
+    "type": "twist",
+    "score": 7,
+    "hook": "شنو شفت فالظلام ملي كنا صغار؟",
+    "status": "todo",
+    "why": "uncle scares the kids with jinn stories at night by the river, then a white figure behind me, I faint; ~39 s: fits neither length cleanly (could trim to a short 20-30 s); 'Hilal' spoken at 112.7 (name in first 8 s if started after 105)."
+   },
+   {
+    "k": 3,
+    "start": 230.6,
+    "end": 287.5,
+    "type": "secret",
+    "score": 6,
+    "hook": "",
+    "status": "skip",
+    "why": "reveal of m1 (uncle liking sexy posts) + aftermath; reveals m1's ending, sexual"
+   },
+   {
+    "k": 4,
+    "start": 502.44,
+    "end": 553.2,
+    "type": "conflict",
+    "score": 5,
+    "hook": "علاش صاحبتي ما بغاتش تقرب ليا؟",
+    "status": "todo",
+    "why": "girlfriend (T1 0) of 2 years keeps strict distance, dad catches them, asks to engage; long possible ~50 s, low score"
+   },
+   {
+    "k": 5,
+    "start": 557.3,
+    "end": 660.0,
+    "type": "twist",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "wedding-night romance, sexual"
+   },
+   {
+    "k": 6,
+    "start": 969.08,
+    "end": 1052.22,
+    "type": "twist",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "wife possessed, knife threat at his genitals: sexual + violence"
+   },
+   {
+    "k": 7,
+    "start": 1083.36,
+    "end": 1130.22,
+    "type": "twist",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "morning after, divorce, reveals ending; Sweden after"
+   }
+  ]
  }
 }
