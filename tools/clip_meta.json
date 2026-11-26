@@ -5507,5 +5507,35 @@
   "maker": "B",
   "ws": 5,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long), 44.8 s voice, one piece 690.95-735.38. Narrator walks in and finds his wife crying alone; she wipes the tears, lies she is tired and misses her parents, refuses to visit them, stops leaving the house; he suspects she hides something big, and his mom's talk wanted to break them up; cut before the day she runs home (reveal: mom paid a thug). ws: +1 question, +1 secret, +2 hidden from narrator, +1 'علاش'; wife not counted as family woman."
+ },
+ "1795662050_story_s14_Lwms6x8Y6ec_m1.mp4": {
+  "story": "Lwms6x8Y6ec",
+  "moment": 1,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 2,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 14,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 48.79,
+  "made": "2026-11-26T03:03:34Z",
+  "maker": "A",
+  "ws": 7,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long), 45.0 s voice, one piece 729.12-773.82. Wife's sister (from France) stays with the couple in Fes; she keeps sitting pressed against the narrator, puts her arm round his neck laughing, his wife says nothing, he freezes embarrassed, and both women start laughing; cut before that night (reveal = they planned a threesome). ws: +3 house woman (wife's sister living with them), +1 question, +1 secret, +2 aimed at narrator, +1 'علاش' (=8, -1: not on the winner list... ws counted 7 conservatively: wife's sister not blood family). Whisper possibly heard a name 'عمارة' at ~9 s/23 s (likely 'مرة'), none in first 8 s."
  }
 }
