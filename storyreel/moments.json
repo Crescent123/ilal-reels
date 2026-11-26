@@ -3888,13 +3888,16 @@
    },
    {
     "k": 2,
-    "start": 891.74,
-    "end": 919.36,
+    "start": 887.4,
+    "end": 967.62,
     "type": "secret",
     "score": 10,
     "hook": "شكون بغات ختي تعرف لمراتي؟",
-    "status": "todo",
-    "why": "short: before leaving for a 2-month job he mirrors her WhatsApp on his PC; first thing: wife still talks to his sister, who wants to introduce her to a man - an ex-prisoner; cut before the plan. Name 'أمال' at 900.80 (9 s in, OK if start ≤892.8)."
+    "status": "queued",
+    "why": "short: before leaving for a 2-month job he mirrors her WhatsApp on his PC; first thing: wife still talks to his sister, who wants to introduce her to a man - an ex-prisoner; cut before the plan. Name 'أمال' at 900.80 (9 s in, OK if start ≤892.8).",
+    "date": "2026-11-26",
+    "file": "1795706544_story_s11_VHgFPkz9Cxw_m2.mp4",
+    "note": "B, overflow long (43.1 s voice, 46.97 s clip), plug 922.86-960.50 dropped"
    },
    {
     "k": 3,
@@ -3959,8 +3962,7 @@
     "status": "skip",
     "why": "asks audience what to do: take"
    }
-  ],
-  "reserved": "2026-11-26T15:11:40Z"
+  ]
  },
  "jrlypkYnwuA": {
   "mined": "2026-11-26",

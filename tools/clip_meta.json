@@ -5713,5 +5713,35 @@
   "maker": "A",
   "ws": 8,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). One piece 746.35-788.45. Continues the hidden WhatsApp chat (m1): his sister pushes his wife to divorce him, lies about him, sends photos of men ('they want you'), wife only laughs; his blood boils, he storms into the kitchen yelling; cut before the confrontation. ws: +3 sister, +1 question, +1 secret, +2 aimed at narrator, +1 'علاش'. No names in clip; Casablanca."
+ },
+ "1795706544_story_s11_VHgFPkz9Cxw_m2.mp4": {
+  "story": "VHgFPkz9Cxw",
+  "moment": 2,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 1,
+   "H1": 1,
+   "H2": 0,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 46.97,
+  "made": "2026-11-26T15:24:23Z",
+  "maker": "B",
+  "ws": 8,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). Pieces 887.40-922.86 + 960.50-967.62 (only the Discord/Patreon plug dropped, sentence boundaries). Before a 2-month job away he mirrors his wife's WhatsApp on his PC; first thing he finds: wife still talks to his sister, who wants to introduce her to a man just out of prison; they chat all day and his wife goes along, doesn't defend him; cut before he acts. Sister's name at 11.8 s (after 8 s). ws: +3 sister, +1 question, +1 secret, +2 aimed at narrator, +1 'علاش'. Casablanca."
  }
 }
