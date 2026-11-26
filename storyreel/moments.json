@@ -3802,6 +3802,72 @@
   ]
  },
  "kP3IVqSuJUA": {
-  "reserved": "2026-11-26T04:25:19Z"
+  "mined": "2026-11-26",
+  "maker": "B",
+  "note": "Hilal tells (3rd person) the story of Amine (35, supervisor) and Narjis (23), married, 2 kids; she goes back to work, starts visiting her 31-y-o male colleague's flat, then an anonymous SMS tells Amine she cheats; divorce. Names spoken in most sentences. First clip (Oct) location unknown - assume first 90 s. Whisper rough.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 565.48,
+    "end": 610.84,
+    "type": "secret",
+    "score": 13,
+    "hook": "علاش كتمشي مراتو لدار زميلها؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795667779_story_s13_kP3IVqSuJUA_m1.mp4",
+    "note": "B, overflow long (45.7 s voice, 49.5 s clip); ends on 'sent him two words' before the SMS"
+   },
+   {
+    "k": 2,
+    "start": 520.7,
+    "end": 546.9,
+    "type": "secret",
+    "score": 8,
+    "hook": "علاش ولات مراتو كتخرج بزاف؟",
+    "status": "todo",
+    "why": "short only: after she gets the new job, coffees with work friends, a car, she stops caring; Amine named at ~533? check first 8 s; ends before she starts going to the colleague (546.9). Does not overlap m1."
+   },
+   {
+    "k": 3,
+    "start": 610.88,
+    "end": 657.0,
+    "type": "conflict",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "opens on the reveal SMS with her name (name in first 8 s, reveals)"
+   },
+   {
+    "k": 4,
+    "start": 657.0,
+    "end": 730.0,
+    "type": "twist",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "aftermath: court, divorce, she regrets - reveals ending"
+   },
+   {
+    "k": 5,
+    "start": 729.0,
+    "end": 755.4,
+    "type": "advice",
+    "score": 2,
+    "hook": "",
+    "status": "skip",
+    "why": "advice/outro"
+   },
+   {
+    "k": 6,
+    "start": 19.0,
+    "end": 66.0,
+    "type": "take",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "setup with both names + Hilal's take on parents marrying daughters off"
+   }
+  ]
  }
 }

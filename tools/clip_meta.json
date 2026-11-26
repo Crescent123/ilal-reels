@@ -5597,5 +5597,33 @@
   "maker": "A",
   "ws": 2,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long), 48.7 s voice, one piece 745.55-794.0. Wife bursts in running and screaming, face red; can't sit; he splashes water on her face; trembling, she says the derb thug harassed her and follows her daily since she refused, she kept quiet out of fear; cut on 'until mom jumps in' (before mom's mocking line and the reveal that mom paid the thug). ws: +3 mom (family woman) +1 question, -2 family conflict. No names in clip (Hilal named at 735, outside)."
+ },
+ "1795667779_story_s13_kP3IVqSuJUA_m1.mp4": {
+  "story": "kP3IVqSuJUA",
+  "moment": 1,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 49.51,
+  "ws": 3,
+  "made": "2026-11-26T04:37:48Z"
  }
 }
