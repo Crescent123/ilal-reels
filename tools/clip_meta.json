@@ -6223,5 +6223,35 @@
   "maker": "B",
   "ws": 4,
   "note": "all 64 Exp2 slots full: overflow long (long ahead on 24 h plays per H8). New story (pick order c: wife hiding something from him). One piece 350.85-402.42 (voice 51.87 s), Morocco, no name in title or first 8 s (possible 'Aziz' at 8.7 s, Whisper-unclear). Comes home early, hears wife whispering on the phone in the bedroom, 'come to me my love, I missed you', a man's not a girl's, pretends to arrive, she runs out panicked; cut before her excuse. Frame 1 = wife on the bed on the phone seen through the door gap. ws: +1 question, +1 secret, +2 aimed at him (wife, not family/house woman)."
+ },
+ "1795736787_story_s11_3cw7uqgowws_m4.mp4": {
+  "story": "3cw7uqgowws",
+  "moment": 4,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 0,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 50.36,
+  "made": "2026-11-26T23:47:00Z",
+  "maker": "A",
+  "ws": 5,
+  "note": "all 64 Exp2 slots full: overflow long (long ahead on 24 h plays per H8). One piece 636.30-686.40 (voice 50.36 s), Morocco, no names in the cut. Wife insists on visiting her far grandmother alone, refuses him coming, fakes illness; he drives her to the train station, watches from afar, she leaves the station and takes a taxi, he follows - cut before the hotel. Frame 1 = wife packing a suitcase seen from the doorway. ws: +1 question, +1 secret, +2 hides it from him, +1 alash (wife = not family/house woman)."
  }
 }

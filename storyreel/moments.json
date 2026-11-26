@@ -4354,13 +4354,16 @@
    },
    {
     "k": 4,
-    "start": 641.06,
-    "end": 692.08,
+    "start": 636.3,
+    "end": 686.4,
     "type": "secret",
     "score": 12,
     "hook": "علاش مراتي ركبات فطاكسي؟",
-    "status": "todo",
-    "note": "she insists on going alone to her far grandmother's, he drives her to the train station, watches from afar, she leaves the station and takes a taxi, he follows it - cut before the hotel (694.9). Long 51 s; short option 663.52-692.08."
+    "status": "queued",
+    "note": "she insists on going alone to her far grandmother's, he drives her to the train station, watches from afar, she leaves the station and takes a taxi, he follows it - cut before the hotel (694.9). Long 51 s; short option 663.52-692.08.",
+    "date": "2026-11-26",
+    "file": "1795736787_story_s11_3cw7uqgowws_m4.mp4",
+    "maker": "A"
    },
    {
     "k": 5,
@@ -4382,7 +4385,6 @@
     "status": "skip",
     "why": "aftermath/take"
    }
-  ],
-  "reserved": "2026-11-26T23:40:34Z"
+  ]
  }
 }
