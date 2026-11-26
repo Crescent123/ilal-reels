@@ -23,3 +23,11 @@ Every run: any trial whose plays in a snapshot or insights reach 400K+ → add/u
 "candidate" (ig_plays, sc, file from post_log, src). Once a day, for candidates at least 7 days past a TikTok post,
 read TikTok views (vidIQ) and apply WINNERS.md rule 2; mark "approved" or keep "candidate". When the number of
 "approved" first reaches 5, send Hilal one line with the list and the planned public start date.
+
+
+## @ilalstories (second account, from 26 Nov)
+Posts with "account": "stories" in tools/post_log.jsonl. vidIQ owner insights only cover @_ilal_, so for these take
+plays from vidiq_ig_profile_reels (handle "ilalstories", public data, 5 credits per call — one call per run covers the
+latest 12, page with nextUntil only if a due post is older). Match by shortcode. Append the same snapshot line with
+"account": "stories", plays, likes, comments, dur; watch/skip = null. Same 3/24/72/168 h ages and tolerances.
+Once a day also log @ilalstories followers (vidiq_ig_profile) in tools/followers.jsonl with "account": "stories".
