@@ -4131,13 +4131,15 @@
    },
    {
     "k": 2,
-    "start": 361.02,
-    "end": 410.84,
+    "start": 361.1,
+    "end": 413.02,
     "type": "secret",
     "score": 11,
     "hook": "علاش ولات مراتي كتزوق فالدار؟",
-    "status": "todo",
-    "why": "wife starts making herself up at home, he asks why, she flips it on him; then she and his friend laugh too much together, he finds them laughing when he comes home. Starts after 'Iman' at 360.54; 'Iman/Rida' at 399.6 (after 8 s). Long: maybe extend to ~415. Ends before the friend avoids his eyes."
+    "status": "queued",
+    "why": "wife starts making herself up at home, he asks why, she flips it on him; then she and his friend laugh too much together, he finds them laughing when he comes home. Starts after 'Iman' at 360.54; 'Iman/Rida' at 399.6 (after 8 s). Long: maybe extend to ~415. Ends before the friend avoids his eyes.",
+    "date": "2026-11-26",
+    "file": "1795715383_story_s12_GzgMeEmVj0A_m2.mp4"
    },
    {
     "k": 3,
@@ -4169,7 +4171,6 @@
     "status": "skip",
     "why": "wife suggests the friend moves in: names (Iman 189.5, Hamza 193, Rida) in nearly every sentence, no 8 s window"
    }
-  ],
-  "reserved": "2026-11-26T17:41:25Z"
+  ]
  }
 }

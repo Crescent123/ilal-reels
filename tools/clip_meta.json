@@ -5862,5 +5862,35 @@
   "maker": "B",
   "ws": 5,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). One piece 464.52-517.90 (Casablanca). Taxi driver comes home early from the heat, his 3-year-old is alone in the salon: 'mama is with uncle (his friend) in the room'; rooms empty, wife at the hanout, friend out; he asks the girl again: 'when you go to work mama sleeps with uncle in the room'. Cut there, before the hidden camera. Daughter's name at 8.9 s, friend's name at 14.7 s (after 8 s). Frame 1 = narrator in the sun (H1 0), opens on setup (H2 0). ws: +1 question, +1 secret, +2 hidden from him, +1 'علاش' (wife: no family/house-woman bonus)."
+ },
+ "1795715383_story_s12_GzgMeEmVj0A_m2.mp4": {
+  "story": "GzgMeEmVj0A",
+  "moment": 2,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 52.22,
+  "made": "2026-11-26T17:51:50Z",
+  "maker": "A",
+  "ws": 6,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). One piece 361.10-413.02 (Casablanca; starts right after the wife's name at 360.6-361.08, next name at 370.1 > 8 s). Wife suddenly dresses up and wears makeup only at home; he asks why, she flips it on him; she and his friend laugh too much; cut as he comes home and finds them laughing together."
  }
 }
