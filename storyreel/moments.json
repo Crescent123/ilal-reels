@@ -2891,7 +2891,8 @@
     "status": "skip"
    }
   ],
-  "note": "A 25 Nov 23:5x: re-read 300-625 for m3/m4: Whisper mostly MSA/garbled, 418-449 missing, son named (Aymen) often; m3/m4 are post-discovery conflict, confusing for a stranger - low value."
+  "note": "A 25 Nov 23:5x: re-read 300-625 for m3/m4: Whisper mostly MSA/garbled, 418-449 missing, son named (Aymen) often; m3/m4 are post-discovery conflict, confusing for a stranger - low value.",
+  "reserved": "2026-11-26T04:13:54Z"
  },
  "kgDH1GCfXWM": {
   "mined": "2026-11-25",
