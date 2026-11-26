@@ -2861,7 +2861,8 @@
     "type": "conflict",
     "score": 7,
     "hook": "علاش بكا قدام ماما؟",
-    "status": "todo"
+    "status": "skip",
+    "why": "no usable long passage: Whisper gap 439-560 and the rest is wholesome resolution"
    },
    {
     "k": 4,
@@ -2870,7 +2871,8 @@
     "type": "conflict",
     "score": 6,
     "hook": "شكون هو الراجل اللي مع ماما؟",
-    "status": "todo"
+    "status": "skip",
+    "why": "no usable long passage: Whisper gap 439-560 and the rest is wholesome resolution"
    },
    {
     "k": 5,
@@ -2891,8 +2893,7 @@
     "status": "skip"
    }
   ],
-  "note": "A 25 Nov 23:5x: re-read 300-625 for m3/m4: Whisper mostly MSA/garbled, 418-449 missing, son named (Aymen) often; m3/m4 are post-discovery conflict, confusing for a stranger - low value.",
-  "reserved": "2026-11-26T04:13:54Z"
+  "note": "A 25 Nov 23:5x: re-read 300-625 for m3/m4: Whisper mostly MSA/garbled, 418-449 missing, son named (Aymen) often; m3/m4 are post-discovery conflict, confusing for a stranger - low value. | B 26 Nov 04:3x: re-transcribed; 439-560 still missing from Whisper, 560-720 = mom calmly explains Aziz, son accepts, they become a family (wholesome) - no long passage left; m3/m4 marked skip."
  },
  "kgDH1GCfXWM": {
   "mined": "2026-11-25",
@@ -3799,5 +3800,8 @@
     "why": "motivation advice"
    }
   ]
+ },
+ "kP3IVqSuJUA": {
+  "reserved": "2026-11-26T04:25:19Z"
  }
 }
