@@ -5655,5 +5655,33 @@
   "maker": "A",
   "ws": 8,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long), 46.06 s voice, one piece 686.36-732.10. One morning he takes his wife's phone (knows the code), opens WhatsApp to browse a boutique group while she cooks; in the archive finds a hidden conversation with his (half-)sister, who visits freely; 'this time something strange, not just Indonesia photos, a strange conversation'; cut right before the sister's name and what she wrote. ws: +3 sister, +1 question, +1 secret, +2 aimed at narrator, +1 'علاش'. No names in clip; set in Casablanca."
+ },
+ "1795703089_story_s12_jrlypkYnwuA_m1.mp4": {
+  "story": "jrlypkYnwuA",
+  "moment": 1,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 52.35,
+  "ws": 5,
+  "made": "2026-11-26T14:26:48Z"
  }
 }

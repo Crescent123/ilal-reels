@@ -3959,7 +3959,6 @@
   ]
  },
  "jrlypkYnwuA": {
-  "reserved": "2026-11-26T14:12:44Z",
   "mined": "2026-11-26",
   "maker": "B",
   "note": "Hilal reads a listener's story: narrator (32, engineer) has a favoured older brother Abderrahman; toxic gf Ilham scams him of 6M (fake sick mom, found her running a salon); later the brother (now in Belgium) pushes his ex Souhaila on him, they marry fast, and he finds her WhatsApp love chats with the brother. First clip (4 Nov) = 1196-1250 (phone/WhatsApp discovery), located by audio cross-correlation. Names spoken often.",
@@ -3971,8 +3970,11 @@
     "type": "secret",
     "score": 12,
     "hook": "علاش زربات مراتي على العرس؟",
-    "status": "todo",
-    "why": "long: she rushed the wedding, rented a flat far from both families, honeymoon, then always angry, ignores him; 8 months later she goes out alone for the first time (ends right before the phone part = first clip). Name at 23 s only."
+    "status": "queued",
+    "why": "long: she rushed the wedding, rented a flat far from both families, honeymoon, then always angry, ignores him; 8 months later she goes out alone for the first time (ends right before the phone part = first clip). Name at 23 s only.",
+    "date": "2026-11-26",
+    "file": "1795703089_story_s12_jrlypkYnwuA_m1.mp4",
+    "note": "B, overflow long (48.6 s voice, 52.4 s clip); ends as she goes out alone, before the phone (first clip)"
    },
    {
     "k": 2,
