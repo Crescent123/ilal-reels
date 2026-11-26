@@ -3515,12 +3515,15 @@
    },
    {
     "k": 3,
-    "start": 650.52,
-    "end": 704.36,
-    "type": "conflict",
-    "score": 9,
-    "hook": "خوالي نكرو كلشي؟",
-    "status": "todo"
+    "start": 659.62,
+    "end": 704.4,
+    "type": "secret",
+    "score": 13,
+    "hook": "علاش خباو خوالي الكنز عليا؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795654232_story_s13_tXvmlojzJOY_m3.mp4",
+    "note": "A, overflow long (45.0 s voice): narrator gathers both uncles, demands his share, they deny ('who told you?'), he takes them to grandpa's house, holes covered with cardboard, they admit the fqih told them to dig but 'found nothing', he threatens the police. Cut before their answer. Range adjusted from 650.52-704.36 (dropped taxi setup)."
    },
    {
     "k": 4,
@@ -3541,7 +3544,6 @@
     "status": "skip",
     "why": "minor + sex worker"
    }
-  ],
-  "reserved": "2026-11-26T00:42:39Z"
+  ]
  }
 }
