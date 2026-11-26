@@ -4077,6 +4077,43 @@
   ]
  },
  "LEAfEgyD95U": {
-  "reserved": "2026-11-26T17:12:22Z"
+  "mined": "2026-11-26",
+  "maker": "B",
+  "note": "Adam (35) lives in FRANCE: studies there from 2009, meets a French girl, then marries a Moroccan (brought to Morocco once); wife's work chats with a manager (~650-700), later nude photos (826), hidden phone (940-975), divorce, custody. Whole story set abroad = v4 hard reject. First 90 s also has his name at 1 s.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 640.0,
+    "end": 700.0,
+    "type": "secret",
+    "score": 0,
+    "hook": "",
+    "status": "skip",
+    "why": "set abroad (France)"
+   },
+   {
+    "k": 2,
+    "start": 815.0,
+    "end": 870.0,
+    "type": "secret",
+    "score": 0,
+    "hook": "",
+    "status": "skip",
+    "why": "set abroad; nude photos"
+   },
+   {
+    "k": 3,
+    "start": 927.0,
+    "end": 994.0,
+    "type": "secret",
+    "score": 0,
+    "hook": "",
+    "status": "skip",
+    "why": "set abroad (France)"
+   }
+  ]
+ },
+ "GzgMeEmVj0A": {
+  "reserved": "2026-11-26T17:20:52Z"
  }
 }
