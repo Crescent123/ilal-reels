@@ -6193,5 +6193,35 @@
   "maker": "A",
   "ws": 7,
   "note": "all 64 Exp2 slots full: overflow long (long ahead on 24 h plays per H8). Re-mined winner story (rO5a-bkixf0 checked first: exhausted). One piece 1373.72-1421.38 (voice 48.0 s), Morocco, no names anywhere in the cut. After he finds her secret Instagram (m1), he talks to his wife quietly: she says only her girlfriends follow her (it wasn't true), she asks forgiveness, he orders her to delete everything or he'll send her back to her parents; he stays scared a customer will see a post, the derb kids tell him 'come see', her reels reached 8-12K views and lots of shares; cut there, before he finds she kept posting (m3 starts 1437). Frame 1 = wife filming a selfie on the bed seen from the doorway. ws: +2 winner story, +1 question, +1 secret, +2 aimed at him (posts him/their life), +1 alash (wife = not family/house woman)."
+ },
+ "1795735666_story_s13_3cw7uqgowws_m1.mp4": {
+  "story": "3cw7uqgowws",
+  "moment": 1,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 51.87,
+  "made": "2026-11-26T23:27:46Z",
+  "maker": "B",
+  "ws": 4,
+  "note": "all 64 Exp2 slots full: overflow long (long ahead on 24 h plays per H8). New story (pick order c: wife hiding something from him). One piece 350.85-402.42 (voice 51.87 s), Morocco, no name in title or first 8 s (possible 'Aziz' at 8.7 s, Whisper-unclear). Comes home early, hears wife whispering on the phone in the bedroom, 'come to me my love, I missed you', a man's not a girl's, pretends to arrive, she runs out panicked; cut before her excuse. Frame 1 = wife on the bed on the phone seen through the door gap. ws: +1 question, +1 secret, +2 aimed at him (wife, not family/house woman)."
  }
 }

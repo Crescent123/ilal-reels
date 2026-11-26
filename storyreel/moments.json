@@ -4315,6 +4315,73 @@
   ]
  },
  "3cw7uqgowws": {
-  "reserved": "2026-11-26T23:13:49Z"
+  "mined": "2026-11-26",
+  "maker": "B",
+  "note": "Wife secretly in contact with a famous Moroccan MRE influencer (since before the wedding); narrator in Morocco (city unnamed). Intro/plug 0-24. Possible name at 359.66 ('عزيز', Whisper-unclear). 739-830 hotel confrontation where he beats her (skip); 890-end aftermath/take + plug.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 350.85,
+    "end": 402.42,
+    "type": "secret",
+    "score": 13,
+    "hook": "مع من كتهضر مراتي فالبيت؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795735666_story_s13_3cw7uqgowws_m1.mp4",
+    "maker": "B",
+    "note": "overflow long: comes home early, hears her whispering on the phone in the bedroom ('when are you coming to me, my love, I missed you'), a man not a girl; pretends to arrive, she runs out panicked - cut before 'why are you early'."
+   },
+   {
+    "k": 2,
+    "start": 428.12,
+    "end": 475.94,
+    "type": "secret",
+    "score": 11,
+    "hook": "شنو كانت مراتي مخبية فالتليفون؟",
+    "status": "todo",
+    "note": "searches for what she does behind his back, nothing; phone with face ID; she shows him a reel and he spots a second Instagram account - cut before whose account. Long."
+   },
+   {
+    "k": 3,
+    "start": 571.34,
+    "end": 616.76,
+    "type": "secret",
+    "score": 8,
+    "hook": "شنو لقيت فالكونط الثاني ديال مراتي؟",
+    "status": "todo",
+    "note": "inside the hidden account: her chat with the famous MRE since before the marriage; partly the reveal, weaker."
+   },
+   {
+    "k": 4,
+    "start": 641.06,
+    "end": 692.08,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش مراتي ركبات فطاكسي؟",
+    "status": "todo",
+    "note": "she insists on going alone to her far grandmother's, he drives her to the train station, watches from afar, she leaves the station and takes a taxi, he follows it - cut before the hotel (694.9). Long 51 s; short option 663.52-692.08."
+   },
+   {
+    "k": 5,
+    "start": 739.08,
+    "end": 830.0,
+    "type": "conflict",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "hotel confrontation, he beats her (violence/narrator wrongdoing)"
+   },
+   {
+    "k": 6,
+    "start": 890.0,
+    "end": 960.0,
+    "type": "take",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "aftermath/take"
+   }
+  ]
  }
 }
