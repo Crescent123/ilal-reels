@@ -1,0 +1,141 @@
+{
+ "date": "2026-11-26",
+ "built": "2026-11-26T18:07:50Z",
+ "items": [
+  {
+   "pos": 1,
+   "file": "1795638874_story_s15_iXmznDnI6Bg_m3.mp4",
+   "pick": "ws",
+   "v4": 15,
+   "story": 5,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 8,
+   "length": 51.7,
+   "exp2_slot": 58
+  },
+  {
+   "pos": 2,
+   "file": "1795636166_story_s12_rO5a-bkixf0_m11.mp4",
+   "pick": "ws",
+   "v4": 12,
+   "story": 4,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 7,
+   "length": 24.88,
+   "exp2_slot": 57
+  },
+  {
+   "pos": 3,
+   "file": "1795553604_story_s12_t_11yIcRc8M_m11.mp4",
+   "pick": "ws",
+   "v4": 12,
+   "story": 5,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 7,
+   "length": 26.19,
+   "exp2_slot": 29
+  },
+  {
+   "pos": 4,
+   "file": "1795643941_story_s9_bPSVD-5c-wo_m1.mp4",
+   "pick": "ws",
+   "v4": 9,
+   "story": 3,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 8,
+   "length": 49.8,
+   "exp2_slot": 61
+  },
+  {
+   "pos": 5,
+   "file": "1795649183_story_s15_NhSbv-eD2Cs_m7.mp4",
+   "pick": "ws",
+   "v4": 15,
+   "story": 6,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 9,
+   "length": 26.15,
+   "exp2_slot": 64
+  },
+  {
+   "pos": 6,
+   "file": "1795632462_story_s13_iXmznDnI6Bg_m2.mp4",
+   "pick": "ws",
+   "v4": 13,
+   "story": 5,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 8,
+   "length": 46.74,
+   "exp2_slot": 55
+  },
+  {
+   "pos": 7,
+   "file": "1795642855_story_s14_s-gDstpbBGM_m7.mp4",
+   "pick": "ws",
+   "v4": 14,
+   "story": 5,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 8,
+   "length": 46.6,
+   "exp2_slot": 60
+  },
+  {
+   "pos": 8,
+   "file": "1795646993_story_s11_bPSVD-5c-wo_m3.mp4",
+   "pick": "ws",
+   "v4": 11,
+   "story": 3,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 8,
+   "length": 53.96,
+   "exp2_slot": 63
+  },
+  {
+   "pos": 9,
+   "file": "1795557348_story_s14_7dd81A4zfu4_m11.mp4",
+   "pick": "ws",
+   "v4": 14,
+   "story": 5,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 7,
+   "length": 24.19,
+   "exp2_slot": 31
+  }
+ ]
+}
