@@ -3646,13 +3646,15 @@
    },
    {
     "k": 2,
-    "start": 739.0,
-    "end": 792.0,
+    "start": 745.55,
+    "end": 794.0,
     "type": "conflict",
     "score": 9,
     "hook": "شنو قالت ماما لمراتي؟",
-    "status": "todo",
-    "why": "wife runs home screaming, face red; thug of the derb followed and pressed her; mom jumps in 'cover yourself, he would not talk to you'; long only; harassment = tense; end before he goes down to the thug"
+    "status": "queued",
+    "why": "wife runs home screaming, face red; thug of the derb followed and pressed her; mom jumps in 'cover yourself, he would not talk to you'; long only; harassment = tense; end before he goes down to the thug",
+    "date": "2026-11-26",
+    "file": "1795666355_story_s11_nrVKL_UkW4w_m2.mp4"
    },
    {
     "k": 3,
@@ -3684,8 +3686,7 @@
     "status": "skip",
     "why": "ending / membership plug"
    }
-  ],
-  "reserved": "2026-11-26T03:46:42Z"
+  ]
  },
  "Lwms6x8Y6ec": {
   "mined": "2026-11-26",

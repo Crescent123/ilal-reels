@@ -5567,5 +5567,35 @@
   "maker": "B",
   "ws": 7,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long: 24 h median 22.0K vs 5.6K short), 41.96 s voice, one piece 684.75-726.40 (ends right before m1's 729.12). One night the wife says her sister is coming to Fes for a job; he offers she stays with them; welcome; days pass, she's basically living there, two weeks; 'but what felt off': at night she keeps coming to sit very close to him; cut before what she does. ws: +3 house woman, +1 question, +1 secret, +2 aimed at narrator, +1 'علاش' (counted 7 like m1: wife's sister not blood family). No names in clip."
+ },
+ "1795666355_story_s11_nrVKL_UkW4w_m2.mp4": {
+  "story": "nrVKL_UkW4w",
+  "moment": 2,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 1,
+   "H2": 2,
+   "H3": 1,
+   "D1": 2,
+   "D2": 1,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 52.5,
+  "made": "2026-11-26T04:15:49Z",
+  "maker": "A",
+  "ws": 2,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long), 48.7 s voice, one piece 745.55-794.0. Wife bursts in running and screaming, face red; can't sit; he splashes water on her face; trembling, she says the derb thug harassed her and follows her daily since she refused, she kept quiet out of fear; cut on 'until mom jumps in' (before mom's mocking line and the reveal that mom paid the thug). ws: +3 mom (family woman) +1 question, -2 family conflict. No names in clip (Hilal named at 735, outside)."
  }
 }
