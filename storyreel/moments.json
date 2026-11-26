@@ -1467,7 +1467,7 @@
  "tMcdf896iHI": {
   "mined": "2026-11-20",
   "maker": "B",
-  "note": "Saad+Ayoub open a laundry (المصبانة); Saad likes the cake girl, orders his mom's birthday cake, mom keeps her overnight, they marry. Names (Saad/Ayoub) are spoken often: check first 8 s. Whisper lost 841-871 (continuous speech). Earlier clip location unknown (assume first 90 s).",
+  "note": "Saad+Ayoub open a laundry (المصبانة); Saad likes the cake girl, orders his mom's birthday cake, mom keeps her overnight, they marry. Names (Saad/Ayoub) are spoken often: check first 8 s. Whisper lost 841-871 (continuous speech). Earlier clip location unknown (assume first 90 s). | B 26 Nov 21:2x: re-mined; Whisper still loses 832-862 (likely the night itself, sexual) and 866-871 is the girl's 'marry me'. Gaps left: 576-657 (cake order/she won't take money, romance, low value), 706-739 (dinner/film, filler).",
   "moments": [
    {
     "k": 1,
@@ -1521,9 +1521,30 @@
     "file": "1795289109_story_s12_tMcdf896iHI_m4.mp4",
     "maker": "B",
     "note": "Exp1 slot 48 (build 0, ending 1): 'we have to get married', laundry guy has work and a place, family likes the cake girl; reveal inside = they really marry; closes on Hilal's line that they live well and he drives her to work himself. Whisper gap 837-867 again; started 871.38 (quiet point)."
+   },
+   {
+    "k": 5,
+    "start": 808.42,
+    "end": 832.82,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش صيفطات ليه بنت الحلوى فالليل؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795728521_story_s11_tMcdf896iHI_m5.mp4",
+    "note": "B, overflow short (24.5 s voice, 28.3 s clip): the cake girl sleeping in his room texts him after midnight, ends on 'I'm not used to sleeping alone'"
+   },
+   {
+    "k": 6,
+    "start": 579.46,
+    "end": 627.86,
+    "type": "twist",
+    "score": 7,
+    "hook": "علاش ما بغاتش تاخد الفلوس؟",
+    "status": "todo",
+    "why": "long: he orders mom's birthday cake, she insists it's on her; romance, weak; check names"
    }
-  ],
-  "reserved": "2026-11-26T21:14:19Z"
+  ]
  },
  "ujby1DpbnSY": {
   "mined": "2026-11-20",

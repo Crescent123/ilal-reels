@@ -6073,5 +6073,35 @@
   "ws": -1,
   "test": "H10",
   "note": "LAB TEST H10 (narrated by a woman; no test clips logged yet). All 64 Exp2 slots full: overflow long (long ahead on 24 h plays per H8). One piece 644.88-694.74, Salé/Morocco, no names in first 8 s (Zakia at ~24 s). Narrator (a woman) tells how her adopted brother got engaged: at the engagement dad only watches the bride's mother talking non-stop while her husband sits silent; at home dad warns him 'open your eyes, she'll trap you'; he refuses, insists on the contract and wedding; mom cries, dad falls ill with his heart; cut on 'and it did not stop there'. Frame 1 = bride's mother mid-talk seen over dad's shoulder. ws: +3 in-law woman, +1 question, -3 woman narrator, -2 family conflict."
+ },
+ "1795728521_story_s11_tMcdf896iHI_m5.mp4": {
+  "story": "tMcdf896iHI",
+  "moment": 5,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 0,
+   "H3": 2,
+   "D1": 1,
+   "D2": 1,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 28.29,
+  "made": "2026-11-26T21:31:14Z",
+  "maker": "B",
+  "ws": 9,
+  "note": "all 64 Exp2 slots full: overflow clip; the only unposted standalone passage of this winner story fits short only (791.6-832.7 = 41 s with no room either side: m3 ends 790.4, Whisper gap after). One piece 808.42-832.82, Morocco, no names (Saad named at 803.9, outside). Hilal tells (3rd person) how the new neighbour girl who made his mom's cake sleeps over in his room; after midnight she texts him thanks, asks if he sleeps well, 'honestly I'm not used to sleeping alone'; cut there, before what happens. Frame 1 = girl texting in his bed seen from the doorway. ws: +3 neighbour/house girl, +2 winner story, +1 question, +2 aimed at him, +1 alash."
  }
 }
