@@ -5537,5 +5537,35 @@
   "maker": "A",
   "ws": 7,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long), 45.0 s voice, one piece 729.12-773.82. Wife's sister (from France) stays with the couple in Fes; she keeps sitting pressed against the narrator, puts her arm round his neck laughing, his wife says nothing, he freezes embarrassed, and both women start laughing; cut before that night (reveal = they planned a threesome). ws: +3 house woman (wife's sister living with them), +1 question, +1 secret, +2 aimed at narrator, +1 'علاش' (=8, -1: not on the winner list... ws counted 7 conservatively: wife's sister not blood family). Whisper possibly heard a name 'عمارة' at ~9 s/23 s (likely 'مرة'), none in first 8 s."
+ },
+ "1795663256_story_s13_Lwms6x8Y6ec_m2.mp4": {
+  "story": "Lwms6x8Y6ec",
+  "moment": 2,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 45.76,
+  "made": "2026-11-26T03:21:00Z",
+  "maker": "B",
+  "ws": 7,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long: 24 h median 22.0K vs 5.6K short), 41.96 s voice, one piece 684.75-726.40 (ends right before m1's 729.12). One night the wife says her sister is coming to Fes for a job; he offers she stays with them; welcome; days pass, she's basically living there, two weeks; 'but what felt off': at night she keeps coming to sit very close to him; cut before what she does. ws: +3 house woman, +1 question, +1 secret, +2 aimed at narrator, +1 'علاش' (counted 7 like m1: wife's sister not blood family). No names in clip."
  }
 }

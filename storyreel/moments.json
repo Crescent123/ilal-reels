@@ -3703,12 +3703,15 @@
    },
    {
     "k": 2,
-    "start": 686.5,
-    "end": 729.1,
+    "start": 684.75,
+    "end": 726.4,
     "type": "secret",
     "score": 9,
     "hook": "علاش جات أخت مراتي تسكن معانا؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795663256_story_s13_Lwms6x8Y6ec_m2.mp4",
+    "note": "B, overflow long (41.96 s voice, 45.76 s clip)"
    },
    {
     "k": 3,
@@ -3755,7 +3758,6 @@
     "hook": "",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-26T03:11:56Z"
+  ]
  }
 }
