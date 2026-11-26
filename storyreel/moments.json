@@ -3988,13 +3988,16 @@
    },
    {
     "k": 2,
-    "start": 1019.7,
+    "start": 1019.72,
     "end": 1066.3,
     "type": "secret",
     "score": 9,
     "hook": "علاش بغا خويا يزوجني بصاحبتو؟",
-    "status": "todo",
-    "why": "brother calls out of nowhere: do you want to marry? she likes you... his own ex; he leaves her my number, I wait for her message. Brother named at 1018.8 (start after it); her name at ~1037 (17 s, ok). Brother is a man (ws low)."
+    "status": "queued",
+    "why": "brother calls out of nowhere: do you want to marry? she likes you... his own ex; he leaves her my number, I wait for her message. Brother named at 1018.8 (start after it); her name at ~1037 (17 s, ok). Brother is a man (ws low).",
+    "date": "2026-11-26",
+    "file": "1795709913_story_s14_jrlypkYnwuA_m2.mp4",
+    "note": "B, overflow long (46.6 s voice, 50.8 s clip)"
    },
    {
     "k": 3,
@@ -4056,7 +4059,6 @@
     "status": "skip",
     "why": "continues the first clip with the reveal (brother's messages)"
    }
-  ],
-  "reserved": "2026-11-26T16:12:22Z"
+  ]
  }
 }
