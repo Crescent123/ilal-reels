@@ -3584,14 +3584,18 @@
    },
    {
     "k": 2,
-    "start": 326.3,
-    "end": 352.3,
+    "start": 328.95,
+    "end": 353.05,
     "type": "secret",
     "score": 11,
     "hook": "علاش ولات بنت عمي كتخبي التيليفون؟",
-    "status": "todo",
+    "status": "queued",
     "why": "short: she laughs alone on her phone, cuts the call when someone comes near, he suspects a boyfriend and gets jealous; ends before he hears her. Starts on 'مثلا' - check opening words; overlaps nothing. | B 26 Nov: no long version possible (before 326 is the narrator's own photo-collecting, after 369 is m1); keep for a short.",
-    "note_b_1126": "can't stretch to long 44-54 s: 326.3 (Whisper gap 319-326, name at 317) to m1 start 369.06 = 42.8 s; keep as short-only."
+    "note_b_1126": "can't stretch to long 44-54 s: 326.3 (Whisper gap 319-326, name at 317) to m1 start 369.06 = 42.8 s; keep as short-only.",
+    "date": "2026-11-26",
+    "file": "1795724957_story_s15_5qfbg1tlgLo_m2.mp4",
+    "maker": "B",
+    "note": "overflow short (24.5 s voice) — all Exp2 slots full; LEARNINGS 25 Nov: no clear short/long difference. Start moved past the name at 326.2 (re-transcribed slice)."
    },
    {
     "k": 3,
@@ -3643,8 +3647,7 @@
     "status": "skip",
     "why": "regret / asks the audience for advice: take"
    }
-  ],
-  "reserved": "2026-11-26T20:11:14Z"
+  ]
  },
  "nrVKL_UkW4w": {
   "mined": "2026-11-26",

@@ -6012,5 +6012,35 @@
   "maker": "A",
   "ws": 2,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long, as other makers). One piece 181.64-230.62 (49.3 s voice), Morocco, no names (narrator named at 11 s, 'Hilal' at 112 s and 578 s). The preachy uncle (lectures the family over songs/films, grave-torment talk) gets a Facebook account from the neighbour's kid; at night the narrator gets a notification that the uncle liked a post; cut on 'I went to look', before the reveal of what he was watching. Frame 1 = uncle mid-sermon wagging his finger. Opens on 'when he enters the house and people have songs or a film on' (H2 0). ws: +1 question, +1 secret (male uncle: no family-woman bonus). Wife/jinn main plot (969-1130) is sexual + knife threat: skipped."
+ },
+ "1795724957_story_s15_5qfbg1tlgLo_m2.mp4": {
+  "story": "5qfbg1tlgLo",
+  "moment": 2,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 15,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 24.49,
+  "made": "2026-11-26T20:31:34Z",
+  "maker": "B",
+  "ws": 8,
+  "note": "all 64 Exp2 slots full: overflow clip; best todo moment was short-only (no room for a long cut). One piece 328.95-353.05, Morocco, no names (cousin named at 326.2 and 354.2, both outside). Cousin laughs alone on her phone, walks off to whisper, hangs up when someone comes; he suspects a boyfriend, gets jealous, starts watching her; cut on 'or something bigger', before he overhears her. Frame 1 = cousin laughing at her phone seen from the doorway. ws: +3 family woman, +1 question, +1 secret, +2 hides it from him, +1 alash."
  }
 }
