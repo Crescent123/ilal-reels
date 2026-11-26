@@ -2568,13 +2568,17 @@
    },
    {
     "k": 2,
-    "start": 644.86,
-    "end": 696.12,
+    "start": 644.88,
+    "end": 694.74,
     "type": "conflict",
     "score": 8,
-    "hook": "شنو شاف بابا فدار العروسة؟",
-    "status": "todo",
-    "why": "dad at the engagement sees the bride mother scheming, warns Hamza, Hamza insists on Zakia (name spoken ~669: check first 8 s ok), mom cries, dad falls ill"
+    "hook": "شنو كانت كدير أم العروسة؟",
+    "status": "queued",
+    "why": "dad at the engagement sees the bride mother scheming, warns Hamza, Hamza insists on Zakia (name spoken ~669: check first 8 s ok), mom cries, dad falls ill",
+    "date": "2026-11-26",
+    "file": "1795726548_story_s13_gmpMSPIhz9k_m2.mp4",
+    "maker": "A",
+    "note": "A, H10 lab test (story narrated by a woman), overflow long (50.2 s voice, 54.0 s clip); ends on \"and it did not stop there\" after dad falls ill."
    },
    {
     "k": 3,
@@ -2628,8 +2632,7 @@
     "status": "skip",
     "why": "his life ruined, she wont forgive him: take, reveals the ending"
    }
-  ],
-  "reserved": "2026-11-26T20:41:54Z"
+  ]
  },
  "5xbZb6He3Ww": {
   "mined": "2026-11-24",

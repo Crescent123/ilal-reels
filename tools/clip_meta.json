@@ -6042,5 +6042,36 @@
   "maker": "B",
   "ws": 8,
   "note": "all 64 Exp2 slots full: overflow clip; best todo moment was short-only (no room for a long cut). One piece 328.95-353.05, Morocco, no names (cousin named at 326.2 and 354.2, both outside). Cousin laughs alone on her phone, walks off to whisper, hangs up when someone comes; he suspects a boyfriend, gets jealous, starts watching her; cut on 'or something bigger', before he overhears her. Frame 1 = cousin laughing at her phone seen from the doorway. ws: +3 family woman, +1 question, +1 secret, +2 hides it from him, +1 alash."
+ },
+ "1795726548_story_s13_gmpMSPIhz9k_m2.mp4": {
+  "story": "gmpMSPIhz9k",
+  "moment": 2,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 1,
+   "D1": 2,
+   "D2": 2,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 50.24,
+  "made": "2026-11-26T21:00:53Z",
+  "maker": "A",
+  "ws": -1,
+  "test": "H10",
+  "note": "LAB TEST H10 (narrated by a woman; no test clips logged yet). All 64 Exp2 slots full: overflow long (long ahead on 24 h plays per H8). One piece 644.88-694.74, Salé/Morocco, no names in first 8 s (Zakia at ~24 s). Narrator (a woman) tells how her adopted brother got engaged: at the engagement dad only watches the bride's mother talking non-stop while her husband sits silent; at home dad warns him 'open your eyes, she'll trap you'; he refuses, insists on the contract and wedding; mom cries, dad falls ill with his heart; cut on 'and it did not stop there'. Frame 1 = bride's mother mid-talk seen over dad's shoulder. ws: +3 in-law woman, +1 question, -3 woman narrator, -2 family conflict."
  }
 }
