@@ -5683,5 +5683,35 @@
   "length": 52.35,
   "ws": 5,
   "made": "2026-11-26T14:26:48Z"
+ },
+ "1795704977_story_s13_VHgFPkz9Cxw_m3.mp4": {
+  "story": "VHgFPkz9Cxw",
+  "moment": 3,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 1,
+   "H1": 1,
+   "H2": 2,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 46.2,
+  "made": "2026-11-26T15:01:18Z",
+  "maker": "A",
+  "ws": 8,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). One piece 746.35-788.45. Continues the hidden WhatsApp chat (m1): his sister pushes his wife to divorce him, lies about him, sends photos of men ('they want you'), wife only laughs; his blood boils, he storms into the kitchen yelling; cut before the confrontation. ws: +3 sister, +1 question, +1 secret, +2 aimed at narrator, +1 'علاش'. No names in clip; Casablanca."
  }
 }

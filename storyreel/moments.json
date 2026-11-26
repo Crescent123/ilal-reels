@@ -3898,13 +3898,16 @@
    },
    {
     "k": 3,
-    "start": 744.46,
-    "end": 790.48,
-    "type": "conflict",
+    "start": 746.35,
+    "end": 788.45,
+    "type": "secret",
     "score": 8,
-    "hook": "شنو كانت كتقول ختي لمراتي؟",
-    "status": "todo",
-    "why": "overlaps nothing; sister tells wife to divorce, sends photos of the Indonesian's relatives 'they want you'; wife only laughs; he storms into the kitchen. Must start after 732.8 (name). Ends on him yelling - check reveal."
+    "hook": "علاش ختي بغات مراتي تطلق؟",
+    "status": "queued",
+    "why": "overlaps nothing; sister tells wife to divorce, sends photos of the Indonesian's relatives 'they want you'; wife only laughs; he storms into the kitchen. Must start after 732.8 (name). Ends on him yelling - check reveal.",
+    "date": "2026-11-26",
+    "file": "1795704977_story_s13_VHgFPkz9Cxw_m3.mp4",
+    "note": "A, overflow long (42.4 s voice, 46.2 s clip); sister's hidden chat: tells wife to divorce him, sends photos of men, wife laughs, he storms into the kitchen; cut before the fight"
    },
    {
     "k": 4,
@@ -3956,8 +3959,7 @@
     "status": "skip",
     "why": "asks audience what to do: take"
    }
-  ],
-  "reserved": "2026-11-26T14:42:56Z"
+  ]
  },
  "jrlypkYnwuA": {
   "mined": "2026-11-26",
