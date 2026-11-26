@@ -1,5 +1,8 @@
 # Trial-reel poster runbook (one run = at most one post from the day's slate; runs at :04/:24/:44)
 
+> TWO ACCOUNTS (26 Nov): lines in tools/post_log.jsonl with "account": "stories" belong to @ilalstories (tools/POSTER_STORIES.md).
+> For EVERY count, spacing and limit in this file, IGNORE those lines — only count lines without "account" (= @_ilal_).
+
 Posts Instagram Trial Reels to @_ilal_ from TWO queues, oldest first, as many as Instagram allows:
 - A) Google Drive folder "Reels trial" 1rGW63KerCj3EQRGRk-mDWn1dVkU1onyK (videos Hilal drops in).
 - B) GitHub branch "trial-queue" of this repo (reels made by the story makers "story_*" and the vlog task "vlog_*"). `bash tools/queue_list.sh` prints
