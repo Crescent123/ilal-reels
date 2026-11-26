@@ -5417,5 +5417,35 @@
   "maker": "A",
   "ws": 2,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long). Uncles deny hiding grandpa's treasure; police threat cliffhanger."
+ },
+ "1795656086_story_s15_tXvmlojzJOY_m2.mp4": {
+  "story": "tXvmlojzJOY",
+  "moment": 2,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 15,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 49.4,
+  "made": "2026-11-26T01:24:15Z",
+  "maker": "B",
+  "ws": 3,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long), 45.6 s voice. Cousin reveals the uncles found grandpa's treasure and hid it so they would not share with their siblings; narrator doubts, remembers the family legend, decides it's true; cut on 'what do I do' before he confronts them."
  }
 }

@@ -3506,12 +3506,15 @@
    },
    {
     "k": 2,
-    "start": 603.26,
-    "end": 650.52,
+    "start": 605.3,
+    "end": 650.6,
     "type": "secret",
     "score": 11,
-    "hook": "علاش خباو خوالي الكنز على خوتهم؟",
-    "status": "todo"
+    "hook": "علاش خباو خوالي الكنز؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795656086_story_s15_tXvmlojzJOY_m2.mp4",
+    "note": "B, overflow long (45.6 s voice): starts on 'what shook me: they found a treasure', ends on 'what do I do' (650.52)."
    },
    {
     "k": 3,
@@ -3544,7 +3547,6 @@
     "status": "skip",
     "why": "minor + sex worker"
    }
-  ],
-  "reserved": "2026-11-26T01:12:52Z"
+  ]
  }
 }
