@@ -5357,5 +5357,35 @@
   "maker": "A",
   "ws": 1,
   "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long median 22K vs short 5.6K, n=5/4)"
+ },
+ "1795652635_story_s14_tXvmlojzJOY_m1.mp4": {
+  "story": "tXvmlojzJOY",
+  "moment": 1,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 2,
+   "H1": 2,
+   "H2": 0,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 14,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 49.63,
+  "made": "2026-11-26T00:26:27Z",
+  "maker": "B",
+  "ws": 2,
+  "note": "all 64 Exp2 slots full: overflow clip in the length ahead on 24 h plays (long, per A's 00:00 note). Uncles secretly digging for treasure in grandpa's house at night."
  }
 }

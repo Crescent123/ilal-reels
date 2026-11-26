@@ -3489,6 +3489,58 @@
   ]
  },
  "tXvmlojzJOY": {
-  "reserved": "2026-11-26T00:12:45Z"
+  "mined": "2026-11-26",
+  "maker": "B",
+  "note": "guest story near Agadir: uncles find grandpa's buried treasure and hide it. First clip posted 15 Oct (position unknown, assume first 90 s). 186-430 is a 14-year-old with a sex worker: never use.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 547.0,
+    "end": 596.46,
+    "type": "secret",
+    "score": 14,
+    "hook": "شنو كانو كيحفرو خوالي فالليل؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795652635_story_s14_tXvmlojzJOY_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 603.26,
+    "end": 650.52,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش خباو خوالي الكنز على خوتهم؟",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 650.52,
+    "end": 704.36,
+    "type": "conflict",
+    "score": 9,
+    "hook": "خوالي نكرو كلشي؟",
+    "status": "todo"
+   },
+   {
+    "k": 4,
+    "start": 724.04,
+    "end": 775.0,
+    "type": "twist",
+    "score": 8,
+    "hook": "شنو قال الفقيه؟",
+    "status": "todo"
+   },
+   {
+    "k": 5,
+    "start": 186.0,
+    "end": 430.0,
+    "type": "skip",
+    "score": 0,
+    "hook": "",
+    "status": "skip",
+    "why": "minor + sex worker"
+   }
+  ]
  }
 }
