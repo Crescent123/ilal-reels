@@ -3573,7 +3573,7 @@
     "score": 11,
     "hook": "علاش ولات بنت عمي كتخبي التيليفون؟",
     "status": "todo",
-    "why": "short: she laughs alone on her phone, cuts the call when someone comes near, he suspects a boyfriend and gets jealous; ends before he hears her. Starts on 'مثلا' - check opening words; overlaps nothing."
+    "why": "short: she laughs alone on her phone, cuts the call when someone comes near, he suspects a boyfriend and gets jealous; ends before he hears her. Starts on 'مثلا' - check opening words; overlaps nothing. | B 26 Nov: no long version possible (before 326 is the narrator's own photo-collecting, after 369 is m1); keep for a short."
    },
    {
     "k": 3,
@@ -3625,7 +3625,9 @@
     "status": "skip",
     "why": "regret / asks the audience for advice: take"
    }
-  ],
-  "reserved": "2026-11-26T02:10:52Z"
+  ]
+ },
+ "nrVKL_UkW4w": {
+  "reserved": "2026-11-26T02:12:35Z"
  }
 }
