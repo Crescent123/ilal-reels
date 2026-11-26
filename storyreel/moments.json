@@ -3628,6 +3628,61 @@
   ]
  },
  "nrVKL_UkW4w": {
-  "reserved": "2026-11-26T02:12:35Z"
+  "mined": "2026-11-26",
+  "maker": "B",
+  "note": "Fes taxi driver (narrator Aziz, named at 26 s) marries a laundry worker who studies; his strict mom moves in after their first baby, hates the wife (scarf, studying); wife starts crying and stops going out; one day runs home: the derb thug harassed her; mom mocks her; narrator fights the thug, who confesses 'the old woman in your house paid me'; he sends mom back to dad. Early story mentions attempted murder/sexual assault (173 s) - avoid. First clip location unknown (assume first 90 s).",
+  "moments": [
+   {
+    "k": 1,
+    "start": 690.95,
+    "end": 735.38,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش ولات مراتي كتبكي بوحدها؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795660033_story_s12_nrVKL_UkW4w_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 739.0,
+    "end": 792.0,
+    "type": "conflict",
+    "score": 9,
+    "hook": "شنو قالت ماما لمراتي؟",
+    "status": "todo",
+    "why": "wife runs home screaming, face red; thug of the derb followed and pressed her; mom jumps in 'cover yourself, he would not talk to you'; long only; harassment = tense; end before he goes down to the thug"
+   },
+   {
+    "k": 3,
+    "start": 585.9,
+    "end": 645.0,
+    "type": "conflict",
+    "score": 8,
+    "hook": "علاش ماما كتكره مراتي؟",
+    "status": "todo",
+    "why": "mom alone with him: your wife goes out without a scarf, why let her study; he plays diplomat; family-conflict secret (weak per ws)"
+   },
+   {
+    "k": 4,
+    "start": 808.0,
+    "end": 875.0,
+    "type": "twist",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "fight with a chair + the reveal (mom paid the thug): violence, reveals the ending"
+   },
+   {
+    "k": 5,
+    "start": 990.0,
+    "end": 1100.0,
+    "type": "take",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "ending / membership plug"
+   }
+  ]
  }
 }
