@@ -6163,5 +6163,35 @@
   "maker": "B",
   "ws": 3,
   "note": "all 64 Exp2 slots full: overflow clip; moment was short-only (m1 starts 565.5, m3 skip). One piece 518.42-546.95 (voice 28.71 s, file 32.5 s with end card), Casablanca, no names (Amine first named after 560). Hilal tells (3rd person): the wife starts going out more, takes part of her salary for a car, coffees with work friends, he always brings the kids in alone; cut on 'she started going to the colleague she works with', before who he is. Frame 1 = wife at the hall mirror with keys, seen from the doorway. ws: +1 question, +1 secret, +1 alash (wife = not family/house woman, 3rd person)."
+ },
+ "1795734251_story_s11_qpUDTizlg3c_m7.mp4": {
+  "story": "qpUDTizlg3c",
+  "moment": 7,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 0,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 48.0,
+  "made": "2026-11-26T23:07:59Z",
+  "maker": "A",
+  "ws": 7,
+  "note": "all 64 Exp2 slots full: overflow long (long ahead on 24 h plays per H8). Re-mined winner story (rO5a-bkixf0 checked first: exhausted). One piece 1373.72-1421.38 (voice 48.0 s), Morocco, no names anywhere in the cut. After he finds her secret Instagram (m1), he talks to his wife quietly: she says only her girlfriends follow her (it wasn't true), she asks forgiveness, he orders her to delete everything or he'll send her back to her parents; he stays scared a customer will see a post, the derb kids tell him 'come see', her reels reached 8-12K views and lots of shares; cut there, before he finds she kept posting (m3 starts 1437). Frame 1 = wife filming a selfie on the bed seen from the doorway. ws: +2 winner story, +1 question, +1 secret, +2 aimed at him (posts him/their life), +1 alash (wife = not family/house woman)."
  }
 }

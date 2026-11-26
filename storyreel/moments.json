@@ -1633,7 +1633,7 @@
  "qpUDTizlg3c": {
   "mined": "2026-11-21",
   "maker": "A",
-  "note": "Narrator (named Saeed at 32 s) marries the girl his mom picked from a small town; she secretly runs an Instagram account posting their private selfie videos and their home, he becomes a meme. Earlier clip (9 Nov) location unknown, assume first 90 s. Plug 1461-1505 (membership/podcasts) - cut it. Whisper text rough.",
+  "note": "Narrator (named Saeed at 32 s) marries the girl his mom picked from a small town; she secretly runs an Instagram account posting their private selfie videos and their home, he becomes a meme. Earlier clip (9 Nov) location unknown, assume first 90 s. Plug 1461-1505 (membership/podcasts) - cut it. Whisper text rough. | A 26 Nov 23:0x: re-read 90-897 (backstory, mom pushes marriage, the ex teacher girlfriend who used him for money, long digressions — no family-woman secret) and gaps 1052-1126/1178-1317 (overlap m2/m1, Whisper lost 1183-1190, 1212-1221; 1239-1290 phone digression). Added m7 1373.7-1421.4. Left: nothing standalone (1341-1372 lost by Whisper, 1537-1601 = aftermath/divorce).",
   "moments": [
    {
     "k": 1,
@@ -1712,9 +1712,19 @@
     "date": "2026-11-22",
     "file": "1795357046_story_s10_qpUDTizlg3c_m6.mp4",
     "maker": "B"
+   },
+   {
+    "k": 7,
+    "start": 1373.72,
+    "end": 1421.38,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش مراتي كتبوسطي حياتنا؟",
+    "status": "queued",
+    "date": "2026-11-26",
+    "file": "1795734251_story_s11_qpUDTizlg3c_m7.mp4"
    }
-  ],
-  "reserved": "2026-11-26T22:51:15Z"
+  ]
  },
  "O0I8fmfON8A": {
   "mined": "2026-11-21",
