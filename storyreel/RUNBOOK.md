@@ -17,6 +17,11 @@ posts only 9 a day; the extra clips build the pool the slate ranks from (better 
 - Pause marker shared with the other posting task: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1 (title "reels-trial-state: active" or "… paused until <ISO>").
 - Used-story log: storyreel/used.json in this repo (video_id → {date, queued|permalink}). Push it after every reel.
 
+## LAB TESTS (26 Nov, tools/LAB.md + tools/HYPOTHESES.md)
+Every 3rd run, make a TEST clip for an ACTIVE hypothesis in tools/HYPOTHESES.md that needs clips (e.g. H10: a story
+narrated by a woman; a new topic or title style the ledger lists) and set "test": "H<n>" in its clip_meta entry —
+those go to @ilalstories first. Approved lab stories (≥15K at 24 h there) join the winner list.
+
 ## COPY THE WINNERS (Hilal, 24 Nov: "analyze whatever went viral, do the same"). This is the pick order now.
 Winner stories (a clip ≥40K): t_11yIcRc8M 431K, 5xbZb6He3Ww 415K, 7dd81A4zfu4 357K, qpUDTizlg3c 165K, rO5a-bkixf0 145K,
 lCzehIOldVQ 115K, tMcdf896iHI 88K, YA-w9mM73fI 74K, JKNbzIL9GsE 66K, gKM0ONyDmV4 56K, kQoSHBH_y9c 48K, L8p5gnqtTTY 48K,

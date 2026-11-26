@@ -51,6 +51,8 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    c. PICK (24 Nov, Hilal: "do what works"): the 9 clips with the highest clip_meta "ws" (winner score, see RUNBOOK
       "COPY THE WINNERS"); clips without ws count ws = 3 if v4.T1 == 2 else 0. Ties: Exp2 clips first, then the newest.
       No random slots any more. pick = "ws". Keep both lengths in the day if both are available (at least 3 of each).
+   c1. APPROVED (26 Nov, tools/LAB.md): 1 of the 9 may be an "approved" lab clip (≥15K at 24 h on @ilalstories,
+      posted there ≥48 h ago), pick "approved". Skip clips whose clip_meta "test" names a hypothesis still active.
    c2. STORY CAP (22 Nov, Hilal approved): at most 2 clips from the same story (YouTube id) in one day's slate, across
       top6 and random3. A pick that would be a 3rd clip of a story is skipped and the next one taken (for random3,
       redraw with the same seeded generator). Arms are unaffected.
