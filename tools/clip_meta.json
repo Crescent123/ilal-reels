@@ -7116,5 +7116,37 @@
   "test": null,
   "ws": 5,
   "note": "all 64 Exp2 slots full: overflow SHORT (24 h plays tied per earlier note; B's last overflow was long). No new uploads in Stories audio (Drive checked); case b: xveraYYfnNA m5 (highest todo secret). One piece 1077.45-1105.12 (voice 27.9 s): at night he hears noise in the house, a drunk man shouting; next evening he asks a fellow tenant, who says it's normal, you're new... 'and that landlady doesn't only rent rooms' - cut before the VIP-house reveal. Possible name 'مرقية' only at ~25 s (outside first 8 s, not in title/captions). Reused A's transcript (ai job 1795815685). ws: +3 house woman, +1 question, +1 secret."
+ },
+ "1795821745_story_s11_xveraYYfnNA_m9.mp4": {
+  "story": "xveraYYfnNA",
+  "moment": 9,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 1,
+   "D1": 2,
+   "D2": 1,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 27.41,
+  "made": "2026-11-27T23:20:00Z",
+  "maker": "B",
+  "test": null,
+  "ws": 6,
+  "note": "all 64 Exp2 slots full: overflow SHORT (24 h plays tied per earlier notes; fast open fits short). No new uploads in Stories audio (Drive checked); winners fully mined; case b weak, re-cut of m8 region as m9. One piece 1518.85-1542.25 (voice 23.6 s): after dad's death, while collecting inheritance papers, the stepmom suddenly opposes nothing 'as if she needs something from us', normally she always fights us; she acts ashamed, asking forgiveness; by law only she and I inherit, she gets 1/8. Cut before the share sale / what she wanted. No name in cut (Mohamed at 1477, outside). Reused A's transcript (ai job 1795815685). ws: +3 family woman, +1 question, +1 secret, +2 aimed at narrator, +1 علاش motive, -2 inheritance family-conflict."
  }
 }

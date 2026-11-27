@@ -5035,10 +5035,20 @@
     "type": "conflict",
     "score": 6,
     "hook": "شنو دارت مرات بابا فالورث؟",
-    "status": "todo",
-    "note": "inheritance papers, stepmom stalls; aunt's husband greedy over the loan"
+    "status": "skip",
+    "note": "inheritance papers, stepmom stalls; aunt's husband greedy over the loan | B 27 Nov: best part re-cut as m9 (1518.85-1542.25); rest is paperwork/death/greedy uncle (name Mohamed at 1477)"
+   },
+   {
+    "k": 9,
+    "start": 1518.85,
+    "end": 1542.25,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش ولات مرات بابا ظريفة معايا؟",
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795821745_story_s11_xveraYYfnNA_m9.mp4"
    }
-  ],
-  "reserved": "2026-11-27T23:12:18Z"
+  ]
  }
 }
