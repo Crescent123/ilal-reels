@@ -4781,12 +4781,15 @@
    },
    {
     "k": 4,
-    "start": 720.0,
-    "end": 765.0,
+    "start": 720.55,
+    "end": 769.89,
     "type": "secret",
     "score": 9,
-    "hook": "شكون لقيت فدار المعلم؟",
-    "status": "todo"
+    "hook": "شكون لقيت مع المعلم فدارو؟",
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795794618_story_s13_NTSe5HOvayw_m4.mp4",
+    "maker": "A"
    },
    {
     "k": 5,
@@ -4820,7 +4823,6 @@
     "status": "skip",
     "note": "wholesome, reveals ending"
    }
-  ],
-  "reserved": "2026-11-27T15:41:09Z"
+  ]
  }
 }
