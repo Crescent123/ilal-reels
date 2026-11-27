@@ -4861,6 +4861,78 @@
   "moments": []
  },
  "VosyX5nfSR0": {
-  "reserved": "2026-11-27T19:14:33Z"
+  "reserved": "2026-11-27T19:14:33Z",
+  "mined": "2026-11-27",
+  "maker": "B",
+  "note": "Anas (24, well-off family) picks up two hitchhiking girls on the road (first clip ~145-198, found by audio match), dates one; family/cousin uneasy about her; he leaves to study in CANADA (~480 on, anything that mentions Canada = abroad hard reject); long-distance: she hides friends' outings, a secret Instagram account, blocks him, goes to Tangier with two new guys (reveal 1024+). Name Anas at 0-3 s only.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 300.1,
+    "end": 345.1,
+    "type": "conflict",
+    "score": 6,
+    "hook": "علاش الواليدة ما رتاحتش لصاحبتي؟",
+    "status": "todo"
+   },
+   {
+    "k": 2,
+    "start": 376.9,
+    "end": 436.8,
+    "type": "conflict",
+    "score": 6,
+    "hook": "شنو لاحظ ولد عمي على صاحبتي؟",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 649.8,
+    "end": 700.3,
+    "type": "secret",
+    "score": 6,
+    "hook": "علاش بغات صاحبتي تمشي لدار دري؟",
+    "status": "todo",
+    "why": "check: he is in Canada (abroad) - only if the cut never mentions it"
+   },
+   {
+    "k": 4,
+    "start": 746.7,
+    "end": 793.9,
+    "type": "secret",
+    "score": 5,
+    "hook": "شنو كانت مخبية عليا صاحبتي فرمضان؟",
+    "status": "todo",
+    "why": "795 mentions friends in Canada - end before it"
+   },
+   {
+    "k": 5,
+    "start": 972.74,
+    "end": 1024.2,
+    "type": "secret",
+    "score": 9,
+    "hook": "علاش صاحبتي بلوكاتني؟",
+    "status": "todo"
+   },
+   {
+    "k": 6,
+    "start": 1024.2,
+    "end": 1080.3,
+    "type": "twist",
+    "score": 4,
+    "hook": "مع من مشات صاحبتي لطانجة؟",
+    "status": "skip",
+    "why": "reveal of m5, needs the earlier clip"
+   },
+   {
+    "k": 7,
+    "start": 1084.2,
+    "end": 1121.0,
+    "type": "take",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "insults/revenge talk, heavy"
+   }
+  ]
  }
 }
