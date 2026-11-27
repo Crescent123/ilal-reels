@@ -4612,6 +4612,61 @@
   ]
  },
  "5CB-xNRcg7E": {
-  "reserved": "2026-11-27T03:14:16Z"
+  "mined": "2026-11-27",
+  "maker": "B",
+  "note": "Casablanca: narrator (named Anas at 856 s, 16 then) learns French; a ~30-year-old French-Moroccan woman (named Chloe, 270 s+) moves in upstairs, mysterious; they get close; from ~740 s she seduces him while he is a MINOR (never use), ~999-1050 she has a heart attack, leaves for France, lost contact. First clip (13 Oct) assumed 0-90 s. Whisper lost 280-290, 325-338, 876-907. 338-389 Hilal digression.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 389.5,
+    "end": 438.24,
+    "type": "secret",
+    "score": 13,
+    "hook": "علاش الجارة الگاورية شادة نوكيا قديم؟",
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795749886_story_s13_5CB-xNRcg7E_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 459.8,
+    "end": 498.7,
+    "type": "twist",
+    "score": 8,
+    "hook": "الجارة شافتني فحالة خايبة",
+    "status": "skip",
+    "why": "twist, no secret"
+   },
+   {
+    "k": 3,
+    "start": 575.9,
+    "end": 604.0,
+    "type": "secret",
+    "score": 10,
+    "hook": "شنو لقينا فدار الجارة الگاورية؟",
+    "status": "todo",
+    "note": "short only (first lunch at her flat, strange decor); keep the name (574.4) out; end before 'her late mother' (616)"
+   },
+   {
+    "k": 4,
+    "start": 740.0,
+    "end": 860.0,
+    "type": "secret",
+    "score": 0,
+    "hook": "",
+    "status": "skip",
+    "why": "adult woman and the narrator as a minor - never"
+   },
+   {
+    "k": 5,
+    "start": 963.8,
+    "end": 1019.0,
+    "type": "conflict",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "why": "rests on the minor relationship + heart attack (heavy)"
+   }
+  ]
  }
 }
