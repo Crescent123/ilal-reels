@@ -4785,13 +4785,15 @@
    },
    {
     "k": 5,
-    "start": 822.0,
-    "end": 870.0,
+    "start": 819.52,
+    "end": 871.8,
     "type": "secret",
     "score": 12,
     "hook": "علاش دخلاتني مرات المعلم للصالون؟",
-    "status": "todo",
-    "note": "start after her name at ~818; name again at 851 (outside first 8 s)"
+    "status": "queued",
+    "note": "start after her name at ~818; name again at 851 (outside first 8 s)",
+    "date": "2026-11-27",
+    "file": "1795789089_story_s12_NTSe5HOvayw_m5.mp4"
    },
    {
     "k": 6,
@@ -4813,7 +4815,6 @@
     "status": "skip",
     "note": "wholesome, reveals ending"
    }
-  ],
-  "reserved": "2026-11-27T14:11:05Z"
+  ]
  }
 }

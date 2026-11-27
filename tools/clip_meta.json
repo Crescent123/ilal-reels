@@ -6555,5 +6555,36 @@
   "made": "2026-11-27T04:57:00Z",
   "maker": "A",
   "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays: median 14.0K vs 5.6K). No new uploads; family-woman titles all mined; pick c from story_rank (NTSe5HOvayw, boss's-daughter story, 1 clip 4.1K, not killed). One piece 320.5-369.0 (voice 48.8 s, file 52.6 s), Mohammedia, no name in the cut. When he fetches the boss's lunch from the house, the boss's wife sympathises (she knows her husband mistreats him) but 'had other reasons': she asks whether her husband stayed in the shop all day; he lies for the boss, who coaches him what to say if his wife asks; days pass; 'the hardest day was Saturday, when we close at 5' - cut before the Saturday drinking and the boss's affair. Frame 1 = boss's wife at her door handing him the lunch pot with a searching look. T1=1 (employer's wife = workplace). ws: +3 house woman (boss's wife at her house), +1 question, +1 secret, +2 her questioning aimed at him, +1 alash."
+ },
+ "1795789089_story_s12_NTSe5HOvayw_m5.mp4": {
+  "story": "NTSe5HOvayw",
+  "moment": 5,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 52.5,
+  "ws": 10,
+  "made": "2026-11-27T14:20:00Z",
+  "maker": "B",
+  "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays). No new uploads in Stories audio; pick b: best todo moment (NTSe5HOvayw m5, v4 est 12, not killed). One piece 819.52-871.80 (voice 52.5 s, file 56.3 s), Mohammedia; starts right after her name (818.5), name again at 857.5 (outside first 8 s). He tells the boss's wife he has something important about her husband; she pulls him into the salon, sits next to him, demands the truth, her eyes fill with tears ('you're not lying to me?'), he swears he saw it; long talk, she gives him her number, says the boss will claim to visit family on Tuesday, asks him to keep watch and tell her everything; before he leaves she gives him 200 DH - cut before what she plans. Frame 1 = her pulling him into the salon. ws: +3 house woman (boss's wife), +1 question, +1 secret, +2 aimed at him, +1 alash, +2 visible act (pulls him in, cries, gives money)."
  }
 }
