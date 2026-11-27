@@ -34,7 +34,8 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    Commit/push tools/post_cap.json. Use this cap everywhere below instead of a fixed number.
 0b. ONE RUN AT A TIME (3 Nov: a long burst overlapped with the next hourly run and the same clip got posted twice).
    `git pull`; if tools/poster.lock exists and its time (one ISO line) is less than 50 minutes old, another run is still
-   posting → stop right away. Otherwise write the current UTC time to tools/poster.lock, commit and push it (if the push
+   posting → WAIT: sleep 60 s, `git pull`, check again, up to 12 times (27 Nov fix: the @ilalstories poster holds the same lock
+   for ~5–13 min and was making @_ilal_ runs quit — 14:04 and 14:24 were lost). Still locked after 12 min → stop. Otherwise write the current UTC time to tools/poster.lock, commit and push it (if the push
    is rejected, pull and re-check). Delete the lock (commit + push) when this run ends, whatever happened.
 1. Read the marker title (Google Drive get_file_metadata). If paused and that time is in the future, stop.
 2. DAILY SLATE (second-opinion doc, 17 Nov; rubric v4 frozen until 2 Dec — tools/RUBRIC_V4.md). The day's posts are
