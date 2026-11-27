@@ -4457,13 +4457,16 @@
    },
    {
     "k": 2,
-    "start": 679.34,
-    "end": 724.0,
+    "start": 628.4,
+    "end": 700.2,
     "type": "conflict",
     "score": 8,
     "hook": "علاش مراتي ما بقاتش كطيب ليا؟",
-    "status": "todo",
-    "note": "after refusing, she sulks, he brings gifts, she stops cooking, he eats with the workers, her parents warn him not to write it to her. Long ~45 s; check Whisper (705-724 rough)."
+    "status": "queued",
+    "note": "after refusing, she sulks, he brings gifts, she stops cooking, he eats with the workers, her parents warn him not to write it to her. Long ~45 s; check Whisper (705-724 rough). | B 27 Nov: SHORT 628.40-636.20 + 679.30-700.20 (plug/aside dropped), cut before the parents' warning; 700.4-705 not posted.",
+    "date": "2026-11-27",
+    "file": "1795742226_story_s12_4KwcgXEsxdU_m2.mp4",
+    "maker": "B"
    },
    {
     "k": 3,
@@ -4515,8 +4518,6 @@
     "status": "skip",
     "why": "take/aftermath"
    }
-  ],
-  "reserved": "2026-11-27T01:11:12Z",
-  "reserved_by": "B"
+  ]
  }
 }

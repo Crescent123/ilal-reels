@@ -6313,5 +6313,35 @@
   "maker": "A",
   "ws": 2,
   "note": "all 64 Exp2 slots full: overflow long (24 h snapshots: long median 14.0K n=9 vs short 5.6K n=9). New story (pick c: wife acting strangely toward him; winners exhausted, no new uploads). One piece 543.15-596.48 (voice 53.56 s), Rabat area, no name in the cut (narrator named Mounir only at 15 s of the story). At the housewarming party for his new apartment the wife sulks all evening; he wonders if she's jealous or if he thanked his parents too much, hugs her and credits her, she pushes back claiming it was all her doing and starts reproaching him - cut before her demand (apartment in her name) and his answer. Frame 1 = wife sulking on the party sofa. Scene 7 image dropped (stray character), 8 scenes. ws: +1 question, +2 aimed at him, +1 alash, -2 family-conflict (wife = not family/house woman, conflict not secret)."
+ },
+ "1795742226_story_s12_4KwcgXEsxdU_m2.mp4": {
+  "story": "4KwcgXEsxdU",
+  "moment": 2,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 29.04,
+  "made": "2026-11-27T01:18:38Z",
+  "maker": "B",
+  "ws": 2,
+  "note": "all 64 Exp2 slots full: overflow clip, SHORT because this moment only fits short (long would need the apartment demand at 600-606 with an unexplained 'it'; latest 24 h read had long ahead). Two pieces of one continuous passage, only the comment plug + Hilal's hypothetical aside (636.3-679.3) dropped: 628.40-636.20 + 679.30-700.20 (voice 29.04 s, file 32.84 s). Rabat area, no name in the cut. Wife changed since he didn't put the apartment in her name; she locks herself in, he brings gifts, she stops cooking, he eats street sandwiches with his barbershop workers, goes to her parents who say 'look...' - cut before their warning (700.4). Frame 1 = wife pushing an empty plate away. ws: +1 question, +2 aimed at him, +1 alash, -2 family-conflict."
  }
 }
