@@ -1,0 +1,142 @@
+{
+ "date": "2026-11-27",
+ "account": "stories",
+ "built": "2026-11-27T18:18:11Z",
+ "items": [
+  {
+   "pos": 1,
+   "file": "1795726548_story_s13_gmpMSPIhz9k_m2.mp4",
+   "pick": "test",
+   "test": "H10",
+   "v4": 13,
+   "ws": -1,
+   "story_id": "gmpMSPIhz9k",
+   "length": 50.24,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   }
+  },
+  {
+   "pos": 2,
+   "file": "1795789089_story_s12_NTSe5HOvayw_m5.mp4",
+   "pick": "ws",
+   "test": null,
+   "v4": 12,
+   "ws": 10,
+   "story_id": "NTSe5HOvayw",
+   "length": 52.5,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   }
+  },
+  {
+   "pos": 3,
+   "file": "1795729804_story_s12_tMcdf896iHI_m6.mp4",
+   "pick": "ws",
+   "test": null,
+   "v4": 12,
+   "ws": 9,
+   "story_id": "tMcdf896iHI",
+   "length": 46.11,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   }
+  },
+  {
+   "pos": 4,
+   "file": "1795728521_story_s11_tMcdf896iHI_m5.mp4",
+   "pick": "ws",
+   "test": null,
+   "v4": 11,
+   "ws": 9,
+   "story_id": "tMcdf896iHI",
+   "length": 28.29,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   }
+  },
+  {
+   "pos": 5,
+   "file": "1795790882_story_s12_NTSe5HOvayw_m2.mp4",
+   "pick": "ws",
+   "test": null,
+   "v4": 12,
+   "ws": 8,
+   "story_id": "NTSe5HOvayw",
+   "length": 28.79,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   }
+  },
+  {
+   "pos": 6,
+   "file": "1795753725_story_s13_cPDG8s0gvKs_m1.mp4",
+   "pick": "ws",
+   "test": null,
+   "v4": 13,
+   "ws": 8,
+   "story_id": "cPDG8s0gvKs",
+   "length": 29.1,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   }
+  },
+  {
+   "pos": 7,
+   "file": "1795724957_story_s15_5qfbg1tlgLo_m2.mp4",
+   "pick": "ws",
+   "test": null,
+   "v4": 15,
+   "ws": 8,
+   "story_id": "5qfbg1tlgLo",
+   "length": 24.49,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   }
+  },
+  {
+   "pos": 8,
+   "file": "1795668744_story_s12_VHgFPkz9Cxw_m1.mp4",
+   "pick": "ws",
+   "test": null,
+   "v4": 12,
+   "ws": 8,
+   "story_id": "VHgFPkz9Cxw",
+   "length": 49.86,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   }
+  },
+  {
+   "pos": 9,
+   "file": "1795751217_story_s14_5CB-xNRcg7E_m3.mp4",
+   "pick": "ws",
+   "test": null,
+   "v4": 14,
+   "ws": 7,
+   "story_id": "5CB-xNRcg7E",
+   "length": 28.52,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   }
+  }
+ ]
+}
