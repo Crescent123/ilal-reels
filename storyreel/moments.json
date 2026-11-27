@@ -4673,7 +4673,72 @@
   ]
  },
  "cPDG8s0gvKs": {
-  "reserved": "2026-11-27T04:11:38Z",
-  "maker": "B"
+  "mined": "2026-11-27",
+  "maker": "B",
+  "note": "Rabat: narrator (named Khalid at 17 s), poor, drunk violent dad who worked for a rich Hajj's villa; narrator becomes the Hajj's driver (320-372); Hajj's son dies (378-400, heavy); Hajj's wife (named Kaltoum at 434.6) spoils him and slips him money; husband to Mauritania 15 days (456-465); first clip (12 Nov) was 486.85-540.75 (the hammam, she offers to scrub his back); 541-610 affair with her (narrator's wrongdoing, never); 610-700 he slaps the Hajj who loses memory; 700-end aftermath/take.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 436.18,
+    "end": 465.26,
+    "type": "secret",
+    "score": 13,
+    "hook": "علاش مرت الحاج كتعطيني الفلوس؟",
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795753725_story_s13_cPDG8s0gvKs_m1.mp4",
+    "maker": "B"
+   },
+   {
+    "k": 2,
+    "start": 320.0,
+    "end": 372.0,
+    "type": "twist",
+    "score": 7,
+    "hook": "",
+    "status": "skip",
+    "why": "police arrest, mom begs the Hajj, hired as driver: twist, no woman's secret"
+   },
+   {
+    "k": 3,
+    "start": 378.0,
+    "end": 423.0,
+    "type": "conflict",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "Hajj's son dies, old driver blamed: heavy"
+   },
+   {
+    "k": 4,
+    "start": 541.0,
+    "end": 610.0,
+    "type": "secret",
+    "score": 0,
+    "hook": "",
+    "status": "skip",
+    "why": "affair with the Hajj's wife: narrator's own wrongdoing"
+   },
+   {
+    "k": 5,
+    "start": 610.0,
+    "end": 660.0,
+    "type": "conflict",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "why": "narrator slaps his boss (violence by narrator)"
+   },
+   {
+    "k": 6,
+    "start": 166.0,
+    "end": 195.0,
+    "type": "conflict",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "dad beats and ties him up: heavy"
+   }
+  ]
  }
 }
