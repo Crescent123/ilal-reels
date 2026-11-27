@@ -3105,7 +3105,8 @@
     "date": "2026-11-25",
     "file": "1795580205_story_s13_cH4ajjE3xMw_m7.mp4"
    }
-  ]
+  ],
+  "reserved": "2026-11-27T18:17:19Z"
  },
  "DuNX1YE4Apw": {
   "mined": "2026-11-25",
@@ -4839,6 +4840,8 @@
   ]
  },
  "REUR-jlh7lo": {
-  "reserved": "2026-11-27T18:11:25Z"
+  "mined": "2026-11-27",
+  "skip": "narrated by a woman (girl) and set in America (opens 'this story happened in America'; lawyer/inheritance) - hard reject abroad",
+  "moments": []
  }
 }
