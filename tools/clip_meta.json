@@ -6772,5 +6772,36 @@
   "made": "2026-11-27T17:25:00Z",
   "maker": "B",
   "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays). No new uploads in Stories audio; pick b: best todo moment not narrated by a woman (3cw7uqgowws m3, est 8), re-cut to stay before the reveal. One piece 473.62-524.26 (voice 50.8 s, file 54.6 s), right after m2 (ended 471.08): she scrolls and he glimpses an account that isn't hers, searches for it, idea: logs in with her number and 'forgets the password', the code goes to that account, he finds she has it set up on the account of a guy famous on social media - cut before who he is and the chat (Batman alias / MRE at 528+). No name in the cut. Title 'مراتي عندها كونط مخبي؟'. ws: -2 my wife, +1 secret, +1 question."
+ },
+ "1795801750_story_s11_TNtq2upOdnE_m7.mp4": {
+  "story": "TNtq2upOdnE",
+  "moment": 7,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 1,
+   "D2": 1,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 53.0,
+  "ws": 0,
+  "made": "2026-11-27T17:50:00Z",
+  "maker": "A",
+  "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; pick b: TNtq2upOdnE m7 (male narrator; gmpMSPIhz9k m1 skipped, narrated by a woman). One piece 933.70-986.88: 'but I had one problem, my mom' - she won't accept a divorced girl without headscarf, 'only this one?', he defends her, mom warns about Tetouan girls, he says he'll propose alone, tells her the girl is from Tetouan and the neighbours - cut on 'mom knew who she was' before she softens. No name in cut. ws: +1 question, +1 motive, -2 family conflict."
  }
 }
