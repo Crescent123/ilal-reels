@@ -6283,5 +6283,35 @@
   "maker": "B",
   "ws": 4,
   "note": "all 64 Exp2 slots full: overflow clip, short chosen (short ahead on 24 h plays: median 22.7K n=5 vs long 12.5K n=4). One piece 441.66-471.08 (voice 29.7 s, file 33.5 s with end card), Morocco (city unnamed), no names (possible name only at 359.66). Opens on her guarding her phone; cut before the second Instagram account is spotted. Frame 1 = wife clutching her phone, seen from the hallway. ws: +1 question, +1 secret, +2 hidden from the narrator (wife = not family/house woman)."
+ },
+ "1795741326_story_s10_4KwcgXEsxdU_m1.mp4": {
+  "story": "4KwcgXEsxdU",
+  "moment": 1,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 1,
+   "D2": 1,
+   "total": 10,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 53.56,
+  "made": "2026-11-27T01:05:44Z",
+  "maker": "A",
+  "ws": 2,
+  "note": "all 64 Exp2 slots full: overflow long (24 h snapshots: long median 14.0K n=9 vs short 5.6K n=9). New story (pick c: wife acting strangely toward him; winners exhausted, no new uploads). One piece 543.15-596.48 (voice 53.56 s), Rabat area, no name in the cut (narrator named Mounir only at 15 s of the story). At the housewarming party for his new apartment the wife sulks all evening; he wonders if she's jealous or if he thanked his parents too much, hugs her and credits her, she pushes back claiming it was all her doing and starts reproaching him - cut before her demand (apartment in her name) and his answer. Frame 1 = wife sulking on the party sofa. Scene 7 image dropped (stray character), 8 scenes. ws: +1 question, +2 aimed at him, +1 alash, -2 family-conflict (wife = not family/house woman, conflict not secret)."
  }
 }
