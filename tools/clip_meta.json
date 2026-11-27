@@ -6253,5 +6253,35 @@
   "maker": "A",
   "ws": 5,
   "note": "all 64 Exp2 slots full: overflow long (long ahead on 24 h plays per H8). One piece 636.30-686.40 (voice 50.36 s), Morocco, no names in the cut. Wife insists on visiting her far grandmother alone, refuses him coming, fakes illness; he drives her to the train station, watches from afar, she leaves the station and takes a taxi, he follows - cut before the hotel. Frame 1 = wife packing a suitcase seen from the doorway. ws: +1 question, +1 secret, +2 hides it from him, +1 alash (wife = not family/house woman)."
+ },
+ "1795738745_story_s12_3cw7uqgowws_m2.mp4": {
+  "story": "3cw7uqgowws",
+  "moment": 2,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 29.7,
+  "made": "2026-11-27T00:21:32Z",
+  "maker": "B",
+  "ws": 4,
+  "note": "all 64 Exp2 slots full: overflow clip, short chosen (short ahead on 24 h plays: median 22.7K n=5 vs long 12.5K n=4). One piece 441.66-471.08 (voice 29.7 s, file 33.5 s with end card), Morocco (city unnamed), no names (possible name only at 359.66). Opens on her guarding her phone; cut before the second Instagram account is spotted. Frame 1 = wife clutching her phone, seen from the hallway. ws: +1 question, +1 secret, +2 hidden from the narrator (wife = not family/house woman)."
  }
 }
