@@ -7021,5 +7021,36 @@
   "maker": "B",
   "ws": -2,
   "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; pick b: VosyX5nfSR0 m4 (secret; first clip 23.4K). One piece 740.05-792.5 (voice 52.75 s, file 56.6 s): she is always on her phone and doubt creeps in; after Ramadan she tells him she prayed tarawih, he asks her to pray for him; he finds out she and her friends did the Ramadan basket charity and hid it from him; asked, she brushes him off; he mocks himself as a simp; cut on 'I wanted to send her perfume for Eid' before she mocks the gift to friends. No name, no Canada in cut. Title 'شنو خبات عليا صاحبتي فرمضان؟'. ws: +1 question, +1 secret, -2 girlfriend-centred, -2 wholesome-ish secret."
+ },
+ "1795816281_story_s13_xveraYYfnNA_m2.mp4": {
+  "story": "xveraYYfnNA",
+  "moment": 2,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 23.84,
+  "made": "2026-11-27T21:54:58Z",
+  "test": null,
+  "ws": 10,
+  "overflow": true,
+  "note": "all 64 Exp2 slots full: overflow SHORT (24 h plays tied: short median 15.5K n=14 vs long 15.6K n=16; this moment fits short). No new uploads in Stories audio; pick c: xveraYYfnNA (first clip Nov 9, landlady brawl), mined 8 moments. One piece 430.34-453.92 (voice 23.8 s, file 27.6 s): it got so far that one day stepmom made dad come home from work, took him aside, complained: 'doesn't your son see... he harasses me', 'no solution but he leaves the house', and cried - cut on 'imagine, we heard all of it' before dad throws him out. No name in cut (Leila at 314.6). Title 'علاش كذبات عليا مرات بابا؟'. ws: +3 family woman, +1 question, +1 secret, +2 aimed at narrator, +1 motive, +2 visible (cries)."
  }
 }

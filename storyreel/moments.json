@@ -4951,6 +4951,89 @@
   ]
  },
  "xveraYYfnNA": {
-  "reserved": "2026-11-27T21:41:08Z"
+  "mined": "2026-11-27",
+  "moments": [
+   {
+    "k": 1,
+    "start": 333.58,
+    "end": 383.86,
+    "type": "secret",
+    "score": 11,
+    "hook": "شنو كدير مرات بابا ملي كيخرج؟",
+    "status": "todo",
+    "note": "stepmom is sweet to him while dad watches; when dad is out she brings her family in: cooking, music, chaabi dancing; dad dismisses it. Fits long (~50 s) or short from 355.28 (~26.5 s). Name Leila only at 314.6 (outside)."
+   },
+   {
+    "k": 2,
+    "start": 430.34,
+    "end": 453.92,
+    "type": "secret",
+    "score": 13,
+    "hook": "علاش كذبات عليا مرات بابا؟",
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795816281_story_s13_xveraYYfnNA_m2.mp4"
+   },
+   {
+    "k": 3,
+    "start": 453.92,
+    "end": 510.0,
+    "type": "conflict",
+    "score": 7,
+    "hook": "علاش طردني بابا من الدار؟",
+    "status": "todo",
+    "note": "dad believes her and throws him out; he packs and leaves for the street. Transcript has untranscribed gaps 458-467, 508-517."
+   },
+   {
+    "k": 4,
+    "start": 730.0,
+    "end": 790.0,
+    "type": "twist",
+    "score": 6,
+    "hook": "شكون عاونني فالزنقة فالليل؟",
+    "status": "skip",
+    "note": "street girls give him 50 DH each; twist type + night-work women - skip per WHAT WORKS"
+   },
+   {
+    "k": 5,
+    "start": 1081.0,
+    "end": 1123.0,
+    "type": "secret",
+    "score": 10,
+    "hook": "شنو كدير مولات الدار فالليل؟",
+    "status": "todo",
+    "note": "noise of a drunk man at night; a neighbour tells him the landlady doesn't just rent rooms, she runs a VIP house. 'مرقية' may be her name - check first 8 s."
+   },
+   {
+    "k": 6,
+    "start": 1219.9,
+    "end": 1267.45,
+    "type": "twist",
+    "score": 7,
+    "hook": "first clip (Nov 9): brawl, police arrive",
+    "status": "queued",
+    "file": "1794239817_story_s7_xveraYYfnNA.mp4"
+   },
+   {
+    "k": 7,
+    "start": 1438.0,
+    "end": 1480.0,
+    "type": "conflict",
+    "score": 6,
+    "hook": "شنو قالت ليا خالتي فالتيليفون؟",
+    "status": "skip",
+    "note": "aunt calls: dad died (death, heavy) - skip"
+   },
+   {
+    "k": 8,
+    "start": 1500.0,
+    "end": 1584.0,
+    "type": "conflict",
+    "score": 6,
+    "hook": "شنو دارت مرات بابا فالورث؟",
+    "status": "todo",
+    "note": "inheritance papers, stepmom stalls; aunt's husband greedy over the loan"
+   }
+  ]
  }
 }
