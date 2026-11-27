@@ -4391,6 +4391,53 @@
   ]
  },
  "HlnJ1H8dLHI": {
-  "reserved": "2026-11-27T00:44:11Z"
+  "mined": "2026-11-27",
+  "maker": "A",
+  "note": "Narrator (named Khalid, spoken at 6, 138, 208, 380; Ifrane/Casa) meets girlfriend (nicknamed Khadouj/Khadija, named often) at a cafe, moves in with her, threesomes with her friend (sexual, narrator's own wrongdoing), she gets pregnant, they marry, she keeps bringing women home, divorce, he has his friend from Germany seduce her to get custody. No family-woman secret, narrator at fault almost throughout - exhausted, nothing usable.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 282.3,
+    "end": 346.2,
+    "type": "secret",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "sexual (threesome), narrator's own wrongdoing"
+   },
+   {
+    "k": 2,
+    "start": 374.9,
+    "end": 400.0,
+    "type": "twist",
+    "score": 6,
+    "hook": "",
+    "status": "skip",
+    "why": "names (Khalid/Khadouj) in first 8 s; pregnancy twist needs earlier context"
+   },
+   {
+    "k": 3,
+    "start": 410.9,
+    "end": 440.5,
+    "type": "secret",
+    "score": 6,
+    "hook": "",
+    "status": "skip",
+    "why": "wife brings women home, but follows from the threesome and reveals divorce; not standalone"
+   },
+   {
+    "k": 4,
+    "start": 472.9,
+    "end": 515.8,
+    "type": "twist",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "narrator's own manipulation plan (friend seduces wife), name Anas, abroad (Europe) angle"
+   }
+  ]
+ },
+ "4KwcgXEsxdU": {
+  "reserved": "2026-11-27T00:49:13Z"
  }
 }
