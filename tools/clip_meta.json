@@ -7052,5 +7052,37 @@
   "ws": 10,
   "overflow": true,
   "note": "all 64 Exp2 slots full: overflow SHORT (24 h plays tied: short median 15.5K n=14 vs long 15.6K n=16; this moment fits short). No new uploads in Stories audio; pick c: xveraYYfnNA (first clip Nov 9, landlady brawl), mined 8 moments. One piece 430.34-453.92 (voice 23.8 s, file 27.6 s): it got so far that one day stepmom made dad come home from work, took him aside, complained: 'doesn't your son see... he harasses me', 'no solution but he leaves the house', and cried - cut on 'imagine, we heard all of it' before dad throws him out. No name in cut (Leila at 314.6). Title 'علاش كذبات عليا مرات بابا؟'. ws: +3 family woman, +1 question, +1 secret, +2 aimed at narrator, +1 motive, +2 visible (cries)."
+ },
+ "1795818139_story_s12_xveraYYfnNA_m1.mp4": {
+  "story": "xveraYYfnNA",
+  "moment": 1,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 1,
+   "D1": 2,
+   "D2": 2,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 50.65,
+  "made": "2026-11-27T22:28:00Z",
+  "maker": "B",
+  "test": null,
+  "ws": 7,
+  "note": "all 64 Exp2 slots full: overflow LONG (24 h plays tied short vs long per earlier note; this moment fits long). No new uploads in Stories audio; case b: xveraYYfnNA m1 (highest todo). One piece 333.52-383.92 (voice 50.65 s): stepmom treated me like a mom - food, homework - but only while dad was watching; when dad was out she ignored me, her family filled the house cooking, music, dancing chaabi; I told dad, he dismissed it. Cut before dad turns on him. No name in cut (Leila at 314.6). Reused A's transcript (ai job 1795815685). ws: +3 family woman, +1 question, +1 secret, +2 aimed at narrator."
  }
 }

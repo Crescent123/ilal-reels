@@ -4960,8 +4960,10 @@
     "type": "secret",
     "score": 11,
     "hook": "شنو كدير مرات بابا ملي كيخرج؟",
-    "status": "todo",
-    "note": "stepmom is sweet to him while dad watches; when dad is out she brings her family in: cooking, music, chaabi dancing; dad dismisses it. Fits long (~50 s) or short from 355.28 (~26.5 s). Name Leila only at 314.6 (outside)."
+    "status": "queued",
+    "note": "stepmom is sweet to him while dad watches; when dad is out she brings her family in: cooking, music, chaabi dancing; dad dismisses it. Fits long (~50 s) or short from 355.28 (~26.5 s). Name Leila only at 314.6 (outside).",
+    "date": "2026-11-27",
+    "file": "1795818139_story_s12_xveraYYfnNA_m1.mp4"
    },
    {
     "k": 2,
@@ -5034,7 +5036,6 @@
     "status": "todo",
     "note": "inheritance papers, stepmom stalls; aunt's husband greedy over the loan"
    }
-  ],
-  "reserved": "2026-11-27T22:10:25Z"
+  ]
  }
 }
