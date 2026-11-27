@@ -4905,13 +4905,17 @@
    },
    {
     "k": 4,
-    "start": 746.7,
-    "end": 793.9,
+    "start": 740.05,
+    "end": 792.5,
     "type": "secret",
     "score": 5,
     "hook": "شنو كانت مخبية عليا صاحبتي فرمضان؟",
-    "status": "todo",
-    "why": "795 mentions friends in Canada - end before it"
+    "status": "queued",
+    "why": "795 mentions friends in Canada - end before it",
+    "date": "2026-11-27",
+    "file": "1795814484_story_s9_VosyX5nfSR0_m4.mp4",
+    "maker": "B",
+    "note": "re-cut 740.05-792.5 (starts on the phone doubt, ends on the Eid perfume plan before she mocks the gift; never mentions Canada)"
    },
    {
     "k": 5,
@@ -4944,7 +4948,6 @@
     "status": "skip",
     "why": "insults/revenge talk, heavy"
    }
-  ],
-  "reserved": "2026-11-27T21:13:15Z"
+  ]
  }
 }

@@ -6990,5 +6990,36 @@
   "ws": -4,
   "test": "H10",
   "note": "all 64 Exp2 slots full: overflow SHORT (moment only fits short). No new uploads in Stories audio; winners and pick-c family stories fully mined/skipped. Lab test H10 (story narrated by a woman; only 1 H10 clip so far, 'test 4 more'). NB story meets the kill rule (first 2 clips 3.5K/3.3K at 24 h) - lab only. One piece 334.88-364.32 (voice 29.6 s, file 33.4 s): at the lycee her adopted brother slaps her after finding her standing with a boy; she storms home shouting at the parents; dad scolds the brother ('your parents died, we did you good'), then turns to her - cut there. Name Hamza at ~12 s only. Title 'علاش صرفقني خويا فالليسي؟'. ws: +1 question, +1 secret, -3 woman narrator, -3 killed story."
+ },
+ "1795814484_story_s9_VosyX5nfSR0_m4.mp4": {
+  "story": "VosyX5nfSR0",
+  "moment": 4,
+  "v4": {
+   "T1": 0,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 1,
+   "D1": 1,
+   "D2": 1,
+   "total": 9,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 52.75,
+  "made": "2026-11-27T21:24:30Z",
+  "maker": "B",
+  "ws": -2,
+  "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; pick b: VosyX5nfSR0 m4 (secret; first clip 23.4K). One piece 740.05-792.5 (voice 52.75 s, file 56.6 s): she is always on her phone and doubt creeps in; after Ramadan she tells him she prayed tarawih, he asks her to pray for him; he finds out she and her friends did the Ramadan basket charity and hid it from him; asked, she brushes him off; he mocks himself as a simp; cut on 'I wanted to send her perfume for Eid' before she mocks the gift to friends. No name, no Canada in cut. Title 'شنو خبات عليا صاحبتي فرمضان؟'. ws: +1 question, +1 secret, -2 girlfriend-centred, -2 wholesome-ish secret."
  }
 }
