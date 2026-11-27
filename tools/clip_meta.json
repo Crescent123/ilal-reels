@@ -6462,5 +6462,36 @@
   "length": 52.78,
   "ws": 6,
   "made": "2026-11-27T03:25:00Z"
+ },
+ "1795751217_story_s14_5CB-xNRcg7E_m3.mp4": {
+  "story": "5CB-xNRcg7E",
+  "moment": 3,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 1,
+   "D1": 2,
+   "D2": 2,
+   "total": 14,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 28.52,
+  "ws": 7,
+  "made": "2026-11-27T03:47:00Z",
+  "maker": "A",
+  "note": "all 64 Exp2 slots full: overflow SHORT although long is ahead, because this moment only fits short (a long cut would start on the neighbour's name at 558-575 or her chain-smoking digression). No new uploads; family-woman titles all mined, winners exhausted; best non-killed todo. One piece 581.04-609.28 (voice 28.5 s, file 32.3 s), Casablanca, no name in the cut (name at 574.4, outside). Narrator and his sister go to lunch at the French-Moroccan neighbour's flat for the first time; she keeps checking what they don't eat (pork, alcohol); the flat is full of strange old objects, a strange touch, 'not like other houses' - cut before the reveal that the things belonged to her late mother. Frame 1 = neighbour opening her door to him. ws: +3 house woman (neighbour), +1 question, +1 secret, +2 she invites him in (aimed at him)."
  }
 }

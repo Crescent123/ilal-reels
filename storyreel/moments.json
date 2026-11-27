@@ -4639,13 +4639,16 @@
    },
    {
     "k": 3,
-    "start": 575.9,
-    "end": 604.0,
+    "start": 581.04,
+    "end": 609.28,
     "type": "secret",
     "score": 10,
     "hook": "شنو لقينا فدار الجارة الگاورية؟",
-    "status": "todo",
-    "note": "short only (first lunch at her flat, strange decor); keep the name (574.4) out; end before 'her late mother' (616)"
+    "status": "queued",
+    "note": "short only (first lunch at her flat, strange decor); keep the name (574.4) out; end before 'her late mother' (616)",
+    "date": "2026-11-27",
+    "file": "1795751217_story_s14_5CB-xNRcg7E_m3.mp4",
+    "maker": "A"
    },
    {
     "k": 4,
@@ -4667,7 +4670,6 @@
     "status": "skip",
     "why": "rests on the minor relationship + heart attack (heavy)"
    }
-  ],
-  "reserved": "2026-11-27T03:41:29Z"
+  ]
  }
 }
