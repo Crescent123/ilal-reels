@@ -6617,5 +6617,36 @@
   "made": "2026-11-27T14:51:08Z",
   "maker": "A",
   "note": "all 64 Exp2 slots full: overflow SHORT although long is ahead, because this moment only fits short (a long cut would end on her looks description or the 'respectfully, out of fear of her dad' deflation). No new uploads in Stories audio; pick b: best todo moment (NTSe5HOvayw m2). One piece 385.70-414.0 (voice 28.79 s, file 32.6 s), Mohammedia; ends right as he starts looking at her and talking with her. Transcript has a ~10 s gap 392.9-402.7 (speech Whisper missed; kept, voice only cut)."
+ },
+ "1795792654_story_s14_NTSe5HOvayw_m3.mp4": {
+  "story": "NTSe5HOvayw",
+  "moment": 3,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 2,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 14,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 29.08,
+  "ws": 6,
+  "made": "2026-11-27T15:20:26Z",
+  "maker": "B",
+  "note": "all 64 Exp2 slots full: overflow SHORT although long is ahead, because this moment only fits short (a long cut would run into the reveal: the boss insulting his parents at the shop, 628-640). No new uploads in Stories audio; pick b: best todo moment (NTSe5HOvayw m3, not killed). One piece 591.45-620.21 (voice 29.08 s, file 32.9 s), Mohammedia, no name in the cut. The boss sends him to the droguerie, he meets the boss's daughter by chance coming out of the bakery with bread, plays it cool, she gives him 'the best smile of my life', they chat and laugh, the boss drives past and says nothing in front of his daughter - cut before what the boss does. Frame 1 = the boss glaring from his car. Title copies the old winner 'المدير شدني مع بنتو؟' (27K). ws: +3 house woman (boss's daughter), +1 question, +2 her smile/chat aimed at him; smile = vague act (0); type conflict."
  }
 }

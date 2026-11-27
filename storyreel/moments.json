@@ -4769,12 +4769,15 @@
    },
    {
     "k": 3,
-    "start": 585.0,
-    "end": 632.0,
+    "start": 591.45,
+    "end": 620.21,
     "type": "conflict",
     "score": 10,
-    "hook": "شنو دار المعلم ملي لقاني مع بنتو؟",
-    "status": "todo"
+    "hook": "المعلم شدني مع بنتو؟",
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795792654_story_s14_NTSe5HOvayw_m3.mp4",
+    "maker": "B"
    },
    {
     "k": 4,
@@ -4817,7 +4820,6 @@
     "status": "skip",
     "note": "wholesome, reveals ending"
    }
-  ],
-  "reserved": "2026-11-27T15:11:25Z"
+  ]
  }
 }
