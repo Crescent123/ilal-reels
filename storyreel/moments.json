@@ -4998,13 +4998,15 @@
    },
    {
     "k": 5,
-    "start": 1081.0,
-    "end": 1123.0,
+    "start": 1077.45,
+    "end": 1105.12,
     "type": "secret",
     "score": 10,
     "hook": "شنو كدير مولات الدار فالليل؟",
-    "status": "todo",
-    "note": "noise of a drunk man at night; a neighbour tells him the landlady doesn't just rent rooms, she runs a VIP house. 'مرقية' may be her name - check first 8 s."
+    "status": "queued",
+    "note": "noise of a drunk man at night; a neighbour tells him the landlady doesn't just rent rooms, she runs a VIP house. 'مرقية' may be her name - check first 8 s.",
+    "date": "2026-11-27",
+    "file": "1795819722_story_s12_xveraYYfnNA_m5.mp4"
    },
    {
     "k": 6,
@@ -5036,7 +5038,6 @@
     "status": "todo",
     "note": "inheritance papers, stepmom stalls; aunt's husband greedy over the loan"
    }
-  ],
-  "reserved": "2026-11-27T22:41:04Z"
+  ]
  }
 }

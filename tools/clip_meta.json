@@ -7084,5 +7084,37 @@
   "test": null,
   "ws": 7,
   "note": "all 64 Exp2 slots full: overflow LONG (24 h plays tied short vs long per earlier note; this moment fits long). No new uploads in Stories audio; case b: xveraYYfnNA m1 (highest todo). One piece 333.52-383.92 (voice 50.65 s): stepmom treated me like a mom - food, homework - but only while dad was watching; when dad was out she ignored me, her family filled the house cooking, music, dancing chaabi; I told dad, he dismissed it. Cut before dad turns on him. No name in cut (Leila at 314.6). Reused A's transcript (ai job 1795815685). ws: +3 family woman, +1 question, +1 secret, +2 aimed at narrator."
+ },
+ "1795819722_story_s12_xveraYYfnNA_m5.mp4": {
+  "story": "xveraYYfnNA",
+  "moment": 5,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 1,
+   "D1": 2,
+   "D2": 1,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 27.91,
+  "made": "2026-11-27T22:53:17Z",
+  "maker": "A",
+  "test": null,
+  "ws": 5,
+  "note": "all 64 Exp2 slots full: overflow SHORT (24 h plays tied per earlier note; B's last overflow was long). No new uploads in Stories audio (Drive checked); case b: xveraYYfnNA m5 (highest todo secret). One piece 1077.45-1105.12 (voice 27.9 s): at night he hears noise in the house, a drunk man shouting; next evening he asks a fellow tenant, who says it's normal, you're new... 'and that landlady doesn't only rent rooms' - cut before the VIP-house reveal. Possible name 'مرقية' only at ~25 s (outside first 8 s, not in title/captions). Reused A's transcript (ai job 1795815685). ws: +3 house woman, +1 question, +1 secret."
  }
 }
