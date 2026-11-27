@@ -6834,5 +6834,36 @@
   "made": "2026-11-27T18:30:00Z",
   "maker": "B",
   "note": "all 64 Exp2 slots full: overflow LONG. No new uploads in Stories audio; tried pick c REUR-jlh7lo (transcribed: woman narrator + set in America -> skipped). Pick b: cH4ajjE3xMw m2 (story has a 23K clip), extended to long. One piece 641.88-694.0 (voice 52.3 s, file 56.1 s): parents treat it as a disaster 'you want that girl to live with us?', the cousin keeps asking, he tells her they refused, regrets giving her hope, she keeps waiting; he falls for her, confesses, she confesses she liked him and says she is older, they are officially together and she waits for summer for him to come to the village - cut there (before the village trip, m3 skip). No name in cut. Title 'علاش رفضو الواليدين بنت عمي؟'. ws: +1 question, -2 family-conflict angle."
+ },
+ "1795805519_story_s9_jrlypkYnwuA_m5.mp4": {
+  "story": "jrlypkYnwuA",
+  "moment": 5,
+  "v4": {
+   "T1": 0,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 1,
+   "D2": 1,
+   "total": 9,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 51.92,
+  "ws": 3,
+  "made": "2026-11-27T18:58:00Z",
+  "maker": "A",
+  "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; pick b: jrlypkYnwuA m5 (re-cut; original m5 window starts on her name). Two pieces 638.5-684.97 + 687.12-692.16 (only the aside 'let me add this note so you understand' dropped; voice 51.9 s, file 55.7 s): she quits her job ~3 months after borrowing for her mom's surgery, says mom is very sick, cries, he reassures her, then she stops answering; he learns the truth from her coworker friend: nobody at work knew her mom was sick - cut before the friend says the mom was at work that week (reveal). Name first at 22 s. Title 'علاش صاحبتي خرجات من الخدمة؟'. ws: -2 girlfriend, +2 hides it from him, +1 secret, +1 question, +1 motive."
  }
 }

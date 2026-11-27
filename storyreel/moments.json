@@ -4099,18 +4099,21 @@
     "type": "secret",
     "score": 7,
     "hook": "علاش صاحبتي ما بقاتش كتجاوبني؟",
-    "status": "todo",
-    "why": "girlfriend (T1 0) borrows 6M for her mom's heart surgery, then quits her job and stops answering; names (Ilham) spoken often - check first 8 s"
+    "status": "skip",
+    "why": "girlfriend (T1 0) borrows 6M for her mom's heart surgery, then quits her job and stops answering; names (Ilham) spoken often - check first 8 s | overlaps m5 re-cut (638.5-692.16)"
    },
    {
     "k": 5,
-    "start": 725.5,
-    "end": 772.0,
+    "start": 638.5,
+    "end": 692.16,
     "type": "secret",
     "score": 7,
-    "hook": "شنو لقيت فدار صاحبتي؟",
-    "status": "todo",
-    "why": "goes to the girlfriend's house to see her sick mom, finds a women's salon downstairs, knocks... name on the sign at ~760 (check 8 s). Girlfriend (T1 0)."
+    "hook": "علاش صاحبتي خرجات من الخدمة؟",
+    "status": "queued",
+    "why": "goes to the girlfriend's house to see her sick mom, finds a women's salon downstairs, knocks... name on the sign at ~760 (check 8 s). Girlfriend (T1 0).",
+    "date": "2026-11-27",
+    "file": "1795805519_story_s9_jrlypkYnwuA_m5.mp4",
+    "note": "A, overflow long (51.9 s voice); re-cut 638.5-692.16 minus aside 684.97-687.12; ends before the coworker's reveal"
    },
    {
     "k": 6,
@@ -4142,8 +4145,7 @@
     "status": "skip",
     "why": "continues the first clip with the reveal (brother's messages)"
    }
-  ],
-  "reserved": "2026-11-27T18:41:00Z"
+  ]
  },
  "LEAfEgyD95U": {
   "mined": "2026-11-26",
