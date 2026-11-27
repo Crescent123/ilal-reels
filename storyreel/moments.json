@@ -1545,9 +1545,20 @@
     "why": "long: he orders mom's birthday cake, she insists it's on her; romance, weak; check names",
     "date": "2026-11-26",
     "file": "1795729804_story_s12_tMcdf896iHI_m6.mp4"
+   },
+   {
+    "k": 7,
+    "start": 717.2,
+    "end": 739.2,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش ماماه ما خلاتش البنت تمشي؟",
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795823529_story_s12_tMcdf896iHI_m7.mp4",
+    "note": "A 27 Nov: re-mined gaps; after the birthday dinner his mom won't let the cake girl go home at night, makes her stay and gives her his room (sets up m3 at 739.84). Gaps left: 625-657 weak (cake photos/WhatsApp), 837-867 untranscribed = the night reveal."
    }
-  ],
-  "reserved": "2026-11-27T23:42:40Z"
+  ]
  },
  "ujby1DpbnSY": {
   "mined": "2026-11-20",

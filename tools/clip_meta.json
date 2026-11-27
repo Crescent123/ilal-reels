@@ -7148,5 +7148,37 @@
   "test": null,
   "ws": 6,
   "note": "all 64 Exp2 slots full: overflow SHORT (24 h plays tied per earlier notes; fast open fits short). No new uploads in Stories audio (Drive checked); winners fully mined; case b weak, re-cut of m8 region as m9. One piece 1518.85-1542.25 (voice 23.6 s): after dad's death, while collecting inheritance papers, the stepmom suddenly opposes nothing 'as if she needs something from us', normally she always fights us; she acts ashamed, asking forgiveness; by law only she and I inherit, she gets 1/8. Cut before the share sale / what she wanted. No name in cut (Mohamed at 1477, outside). Reused A's transcript (ai job 1795815685). ws: +3 family woman, +1 question, +1 secret, +2 aimed at narrator, +1 علاش motive, -2 inheritance family-conflict."
+ },
+ "1795823529_story_s12_tMcdf896iHI_m7.mp4": {
+  "story": "tMcdf896iHI",
+  "moment": 7,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 0,
+   "H3": 2,
+   "D1": 1,
+   "D2": 2,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 26.13,
+  "made": "2026-11-27T23:55:27Z",
+  "maker": "A",
+  "test": null,
+  "ws": 8,
+  "note": "all 64 Exp2 slots full: overflow SHORT. No new uploads in Stories audio (Drive checked); winners mined, so re-mined winner tMcdf896iHI (m5 short at 17.9K/3.6h) for an unposted passage. One piece 717.20-739.20 (voice 22.3 s, total 26.1 s): after dinner it's late; his mom tells the neighbourhood cake girl 'sit, my daughter, sleep here with the girls, I won't let you go now', he will give her his room; cut as he heads for the salon, before the night. Name Saad at 716.9 (excluded) and ~13.8 s (spoken only, outside first 8 s; not in title/captions). ws: +3 house woman (mom), +2 winner story, +1 question, +1 secret type, +1 alash motive."
  }
 }
