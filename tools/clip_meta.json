@@ -6403,5 +6403,35 @@
   "maker": "B",
   "ws": 5,
   "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays per latest read: median 14.0K n=9 vs short 5.6K n=9). New story (pick c: wife acting strangely toward him; winners and todo moments weak). One piece 1103.28-1156.50 (voice 53.24 s, file 57.3 s with end card), Safi, no names in clip. Wife shows him women on her phone ('do you like this one?'), never jealous, 'do whatever you want, see whoever you want'; it gets into his head, nobody to tell - cut before his own affairs (1160+) and before the reveal (her chats about the ex in prison)."
+ },
+ "1795747698_story_s13_TNtq2upOdnE_m2.mp4": {
+  "story": "TNtq2upOdnE",
+  "moment": 2,
+  "v4": {
+   "T1": 1,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 2,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 52.87,
+  "ws": 5,
+  "made": "2026-11-27T02:58:00Z",
+  "overflow": null,
+  "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays per latest read: median 14.0K n=9 vs short 5.6K n=9). No new uploads in Stories audio; best todo moment (case b). One piece 1226.34-1278.92 (voice 52.87 s, file 56.7 s with end card), Safi, no names in the cut. After the birth the wife is always angry, anxious and crying; he tries patience, googles it (postpartum), still feels something is off; she grows distant even in bed; he links it to her old 'do whatever you want, see whoever you want' line - cut before he starts spying on her and the phone/WhatsApp discovery. Frame 1 = wife crying with the baby, seen from the bedroom doorway. Reused B's transcript (ai job 1795745627). ws: +1 question, +1 secret, +2 hidden from him, +1 alash (wife = not family/house woman)."
  }
 }

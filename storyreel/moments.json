@@ -4540,13 +4540,15 @@
    },
    {
     "k": 2,
-    "start": 1222.0,
-    "end": 1296.0,
+    "start": 1226.34,
+    "end": 1278.92,
     "type": "secret",
-    "score": 10,
+    "score": 13,
     "hook": "علاش ولات مراتي كتبكي؟",
-    "status": "todo",
-    "note": "after the birth she is always upset, crying, cold; he suspects, comes home early, never catches her. Start at 1222 'but my wife after giving birth'; avoid 1251-1254 'excuse her boldness' bed line if possible; 1263-1272 refers back to her 'do what you want' line (explain or cut). Long ~50 s or short."
+    "status": "queued",
+    "note": "after the birth she is always upset, crying, cold; he suspects, comes home early, never catches her. Start at 1222 'but my wife after giving birth'; avoid 1251-1254 'excuse her boldness' bed line if possible; 1263-1272 refers back to her 'do what you want' line (explain or cut). Long ~50 s or short.",
+    "date": "2026-11-27",
+    "file": "1795747698_story_s13_TNtq2upOdnE_m2.mp4"
    },
    {
     "k": 3,
@@ -4607,7 +4609,6 @@
     "hook": "",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-27T02:42:18Z"
+  ]
  }
 }
