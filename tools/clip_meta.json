@@ -6803,5 +6803,36 @@
   "made": "2026-11-27T17:50:00Z",
   "maker": "A",
   "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; pick b: TNtq2upOdnE m7 (male narrator; gmpMSPIhz9k m1 skipped, narrated by a woman). One piece 933.70-986.88: 'but I had one problem, my mom' - she won't accept a divorced girl without headscarf, 'only this one?', he defends her, mom warns about Tetouan girls, he says he'll propose alone, tells her the girl is from Tetouan and the neighbours - cut on 'mom knew who she was' before she softens. No name in cut. ws: +1 question, +1 motive, -2 family conflict."
+ },
+ "1795804183_story_s12_cH4ajjE3xMw_m2.mp4": {
+  "story": "cH4ajjE3xMw",
+  "moment": 2,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 1,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 52.3,
+  "ws": -1,
+  "made": "2026-11-27T18:30:00Z",
+  "maker": "B",
+  "note": "all 64 Exp2 slots full: overflow LONG. No new uploads in Stories audio; tried pick c REUR-jlh7lo (transcribed: woman narrator + set in America -> skipped). Pick b: cH4ajjE3xMw m2 (story has a 23K clip), extended to long. One piece 641.88-694.0 (voice 52.3 s, file 56.1 s): parents treat it as a disaster 'you want that girl to live with us?', the cousin keeps asking, he tells her they refused, regrets giving her hope, she keeps waiting; he falls for her, confesses, she confesses she liked him and says she is older, they are officially together and she waits for summer for him to come to the village - cut there (before the village trip, m3 skip). No name in cut. Title 'علاش رفضو الواليدين بنت عمي؟'. ws: +1 question, -2 family-conflict angle."
  }
 }

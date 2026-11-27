@@ -3047,12 +3047,16 @@
    },
    {
     "k": 2,
-    "start": 636.3,
-    "end": 661.9,
+    "start": 641.88,
+    "end": 694.0,
     "type": "conflict",
     "score": 6,
     "hook": "علاش الواليدين رفضو بنت عمي؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795804183_story_s12_cH4ajjE3xMw_m2.mp4",
+    "maker": "B",
+    "note": "overflow long 52.3 s voice; parents refuse her moving in -> mutual confession -> she waits for summer"
    },
    {
     "k": 3,
@@ -3105,8 +3109,7 @@
     "date": "2026-11-25",
     "file": "1795580205_story_s13_cH4ajjE3xMw_m7.mp4"
    }
-  ],
-  "reserved": "2026-11-27T18:17:19Z"
+  ]
  },
  "DuNX1YE4Apw": {
   "mined": "2026-11-25",
