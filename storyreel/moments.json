@@ -3586,12 +3586,16 @@
    },
    {
     "k": 4,
-    "start": 724.04,
-    "end": 775.0,
+    "start": 706.84,
+    "end": 753.88,
     "type": "twist",
     "score": 8,
-    "hook": "شنو قال الفقيه؟",
-    "status": "todo"
+    "hook": "خوالي كذبو عليا فالكنز؟",
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795798584_story_s14_tXvmlojzJOY_m4.mp4",
+    "maker": "A",
+    "note": "A, overflow long 47.2 s: uncles deny -> idea -> bluffs the fqih; cut before the fqih's confession (754+ not posted; 756-830 is Hilal's digression on treasures)."
    },
    {
     "k": 5,
@@ -3603,8 +3607,7 @@
     "status": "skip",
     "why": "minor + sex worker"
    }
-  ],
-  "reserved": "2026-11-27T16:43:17Z"
+  ]
  },
  "5qfbg1tlgLo": {
   "mined": "2026-11-26",

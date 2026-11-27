@@ -6710,5 +6710,36 @@
   "made": "2026-11-27T16:30:00Z",
   "maker": "B",
   "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays). No new uploads in Stories audio; pick b: best remaining todo moment by estimate (TNtq2upOdnE m3, est 9; gmpMSPIhz9k m1 also 9 but narrated by a woman). One piece 1349.25-1396.5 (voice 47.6 s, file 51.4 s), Safi: he opens his wife's phone alone in his old room at his parents', Instagram clean, then a WhatsApp chat with her friend with dozens of messages; ends on 'I clicked and went in' before the chat reveal. Friend's name at ~28 s (outside first 8 s). ws 0 (centres on my wife -2)."
+ },
+ "1795798584_story_s14_tXvmlojzJOY_m4.mp4": {
+  "story": "tXvmlojzJOY",
+  "moment": 4,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 14,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 47.23,
+  "ws": 1,
+  "made": "2026-11-27T16:56:00Z",
+  "maker": "A",
+  "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays). No new uploads in Stories audio; family-woman titles all mined; pick b: best remaining todo moment (tXvmlojzJOY m4, est 8; treasure story, uncles hide grandpa's treasure, near Agadir). One piece 706.84-753.88 (voice 47.2 s, file 51.0 s): uncles insist 'we dug, brought the fqih, found nothing, we'd have shared'; he starts believing them; then an idea that blew it all up (~17 s); he goes to the fqih's house and bluffs as if he knows everything, 'what did you do at my grandpa's house', threatens police, the fqih panics - cut on 'or prison' right before the fqih tells what they found (754-756). Grandpa's name at ~35 s (outside first 8 s). Starts right after m3 (ended 704.4). Title 'خوالي كذبو عليا فالكنز؟'. ws: +1 question."
  }
 }
