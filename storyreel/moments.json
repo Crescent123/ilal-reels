@@ -4144,6 +4144,16 @@
     "hook": "",
     "status": "skip",
     "why": "continues the first clip with the reveal (brother's messages)"
+   },
+   {
+    "k": 9,
+    "start": 725.5,
+    "end": 772.0,
+    "type": "secret",
+    "score": 6,
+    "hook": "شنو لقيت فدار صاحبتي؟",
+    "status": "todo",
+    "why": "(moved from old m5 when m5 was re-cut on 27 Nov) goes to the girlfriend's house, finds a women's salon downstairs, knocks... her name spoken at 727.5 and on the sign at ~760: start must avoid a name in the first 8 s; reveals m5's twist (mom not sick) only implicitly"
    }
   ]
  },
