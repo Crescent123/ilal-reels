@@ -6741,5 +6741,36 @@
   "made": "2026-11-27T16:56:00Z",
   "maker": "A",
   "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays). No new uploads in Stories audio; family-woman titles all mined; pick b: best remaining todo moment (tXvmlojzJOY m4, est 8; treasure story, uncles hide grandpa's treasure, near Agadir). One piece 706.84-753.88 (voice 47.2 s, file 51.0 s): uncles insist 'we dug, brought the fqih, found nothing, we'd have shared'; he starts believing them; then an idea that blew it all up (~17 s); he goes to the fqih's house and bluffs as if he knows everything, 'what did you do at my grandpa's house', threatens police, the fqih panics - cut on 'or prison' right before the fqih tells what they found (754-756). Grandpa's name at ~35 s (outside first 8 s). Starts right after m3 (ended 704.4). Title 'خوالي كذبو عليا فالكنز؟'. ws: +1 question."
+ },
+ "1795799887_story_s11_3cw7uqgowws_m3.mp4": {
+  "story": "3cw7uqgowws",
+  "moment": 3,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 50.8,
+  "ws": 0,
+  "made": "2026-11-27T17:25:00Z",
+  "maker": "B",
+  "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays). No new uploads in Stories audio; pick b: best todo moment not narrated by a woman (3cw7uqgowws m3, est 8), re-cut to stay before the reveal. One piece 473.62-524.26 (voice 50.8 s, file 54.6 s), right after m2 (ended 471.08): she scrolls and he glimpses an account that isn't hers, searches for it, idea: logs in with her number and 'forgets the password', the code goes to that account, he finds she has it set up on the account of a guy famous on social media - cut before who he is and the chat (Batman alias / MRE at 528+). No name in the cut. Title 'مراتي عندها كونط مخبي؟'. ws: -2 my wife, +1 secret, +1 question."
  }
 }

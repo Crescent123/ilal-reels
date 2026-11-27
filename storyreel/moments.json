@@ -4351,13 +4351,16 @@
    },
    {
     "k": 3,
-    "start": 571.34,
-    "end": 616.76,
+    "start": 473.62,
+    "end": 524.26,
     "type": "secret",
     "score": 8,
-    "hook": "شنو لقيت فالكونط الثاني ديال مراتي؟",
-    "status": "todo",
-    "note": "inside the hidden account: her chat with the famous MRE since before the marriage; partly the reveal, weaker."
+    "hook": "مراتي عندها كونط مخبي؟",
+    "status": "queued",
+    "note": "inside the hidden account: her chat with the famous MRE since before the marriage; partly the reveal, weaker. | B 27 Nov: re-cut 473.62-524.26 (before the reveal); 571+ chat contents not posted.",
+    "date": "2026-11-27",
+    "file": "1795799887_story_s11_3cw7uqgowws_m3.mp4",
+    "maker": "B"
    },
    {
     "k": 4,
@@ -4392,8 +4395,7 @@
     "status": "skip",
     "why": "aftermath/take"
    }
-  ],
-  "reserved": "2026-11-27T17:11:45Z"
+  ]
  },
  "HlnJ1H8dLHI": {
   "mined": "2026-11-27",
