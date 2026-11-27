@@ -1,71 +1,80 @@
 {
-  "candidates": {
-    "DekNY5tCqsN": {
-      "ig_plays": 2107518,
-      "sc": "DekNY5tCqsN",
-      "tiktok": null,
-      "repost": null,
-      "status": "candidate",
-      "src": "drive"
-    },
-    "De2oYp5DwHn": {
-      "ig_plays": 538534,
-      "sc": "De2oYp5DwHn",
-      "tiktok": null,
-      "repost": null,
-      "status": "candidate",
-      "src": "drive"
-    },
-    "Derd7LnERcu": {
-      "ig_plays": 461711,
-      "sc": "Derd7LnERcu",
-      "tiktok": null,
-      "repost": null,
-      "status": "candidate",
-      "src": "story"
-    },
-    "Denn0haj_rH": {
-      "ig_plays": 444179,
-      "sc": "Denn0haj_rH",
-      "tiktok": null,
-      "repost": null,
-      "status": "candidate",
-      "src": "story"
-    },
-    "DfSPBSyjk_7": {
-      "ig_plays": 424831,
-      "sc": "DfSPBSyjk_7",
-      "tiktok": null,
-      "repost": null,
-      "status": "candidate",
-      "src": "drive"
-    },
-    "DfnJPiQOOd8": {
-      "sc": "DfnJPiQOOd8",
-      "tiktok": null,
-      "repost": null,
-      "status": "candidate",
-      "ig_plays": 414994,
-      "file": "1794250696_story_s8_5xbZb6He3Ww.mp4",
-      "src": "story"
-    },
-    "DfpzMSFIjVs": {
-      "sc": "DfpzMSFIjVs",
-      "tiktok": null,
-      "repost": null,
-      "status": "candidate",
-      "ig_plays": 430611,
-      "file": "1793284878_story_s7_t_11yIcRc8M.mp4",
-      "src": "story"
-    },
-    "DgLbLi8Bl1d": {
-      "sc": "DgLbLi8Bl1d",
-      "tiktok": null,
-      "repost": null,
-      "status": "candidate",
-      "ig_plays": 546258,
-      "file": "1795564467_story_s14_lCzehIOldVQ_m10.mp4",
-      "src": "story"
-    }
+ "candidates": {
+  "DekNY5tCqsN": {
+   "ig_plays": 2107518,
+   "sc": "DekNY5tCqsN",
+   "tiktok": null,
+   "repost": null,
+   "status": "candidate",
+   "src": "drive"
+  },
+  "De2oYp5DwHn": {
+   "ig_plays": 538534,
+   "sc": "De2oYp5DwHn",
+   "tiktok": null,
+   "repost": null,
+   "status": "candidate",
+   "src": "drive"
+  },
+  "Derd7LnERcu": {
+   "ig_plays": 461711,
+   "sc": "Derd7LnERcu",
+   "tiktok": null,
+   "repost": null,
+   "status": "candidate",
+   "src": "story"
+  },
+  "Denn0haj_rH": {
+   "ig_plays": 444179,
+   "sc": "Denn0haj_rH",
+   "tiktok": null,
+   "repost": null,
+   "status": "candidate",
+   "src": "story"
+  },
+  "DfSPBSyjk_7": {
+   "ig_plays": 424831,
+   "sc": "DfSPBSyjk_7",
+   "tiktok": null,
+   "repost": null,
+   "status": "candidate",
+   "src": "drive"
+  },
+  "DfnJPiQOOd8": {
+   "sc": "DfnJPiQOOd8",
+   "tiktok": null,
+   "repost": null,
+   "status": "candidate",
+   "ig_plays": 414994,
+   "file": "1794250696_story_s8_5xbZb6He3Ww.mp4",
+   "src": "story"
+  },
+  "DfpzMSFIjVs": {
+   "sc": "DfpzMSFIjVs",
+   "tiktok": null,
+   "repost": null,
+   "status": "candidate",
+   "ig_plays": 430611,
+   "file": "1793284878_story_s7_t_11yIcRc8M.mp4",
+   "src": "story"
+  },
+  "DgLbLi8Bl1d": {
+   "sc": "DgLbLi8Bl1d",
+   "tiktok": null,
+   "repost": null,
+   "status": "candidate",
+   "ig_plays": 546258,
+   "file": "1795564467_story_s14_lCzehIOldVQ_m10.mp4",
+   "src": "story"
+  },
+  "bnt-khalti-mhajba": {
+   "ig_plays": 546258,
+   "sc": null,
+   "file": "lCzehIOldVQ (posted 25 Nov 20:52Z, 'بنت خالتي المحجبة بدلات حوايجها؟')",
+   "tiktok": null,
+   "repost": null,
+   "status": "candidate",
+   "src": "story"
   }
+ }
 }

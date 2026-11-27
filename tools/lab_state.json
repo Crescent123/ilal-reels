@@ -1,1 +1,13 @@
-{"cap":9,"clean_days":0,"last_block":null,"history":[]}
+{
+ "cap": 9,
+ "clean_days": 1,
+ "last_block": null,
+ "history": [
+  {
+   "date": "2026-11-26",
+   "cap": 9,
+   "posted": 9,
+   "block": false
+  }
+ ]
+}

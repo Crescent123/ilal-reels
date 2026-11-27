@@ -46,7 +46,8 @@ So pick moments where the woman's odd act is aimed at HIM (she sends him away, d
 something from him, acts strangely around him), and title it "علاش …؟" asking her motive. Skip stories narrated by a woman.
 WINNER SCORE — write "ws" into the clip's tools/clip_meta.json entry: +3 the secret/odd act is by a family/house woman,
 +2 the story is on the winner list, +1 the title is a question about what that person did, +1 moment type "secret", +2 her odd act is aimed at the narrator,
-+1 the title asks her motive ("علاش …؟"), −2 wholesome / family-conflict secret, −3 narrated by a woman, −3 the story is killed (first 2 clips under 5K at 24 h). The poster ranks by ws.
++1 the title asks her motive ("علاش …؟"), −2 wholesome / family-conflict secret, −2 the clip centres on "my wife" (مراتي) or the narrator's girlfriend (26 Nov: 6 clips on both accounts, 1.7–3.1K),
++2 the woman does something VISIBLE and physical toward him (changes clothes, cries, dresses up, comes close at night, asks for his Instagram) — vague acts ("brings me chocolate", "called me") score 0, −3 narrated by a woman, −3 the story is killed (first 2 clips under 5K at 24 h). The poster ranks by ws.
 
 ## WHAT WORKS — from 130 posted story clips, 5–22 Nov (Hilal, 23 Nov: "just analyse the clips"). These override the pick order.
 1. TOPIC: a WOMAN OF THE FAMILY OR HOUSE doing something secret or suspicious — sister, brother's wife, mom, cousin,

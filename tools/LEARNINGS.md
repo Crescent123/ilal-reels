@@ -1,5 +1,18 @@
 # What we've learned (running log — newest at the top). Updated by the daily learning check.
 
+## 26 Nov — daily loop (both accounts; @_ilal_ 25 Nov at 24 h, 26 Nov at 3 h; lab day 1 at 3 h)
+- BIGGEST HIT EVER on trials: "بنت خالتي المحجبة بدلات حوايجها؟" 546,258 plays at 24 h (winner story lCzehIOldVQ). Added to the winners stock.
+- @_ilal_ since 24 Nov at 24 h: median 12.5K, 8 of 18 over 20K (44%), 1 over 100K. 18–23 Nov: 3.3K, 6%. 11–17 Nov: 4.7K, 21%.
+- 25 Nov at 24 h: 546K, 36.7K, 23.3K, 22.7K, 14.0K, 11.0K, 4.8K, 2.4K, 2.3K. 26 Nov at 3 h: 49.6K, 28.8K, 12.1K, rest 1.9–3.9K.
+- Followers @_ilal_: 358,195 → 360,868 (+2,673 in a day). @ilalstories: 46.2K.
+- Lab day 1: 9/9 posted, no block. 3 h: "مرات خويا قربات ليا فالليل؟" 28.9K; others 1.7–3.1K. Approval waits for 24 h.
+- Winners vs flops: the hits are a woman doing something VISIBLE toward him (changes clothes, cries, dresses up, asks for
+  his Instagram, comes close at night). Flops: "my wife"/girlfriend clips (6 clips, 1.7–3.1K on both accounts) and vague acts
+  ("brings me chocolate", "called me"). ws was ranking backwards (rho −0.57, n=13) because it rewarded those.
+- Short vs long: 5.6K vs 14.0K median, p=0.36 — no call yet.
+- CHANGED: ws −2 for wife/girlfriend-centred clips, +2 for a visible physical act (RUNBOOK). H7 kept; H12 kept; H13, H14 new.
+  Lab cap stays 9 (clean days 1/3).
+
 ## 25 Nov — daily check (24 Nov posts at 24 h, 25 Nov posts at 3 h)
 - 24 Nov (first copy-the-winners day) at 24 h: median 5.6K, 4 of 9 over 20K (85.9K, 52.2K, 29.3K, 22.0K).
   18–23 Nov: median 3.3K, 3 of 49 over 20K. 11–17 Nov: 4.7K, 13 of 62.
