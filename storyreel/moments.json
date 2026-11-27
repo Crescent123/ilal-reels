@@ -4861,7 +4861,6 @@
   "moments": []
  },
  "VosyX5nfSR0": {
-  "reserved": "2026-11-27T19:14:33Z",
   "mined": "2026-11-27",
   "maker": "B",
   "note": "Anas (24, well-off family) picks up two hitchhiking girls on the road (first clip ~145-198, found by audio match), dates one; family/cousin uneasy about her; he leaves to study in CANADA (~480 on, anything that mentions Canada = abroad hard reject); long-distance: she hides friends' outings, a secret Instagram account, blocks him, goes to Tangier with two new guys (reveal 1024+). Name Anas at 0-3 s only.",
@@ -4911,7 +4910,9 @@
     "type": "secret",
     "score": 9,
     "hook": "علاش صاحبتي بلوكاتني؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795807765_story_s11_VosyX5nfSR0_m5.mp4"
    },
    {
     "k": 6,

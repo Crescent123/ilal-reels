@@ -6865,5 +6865,36 @@
   "made": "2026-11-27T18:58:00Z",
   "maker": "A",
   "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; pick b: jrlypkYnwuA m5 (re-cut; original m5 window starts on her name). Two pieces 638.5-684.97 + 687.12-692.16 (only the aside 'let me add this note so you understand' dropped; voice 51.9 s, file 55.7 s): she quits her job ~3 months after borrowing for her mom's surgery, says mom is very sick, cries, he reassures her, then she stops answering; he learns the truth from her coworker friend: nobody at work knew her mom was sick - cut before the friend says the mom was at work that week (reveal). Name first at 22 s. Title 'علاش صاحبتي خرجات من الخدمة؟'. ws: -2 girlfriend, +2 hides it from him, +1 secret, +1 question, +1 motive."
+ },
+ "1795807765_story_s11_VosyX5nfSR0_m5.mp4": {
+  "story": "VosyX5nfSR0",
+  "moment": 5,
+  "v4": {
+   "T1": 0,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 1,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 51.82,
+  "ws": 3,
+  "made": "2026-11-27T19:36:00Z",
+  "maker": "B",
+  "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; moments todo list weak (woman narrator / names / twists), so pick c: VosyX5nfSR0 (first clip 25.6K, ~145-198 by audio match), mined 7 moments. One piece 972.74-1024.2 (voice 51.8 s, file 55.6 s): he remembers she had a secret Instagram account (~20 people) she said she'd deactivated; a classmate searches it - it's active; he asks why she blocked him; she went to Tangier with two girlfriends, 'didn't want you to see the photos'; trust gone, he starts investigating - cut before 'but with two new guys'. No name, no Canada mention in the cut. Title 'علاش صاحبتي بلوكاتني؟'. ws: -2 girlfriend, +2 hides it from him, +1 secret, +1 question, +1 motive."
  }
 }
