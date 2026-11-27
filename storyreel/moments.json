@@ -4524,6 +4524,89 @@
   ]
  },
  "TNtq2upOdnE": {
-  "reserved": "2026-11-27T02:12:21Z"
+  "mined": "2026-11-27",
+  "note": "Safi, narrator (named Abdelghafour at 21 s), family from Tetouan. 0-450 childhood/school/crafts/advice digressions (plug 198-224); 450-600 first girl (client), mom refuses; 680-1000 childhood neighbour girl in Tetouan (divorced), mom opposes (no headscarf, divorced), they marry; 1018-1093 wedding-money digression; 1094-1160 wife never jealous, shows him women, 'do what you want' (m1); 1160-1222 narrator's OWN affairs (never use); 1222-1296 after the baby she changes, he suspects; 1296-1400 her phone at the repair shop, he opens her WhatsApp (friend named Marwa at 1377); 1400-1460 reveal: she wants the ex (in prison) back, set him up to cheat; 1460-1520 confrontation (beeped insults); 1520-end aftermath/take + plug.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 1103.28,
+    "end": 1156.5,
+    "type": "secret",
+    "score": 14,
+    "hook": "علاش كانت مراتي كتوريني البنات؟",
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795746238_story_s14_TNtq2upOdnE_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 1222.0,
+    "end": 1296.0,
+    "type": "secret",
+    "score": 10,
+    "hook": "علاش ولات مراتي كتبكي؟",
+    "status": "todo",
+    "note": "after the birth she is always upset, crying, cold; he suspects, comes home early, never catches her. Start at 1222 'but my wife after giving birth'; avoid 1251-1254 'excuse her boldness' bed line if possible; 1263-1272 refers back to her 'do what you want' line (explain or cut). Long ~50 s or short."
+   },
+   {
+    "k": 3,
+    "start": 1310.0,
+    "end": 1400.0,
+    "type": "secret",
+    "score": 9,
+    "hook": "شنو لقيت فتليفون مراتي؟",
+    "status": "todo",
+    "note": "her phone breaks, he takes it to the repair man, charges it at his parents', opens it alone in his old room: Instagram clean, then WhatsApp chat with her friend (name at 1377 - must be after 8 s). Cut before the chat content (1398+)."
+   },
+   {
+    "k": 4,
+    "start": 1400.0,
+    "end": 1460.0,
+    "type": "twist",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "note": "reveal of the chat (ex in prison), beeped insults"
+   },
+   {
+    "k": 5,
+    "start": 1460.0,
+    "end": 1520.0,
+    "type": "conflict",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "note": "confrontation with insults/beeps"
+   },
+   {
+    "k": 6,
+    "start": 1160.0,
+    "end": 1222.0,
+    "type": "take",
+    "score": 0,
+    "hook": "",
+    "status": "skip",
+    "note": "narrator's own cheating - never"
+   },
+   {
+    "k": 7,
+    "start": 920.0,
+    "end": 1000.0,
+    "type": "conflict",
+    "score": 7,
+    "hook": "علاش رفضات ماما البنت ديال تطوان؟",
+    "status": "todo",
+    "note": "he proposes to the divorced childhood neighbour; mom refuses (divorced, no headscarf, Tetouan girls); family-conflict type (weaker)."
+   },
+   {
+    "k": 8,
+    "start": 1520.0,
+    "end": 1600.0,
+    "type": "take",
+    "score": 3,
+    "hook": "",
+    "status": "skip"
+   }
+  ]
  }
 }
