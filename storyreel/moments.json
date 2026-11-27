@@ -4742,6 +4742,76 @@
   ]
  },
  "NTSe5HOvayw": {
-  "reserved": "2026-11-27T04:42:25Z"
+  "reserved": "2026-11-27T04:42:25Z",
+  "mined": "2026-11-27",
+  "note": "Safouane, Mohammedia, aluminium workshop; boss abusive, cheats on his wife; ends with narrator marrying the boss's daughter. First clip (Oct 29) location unknown, assumed first 90 s.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 320.5,
+    "end": 369.0,
+    "type": "secret",
+    "score": 13,
+    "hook": "علاش كتسولني مرات المعلم على راجلها؟",
+    "status": "todo"
+   },
+   {
+    "k": 2,
+    "start": 385.7,
+    "end": 412.8,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش بنت المعلم كتحاول تهضر معايا؟",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 585.0,
+    "end": 632.0,
+    "type": "conflict",
+    "score": 10,
+    "hook": "شنو دار المعلم ملي لقاني مع بنتو؟",
+    "status": "todo"
+   },
+   {
+    "k": 4,
+    "start": 720.0,
+    "end": 765.0,
+    "type": "secret",
+    "score": 9,
+    "hook": "شكون لقيت فدار المعلم؟",
+    "status": "todo"
+   },
+   {
+    "k": 5,
+    "start": 822.0,
+    "end": 870.0,
+    "type": "secret",
+    "score": 12,
+    "hook": "علاش دخلاتني مرات المعلم للصالون؟",
+    "status": "todo",
+    "note": "start after her name at ~818; name again at 851 (outside first 8 s)"
+   },
+   {
+    "k": 6,
+    "start": 930.0,
+    "end": 1020.0,
+    "type": "twist",
+    "score": 6,
+    "hook": "البوليس شدو المعلم",
+    "status": "skip",
+    "note": "twist/reveal, police"
+   },
+   {
+    "k": 7,
+    "start": 1080.0,
+    "end": 1140.0,
+    "type": "take",
+    "score": 6,
+    "hook": "خطبت بنت المعلم",
+    "status": "skip",
+    "note": "wholesome, reveals ending"
+   }
+  ]
  }
 }
