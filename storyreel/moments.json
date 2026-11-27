@@ -4885,13 +4885,15 @@
    },
    {
     "k": 3,
-    "start": 649.8,
-    "end": 700.3,
+    "start": 658.78,
+    "end": 704.3,
     "type": "secret",
     "score": 6,
-    "hook": "علاش بغات صاحبتي تمشي لدار دري؟",
-    "status": "todo",
-    "why": "check: he is in Canada (abroad) - only if the cut never mentions it"
+    "hook": "علاش بغات صاحبتي تقرا عند دري؟",
+    "status": "queued",
+    "why": "check: he is in Canada (abroad) - only if the cut never mentions it",
+    "date": "2026-11-27",
+    "file": "1795808885_story_s10_VosyX5nfSR0_m3.mp4"
    },
    {
     "k": 4,
@@ -4934,7 +4936,6 @@
     "status": "skip",
     "why": "insults/revenge talk, heavy"
    }
-  ],
-  "reserved": "2026-11-27T19:41:16Z"
+  ]
  }
 }

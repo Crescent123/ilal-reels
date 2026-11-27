@@ -6896,5 +6896,36 @@
   "made": "2026-11-27T19:36:00Z",
   "maker": "B",
   "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; moments todo list weak (woman narrator / names / twists), so pick c: VosyX5nfSR0 (first clip 25.6K, ~145-198 by audio match), mined 7 moments. One piece 972.74-1024.2 (voice 51.8 s, file 55.6 s): he remembers she had a secret Instagram account (~20 people) she said she'd deactivated; a classmate searches it - it's active; he asks why she blocked him; she went to Tangier with two girlfriends, 'didn't want you to see the photos'; trust gone, he starts investigating - cut before 'but with two new guys'. No name, no Canada mention in the cut. Title 'علاش صاحبتي بلوكاتني؟'. ws: -2 girlfriend, +2 hides it from him, +1 secret, +1 question, +1 motive."
+ },
+ "1795808885_story_s10_VosyX5nfSR0_m3.mp4": {
+  "story": "VosyX5nfSR0",
+  "moment": 3,
+  "v4": {
+   "T1": 0,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 0,
+   "H3": 2,
+   "D1": 1,
+   "D2": 2,
+   "total": 10,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 45.69,
+  "made": "2026-11-27T19:55:00Z",
+  "maker": "A",
+  "ws": 1,
+  "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; pick b: VosyX5nfSR0 m3 (reserved story, first clip 25.6K). One piece 658.78-704.3 (voice 45.7 s, file 49.5 s): one day she tells him she and a group of friends want to revise at the house of a guy 'like her brother'; he contacts the guy, then two new guys join; she says it's only studying, he accepts, 'she's a good girl' - cut on 'but it was all a lie, the liar' right before 'I was in Canada' (706.8, never in the cut). No name in cut. Title 'علاش بغات صاحبتي تقرا عند دري؟'. ws: -2 girlfriend, +1 secret, +1 question, +1 motive."
  }
 }
