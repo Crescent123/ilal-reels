@@ -6927,5 +6927,36 @@
   "maker": "A",
   "ws": 1,
   "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; pick b: VosyX5nfSR0 m3 (reserved story, first clip 25.6K). One piece 658.78-704.3 (voice 45.7 s, file 49.5 s): one day she tells him she and a group of friends want to revise at the house of a guy 'like her brother'; he contacts the guy, then two new guys join; she says it's only studying, he accepts, 'she's a good girl' - cut on 'but it was all a lie, the liar' right before 'I was in Canada' (706.8, never in the cut). No name in cut. Title 'علاش بغات صاحبتي تقرا عند دري؟'. ws: -2 girlfriend, +1 secret, +1 question, +1 motive."
+ },
+ "1795810964_story_s10_VosyX5nfSR0_m1.mp4": {
+  "story": "VosyX5nfSR0",
+  "moment": 1,
+  "v4": {
+   "T1": 0,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 1,
+   "D1": 2,
+   "D2": 1,
+   "total": 10,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 47.02,
+  "made": "2026-11-27T20:28:55Z",
+  "maker": "B",
+  "ws": 0,
+  "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; pick b: VosyX5nfSR0 m1 (first clip 23.4K). Re-cut to one piece 361.0-407.72 (voice 47.0 s, file 50.8 s): the whole family is uneasy about her; mom sees her photo: 'I am not comfortable with this girl', moms sense things; his cousin 'like a sister' wants to meet her; she shows up very revealing; cousin watches her the whole outing; cut on 'that is not normal' before what the cousin fears. No name, no Canada in cut. Title 'علاش ماما ما رتاحتش لصاحبتي؟'. ws: +1 question, +1 motive, -2 girlfriend-centred."
  }
 }

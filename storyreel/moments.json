@@ -4867,12 +4867,16 @@
   "moments": [
    {
     "k": 1,
-    "start": 300.1,
-    "end": 345.1,
+    "start": 361.0,
+    "end": 407.72,
     "type": "conflict",
     "score": 6,
-    "hook": "علاش الواليدة ما رتاحتش لصاحبتي؟",
-    "status": "todo"
+    "hook": "علاش ماما ما رتاحتش لصاحبتي؟",
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795810964_story_s10_VosyX5nfSR0_m1.mp4",
+    "maker": "B",
+    "note": "re-cut 361.0-407.72; overlaps m2's start (m2 now should begin after 407.7)"
    },
    {
     "k": 2,
@@ -4936,7 +4940,6 @@
     "status": "skip",
     "why": "insults/revenge talk, heavy"
    }
-  ],
-  "reserved": "2026-11-27T20:11:53Z"
+  ]
  }
 }
