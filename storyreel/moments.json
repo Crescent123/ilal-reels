@@ -2593,13 +2593,17 @@
   "moments": [
    {
     "k": 1,
-    "start": 334.08,
-    "end": 365.04,
+    "start": 334.88,
+    "end": 364.32,
     "type": "secret",
     "score": 9,
     "hook": "شنو دار خويا فالليسي؟",
-    "status": "todo",
-    "why": "adopted brother Hamza (teen) catches narrator (Leila) with a boy at the lycee and slaps her; comic; ~31 s (short slot). Mentions Hilal name at 330, start after it."
+    "status": "queued",
+    "why": "adopted brother Hamza (teen) catches narrator (Leila) with a boy at the lycee and slaps her; comic; ~31 s (short slot). Mentions Hilal name at 330, start after it.",
+    "date": "2026-11-27",
+    "file": "1795812591_story_s12_gmpMSPIhz9k_m1.mp4",
+    "maker": "A",
+    "note": "A, H10 lab test, overflow short (29.6 s voice)"
    },
    {
     "k": 2,
@@ -2667,8 +2671,7 @@
     "status": "skip",
     "why": "his life ruined, she wont forgive him: take, reveals the ending"
    }
-  ],
-  "reserved": "2026-11-27T20:44:13Z"
+  ]
  },
  "5xbZb6He3Ww": {
   "mined": "2026-11-24",

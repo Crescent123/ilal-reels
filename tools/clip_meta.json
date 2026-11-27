@@ -6958,5 +6958,37 @@
   "maker": "B",
   "ws": 0,
   "note": "all 64 Exp2 slots full: overflow LONG (as previous makers). No new uploads in Stories audio; pick b: VosyX5nfSR0 m1 (first clip 23.4K). Re-cut to one piece 361.0-407.72 (voice 47.0 s, file 50.8 s): the whole family is uneasy about her; mom sees her photo: 'I am not comfortable with this girl', moms sense things; his cousin 'like a sister' wants to meet her; she shows up very revealing; cousin watches her the whole outing; cut on 'that is not normal' before what the cousin fears. No name, no Canada in cut. Title 'علاش ماما ما رتاحتش لصاحبتي؟'. ws: +1 question, +1 motive, -2 girlfriend-centred."
+ },
+ "1795812591_story_s12_gmpMSPIhz9k_m1.mp4": {
+  "story": "gmpMSPIhz9k",
+  "moment": 1,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 1,
+   "D2": 2,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 29.64,
+  "made": "2026-11-27T20:50:00Z",
+  "maker": "A",
+  "ws": -4,
+  "test": "H10",
+  "note": "all 64 Exp2 slots full: overflow SHORT (moment only fits short). No new uploads in Stories audio; winners and pick-c family stories fully mined/skipped. Lab test H10 (story narrated by a woman; only 1 H10 clip so far, 'test 4 more'). NB story meets the kill rule (first 2 clips 3.5K/3.3K at 24 h) - lab only. One piece 334.88-364.32 (voice 29.6 s, file 33.4 s): at the lycee her adopted brother slaps her after finding her standing with a boy; she storms home shouting at the parents; dad scolds the brother ('your parents died, we did you good'), then turns to her - cut there. Name Hamza at ~12 s only. Title 'علاش صرفقني خويا فالليسي؟'. ws: +1 question, +1 secret, -3 woman narrator, -3 killed story."
  }
 }
