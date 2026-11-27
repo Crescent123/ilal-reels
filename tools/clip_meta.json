@@ -6524,5 +6524,36 @@
   "made": "2026-11-27T04:30:00Z",
   "maker": "B",
   "note": "all 64 Exp2 slots full: overflow SHORT although long is ahead, because this moment only fits short (a long cut would put her name 434.6 or the son's death 378-400 inside). No new uploads; pick c: Hajj's wife (house woman) acting toward the narrator. One piece 436.18-465.26 (voice 29.1 s, file 33.3 s), Rabat, no name in the cut. She spoils him like her son, best food, he earns 2500 DH/month and she alone gives him 3000 DH every week, still grieving her son; 2018 the Hajj flies to Mauritania for 15 days, 'I was left working only with the Hajja' - cut before the rainy night/hammam (posted 12 Nov) and the affair. Frame 1 = her piling food on his plate, seen from the kitchen doorway. ws: +3 house woman, +1 question, +1 secret, +2 aimed at him, +1 alash."
+ },
+ "1795755341_story_s13_NTSe5HOvayw_m1.mp4": {
+  "story": "NTSe5HOvayw",
+  "moment": 1,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 48.79,
+  "ws": 8,
+  "made": "2026-11-27T04:57:00Z",
+  "maker": "A",
+  "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays: median 14.0K vs 5.6K). No new uploads; family-woman titles all mined; pick c from story_rank (NTSe5HOvayw, boss's-daughter story, 1 clip 4.1K, not killed). One piece 320.5-369.0 (voice 48.8 s, file 52.6 s), Mohammedia, no name in the cut. When he fetches the boss's lunch from the house, the boss's wife sympathises (she knows her husband mistreats him) but 'had other reasons': she asks whether her husband stayed in the shop all day; he lies for the boss, who coaches him what to say if his wife asks; days pass; 'the hardest day was Saturday, when we close at 5' - cut before the Saturday drinking and the boss's affair. Frame 1 = boss's wife at her door handing him the lunch pot with a searching look. T1=1 (employer's wife = workplace). ws: +3 house woman (boss's wife at her house), +1 question, +1 secret, +2 her questioning aimed at him, +1 alash."
  }
 }

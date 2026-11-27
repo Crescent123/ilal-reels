@@ -4742,7 +4742,6 @@
   ]
  },
  "NTSe5HOvayw": {
-  "reserved": "2026-11-27T04:42:25Z",
   "mined": "2026-11-27",
   "note": "Safouane, Mohammedia, aluminium workshop; boss abusive, cheats on his wife; ends with narrator marrying the boss's daughter. First clip (Oct 29) location unknown, assumed first 90 s.",
   "moments": [
@@ -4753,7 +4752,9 @@
     "type": "secret",
     "score": 13,
     "hook": "علاش كتسولني مرات المعلم على راجلها؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795755341_story_s13_NTSe5HOvayw_m1.mp4"
    },
    {
     "k": 2,
