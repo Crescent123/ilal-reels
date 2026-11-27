@@ -6343,5 +6343,35 @@
   "maker": "B",
   "ws": 2,
   "note": "all 64 Exp2 slots full: overflow clip, SHORT because this moment only fits short (long would need the apartment demand at 600-606 with an unexplained 'it'; latest 24 h read had long ahead). Two pieces of one continuous passage, only the comment plug + Hilal's hypothetical aside (636.3-679.3) dropped: 628.40-636.20 + 679.30-700.20 (voice 29.04 s, file 32.84 s). Rabat area, no name in the cut. Wife changed since he didn't put the apartment in her name; she locks herself in, he brings gifts, she stops cooking, he eats street sandwiches with his barbershop workers, goes to her parents who say 'look...' - cut before their warning (700.4). Frame 1 = wife pushing an empty plate away. ws: +1 question, +2 aimed at him, +1 alash, -2 family-conflict."
+ },
+ "1795744834_story_s11_4KwcgXEsxdU_m6.mp4": {
+  "story": "4KwcgXEsxdU",
+  "moment": 6,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 0,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 21.5,
+  "made": "2026-11-27T01:58:00Z",
+  "maker": "A",
+  "ws": 7,
+  "note": "all 64 Exp2 slots full: overflow clip, SHORT although long is ahead on 24 h plays (long median 14.0K n=9 vs short 5.6K n=9) because this moment only fits short (a long cut would need the hair-pulling violence before or Hilal's rambling about herbs/medicine 1165-1193). No new uploads; winners exhausted; picked best non-killed todo with a family woman. One piece 1193.50-1214.90 (voice 21.5 s, file 25.3 s), Rabat area, no name in the cut (Hilal named at 1232, outside). After he recovers he goes to his flat with his mom, she swears at the wife all the way, the wife is not home, mom starts searching every corner sure some woman wanted to take her son, 'things will come out' - cut before what she gathers/finds and the fqiha ruqya. Frame 1 = mom searching behind the sofa seen from the doorway. ws: +3 odd act by a family woman (mom searching), +1 question, +1 secret, +2 the hidden thing is aimed at him."
  }
 }

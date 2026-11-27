@@ -4500,13 +4500,16 @@
    },
    {
     "k": 6,
-    "start": 1196.6,
-    "end": 1227.16,
+    "start": 1193.5,
+    "end": 1214.9,
     "type": "secret",
     "score": 7,
     "hook": "شنو لقات الواليدة فداري؟",
-    "status": "todo",
-    "note": "mom goes to his flat, searches and finds bags of hidden things (sihr), brings her fqiha for ruqya. Short ~30 s; Whisper lost 1211-1218, check audio."
+    "status": "queued",
+    "note": "mom goes to his flat, searches and finds bags of hidden things (sihr), brings her fqiha for ruqya. Short ~30 s; Whisper lost 1211-1218, check audio. | A 27 Nov: SHORT overflow 1193.50-1214.90, cut before what mom finds.",
+    "date": "2026-11-27",
+    "file": "1795744834_story_s11_4KwcgXEsxdU_m6.mp4",
+    "maker": "A"
    },
    {
     "k": 7,
@@ -4518,7 +4521,6 @@
     "status": "skip",
     "why": "take/aftermath"
    }
-  ],
-  "reserved": "2026-11-27T01:45:00Z"
+  ]
  }
 }
