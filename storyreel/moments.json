@@ -4552,13 +4552,16 @@
    },
    {
     "k": 3,
-    "start": 1310.0,
-    "end": 1400.0,
+    "start": 1349.25,
+    "end": 1396.5,
     "type": "secret",
     "score": 9,
     "hook": "شنو لقيت فتليفون مراتي؟",
-    "status": "todo",
-    "note": "her phone breaks, he takes it to the repair man, charges it at his parents', opens it alone in his old room: Instagram clean, then WhatsApp chat with her friend (name at 1377 - must be after 8 s). Cut before the chat content (1398+)."
+    "status": "queued",
+    "note": "her phone breaks, he takes it to the repair man, charges it at his parents', opens it alone in his old room: Instagram clean, then WhatsApp chat with her friend (name at 1377 - must be after 8 s). Cut before the chat content (1398+).",
+    "date": "2026-11-27",
+    "file": "1795796685_story_s10_TNtq2upOdnE_m3.mp4",
+    "maker": "B"
    },
    {
     "k": 4,
@@ -4609,8 +4612,7 @@
     "hook": "",
     "status": "skip"
    }
-  ],
-  "reserved": "2026-11-27T16:11:35Z"
+  ]
  },
  "5CB-xNRcg7E": {
   "mined": "2026-11-27",
