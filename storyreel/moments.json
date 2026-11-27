@@ -4759,11 +4759,13 @@
    {
     "k": 2,
     "start": 385.7,
-    "end": 412.8,
+    "end": 414.0,
     "type": "secret",
     "score": 12,
     "hook": "علاش بنت المعلم كتحاول تهضر معايا؟",
-    "status": "todo"
+    "status": "queued",
+    "date": "2026-11-27",
+    "file": "1795790882_story_s12_NTSe5HOvayw_m2.mp4"
    },
    {
     "k": 3,
@@ -4815,7 +4817,6 @@
     "status": "skip",
     "note": "wholesome, reveals ending"
    }
-  ],
-  "reserved": "2026-11-27T14:41:50Z"
+  ]
  }
 }

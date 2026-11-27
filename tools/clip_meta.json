@@ -6586,5 +6586,36 @@
   "made": "2026-11-27T14:20:00Z",
   "maker": "B",
   "note": "all 64 Exp2 slots full: overflow LONG (long ahead on 24 h plays). No new uploads in Stories audio; pick b: best todo moment (NTSe5HOvayw m5, v4 est 12, not killed). One piece 819.52-871.80 (voice 52.5 s, file 56.3 s), Mohammedia; starts right after her name (818.5), name again at 857.5 (outside first 8 s). He tells the boss's wife he has something important about her husband; she pulls him into the salon, sits next to him, demands the truth, her eyes fill with tears ('you're not lying to me?'), he swears he saw it; long talk, she gives him her number, says the boss will claim to visit family on Tuesday, asks him to keep watch and tell her everything; before he leaves she gives him 200 DH - cut before what she plans. Frame 1 = her pulling him into the salon. ws: +3 house woman (boss's wife), +1 question, +1 secret, +2 aimed at him, +1 alash, +2 visible act (pulls him in, cries, gives money)."
+ },
+ "1795790882_story_s12_NTSe5HOvayw_m2.mp4": {
+  "story": "NTSe5HOvayw",
+  "moment": 2,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 1,
+   "D2": 2,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 28.79,
+  "ws": 8,
+  "made": "2026-11-27T14:51:08Z",
+  "maker": "A",
+  "note": "all 64 Exp2 slots full: overflow SHORT although long is ahead, because this moment only fits short (a long cut would end on her looks description or the 'respectfully, out of fear of her dad' deflation). No new uploads in Stories audio; pick b: best todo moment (NTSe5HOvayw m2). One piece 385.70-414.0 (voice 28.79 s, file 32.6 s), Mohammedia; ends right as he starts looking at her and talking with her. Transcript has a ~10 s gap 392.9-402.7 (speech Whisper missed; kept, voice only cut)."
  }
 }
