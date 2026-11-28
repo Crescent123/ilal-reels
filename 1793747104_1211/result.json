@@ -1,0 +1,60 @@
+{
+ "success": true,
+ "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=6e6e35da03624e4c8b76259e8d7d0adb. Docs: https://docs.upload-post.com/api/upload-status",
+ "request_id": "6e6e35da03624e4c8b76259e8d7d0adb",
+ "total_platforms": 1,
+ "job_id": "3dd14d99832e4feebe23a01dc1ffe435",
+ "status_poll": {
+  "status": "completed",
+  "completed": 1,
+  "total": 1,
+  "results": [
+   {
+    "user_email": "ilal-bot@users.noreply.github.com",
+    "profile_username": "default",
+    "platform": "facebook",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-11-03T23:05:40.039Z"
+    },
+    "success": true,
+    "platform_post_id": "1151878991110085",
+    "post_url": "https://www.facebook.com/reel/1151878991110085",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 18358485,
+    "post_title": "البوليسي قبل الرشوة؟ 😳 القصة كاملة هنا: https://www.youtube.com/watch?v=KjErjtcXDsY",
+    "post_caption": "البوليسي قبل الرشوة؟ 😳 القصة كاملة هنا: https://www.youtube.com/watch?v=KjErjtcXDsY",
+    "is_async": true,
+    "dashboard": false,
+    "source": "api",
+    "client": "curl",
+    "client_version": "8.18.0",
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 46.9,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "facebook_page_id": "174332599078147",
+    "request_id": "6e6e35da03624e4c8b76259e8d7d0adb",
+    "request_id_logs": "6e6e35da03624e4c8b76259e8d7d0adb",
+    "job_id": "3dd14d99832e4feebe23a01dc1ffe435",
+    "request_total_platforms": 1
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-11-03T23:05:40.039Z"
+  },
+  "request_id": "6e6e35da03624e4c8b76259e8d7d0adb"
+ }
+}

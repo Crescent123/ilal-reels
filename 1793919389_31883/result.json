@@ -1,0 +1,162 @@
+{
+ "22f8ef3c698e477db4abd060d3bc8421": {
+  "success": true,
+  "post": {
+   "request_id": "22f8ef3c698e477db4abd060d3bc8421",
+   "profile_username": "default",
+   "post_title": "\u0645\u0631\u0627\u062a\u064a \u0643\u062a\u0647\u0636\u0631 \u0645\u0639 \u0634\u0643\u0648\u0646 \u0641\u0627\u0644\u0644\u064a\u0644\u061f \ud83d\udc40 \u0627\u0644\u0642\u0635\u0629 \u0643\u0627\u0645\u0644\u0629 \u0647\u0646\u0627: https://www.youtube.com/watch?v=R81K3EPbTZ4",
+   "post_caption": "\u0645\u0631\u0627\u062a\u064a \u0643\u062a\u0647\u0636\u0631 \u0645\u0639 \u0634\u0643\u0648\u0646 \u0641\u0627\u0644\u0644\u064a\u0644\u061f \ud83d\udc40 \u0627\u0644\u0642\u0635\u0629 \u0643\u0627\u0645\u0644\u0629 \u0647\u0646\u0627: https://www.youtube.com/watch?v=R81K3EPbTZ4",
+   "media_type": "video",
+   "upload_timestamp": "2026-11-02 17:13:36.572000"
+  },
+  "platforms": {
+   "facebook": {
+    "success": true,
+    "platform_post_id": "1845711436789269",
+    "post_url": "https://www.facebook.com/reel/1845711436789269",
+    "error_message": null,
+    "media_size_bytes": 20028663,
+    "target_linkedin_page_id": null,
+    "post_metrics": {
+     "likes": 0,
+     "comments": 0,
+     "views": 219
+    },
+    "post_metrics_source": "platform_api",
+    "profile_snapshot_at_post_date": {
+     "followers": 0,
+     "reach": 0,
+     "impressions": 0,
+     "profileViews": 0
+    },
+    "profile_snapshot_latest": {
+     "followers": 0,
+     "reach": 703,
+     "impressions": 755,
+     "profileViews": 0
+    },
+    "profile_snapshot_latest_date": "2026-11-05"
+   }
+  }
+ },
+ "7ecfa6751aa54b7fb4946d8670369448": {
+  "success": true,
+  "post": {
+   "request_id": "7ecfa6751aa54b7fb4946d8670369448",
+   "profile_username": "default",
+   "post_title": "\u0648\u0644\u062f \u0631\u0627\u062c\u0644\u064a \u0628\u063a\u0627 \u0627\u0644\u0648\u0631\u062b \u0648\u0644\u0627 \u0628\u063a\u0627\u0646\u064a\u061f \ud83e\udd14 \u0627\u0644\u0642\u0635\u0629 \u0643\u0627\u0645\u0644\u0629 \u0647\u0646\u0627: https://www.youtube.com/watch?v=AXQ-13cuz6U",
+   "post_caption": "\u0648\u0644\u062f \u0631\u0627\u062c\u0644\u064a \u0628\u063a\u0627 \u0627\u0644\u0648\u0631\u062b \u0648\u0644\u0627 \u0628\u063a\u0627\u0646\u064a\u061f \ud83e\udd14 \u0627\u0644\u0642\u0635\u0629 \u0643\u0627\u0645\u0644\u0629 \u0647\u0646\u0627: https://www.youtube.com/watch?v=AXQ-13cuz6U",
+   "media_type": "video",
+   "upload_timestamp": "2026-11-02 18:03:26.105000"
+  },
+  "platforms": {
+   "facebook": {
+    "success": true,
+    "platform_post_id": "1134047106256265",
+    "post_url": "https://www.facebook.com/reel/1134047106256265",
+    "error_message": null,
+    "media_size_bytes": 19988344,
+    "target_linkedin_page_id": null,
+    "post_metrics": {
+     "likes": 1,
+     "comments": 0,
+     "views": 154
+    },
+    "post_metrics_source": "platform_api",
+    "profile_snapshot_at_post_date": {
+     "followers": 0,
+     "reach": 0,
+     "impressions": 0,
+     "profileViews": 0
+    },
+    "profile_snapshot_latest": {
+     "followers": 0,
+     "reach": 703,
+     "impressions": 755,
+     "profileViews": 0
+    },
+    "profile_snapshot_latest_date": "2026-11-05"
+   }
+  }
+ },
+ "6e6e35da03624e4c8b76259e8d7d0adb": {
+  "success": true,
+  "post": {
+   "request_id": "6e6e35da03624e4c8b76259e8d7d0adb",
+   "profile_username": "default",
+   "post_title": "\u0627\u0644\u0628\u0648\u0644\u064a\u0633\u064a \u0642\u0628\u0644 \u0627\u0644\u0631\u0634\u0648\u0629\u061f \ud83d\ude33 \u0627\u0644\u0642\u0635\u0629 \u0643\u0627\u0645\u0644\u0629 \u0647\u0646\u0627: https://www.youtube.com/watch?v=KjErjtcXDsY",
+   "post_caption": "\u0627\u0644\u0628\u0648\u0644\u064a\u0633\u064a \u0642\u0628\u0644 \u0627\u0644\u0631\u0634\u0648\u0629\u061f \ud83d\ude33 \u0627\u0644\u0642\u0635\u0629 \u0643\u0627\u0645\u0644\u0629 \u0647\u0646\u0627: https://www.youtube.com/watch?v=KjErjtcXDsY",
+   "media_type": "video",
+   "upload_timestamp": "2026-11-03 23:05:40.039000"
+  },
+  "platforms": {
+   "facebook": {
+    "success": true,
+    "platform_post_id": "1151878991110085",
+    "post_url": "https://www.facebook.com/reel/1151878991110085",
+    "error_message": null,
+    "media_size_bytes": 18358485,
+    "target_linkedin_page_id": null,
+    "post_metrics": {
+     "likes": 0,
+     "comments": 0,
+     "views": 225
+    },
+    "post_metrics_source": "platform_api",
+    "profile_snapshot_at_post_date": {
+     "followers": 0,
+     "reach": 317,
+     "impressions": 344,
+     "profileViews": 0
+    },
+    "profile_snapshot_latest": {
+     "followers": 0,
+     "reach": 703,
+     "impressions": 755,
+     "profileViews": 0
+    },
+    "profile_snapshot_latest_date": "2026-11-05"
+   }
+  }
+ },
+ "8fac5616695f44098c734addc6f40920": {
+  "success": true,
+  "post": {
+   "request_id": "8fac5616695f44098c734addc6f40920",
+   "profile_username": "default",
+   "post_title": "\u0645\u0631\u062a \u062e\u0648\u064a\u0627 \u0634\u0646\u0648 \u0628\u063a\u0627\u062a \u0645\u0646\u064a\u061f \u0627\u0644\u0642\u0635\u0629 \u0643\u0627\u0645\u0644\u0629 \u0647\u0646\u0627: https://www.youtube.com/watch?v=s-gDstpbBGM",
+   "post_caption": "\u0645\u0631\u062a \u062e\u0648\u064a\u0627 \u0634\u0646\u0648 \u0628\u063a\u0627\u062a \u0645\u0646\u064a\u061f \u0627\u0644\u0642\u0635\u0629 \u0643\u0627\u0645\u0644\u0629 \u0647\u0646\u0627: https://www.youtube.com/watch?v=s-gDstpbBGM",
+   "media_type": "video",
+   "upload_timestamp": "2026-11-04 22:47:26.099000"
+  },
+  "platforms": {
+   "facebook": {
+    "success": true,
+    "platform_post_id": "971312698926206",
+    "post_url": "https://www.facebook.com/reel/971312698926206",
+    "error_message": null,
+    "media_size_bytes": 21595527,
+    "target_linkedin_page_id": null,
+    "post_metrics": {
+     "likes": 0,
+     "comments": 0,
+     "views": 206
+    },
+    "post_metrics_source": "platform_api",
+    "profile_snapshot_at_post_date": {
+     "followers": 0,
+     "reach": 537,
+     "impressions": 576,
+     "profileViews": 0
+    },
+    "profile_snapshot_latest": {
+     "followers": 0,
+     "reach": 703,
+     "impressions": 755,
+     "profileViews": 0
+    },
+    "profile_snapshot_latest_date": "2026-11-05"
+   }
+  }
+ }
+}

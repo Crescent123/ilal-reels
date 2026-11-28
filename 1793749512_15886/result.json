@@ -1,0 +1,60 @@
+{
+ "success": true,
+ "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=f8d055f8492d41148ba49785f2bd461b. Docs: https://docs.upload-post.com/api/upload-status",
+ "request_id": "f8d055f8492d41148ba49785f2bd461b",
+ "total_platforms": 1,
+ "job_id": "52a2d2125b2d415abc872632b8f2a00e",
+ "status_poll": {
+  "status": "completed",
+  "completed": 1,
+  "total": 1,
+  "results": [
+   {
+    "user_email": "ilal-bot@users.noreply.github.com",
+    "profile_username": "default",
+    "platform": "tiktok",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-11-03T23:46:42.583Z"
+    },
+    "success": true,
+    "platform_post_id": "7704095535078231314",
+    "post_url": "https://www.tiktok.com/@_ilal_/video/7704095535078231314",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 17931587,
+    "post_title": "شنو لقا فتليفون خطيبتو؟ 😳 القصة كاملة فيوتيوب: ilal Stories",
+    "post_caption": "",
+    "is_async": true,
+    "dashboard": false,
+    "source": "api",
+    "client": "curl",
+    "client_version": "8.18.0",
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 42.434,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "original_publish_id": "v_pub_url~v2.7704095354870728722",
+    "request_id": "f8d055f8492d41148ba49785f2bd461b",
+    "request_id_logs": "f8d055f8492d41148ba49785f2bd461b",
+    "job_id": "52a2d2125b2d415abc872632b8f2a00e",
+    "request_total_platforms": 1
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-11-03T23:46:42.583Z"
+  },
+  "request_id": "f8d055f8492d41148ba49785f2bd461b"
+ }
+}

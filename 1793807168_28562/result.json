@@ -1,0 +1,60 @@
+{
+ "success": true,
+ "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=10b5f6f364df4a6d956a9590461dad75. Docs: https://docs.upload-post.com/api/upload-status",
+ "request_id": "10b5f6f364df4a6d956a9590461dad75",
+ "total_platforms": 1,
+ "job_id": "1bda9fb9df6144f2b8e84aae45ad564a",
+ "status_poll": {
+  "status": "completed",
+  "completed": 1,
+  "total": 1,
+  "results": [
+   {
+    "user_email": "ilal-bot@users.noreply.github.com",
+    "profile_username": "default",
+    "platform": "tiktok",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-11-04T15:47:41.484Z"
+    },
+    "success": true,
+    "platform_post_id": "7704343230199958805",
+    "post_url": "https://www.tiktok.com/@_ilal_/video/7704343230199958805",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 17759974,
+    "post_title": "شنو لقيت فتليفون مراتي؟ 😳 القصة كاملة فيوتيوب: ilal Stories",
+    "post_caption": "",
+    "is_async": true,
+    "dashboard": false,
+    "source": "api",
+    "client": "curl",
+    "client_version": "8.18.0",
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 53.667,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "original_publish_id": "v_pub_url~v2.7704342945947879445",
+    "request_id": "10b5f6f364df4a6d956a9590461dad75",
+    "request_id_logs": "10b5f6f364df4a6d956a9590461dad75",
+    "job_id": "1bda9fb9df6144f2b8e84aae45ad564a",
+    "request_total_platforms": 1
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-11-04T15:47:41.484Z"
+  },
+  "request_id": "10b5f6f364df4a6d956a9590461dad75"
+ }
+}

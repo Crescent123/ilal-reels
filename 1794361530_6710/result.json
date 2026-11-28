@@ -1,0 +1,60 @@
+{
+ "success": true,
+ "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=d88233ea6fc6484ebe5ee2ff4e4923a3. Docs: https://docs.upload-post.com/api/upload-status",
+ "request_id": "d88233ea6fc6484ebe5ee2ff4e4923a3",
+ "total_platforms": 1,
+ "job_id": "336ae7440f504f2da78aab461ebdf1be",
+ "status_poll": {
+  "status": "completed",
+  "completed": 1,
+  "total": 1,
+  "results": [
+   {
+    "user_email": "[email]",
+    "profile_username": "default",
+    "platform": "tiktok",
+    "media_type": "video",
+    "upload_timestamp": {
+     "$date": "2026-11-11T01:46:24.939Z"
+    },
+    "success": true,
+    "platform_post_id": "7706724084331302152",
+    "post_url": "https://www.tiktok.com/@_ilal_/video/7706724084331302152",
+    "error_message": null,
+    "error_signature": null,
+    "error_code": null,
+    "failure_stage": null,
+    "media_size_bytes": 3895098,
+    "post_title": "القصة كاملة فيوتيوب: ilal Stories 🎧",
+    "post_caption": "",
+    "is_async": true,
+    "dashboard": false,
+    "source": "api",
+    "client": "curl",
+    "client_version": "8.18.0",
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 47.28,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "target_linkedin_page_id": null,
+    "original_publish_id": "v_pub_url~v2.7706723709356279816",
+    "request_id": "d88233ea6fc6484ebe5ee2ff4e4923a3",
+    "request_id_logs": "d88233ea6fc6484ebe5ee2ff4e4923a3",
+    "job_id": "336ae7440f504f2da78aab461ebdf1be",
+    "request_total_platforms": 1
+   }
+  ],
+  "external_id": null,
+  "last_update": {
+   "$date": "2026-11-11T01:46:24.939Z"
+  },
+  "request_id": "d88233ea6fc6484ebe5ee2ff4e4923a3"
+ }
+}

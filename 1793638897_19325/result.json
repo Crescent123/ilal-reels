@@ -1,0 +1,42 @@
+{
+ "success": true,
+ "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=e369fa6a21f74361ad38b90bd68d6dfb. Docs: https://docs.upload-post.com/api/upload-status",
+ "request_id": "e369fa6a21f74361ad38b90bd68d6dfb",
+ "total_platforms": 1,
+ "job_id": "00aa1c83a3144596bf82bf456c1d5eef",
+ "status_poll": {
+  "request_id": "e369fa6a21f74361ad38b90bd68d6dfb",
+  "job_id": "00aa1c83a3144596bf82bf456c1d5eef",
+  "status": "completed",
+  "scheduler_status": "running",
+  "completed": 1,
+  "failed": 0,
+  "retryable": 0,
+  "skipped": 0,
+  "total": 1,
+  "results": [
+   {
+    "success": true,
+    "post_id": "18129089482848088",
+    "url": "https://www.instagram.com/reel/DfPzT0vIyvg/",
+    "media_type": "REELS",
+    "video_was_transcoded": false,
+    "changes": [],
+    "prevalidation_metadata": {
+     "width": 1080,
+     "height": 1920,
+     "fps": 30.0,
+     "duration": 54.28,
+     "container": "mov,mp4,m4a,3gp,3g2,mj2",
+     "video_codec": "h264",
+     "audio_codec": "aac"
+    },
+    "platform": "instagram",
+    "status": "completed",
+    "attempts": 1
+   }
+  ],
+  "external_id": null,
+  "last_update": "Mon, 02 Nov 2026 17:05:46 GMT"
+ }
+}

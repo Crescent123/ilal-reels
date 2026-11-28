@@ -1,0 +1,26 @@
+{
+ "success": true,
+ "profiles": [
+  {
+   "username": "default",
+   "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ]
+  },
+  {
+   "username": "Stories",
+   "platforms": [
+    "instagram"
+   ]
+  }
+ ],
+ "keys": [
+  "limit",
+  "plan",
+  "profiles",
+  "success"
+ ]
+}
