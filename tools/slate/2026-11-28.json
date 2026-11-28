@@ -1,0 +1,141 @@
+{
+ "date": "2026-11-28",
+ "built": "2026-11-28T18:06:32Z",
+ "items": [
+  {
+   "pos": 1,
+   "file": "1795755341_story_s13_NTSe5HOvayw_m1.mp4",
+   "pick": "rand",
+   "v4": 13,
+   "story": 4,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 8,
+   "length": 48.79,
+   "exp2_slot": null
+  },
+  {
+   "pos": 2,
+   "file": "1795823529_story_s12_tMcdf896iHI_m7.mp4",
+   "pick": "winner",
+   "v4": 12,
+   "story": 5,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 8,
+   "length": 26.13,
+   "exp2_slot": null
+  },
+  {
+   "pos": 3,
+   "file": "1795734251_story_s11_qpUDTizlg3c_m7.mp4",
+   "pick": "winner",
+   "v4": 11,
+   "story": 3,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 7,
+   "length": 48.0,
+   "exp2_slot": null
+  },
+  {
+   "pos": 4,
+   "file": "1795717189_story_s11_GzgMeEmVj0A_m3.mp4",
+   "pick": "rand",
+   "v4": 11,
+   "story": 4,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 5,
+   "length": 51.37,
+   "exp2_slot": null
+  },
+  {
+   "pos": 5,
+   "file": "1795828843_story_s12_xveraYYfnNA_m3.mp4",
+   "pick": "rand",
+   "v4": 12,
+   "story": 4,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 7,
+   "length": 53.47,
+   "exp2_slot": null
+  },
+  {
+   "pos": 6,
+   "file": "1795825764_story_s14_fetOcS0fBSg_m9.mp4",
+   "pick": "winner",
+   "v4": 14,
+   "story": 5,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 8,
+   "length": 25.94,
+   "exp2_slot": null
+  },
+  {
+   "pos": 7,
+   "file": "1795714340_story_s10_GzgMeEmVj0A_m1.mp4",
+   "pick": "rand",
+   "v4": 10,
+   "story": 4,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 5,
+   "length": 53.6,
+   "exp2_slot": null
+  },
+  {
+   "pos": 8,
+   "file": "1795836746_story_s13_JKNbzIL9GsE_m10.mp4",
+   "pick": "winner",
+   "v4": 13,
+   "story": 5,
+   "arm": {
+    "length": "short",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 12,
+   "length": 28.45,
+   "exp2_slot": null
+  },
+  {
+   "pos": 9,
+   "file": "1795575128_story_s13_kgDH1GCfXWM_m1.mp4",
+   "pick": "rand",
+   "v4": 13,
+   "story": 6,
+   "arm": {
+    "length": "long",
+    "build": 1,
+    "ending": 0
+   },
+   "ws": 5,
+   "length": 53.9,
+   "exp2_slot": 41
+  }
+ ]
+}
