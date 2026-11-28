@@ -5103,6 +5103,81 @@
   ]
  },
  "MCrm9jc-aIc": {
-  "reserved": "2026-11-28T02:11:54Z"
+  "mined": "2026-11-28",
+  "maker": "B",
+  "note": "Amine (rich, Rabat Agdal, college after bac) and Khadija, the college cleaning lady's daughter. First clip (11 Nov) = 342.0-353.28 + 384.7-422.76. Later: he lends her his flat key; her brother steals it and throws a party there; the brother stabs Amine's face (violence); police, brother 5 years; Khadija ashamed. Names: Khadija from 511 on, Amine at 14.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 252.3,
+    "end": 280.4,
+    "type": "hook",
+    "score": 11,
+    "hook": "شنو دارت فيا بنت المنظفة؟",
+    "status": "queued",
+    "date": "2026-11-28",
+    "file": "1795832690_story_s11_MCrm9jc-aIc_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 465.0,
+    "end": 495.0,
+    "type": "twist",
+    "score": 5,
+    "hook": "علاش ما بغاتش التيليفون؟",
+    "status": "todo",
+    "why": "he asks her Instagram, she has an old broken phone, he brings her a new one, she refuses at first (wholesome; girlfriend)"
+   },
+   {
+    "k": 3,
+    "start": 1117.46,
+    "end": 1147.4,
+    "type": "secret",
+    "score": 7,
+    "hook": "شكون كان فداري فالليل؟",
+    "status": "todo",
+    "why": "10 pm music in his flat (only she has the key), knocks, no answer, opens: 5 guys and 3 girls. Name Khadija at ~1115.5 and 1108: start after 1117. Cut before the knife (1148)."
+   },
+   {
+    "k": 4,
+    "start": 1148.0,
+    "end": 1215.0,
+    "type": "conflict",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "knife to the face: violence"
+   },
+   {
+    "k": 5,
+    "start": 1244.98,
+    "end": 1284.4,
+    "type": "secret",
+    "score": 6,
+    "hook": "علاش كانت خايفة تقولي؟",
+    "status": "todo",
+    "why": "she doesn't call, scared and hesitant, admits her brother took the key from her bag; girlfriend (T1 0); name at 1243.9 just before start"
+   },
+   {
+    "k": 6,
+    "start": 1001.0,
+    "end": 1043.0,
+    "type": "conflict",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "parents refuse a poor girl; name spoken 1030; family conflict + digression"
+   },
+   {
+    "k": 7,
+    "start": 1488.0,
+    "end": 1560.0,
+    "type": "take",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "why": "take/advice, reveals ending"
+   }
+  ]
  }
 }
