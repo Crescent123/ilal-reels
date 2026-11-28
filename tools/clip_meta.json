@@ -7469,5 +7469,37 @@
   "test": null,
   "ws": 5,
   "note": "all 64 Exp2 slots full: overflow SHORT (as A/B today). No new uploads in Stories audio (Drive checked); winners exhausted per notes; took s-gDstpbBGM todo m9. One piece 313.84-336.88 (voice 23.41 s): brother's wife throws a frying pan / once a cleaver at my brother, he obeys like a dog, she belittles me, my brother finally stands up to her, dad shouts at everyone; cut before he leaves / is told to apologise. No names in first 8 s. ws: +3 family woman, +1 question, +1 alash motive (not aimed at narrator, twist type, not winner list)."
+ },
+ "1795841612_story_s9_MCrm9jc-aIc_m3.mp4": {
+  "story": "MCrm9jc-aIc",
+  "moment": 3,
+  "v4": {
+   "T1": 1,
+   "T2": 1,
+   "T3": 1,
+   "H1": 1,
+   "H2": 0,
+   "H3": 1,
+   "D1": 2,
+   "D2": 2,
+   "total": 9,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 27.65,
+  "made": "2026-11-28T04:58:00Z",
+  "maker": "A",
+  "test": null,
+  "ws": 2,
+  "note": "all 64 Exp2 slots full: overflow SHORT (as A/B today). No new uploads in Stories audio (Drive checked); took moments.json todo MCrm9jc-aIc m3 (highest non-woman-narrated todo). One piece 1123.88-1147.5 (voice 23.85 s): 10 pm, music in his flat, knocks, nobody answers, opens the door (wishes he had called the police), flat full of strangers, five guys and three girls; cut before the knife. Started after the name at 1118.5 so no name in first 8 s. ws: +1 question, +1 secret (no family woman)."
  }
 }

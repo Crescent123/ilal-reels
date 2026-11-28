@@ -5168,13 +5168,16 @@
    },
    {
     "k": 3,
-    "start": 1117.46,
-    "end": 1147.4,
+    "start": 1123.88,
+    "end": 1147.5,
     "type": "secret",
     "score": 7,
     "hook": "شكون كان فداري فالليل؟",
-    "status": "todo",
-    "why": "10 pm music in his flat (only she has the key), knocks, no answer, opens: 5 guys and 3 girls. Name Khadija at ~1115.5 and 1108: start after 1117. Cut before the knife (1148)."
+    "status": "queued",
+    "why": "10 pm music in his flat (only she has the key), knocks, no answer, opens: 5 guys and 3 girls. Name Khadija at ~1115.5 and 1108: start after 1117. Cut before the knife (1148).",
+    "date": "2026-11-28",
+    "file": "1795841612_story_s9_MCrm9jc-aIc_m3.mp4",
+    "maker": "A"
    },
    {
     "k": 4,
@@ -5216,8 +5219,7 @@
     "status": "skip",
     "why": "take/advice, reveals ending"
    }
-  ],
-  "reserved": "2026-11-28T04:43:21Z"
+  ]
  },
  "XETMK2uvliw": {
   "mined": "2026-11-28",
