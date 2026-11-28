@@ -2570,7 +2570,7 @@
  },
  "NhSbv-eD2Cs": {
   "mined": "2026-11-24",
-  "note": "sister (named on audio) secretly did OnlyFans to pay for the family/brother's studies; cousin (named on audio) tells the narrator on the way to a far shop in Kenitra. Names spoken at 402, 624, 653, 733 - keep them out of the first 8 s.",
+  "note": "sister (named on audio) secretly did OnlyFans to pay for the family/brother's studies; cousin (named on audio) tells the narrator on the way to a far shop in Kenitra. Names spoken at 402, 624, 653, 733 - keep them out of the first 8 s. | B 28 Nov re-read 452-608: backstory (bac, moves to aunt in Kenitra, internship, narrator's jealousy) with the sister's name every few seconds; 737-835 OnlyFans details (sexual). Nothing usable left.",
   "moments": [
    {
     "k": 1,
@@ -2647,8 +2647,7 @@
     "maker": "B",
     "note": "Exp2 slot 64 short (26.15 s voice): 'I'd learn the secret hidden from me for years'; trip to Kenitra with mom; cousin embarrassed on seeing mom; gas bottle runs out at midnight; ends right before m3 (aunt sends me to the far shop). Remaining unposted passages are digressions/heavy/post-reveal: story fully mined."
    }
-  ],
-  "reserved": "2026-11-28T14:09:20Z"
+  ]
  },
  "gmpMSPIhz9k": {
   "mined": "2026-11-24",
@@ -5290,5 +5289,8 @@
     "why": "take + plug"
    }
   ]
+ },
+ "wvKdKe3lqXU": {
+  "reserved": "2026-11-28T14:19:01Z"
  }
 }
