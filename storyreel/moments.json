@@ -5291,6 +5291,51 @@
   ]
  },
  "wvKdKe3lqXU": {
-  "reserved": "2026-11-28T14:19:01Z"
+  "mined": "2026-11-28",
+  "maker": "B",
+  "note": "Listener's story (narrator named Adil at 34 s, fiancee Hafsa named at 432/879 s): rural boy, college, economics faculty, meets Hafsa in a group project; she refuses sex before marriage, they plan to marry; before the engagement she confesses a sexual relationship with her friend Lamia (920-990, sexual: skip); married, bedroom problems (1100-1160, sexual: skip). First clip (6 Nov) location unknown: assume first 90 s. Mostly romance/backstory; little else usable.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 880.0,
+    "end": 904.45,
+    "type": "secret",
+    "score": 10,
+    "hook": "شنو بغات تقولي خطيبتي قبل العرس؟",
+    "status": "queued",
+    "date": "2026-11-28",
+    "file": "1795876239_story_s10_wvKdKe3lqXU_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 400.0,
+    "end": 432.0,
+    "type": "twist",
+    "score": 5,
+    "hook": "",
+    "status": "skip",
+    "note": "she catches up after class: 'I liked talking with you' - girlfriend, low value"
+   },
+   {
+    "k": 3,
+    "start": 660.0,
+    "end": 740.0,
+    "type": "conflict",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "note": "he proposes sex outside marriage, she refuses: narrator's own wrongdoing"
+   },
+   {
+    "k": 4,
+    "start": 920.0,
+    "end": 1000.0,
+    "type": "secret",
+    "score": 3,
+    "hook": "",
+    "status": "skip",
+    "note": "confession of the relationship with her friend: sexual"
+   }
+  ]
  }
 }

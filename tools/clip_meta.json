@@ -7501,5 +7501,37 @@
   "test": null,
   "ws": 2,
   "note": "all 64 Exp2 slots full: overflow SHORT (as A/B today). No new uploads in Stories audio (Drive checked); took moments.json todo MCrm9jc-aIc m3 (highest non-woman-narrated todo). One piece 1123.88-1147.5 (voice 23.85 s): 10 pm, music in his flat, knocks, nobody answers, opens the door (wishes he had called the police), flat full of strangers, five guys and three girls; cut before the knife. Started after the name at 1118.5 so no name in first 8 s. ws: +1 question, +1 secret (no family woman)."
+ },
+ "1795876239_story_s10_wvKdKe3lqXU_m1.mp4": {
+  "story": "wvKdKe3lqXU",
+  "moment": 1,
+  "v4": {
+   "T1": 0,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 1,
+   "D1": 1,
+   "D2": 2,
+   "total": 10,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 28.75,
+  "made": "2026-11-28T14:31:00Z",
+  "maker": "B",
+  "test": null,
+  "ws": 2,
+  "note": "all 64 Exp2 slots full: overflow SHORT (as A/B today). No new uploads in Stories audio (Drive checked); winner gaps re-read (7dd81A4zfu4 353-408, NhSbv-eD2Cs 452-608, iXmznDnI6Bg 1116-1225) - nothing usable; took story_rank story wvKdKe3lqXU (listener's story, rural guy + city fiancee, never mined). One piece 880.0-904.45 (voice 24.95 s): on the way she stays silent, he stops talking, she says 'before we marry you must know one thing', his mind races; cut before her confession (her past relationship with her female friend). Fiancee's name at 879.7 (before start), none in the clip. ws: -2 fiancee, +1 question, +1 secret, +2 aimed at narrator."
  }
 }
