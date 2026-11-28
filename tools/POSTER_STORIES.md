@@ -12,7 +12,11 @@ Follow tools/POSTER.md exactly, with these differences:
 - Every post is a Trial Reel, never shared to followers, no caption — same as @_ilal_.
 - Log in tools/post_log.jsonl with "account": "stories" (and the usual fields + "request_id" from Upload-Post and the
   permalink/shortcode). Main-account lines without "account" mean @_ilal_.
-- After it is PUBLISHED, remove the queue file with `bash tools/queue_rm.sh <file>` (both posters share the queue).
+- After it is PUBLISHED: FIRST archive it (28 Nov fix — 3 lab posts lost their archive copy, and an approved lab clip can only
+  move to @_ilal_ from the archive): download https://raw.githubusercontent.com/Crescent123/ilal-reels/trial-queue/<file>,
+  run `bash tools/posted_add.sh <local mp4> <file>`, confirm the file is listed on branch trial-posted (retry up to 3 times),
+  THEN `bash tools/queue_rm.sh <file>` (both posters share the queue). If the archive still fails, keep the file in the
+  queue and log "archive_failed" — never remove an unarchived lab clip.
 - Lock: use the same poster lock as POSTER.md so the two posters never edit the queue at the same moment.
 
 - 28 Nov: after the test clips, order the rest like POSTER step 2c (ws ≥ 5 filter, winner-list stories first, then random) — ws is not a ranking any more.
