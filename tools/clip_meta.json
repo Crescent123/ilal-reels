@@ -7180,5 +7180,37 @@
   "test": null,
   "ws": 8,
   "note": "all 64 Exp2 slots full: overflow SHORT. No new uploads in Stories audio (Drive checked); winners mined, so re-mined winner tMcdf896iHI (m5 short at 17.9K/3.6h) for an unposted passage. One piece 717.20-739.20 (voice 22.3 s, total 26.1 s): after dinner it's late; his mom tells the neighbourhood cake girl 'sit, my daughter, sleep here with the girls, I won't let you go now', he will give her his room; cut as he heads for the salon, before the night. Name Saad at 716.9 (excluded) and ~13.8 s (spoken only, outside first 8 s; not in title/captions). ws: +3 house woman (mom), +2 winner story, +1 question, +1 secret type, +1 alash motive."
+ },
+ "1795825764_story_s14_fetOcS0fBSg_m9.mp4": {
+  "story": "fetOcS0fBSg",
+  "moment": 9,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 14,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 25.94,
+  "made": "2026-11-28T00:33:00Z",
+  "maker": "B",
+  "test": null,
+  "ws": 8,
+  "note": "all 64 Exp2 slots full: overflow SHORT. No new uploads in Stories audio (Drive checked). Re-mined winner fetOcS0fBSg (42K) for an unposted gap: one piece 1616.05-1638.00 (voice 22.1 s, total 25.9 s), right before m4 (1637.98). 'The day we went to my parents, I wish we never went, I wish she never came'; mom welcomes them with milk and dates, but the moment she sees the wife's mother she stares at her strangely, and the other stares back. Cut before mom takes her aside (m4) / the sorceress reveal (m5). Name Hajar spoken at ~17.4 s only (not in title/captions). ws: +3 family woman (mom), +2 winner, +1 question, +1 secret, +1 alash motive; not aimed at narrator."
  }
 }

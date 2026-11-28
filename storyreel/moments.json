@@ -839,10 +839,21 @@
     "file": "1795190345_story_s12_fetOcS0fBSg_m8.mp4",
     "maker": "A",
     "note": "Exp1 slot 29 (build 1, ending 1): confronts wife over the talismans 'before we married?'; reveal inside = she stammers, says it's their family custom; divorce decision at 17.6 s; his take: not a small mistake, trust gone, divorce hard. Re-transcribed 1836-1916 (old transcript had a gap 1871-1885)."
+   },
+   {
+    "k": 9,
+    "start": 1616.05,
+    "end": 1638.0,
+    "type": "secret",
+    "score": 14,
+    "hook": "علاش تصدمات ماما من نسيبتي؟",
+    "status": "queued",
+    "date": "2026-11-28",
+    "file": "1795825764_story_s14_fetOcS0fBSg_m9.mp4",
+    "note": "B 28 Nov: re-transcribed (ai job 1795824920); mother-in-law's visit, mom stares at her strangely; sets up m4. Gaps left: 1314-1594 is the romance/meeting + take (weak), 1734-1845 plug/membership + talisman photo digression."
    }
   ],
-  "maker": "A",
-  "reserved": "2026-11-28T00:13:51Z"
+  "maker": "A"
  },
  "n1Y5rhFeQ9s": {
   "maker": "A",
