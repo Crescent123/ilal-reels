@@ -7437,5 +7437,37 @@
   "test": null,
   "ws": 8,
   "note": "all 64 Exp2 slots full: overflow SHORT (short ahead on 24 h plays per B's 03:32 note). No new uploads in Stories audio (Drive checked); todo moments weak, winners exhausted. Re-mined brother's-wife story s-gDstpbBGM: unposted passage right after m3. One piece 705.25-726.1. No names. ws: +3 family woman (brother's wife), +1 question, +1 secret, +2 aimed at narrator, +1 alash motive (verbal confession, no visible-act bonus; not on winner list)."
+ },
+ "1795839552_story_s14_s-gDstpbBGM_m9.mp4": {
+  "story": "s-gDstpbBGM",
+  "moment": 9,
+  "v4": {
+   "T1": 2,
+   "T2": 2,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 14,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 27.21,
+  "made": "2026-11-28T04:20:45Z",
+  "maker": "B",
+  "test": null,
+  "ws": 5,
+  "note": "all 64 Exp2 slots full: overflow SHORT (as A/B today). No new uploads in Stories audio (Drive checked); winners exhausted per notes; took s-gDstpbBGM todo m9. One piece 313.84-336.88 (voice 23.41 s): brother's wife throws a frying pan / once a cleaver at my brother, he obeys like a dog, she belittles me, my brother finally stands up to her, dad shouts at everyone; cut before he leaves / is told to apologise. No names in first 8 s. ws: +3 family woman, +1 question, +1 alash motive (not aimed at narrator, twist type, not winner list)."
  }
 }
