@@ -5181,7 +5181,72 @@
   ]
  },
  "XETMK2uvliw": {
-  "reserved": "2026-11-28T02:43:09Z",
-  "maker": "A"
+  "mined": "2026-11-28",
+  "maker": "A",
+  "note": "Woman-narrated (Hilal reads a female listener's story). Sister's 2nd husband acts strangely toward her at a family dinner (= first clip, Oct 14, assume 0-90 s), turns out the sister planned it as a 'test' (84-112 reveal). Backstory: sister's 1st husband stole the narrator's clothes (155-208). Mom and sister lie to get her to a gathering (m1). Dad fights the husband (325-352), aunt insults her over her wedding after the sister's gossip (446-494). No names spoken. 560+ = take/plug.",
+  "moments": [
+   {
+    "k": 1,
+    "start": 266.5,
+    "end": 290.55,
+    "type": "secret",
+    "score": 13,
+    "hook": "علاش كذبات عليا ماما؟",
+    "status": "queued",
+    "date": "2026-11-28",
+    "file": "1795834355_story_s13_XETMK2uvliw_m1.mp4",
+    "note": "A, H10 lab test, overflow short (24.2 s voice): she refuses a family gathering because sister + husband will be there; mom swears they won't; she goes and finds them both; sister and mom agreed to lie; sister wants her to apologize to him. Ends before the fight."
+   },
+   {
+    "k": 2,
+    "start": 155.44,
+    "end": 186.74,
+    "type": "secret",
+    "score": 9,
+    "hook": "شكون كان كيسرق حوايجي؟",
+    "status": "todo",
+    "why": "living with sister and her 1st husband, her clothes keep vanishing, sister denies taking them... cut before 'it was my sister's husband' (188). 31.3 s: trim start to fit short (start ~157-161) or skip; underwear theft is sexual-ish; woman-narrated (H10 only)."
+   },
+   {
+    "k": 3,
+    "start": 446.08,
+    "end": 494.5,
+    "type": "conflict",
+    "score": 8,
+    "hook": "علاش خالتي كتعاير فيا؟",
+    "status": "todo",
+    "why": "long ~48 s: inviting the family to her wedding, her aunt is cold, sister spread a false story, aunt insults her and her fiancé, mom backed the gossip. Family conflict, woman-narrated (H10 only)."
+   },
+   {
+    "k": 4,
+    "start": 84.66,
+    "end": 112.7,
+    "type": "twist",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "reveal of the first clip (the 'test')"
+   },
+   {
+    "k": 5,
+    "start": 325.36,
+    "end": 352.3,
+    "type": "conflict",
+    "score": 4,
+    "hook": "",
+    "status": "skip",
+    "why": "dad fights the husband, police threat (violence)"
+   },
+   {
+    "k": 6,
+    "start": 560.0,
+    "end": 607.0,
+    "type": "take",
+    "score": 2,
+    "hook": "",
+    "status": "skip",
+    "why": "take + plug"
+   }
+  ]
  }
 }

@@ -7341,5 +7341,37 @@
   "test": null,
   "ws": 5,
   "note": "all 64 Exp2 slots full: overflow SHORT (B's last overflow was long). No new uploads in Stories audio (Drive checked); todo moments weak (girlfriend/wife/advice, gmpMSPIhz9k woman-narrated + killed); winner stories mined out. New story MCrm9jc-aIc (first clip 12K). One piece 252.30-280.40 (voice 28.2 s): the college cleaning lady sometimes brings her pretty daughter, about his age; one day in the corridor she is bent by the bucket, doesn't see him, startles and spills the whole bucket on his trousers. Cut before her apology / his reaction. No name in cut (Khadija first named at 511). ws: +1 question, +2 aimed at narrator, +2 visible physical act; no family woman (workplace)."
+ },
+ "1795834355_story_s13_XETMK2uvliw_m1.mp4": {
+  "story": "XETMK2uvliw",
+  "moment": 1,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 24.23,
+  "made": "2026-11-28T02:55:23Z",
+  "maker": "A",
+  "test": "H10",
+  "ws": 3,
+  "note": "H10 lab test (woman narrator), every-3rd-run test. All 64 Exp2 slots full: overflow SHORT (A's last overflow was long). No new uploads in Stories audio (Drive checked). One piece 266.5-290.55: she tells them she won't come since her sister and the sister's husband will be there; mom swears they won't be; she goes in and finds them both sitting; sister and mom agreed to lie; sister wants her to apologize to him as if it were her fault. Cut before the fight. No names. ws: +3 family woman, +1 question, +1 secret, +2 aimed at narrator, +1 علاش, -2 family-conflict, -3 woman narrator."
  }
 }
