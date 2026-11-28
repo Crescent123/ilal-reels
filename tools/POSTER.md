@@ -54,6 +54,9 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
       rest in a random order (random.Random("<date>")). pick = "winner" or "rand". Keep ≥3 short and ≥3 long when available.
    c1. APPROVED (26 Nov, tools/LAB.md): up to 2 of the 9 may be "approved" lab clips (the biggest first) (≥15K at 24 h on @ilalstories,
       posted there ≥48 h ago), pick "approved". Skip clips whose clip_meta "test" names a hypothesis still active.
+      The approved file is no longer in trial-queue (the lab removed it): it lives on branch trial-posted — use
+      https://raw.githubusercontent.com/Crescent123/ilal-reels/trial-posted/<file> as the video URL, skip queue_rm for it,
+      and log it with "pick": "approved", "lab_sc": <its lab shortcode>.
    c2. STORY CAP (22 Nov, Hilal approved): at most 2 clips from the same story (YouTube id) in one day's slate, across
       top6 and random3. A pick that would be a 3rd clip of a story is skipped and the next one taken (for random3,
       redraw with the same seeded generator). Arms are unaffected.
