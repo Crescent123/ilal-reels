@@ -5342,7 +5342,57 @@
   ]
  },
  "o6JR7LjP96Q": {
-  "reserved": "2026-11-28T15:14:09Z",
-  "maker": "B"
+  "mined": "2026-11-28",
+  "maker": "B",
+  "note": "Woman narrator (Israa, 34, named at 6.8 s; now in Europe). Sponsor plug 51.98-92.06. Ex-husband from Khemisset, controlling; mother-in-law opens her door without knocking and finds her on an English-practice call (668-700), lies to him, he shouts (785-810); infertility/divorce 962-1040 (heavy); later a Belgian-Turkish guy (named Arman at 1107/1120) visits Morocco, she brings her aunt (close in age) to the date, he falls for the aunt, aunt marries him (1164-1310). H10 test material only (woman narrator, ws -3).",
+  "moments": [
+   {
+    "k": 1,
+    "start": 1164.0,
+    "end": 1188.1,
+    "type": "secret",
+    "score": 13,
+    "hook": "شنو وقع بين عمتي وصاحبي؟",
+    "status": "queued",
+    "date": "2026-11-28",
+    "file": "1795879434_story_s13_o6JR7LjP96Q_m1.mp4"
+   },
+   {
+    "k": 2,
+    "start": 666.0,
+    "end": 700.7,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش حماتي حلات عليا البيت؟",
+    "status": "todo"
+   },
+   {
+    "k": 3,
+    "start": 785.66,
+    "end": 810.1,
+    "type": "conflict",
+    "score": 8,
+    "hook": "شنو قالت حماتي لراجلي؟",
+    "status": "todo"
+   },
+   {
+    "k": 4,
+    "start": 1228.6,
+    "end": 1252.9,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش عمتي ما بقاتش كتديني معاها؟",
+    "status": "todo"
+   },
+   {
+    "k": 5,
+    "start": 962.8,
+    "end": 1037.9,
+    "type": "conflict",
+    "score": 5,
+    "hook": "",
+    "status": "skip"
+   }
+  ]
  }
 }

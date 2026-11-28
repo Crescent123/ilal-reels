@@ -7565,5 +7565,35 @@
   "test": "H10",
   "ws": -1,
   "note": "H10 lab test (woman narrator), A's every-3rd-run test. All 64 Exp2 slots full: overflow SHORT (as A/B today). No new uploads in Stories audio (Drive checked). One piece 167.02-187.38 (voice 20.75 s): living at her sister's, her clothes keep vanishing, she thinks her sister takes them by mistake, buys new clothes every week, sister denies, it keeps happening, 'until one day'; cut before 'it was my sister's husband' (187.4). Started after 163.96 'سام' (possible name) so nothing name-like in first 8 s. ws: +1 question, +1 secret, -3 woman narrator."
+ },
+ "1795879434_story_s13_o6JR7LjP96Q_m1.mp4": {
+  "story": "o6JR7LjP96Q",
+  "moment": 1,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 1,
+   "D1": 2,
+   "D2": 2,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 28.08,
+  "made": "2026-11-28T15:31:00Z",
+  "ws": 2,
+  "test": "H10",
+  "note": "H10 lab test (woman narrator), B's every-3rd-run test (B had none yet). All 64 Exp2 slots full: overflow SHORT (as A/B today). No new uploads in Stories audio (Drive checked); todo moments weak, winners exhausted; took never-mined story o6JR7LjP96Q (aunt story, first clip Oct). One piece 1164.0-1188.1 (voice 24.28 s): on her first date with a foreign guy (in Rabat) she brings her aunt (close in age) as chaperone and pulls her into the conversation, three going out, she teaches her aunt English like a big sister; back home he sends a message, before reading it she knows something is wrong, he asks her forgiveness; cut before 'he likes your aunt' (1188.5). Guy's name (Arman) at 1107/1120 only, narrator's name at 6.8 s; none in the clip. Date set in Morocco. ws: +3 family woman, +1 question, +1 secret, -3 woman narrator."
  }
 }
