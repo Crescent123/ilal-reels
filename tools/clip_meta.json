@@ -7373,5 +7373,37 @@
   "test": "H10",
   "ws": 3,
   "note": "H10 lab test (woman narrator), every-3rd-run test. All 64 Exp2 slots full: overflow SHORT (A's last overflow was long). No new uploads in Stories audio (Drive checked). One piece 266.5-290.55: she tells them she won't come since her sister and the sister's husband will be there; mom swears they won't be; she goes in and finds them both sitting; sister and mom agreed to lie; sister wants her to apologize to him as if it were her fault. Cut before the fight. No names. ws: +3 family woman, +1 question, +1 secret, +2 aimed at narrator, +1 علاش, -2 family-conflict, -3 woman narrator."
+ },
+ "1795836746_story_s13_JKNbzIL9GsE_m10.mp4": {
+  "story": "JKNbzIL9GsE",
+  "moment": 10,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 0,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 13,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 28.45,
+  "made": "2026-11-28T03:32:00Z",
+  "maker": "B",
+  "test": null,
+  "ws": 12,
+  "note": "all 64 Exp2 slots full: overflow SHORT (short ahead on 24 h plays: median 20.2K n=16 vs long 11.8K n=20). No new uploads in Stories audio (Drive checked); todo moments weak. Re-mined winner JKNbzIL9GsE (neighbour, 66K): unposted gap right before m2 (944.75). One piece 917.0-941.5 (voice 24.65 s, total 28.45 s): mom insists he go up to thank the new neighbour; he knocks, nobody; mom sends him again; she opens fresh out of the shower ('sorry, I was in the shower, getting dressed, welcome'); he stands with his mouth open. Cut before the towel / m2. Narrator's name spoken by her at ~15 s only (not in title/captions/first 8 s). ws: +3 house woman (neighbour), +2 winner, +1 question, +1 secret, +2 aimed at narrator, +1 alash motive, +2 visible physical act."
  }
 }
