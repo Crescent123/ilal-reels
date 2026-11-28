@@ -3524,9 +3524,20 @@
     "hook": "",
     "status": "skip",
     "note": "plug + debate question"
+   },
+   {
+    "k": 8,
+    "start": 928.2,
+    "end": 952.05,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش بغات ماما صاحبتي ننعس حداها؟",
+    "status": "queued",
+    "date": "2026-11-28",
+    "file": "1795829073_story_s11_bPSVD-5c-wo_m8.mp4",
+    "maker": "A"
    }
-  ],
-  "reserved": "2026-11-28T01:13:17Z"
+  ]
  },
  "xTdFufAJVp4": {
   "mined": "2026-11-26",
