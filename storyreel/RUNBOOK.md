@@ -44,6 +44,9 @@ The flops (2–3K) were wholesome or family-conflict secrets ("منين جابت
 "علاش ماما سدات علينا السطح؟") and a story told by a woman (the Korean-drama girl, 2 clips, both ~2K).
 So pick moments where the woman's odd act is aimed at HIM (she sends him away, dresses up, wants him to come, hides
 something from him, acts strangely around him), and title it "علاش …؟" asking her motive. Skip stories narrated by a woman.
+28 Nov: BROTHER'S WIFE (مرات خويا) is the strongest single motif — 561K (lab), 357K, 233K, 130K (lab), 119K —
+but only when she does something close/forbidden toward him (comes close at night, calls him to her house, in the kitchen);
+"she hugged me"/"she called me" without a scene flopped (2.9K, 4.0K). Mine every brother's-wife moment in the stories.
 WINNER SCORE — write "ws" into the clip's tools/clip_meta.json entry: +3 the secret/odd act is by a family/house woman,
 +2 the story is on the winner list, +1 the title is a question about what that person did, +1 moment type "secret", +2 her odd act is aimed at the narrator,
 +1 the title asks her motive ("علاش …؟"), −2 wholesome / family-conflict secret, −2 the clip centres on "my wife" (مراتي) or the narrator's girlfriend (26 Nov: 6 clips on both accounts, 1.7–3.1K),

@@ -4166,7 +4166,8 @@
   "length": 29.91,
   "made": "2026-11-24T18:27:30Z",
   "maker": "B",
-  "ws": 7
+  "ws": 7,
+  "approved": true
  },
  "1795546396_story_s11_7dd81A4zfu4_m7.mp4": {
   "story": "7dd81A4zfu4",
@@ -4195,7 +4196,8 @@
   "length": 51.46,
   "made": "2026-11-24T18:54:59Z",
   "maker": "A",
-  "ws": 7
+  "ws": 7,
+  "approved": true
  },
  "1795548220_story_s12_7dd81A4zfu4_m8.mp4": {
   "story": "7dd81A4zfu4",
@@ -4224,7 +4226,8 @@
   "length": 29.73,
   "made": "2026-11-24T19:25:34Z",
   "maker": "B",
-  "ws": 7
+  "ws": 7,
+  "approved": true
  },
  "1795549710_story_s12_t_11yIcRc8M_m10.mp4": {
   "story": "t_11yIcRc8M",
@@ -5036,7 +5039,8 @@
   "length": 53.5,
   "made": "2026-11-25T18:34:36Z",
   "ws": 8,
-  "maker": "B"
+  "maker": "B",
+  "approved": true
  },
  "1795632462_story_s13_iXmznDnI6Bg_m2.mp4": {
   "story": "iXmznDnI6Bg",

@@ -14,3 +14,5 @@ Follow tools/POSTER.md exactly, with these differences:
   permalink/shortcode). Main-account lines without "account" mean @_ilal_.
 - After it is PUBLISHED, remove the queue file with `bash tools/queue_rm.sh <file>` (both posters share the queue).
 - Lock: use the same poster lock as POSTER.md so the two posters never edit the queue at the same moment.
+
+- 28 Nov: after the test clips, order the rest like POSTER step 2c (ws ≥ 5 filter, winner-list stories first, then random) — ws is not a ranking any more.

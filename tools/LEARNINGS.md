@@ -1,5 +1,18 @@
 # What we've learned (running log — newest at the top). Updated by the daily learning check.
 
+## 27 Nov — daily loop (26 Nov posts at 24 h on both accounts; 27 Nov at 3 h)
+- LAB DAY 1 EXPLODED: "مرات خويا قربات ليا فالليل؟" 561.5K at 24 h, "علاش عيطات ليا مرات خويا لبيتها؟" 129.9K, plus 20.0K and 17.7K.
+  @ilalstories followers 46.2K → 52.4K (+6.2K in one day). APPROVED 4 lab clips; stories 7dd81A4zfu4, iXmznDnI6Bg, 5xbZb6He3Ww
+  on the winner list; the 561K clip is in the winners stock.
+- @_ilal_ 26 Nov at 24 h: 135.2K ("علاش بكات ختي قدام ماما؟"), 119.1K ("شنو بغات مرات خويا فالكوزينة؟"), 57.8K, 29.0K, 17.3K, 8.3K,
+  4.0K, 4.0K, 2.2K. Since 24 Nov: median 14.0K, 12 of 27 over 20K (44%), 3 over 100K. Followers 362,643 (+1,775).
+- 27 Nov at 3 h was weak on @_ilal_ (14.1K, 7.3K, rest 2.0–2.9K) — the first day picked by the new ws weights.
+- ws ranked clips BACKWARDS again (rho −0.73, n=9; was −0.57). DROPPED as a ranking (H14): ws ≥ 5 is only a filter now;
+  winner-list stories first, the rest random (POSTER 2c, POSTER_STORIES).
+- Brother's wife motif (H15, new): 561K, 357K, 233K, 130K, 119K — when there's a close/forbidden scene.
+- Short vs long (both accounts, 24 h): short 20.2K (n=16) vs long 11.8K (n=20), p=0.15 — leaning short; keep alternating to 25 each.
+- Lab→main: up to 2 approved lab clips a day on @_ilal_ (was 1). Lab cap 9, clean days 2/3 (ramps to 10 after tomorrow if clean).
+
 ## 26 Nov — daily loop (both accounts; @_ilal_ 25 Nov at 24 h, 26 Nov at 3 h; lab day 1 at 3 h)
 - BIGGEST HIT EVER on trials: "بنت خالتي المحجبة بدلات حوايجها؟" 546,258 plays at 24 h (winner story lCzehIOldVQ). Added to the winners stock.
 - @_ilal_ since 24 Nov at 24 h: median 12.5K, 8 of 18 over 20K (44%), 1 over 100K. 18–23 Nov: 3.3K, 6%. 11–17 Nov: 4.7K, 21%.

@@ -49,10 +49,10 @@ Pause marker: Drive file 1To5qPzsP_PVtqHPfC31ShBlz_BaLCl_1, title "reels-trial-s
    b. POOL (24 Nov – Experiment 2, tools/exp2.json): the pool is the eligible Exp2 clips (clip_meta "exp2_slot" not null)
       until 63 slot files have been posted. If fewer than 9 − (drive items) are eligible, add leftover Experiment 1 clips,
       then other eligible clips.
-   c. PICK (24 Nov, Hilal: "do what works"): the 9 clips with the highest clip_meta "ws" (winner score, see RUNBOOK
-      "COPY THE WINNERS"); clips without ws count ws = 3 if v4.T1 == 2 else 0. Ties: Exp2 clips first, then the newest.
-      No random slots any more. pick = "ws". Keep both lengths in the day if both are available (at least 3 of each).
-   c1. APPROVED (26 Nov, tools/LAB.md): 1 of the 9 may be an "approved" lab clip (≥15K at 24 h on @ilalstories,
+   c. PICK (28 Nov, daily loop: ws ranked clips BACKWARDS two days running — rho −0.57 n=13, −0.73 n=9 — so ws is now
+      only a filter): eligible = ws ≥ 5. Order: clips from stories on the RUNBOOK winner list first, newest first; then the
+      rest in a random order (random.Random("<date>")). pick = "winner" or "rand". Keep ≥3 short and ≥3 long when available.
+   c1. APPROVED (26 Nov, tools/LAB.md): up to 2 of the 9 may be "approved" lab clips (the biggest first) (≥15K at 24 h on @ilalstories,
       posted there ≥48 h ago), pick "approved". Skip clips whose clip_meta "test" names a hypothesis still active.
    c2. STORY CAP (22 Nov, Hilal approved): at most 2 clips from the same story (YouTube id) in one day's slate, across
       top6 and random3. A pick that would be a 3rd clip of a story is skipped and the next one taken (for random3,
