@@ -7273,5 +7273,37 @@
   "test": null,
   "ws": 10,
   "note": "all 64 Exp2 slots full: overflow SHORT (same as recent overflow clips). No new uploads in Stories audio (Drive checked); re-checked unposted gaps of L8p5gnqtTTY (woman narrator), gKM0ONyDmV4, lCzehIOldVQ, rO5a-bkixf0, 7dd81A4zfu4, iXmznDnI6Bg: nothing usable left. bPSVD-5c-wo (m3 17K): one piece 928.2-952.05 (voice 24.2 s, total 28.0 s), right after the first clip's mouse night (ended 896.3): she calls him to her room, door open, he knocks and enters confused; she says she keeps imagining the mouse by her head, 'if you don't mind come sleep next to me here'. Cut before his answer / the night. No name in cut. ws: +3 house woman (girlfriend's mom), +1 question, +1 secret, +2 aimed at narrator, +1 alash motive, +2 visible act (asks him into her bed at night)."
+ },
+ "1795830577_story_s12_bPSVD-5c-wo_m9.mp4": {
+  "story": "bPSVD-5c-wo",
+  "moment": 9,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 2,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 1,
+   "D2": 1,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 45.36,
+  "made": "2026-11-28T01:50:00Z",
+  "maker": "A",
+  "test": null,
+  "ws": 10,
+  "note": "all 64 Exp2 slots full: overflow LONG (the only fitting cut is 45 s; the name 'Sohaila' at 1045.9 rules out an earlier start). No new uploads in Stories audio (Drive checked); remaining todo moments weak (woman narrator / girlfriend / twist). bPSVD-5c-wo (m3 17K) re-read 500-1105: one piece 1046.54-1091.59 (voice 45.4 s, total 49.2 s): the neighbour woman confronts him on the stairs ('do you have some mouse business here?'), looks him up and down, says the mom lives alone and the daughter studies away, 'neighbours will tell lots of stories, keep it in mind'; Hilal's comment; she is jealous of the mom's beauty; 'when I started coming she kept watching me'. Cut before the relationship with the girlfriend breaks. No name in first 8 s (next name at 1089.6 = 43 s). ws: +3 house woman (neighbour), +1 question, +1 secret, +2 aimed at narrator, +1 alash motive, +2 visible act (blocks him on the stairs, stares)."
  }
 }
