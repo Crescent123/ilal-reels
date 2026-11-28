@@ -350,9 +350,32 @@
     "file": "1795642855_story_s14_s-gDstpbBGM_m7.mp4",
     "maker": "B",
     "note": "B 25 Nov re-mine (fresh transcript): Exp2 slot 60 long (46.6 s voice): brother's wife vs my wife (cold with mom, flees the family) -> one day she calls 'I need you, come by' -> she complains brother brings alcohol / makes her drink -> (dropped Hilal's digression 621.3-653.45 on how they married) -> hashish, he neglects her; cut at 663.8 right before m3 (cries, hug, advances). 376-455 = brother cut off + dad says marry (no woman secret); 502-585 = engagement/wedding + his own wife (wholesome)."
+   },
+   {
+    "k": 8,
+    "start": 705.25,
+    "end": 726.1,
+    "type": "secret",
+    "score": 11,
+    "hook": "علاش بغاتني مرات خويا؟",
+    "status": "queued",
+    "date": "2026-11-28",
+    "file": "1795838076_story_s11_s-gDstpbBGM_m8.mp4",
+    "maker": "A",
+    "note": "A 28 Nov re-mine (fresh transcript): overflow short (24.75 s, voice 20.95). Starts right after m3 (664-705.3): she confesses she has liked him for a long time, suffers seeing him with his wife -> 'don't say that' -> he freezes, hysteria -> goes home, mom: 'what's wrong, son?'. Cut before he tells his wife / the brother's accusation (745+)."
+   },
+   {
+    "k": 9,
+    "start": 313.84,
+    "end": 341.0,
+    "type": "twist",
+    "score": 8,
+    "hook": "علاش مرات خويا كتضرب خويا؟",
+    "status": "todo",
+    "note": "A 28 Nov: right after m1: the brother's wife throws a frying pan / once a cleaver at my brother, he obeys like a dog; dad yells at everyone. Not aimed at narrator; Whisper rough. 341-355 = 'go apologise' lead-in to m6. 726-745 = tells his wife ('don't tell your brother'), washes, prays; 745-755 lost by Whisper; 755+ = accusation/police (skip)."
    }
   ],
-  "reserved": "2026-11-28T03:43:24Z"
+  "mined3": "2026-11-28"
  },
  "R81K3EPbTZ4": {
   "maker": "B",

@@ -7405,5 +7405,37 @@
   "test": null,
   "ws": 12,
   "note": "all 64 Exp2 slots full: overflow SHORT (short ahead on 24 h plays: median 20.2K n=16 vs long 11.8K n=20). No new uploads in Stories audio (Drive checked); todo moments weak. Re-mined winner JKNbzIL9GsE (neighbour, 66K): unposted gap right before m2 (944.75). One piece 917.0-941.5 (voice 24.65 s, total 28.45 s): mom insists he go up to thank the new neighbour; he knocks, nobody; mom sends him again; she opens fresh out of the shower ('sorry, I was in the shower, getting dressed, welcome'); he stands with his mouth open. Cut before the towel / m2. Narrator's name spoken by her at ~15 s only (not in title/captions/first 8 s). ws: +3 house woman (neighbour), +2 winner, +1 question, +1 secret, +2 aimed at narrator, +1 alash motive, +2 visible physical act."
+ },
+ "1795838076_story_s11_s-gDstpbBGM_m8.mp4": {
+  "story": "s-gDstpbBGM",
+  "moment": 8,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 1,
+   "D2": 1,
+   "total": 11,
+   "tier": "B",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 24.75,
+  "made": "2026-11-28T03:58:15Z",
+  "maker": "A",
+  "test": null,
+  "ws": 8,
+  "note": "all 64 Exp2 slots full: overflow SHORT (short ahead on 24 h plays per B's 03:32 note). No new uploads in Stories audio (Drive checked); todo moments weak, winners exhausted. Re-mined brother's-wife story s-gDstpbBGM: unposted passage right after m3. One piece 705.25-726.1. No names. ws: +3 family woman (brother's wife), +1 question, +1 secret, +2 aimed at narrator, +1 alash motive (verbal confession, no visible-act bonus; not on winner list)."
  }
 }
