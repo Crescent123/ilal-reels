@@ -5003,13 +5003,15 @@
    },
    {
     "k": 3,
-    "start": 453.92,
-    "end": 510.0,
+    "start": 453.9,
+    "end": 507.15,
     "type": "conflict",
     "score": 7,
-    "hook": "علاش طردني بابا من الدار؟",
-    "status": "todo",
-    "note": "dad believes her and throws him out; he packs and leaves for the street. Transcript has untranscribed gaps 458-467, 508-517."
+    "hook": "علاش بغات مرات بابا تخرجني؟",
+    "status": "queued",
+    "note": "dad believes her and throws him out; he packs and leaves for the street. Transcript has untranscribed gaps 458-467, 508-517.",
+    "date": "2026-11-28",
+    "file": "1795828843_story_s12_xveraYYfnNA_m3.mp4"
    },
    {
     "k": 4,
@@ -5074,7 +5076,6 @@
     "date": "2026-11-27",
     "file": "1795821745_story_s11_xveraYYfnNA_m9.mp4"
    }
-  ],
-  "reserved": "2026-11-28T01:11:50Z"
+  ]
  }
 }

@@ -7212,5 +7212,34 @@
   "test": null,
   "ws": 8,
   "note": "all 64 Exp2 slots full: overflow SHORT. No new uploads in Stories audio (Drive checked). Re-mined winner fetOcS0fBSg (42K) for an unposted gap: one piece 1616.05-1638.00 (voice 22.1 s, total 25.9 s), right before m4 (1637.98). 'The day we went to my parents, I wish we never went, I wish she never came'; mom welcomes them with milk and dates, but the moment she sees the wife's mother she stares at her strangely, and the other stares back. Cut before mom takes her aside (m4) / the sorceress reveal (m5). Name Hajar spoken at ~17.4 s only (not in title/captions). ws: +3 family woman (mom), +2 winner, +1 question, +1 secret, +1 alash motive; not aimed at narrator."
+ },
+ "1795828843_story_s12_xveraYYfnNA_m3.mp4": {
+  "story": "xveraYYfnNA",
+  "moment": 3,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 2,
+   "H2": 1,
+   "H3": 2,
+   "D1": 1,
+   "D2": 2,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "long",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "length": 53.47,
+  "made": "2026-11-28T01:20:00Z",
+  "ws": 7,
+  "note": "all 64 Exp2 slots full: overflow LONG (B's last overflow was short). No new uploads in Stories audio (Drive checked); case b: xveraYYfnNA m3 (highest family todo). Gap 458-467 re-transcribed from a 60 s clip (ai job 1795828362; ai/clips/xveraYYfnNA_452.m4a). One piece 453.90-507.15 (voice 53.5 s, file 57.3 s): stepmom's ultimatum to dad ('I won't leave my house'), crying; boy listens; dad orders him to pack and leave; nowhere to go, mom's family far (Khouribga); he packs expecting dad to say 'come back' as usual - 'but this time it wasn't him deciding, it was her telling him what to do'. Cut before 'God take justice from her' / the street. No name in cut. Title 'علاش بغات مرات بابا تخرجني؟'. ws: +3 family woman, +1 question, +1 alash motive, +2 aimed at narrator, +2 visible (cries, ultimatum), -2 family conflict."
  }
 }
