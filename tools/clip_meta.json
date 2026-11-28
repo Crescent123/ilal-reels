@@ -7533,5 +7533,37 @@
   "test": null,
   "ws": 2,
   "note": "all 64 Exp2 slots full: overflow SHORT (as A/B today). No new uploads in Stories audio (Drive checked); winner gaps re-read (7dd81A4zfu4 353-408, NhSbv-eD2Cs 452-608, iXmznDnI6Bg 1116-1225) - nothing usable; took story_rank story wvKdKe3lqXU (listener's story, rural guy + city fiancee, never mined). One piece 880.0-904.45 (voice 24.95 s): on the way she stays silent, he stops talking, she says 'before we marry you must know one thing', his mind races; cut before her confession (her past relationship with her female friend). Fiancee's name at 879.7 (before start), none in the clip. ws: -2 fiancee, +1 question, +1 secret, +2 aimed at narrator."
+ },
+ "1795877697_story_s12_XETMK2uvliw_m2.mp4": {
+  "story": "XETMK2uvliw",
+  "moment": 2,
+  "v4": {
+   "T1": 2,
+   "T2": 1,
+   "T3": 1,
+   "H1": 1,
+   "H2": 1,
+   "H3": 2,
+   "D1": 2,
+   "D2": 2,
+   "total": 12,
+   "tier": "A",
+   "reject": false,
+   "reject_why": ""
+  },
+  "arm": {
+   "length": "short",
+   "build": 1,
+   "ending": 0
+  },
+  "exp1_slot": null,
+  "exp2_slot": null,
+  "overflow": true,
+  "length": 24.6,
+  "made": "2026-11-28T14:55:00Z",
+  "maker": "A",
+  "test": "H10",
+  "ws": -1,
+  "note": "H10 lab test (woman narrator), A's every-3rd-run test. All 64 Exp2 slots full: overflow SHORT (as A/B today). No new uploads in Stories audio (Drive checked). One piece 167.02-187.38 (voice 20.75 s): living at her sister's, her clothes keep vanishing, she thinks her sister takes them by mistake, buys new clothes every week, sister denies, it keeps happening, 'until one day'; cut before 'it was my sister's husband' (187.4). Started after 163.96 'سام' (possible name) so nothing name-like in first 8 s. ws: +1 question, +1 secret, -3 woman narrator."
  }
 }

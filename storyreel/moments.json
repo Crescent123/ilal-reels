@@ -5240,13 +5240,16 @@
    },
    {
     "k": 2,
-    "start": 155.44,
-    "end": 186.74,
+    "start": 167.02,
+    "end": 187.38,
     "type": "secret",
     "score": 9,
     "hook": "شكون كان كيسرق حوايجي؟",
-    "status": "todo",
-    "why": "living with sister and her 1st husband, her clothes keep vanishing, sister denies taking them... cut before 'it was my sister's husband' (188). 31.3 s: trim start to fit short (start ~157-161) or skip; underwear theft is sexual-ish; woman-narrated (H10 only)."
+    "status": "queued",
+    "why": "living with sister and her 1st husband, her clothes keep vanishing, sister denies taking them... cut before 'it was my sister's husband' (188). 31.3 s: trim start to fit short (start ~157-161) or skip; underwear theft is sexual-ish; woman-narrated (H10 only).",
+    "date": "2026-11-28",
+    "file": "1795877697_story_s12_XETMK2uvliw_m2.mp4",
+    "maker": "A"
    },
    {
     "k": 3,
@@ -5288,8 +5291,7 @@
     "status": "skip",
     "why": "take + plug"
    }
-  ],
-  "reserved": "2026-11-28T14:41:18Z"
+  ]
  },
  "wvKdKe3lqXU": {
   "mined": "2026-11-28",
